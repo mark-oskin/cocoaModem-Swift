@@ -11,7 +11,7 @@
 #import "Config.h"
 #import "ModemSource.h"
 #import "Plist.h"
-#import "RTTYMacros.h"
+//  RTTYMacros now provided by cocoaModem-Swift.h
 #import "RTTYReceiver.h"
 #import "RTTYRxControl.h"
 #import "RTTYTxConfig.h"

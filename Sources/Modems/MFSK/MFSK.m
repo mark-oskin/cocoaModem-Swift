@@ -14,7 +14,7 @@
 #import "MFSK16Receiver.h"
 #import "MFSKConfig.h"
 #import "MFSKDemodulator.h"
-#import "MFSKMacros.h"
+//  MFSKMacros now provided by cocoaModem-Swift.h
 #import "MFSKModes.h"
 #import "cocoaModem-Swift.h"
 #import "ModemManager.h"

@@ -9,7 +9,6 @@
 #import "SITOR.h"
 #import "cocoaModemParams.h"
 #import "Config.h"
-#import "Contest.h"
 #import "WFRTTYConfig.h"
 #import "ModemSource.h"
 #import "Plist.h"

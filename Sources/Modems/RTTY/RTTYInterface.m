@@ -7,7 +7,6 @@
 	
 #import "RTTYInterface.h"
 #import "cocoaModemParams.h"
-#import "ContestBar.h"
 #import "ContestManager.h"
 #import "cocoaModem-Swift.h"
 #import "ModemManager.h"

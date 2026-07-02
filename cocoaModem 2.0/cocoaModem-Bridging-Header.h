@@ -9,9 +9,8 @@
 #import "NetReceive.h"		//  Application.swift NetAudio port construction
 #import "NetSend.h"		//  Application.swift NetAudio port construction
 #import "audioutils.h"		//  Application.swift initAudioUtils()
-#import "Contest.h"		//  ContestQSO/Callsign/band()/... (Contest model Swift classes)
 #import "RoundupStatelist.h"	//  StateList (RTTYRoundupMults.swift)
-#import "StripPhi.h"		//  base class of QSO.swift
+#import "ContestTypes.h"	//  ContestQSO/Callsign structs (was in Contest.h, now Swift)
 #import "CMTappedPipe.h"	//  base class of PSKMonitor/RTTYMonitor.swift (Instrumentation)
 #import "CoreFilter.h"		//  CMFFT/CMFIR + FFTSpectrum/CMPerformFFT/CMSinc/... (Instrumentation)
 #import "CoreModemTypes.h"	//  CMTonePair (Instrumentation waterfalls/spectra/monitors)
@@ -25,7 +24,6 @@
 #import "RTTYModulator.h"
 #import "RTTYReceiver.h"
 #import "RTTYTxConfig.h"
-#import "MacroSheet.h"
 #import "MSKGenerator.h"
 #import "CMToneReceiver.h"
 #import "ContestInterface.h"

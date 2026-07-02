@@ -10,9 +10,8 @@
 #import "TextAttribute.h"
 #import "cocoaModemParams.h"
 #import "Config.h"
-#import "Contest.h"					// for HELLMODE
 #import "HellConfig.h"
-#import "HellMacros.h"
+//  HellMacros now provided by cocoaModem-Swift.h
 #import "HellReceiver.h"
 #import "ModemDistributionBox.h"
 #import "ModemManager.h"

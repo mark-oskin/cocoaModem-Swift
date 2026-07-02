@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7F1D8AF573C1C03A3BAAA04 /* RTTYMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D38BFB5AB0220BB0E11B53 /* RTTYMacros.swift */; };
+		CFC3B07F3FF70A30AB230FE6 /* PSKMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7425875C19FE61A39C61D81E /* PSKMacros.swift */; };
+		1C86C3001266E40476C6A061 /* MFSKMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CD9A46701B7AD75B5A488 /* MFSKMacros.swift */; };
+		027563C755B07CE9BADDEFD7 /* HellMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE088E582C04EB8ECA81644E /* HellMacros.swift */; };
+		C77436F6C3180C9F1C5CCBA3 /* CWMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F06AAF167FA426C9AF1D50E /* CWMacros.swift */; };
+		DFB337472B1929A8F1119E7E /* MacroSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625F614BACE99C06144C803 /* MacroSheet.swift */; };
+		787C3B5D483E5E0C09F06FBD /* ContestMacroSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF2E2DF133906495A2311A /* ContestMacroSheet.swift */; };
+		6684B3F4304DE38622930CDE /* WPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC80425C74DF7F2E958691D /* WPX.swift */; };
+		E6580D271EFF47F7E54B553F /* TARA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7804189A6BEAFA24D8B737B /* TARA.swift */; };
+		D49F76A048A814EB96DCB69E /* BARTGSprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86FAC3A9982D1BB135766E3A /* BARTGSprint.swift */; };
+		62FCA8FBC463D53033560617 /* BARTG.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7058F77B550A29EF5F54E44 /* BARTG.swift */; };
+		97C8C83E3DE7D3726BF8D232 /* XERTTY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BE06A2C32C099F9B4FC8EE /* XERTTY.swift */; };
+		7EEE9ED773EC6929B0998D33 /* SPRTTY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E5F4E16D2A651A9BBCC5AD /* SPRTTY.swift */; };
+		09BA3DA5BC71B9732EE62E15 /* RTTYRoundup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9051795B4E648F8D7238E72 /* RTTYRoundup.swift */; };
+		A6BB225C8B8E72D4E3F1F5F9 /* RST_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1F0A9E4C95B534B3BA49D /* RST_Number.swift */; };
+		1F1F96FA8FC308E11422C66C /* RST_Exchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5258C8D16EC01EA61697A4 /* RST_Exchange.swift */; };
+		6F3A217EB77CA1E03259540E /* NumberOnly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA6FC16DA9BA58CCE9AC49D /* NumberOnly.swift */; };
+		AF4DD3B93FD1A25C003FBC7E /* Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2B583C4FFA670155B1409 /* Generic.swift */; };
+		330B1F7E38CDA4C03A2E7AAF /* RSTExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A710D0B12C1F063A9DFFF1 /* RSTExchange.swift */; };
+		F85610EE3F2A356710670D4B /* Contest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6DD09C9A5E2543CC5A3CF6E /* Contest.swift */; };
+		611CA1E73AAB141491716582 /* ContestBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B8797112C8C4E721551846 /* ContestBar.swift */; };
+		F19F219D2C10F1E1D8E2D106 /* StripPhi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F997579EE2B794FF87B31475 /* StripPhi.swift */; };
 		8120AC48066A6EE6F5AA204C /* CWSendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9694FEF03598E17FEE0FB90C /* CWSendView.swift */; };
 		F1F1959C310412601DC9B290 /* ExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C03AFBE2639450E183B3B /* ExchangeView.swift */; };
 		D273C1F1C55742C66B5993C6 /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49C9D1D652D0EEFAF9B6ED /* SendView.swift */; };
@@ -93,7 +115,6 @@
 		DF1B4819A5E0D03AB6A98064 /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA5396866DE8606BFE002ED /* splash.swift */; };
 		8B3609519C91DEF776F06FB6 /* splashPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E56FB99666F63B2B1619A /* splashPanel.swift */; };
 		0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6215340BE8E07984B7343ED /* UTC.swift */; };
-		84072E4509076C49006DA88B /* StripPhi.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E4309076C49006DA88B /* StripPhi.m */; };
 		84072FB309076EBD006DA88B /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 84072FAA09076EBD006DA88B /* error.c */; };
 		84072FDF09076F2D006DA88B /* CQ WPX RTTY.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD709076F2D006DA88B /* CQ WPX RTTY.xml */; };
 		84072FE009076F2D006DA88B /* Generic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD809076F2D006DA88B /* Generic.xml */; };
@@ -152,7 +173,6 @@
 		848770501076740500B83EDD /* DualRTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876EF81076740400B83EDD /* DualRTTY.m */; };
 		848770511076740500B83EDD /* DualRTTYConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876EFA1076740400B83EDD /* DualRTTYConfig.m */; };
 		848770531076740500B83EDD /* HellConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F001076740400B83EDD /* HellConfig.m */; };
-		848770551076740500B83EDD /* HellMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F041076740400B83EDD /* HellMacros.m */; };
 		848770561076740500B83EDD /* HellModulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F061076740400B83EDD /* HellModulator.m */; };
 		848770571076740500B83EDD /* HellReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F081076740400B83EDD /* HellReceiver.m */; };
 		848770581076740500B83EDD /* Hellschreiber.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F0A1076740400B83EDD /* Hellschreiber.m */; };
@@ -167,7 +187,6 @@
 		848770621076740500B83EDD /* LiteRTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F211076740400B83EDD /* LiteRTTY.m */; };
 		848770631076740500B83EDD /* LiteRTTYControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F231076740400B83EDD /* LiteRTTYControl.m */; };
 		848770641076740500B83EDD /* MacroInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F261076740400B83EDD /* MacroInterface.m */; };
-		848770651076740500B83EDD /* MacroSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F281076740400B83EDD /* MacroSheet.m */; };
 		848770661076740500B83EDD /* DominoDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F2C1076740400B83EDD /* DominoDemodulator.m */; };
 		848770671076740500B83EDD /* DominoHalfRateDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F2E1076740400B83EDD /* DominoHalfRateDemodulator.m */; };
 		848770681076740500B83EDD /* DominoHalfRateReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F301076740400B83EDD /* DominoHalfRateReceiver.m */; };
@@ -179,14 +198,12 @@
 		848770721076740500B83EDD /* MFSK16Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F471076740400B83EDD /* MFSK16Receiver.m */; };
 		848770731076740500B83EDD /* MFSKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F491076740400B83EDD /* MFSKConfig.m */; };
 		848770741076740500B83EDD /* MFSKDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F4B1076740400B83EDD /* MFSKDemodulator.m */; };
-		848770751076740500B83EDD /* MFSKMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F4E1076740400B83EDD /* MFSKMacros.m */; };
 		848770761076740500B83EDD /* MFSKModulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F511076740400B83EDD /* MFSKModulator.m */; };
 		848770771076740500B83EDD /* MFSKReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F531076740400B83EDD /* MFSKReceiver.m */; };
 		848770781076740500B83EDD /* MFSKVaricode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F551076740400B83EDD /* MFSKVaricode.m */; };
 		8487707B1076740500B83EDD /* PSK.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F5D1076740400B83EDD /* PSK.m */; };
 		8487707C1076740500B83EDD /* PSKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F5F1076740400B83EDD /* PSKConfig.m */; };
 		8487707D1076740500B83EDD /* PSKContestTxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F611076740400B83EDD /* PSKContestTxControl.m */; };
-		8487707F1076740500B83EDD /* PSKMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F651076740400B83EDD /* PSKMacros.m */; };
 		848770801076740500B83EDD /* PSKModulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F671076740400B83EDD /* PSKModulator.m */; };
 		848770811076740500B83EDD /* PSKReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F691076740500B83EDD /* PSKReceiver.m */; };
 		848770821076740500B83EDD /* PSKTransmitControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F6B1076740500B83EDD /* PSKTransmitControl.m */; };
@@ -206,7 +223,6 @@
 		848770A01076740500B83EDD /* RTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FB11076740500B83EDD /* RTTY.m */; };
 		848770A11076740500B83EDD /* RTTYConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FB31076740500B83EDD /* RTTYConfig.m */; };
 		848770A21076740500B83EDD /* RTTYInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FB51076740500B83EDD /* RTTYInterface.m */; };
-		848770A31076740500B83EDD /* RTTYMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FB71076740500B83EDD /* RTTYMacros.m */; };
 		848770A41076740500B83EDD /* RTTYModulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FB91076740500B83EDD /* RTTYModulator.m */; };
 		848770A51076740500B83EDD /* RTTYModulatorBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FBB1076740500B83EDD /* RTTYModulatorBase.m */; };
 		848770A61076740500B83EDD /* RTTYReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FBD1076740500B83EDD /* RTTYReceiver.m */; };
@@ -219,7 +235,6 @@
 		848770B61076740500B83EDD /* CWAuralFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FE41076740500B83EDD /* CWAuralFilter.m */; };
 		848770B71076740500B83EDD /* CWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FE61076740500B83EDD /* CWConfig.m */; };
 		848770B81076740500B83EDD /* CWDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FE81076740500B83EDD /* CWDemodulator.m */; };
-		848770B91076740500B83EDD /* CWMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FEA1076740500B83EDD /* CWMacros.m */; };
 		848770BA1076740500B83EDD /* CWMatchedFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FEC1076740500B83EDD /* CWMatchedFilter.m */; };
 		848770BB1076740500B83EDD /* CWMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FEE1076740500B83EDD /* CWMixer.m */; };
 		848770BC1076740500B83EDD /* CWModulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FF01076740500B83EDD /* CWModulator.m */; };
@@ -236,22 +251,7 @@
 		848770DC107674A900B83EDD /* ModemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770D0107674A900B83EDD /* ModemManager.m */; };
 		848770DD107674A900B83EDD /* ContestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770D3107674A900B83EDD /* ContestManager.m */; };
 		848770DE107674A900B83EDD /* StdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770D6107674A900B83EDD /* StdManager.m */; };
-		8487711E107674DA00B83EDD /* BARTG.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770E8107674DA00B83EDD /* BARTG.m */; };
-		8487711F107674DA00B83EDD /* BARTGSprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770EA107674DA00B83EDD /* BARTGSprint.m */; };
-		84877120107674DA00B83EDD /* Contest.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770EC107674DA00B83EDD /* Contest.m */; };
-		84877121107674DA00B83EDD /* Generic.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770EE107674DA00B83EDD /* Generic.m */; };
-		84877122107674DA00B83EDD /* NumberOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770F0107674DA00B83EDD /* NumberOnly.m */; };
-		84877123107674DA00B83EDD /* RST Exchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770F3107674DA00B83EDD /* RST Exchange.m */; };
-		84877124107674DA00B83EDD /* RST Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770F5107674DA00B83EDD /* RST Number.m */; };
-		84877125107674DA00B83EDD /* RSTExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770F7107674DA00B83EDD /* RSTExchange.m */; };
-		84877126107674DA00B83EDD /* RTTYRoundup.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770F9107674DA00B83EDD /* RTTYRoundup.m */; };
-		84877128107674DA00B83EDD /* SP RTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770FD107674DA00B83EDD /* SP RTTY.m */; };
-		84877129107674DA00B83EDD /* TARA.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770FF107674DA00B83EDD /* TARA.m */; };
-		8487712A107674DA00B83EDD /* WPX.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877101107674DA00B83EDD /* WPX.m */; };
-		8487712B107674DA00B83EDD /* XE RTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877103107674DA00B83EDD /* XE RTTY.m */; };
-		8487712C107674DA00B83EDD /* ContestBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877105107674DA00B83EDD /* ContestBar.m */; };
 		8487712D107674DA00B83EDD /* ContestInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877107107674DA00B83EDD /* ContestInterface.m */; };
-		8487712F107674DA00B83EDD /* ContestMacroSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487710B107674DA00B83EDD /* ContestMacroSheet.m */; };
 		848771681076789F00B83EDD /* CoreModem.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771421076789F00B83EDD /* CoreModem.m */; };
 		848771691076789F00B83EDD /* CMFilterBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771461076789F00B83EDD /* CMFilterBank.m */; };
 		8487716A1076789F00B83EDD /* CMNCO.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771481076789F00B83EDD /* CMNCO.m */; };
@@ -402,6 +402,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F2D38BFB5AB0220BB0E11B53 /* RTTYMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYMacros.swift"; path = "../Sources/Swift/Modems/RTTY/RTTYMacros.swift"; sourceTree = SOURCE_ROOT; };
+		7425875C19FE61A39C61D81E /* PSKMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PSKMacros.swift"; path = "../Sources/Swift/Modems/PSK/PSKMacros.swift"; sourceTree = SOURCE_ROOT; };
+		4D1CD9A46701B7AD75B5A488 /* MFSKMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MFSKMacros.swift"; path = "../Sources/Swift/Modems/MFSK/MFSKMacros.swift"; sourceTree = SOURCE_ROOT; };
+		BE088E582C04EB8ECA81644E /* HellMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HellMacros.swift"; path = "../Sources/Swift/Modems/Hellschreiber/HellMacros.swift"; sourceTree = SOURCE_ROOT; };
+		3F06AAF167FA426C9AF1D50E /* CWMacros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWMacros.swift"; path = "../Sources/Swift/Modems/WB CW/CWMacros.swift"; sourceTree = SOURCE_ROOT; };
+		D625F614BACE99C06144C803 /* MacroSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MacroSheet.swift"; path = "../Sources/Swift/Modems/Macros/MacroSheet.swift"; sourceTree = SOURCE_ROOT; };
+		6EAF2E2DF133906495A2311A /* ContestMacroSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContestMacroSheet.swift"; path = "../Sources/Swift/Interfaces/Contest/ContestMacroSheet.swift"; sourceTree = SOURCE_ROOT; };
+		EFC80425C74DF7F2E958691D /* WPX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WPX.swift"; path = "../Sources/Swift/Interfaces/Contest/WPX.swift"; sourceTree = SOURCE_ROOT; };
+		D7804189A6BEAFA24D8B737B /* TARA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TARA.swift"; path = "../Sources/Swift/Interfaces/Contest/TARA.swift"; sourceTree = SOURCE_ROOT; };
+		86FAC3A9982D1BB135766E3A /* BARTGSprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BARTGSprint.swift"; path = "../Sources/Swift/Interfaces/Contest/BARTGSprint.swift"; sourceTree = SOURCE_ROOT; };
+		A7058F77B550A29EF5F54E44 /* BARTG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BARTG.swift"; path = "../Sources/Swift/Interfaces/Contest/BARTG.swift"; sourceTree = SOURCE_ROOT; };
+		93BE06A2C32C099F9B4FC8EE /* XERTTY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "XERTTY.swift"; path = "../Sources/Swift/Interfaces/Contest/XERTTY.swift"; sourceTree = SOURCE_ROOT; };
+		36E5F4E16D2A651A9BBCC5AD /* SPRTTY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SPRTTY.swift"; path = "../Sources/Swift/Interfaces/Contest/SPRTTY.swift"; sourceTree = SOURCE_ROOT; };
+		E9051795B4E648F8D7238E72 /* RTTYRoundup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYRoundup.swift"; path = "../Sources/Swift/Interfaces/Contest/RTTYRoundup.swift"; sourceTree = SOURCE_ROOT; };
+		C5F1F0A9E4C95B534B3BA49D /* RST_Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RST_Number.swift"; path = "../Sources/Swift/Interfaces/Contest/RST_Number.swift"; sourceTree = SOURCE_ROOT; };
+		2A5258C8D16EC01EA61697A4 /* RST_Exchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RST_Exchange.swift"; path = "../Sources/Swift/Interfaces/Contest/RST_Exchange.swift"; sourceTree = SOURCE_ROOT; };
+		EDA6FC16DA9BA58CCE9AC49D /* NumberOnly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NumberOnly.swift"; path = "../Sources/Swift/Interfaces/Contest/NumberOnly.swift"; sourceTree = SOURCE_ROOT; };
+		33B2B583C4FFA670155B1409 /* Generic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Generic.swift"; path = "../Sources/Swift/Interfaces/Contest/Generic.swift"; sourceTree = SOURCE_ROOT; };
+		C0A710D0B12C1F063A9DFFF1 /* RSTExchange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RSTExchange.swift"; path = "../Sources/Swift/Interfaces/Contest/RSTExchange.swift"; sourceTree = SOURCE_ROOT; };
+		A6DD09C9A5E2543CC5A3CF6E /* Contest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Contest.swift"; path = "../Sources/Swift/Interfaces/Contest/Contest.swift"; sourceTree = SOURCE_ROOT; };
+		F0B8797112C8C4E721551846 /* ContestBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContestBar.swift"; path = "../Sources/Swift/Interfaces/Contest/ContestBar.swift"; sourceTree = SOURCE_ROOT; };
+		F997579EE2B794FF87B31475 /* StripPhi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StripPhi.swift"; path = "../Sources/Swift/QSO/StripPhi.swift"; sourceTree = SOURCE_ROOT; };
+		F793DCDC7D40D41F60981D72 /* ContestTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ContestTypes.h"; path = "../Sources/Includes/ContestTypes.h"; sourceTree = SOURCE_ROOT; };
 		9694FEF03598E17FEE0FB90C /* CWSendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWSendView.swift"; path = "../Sources/Swift/Modems/WB CW/CWSendView.swift"; sourceTree = SOURCE_ROOT; };
 		4D1C03AFBE2639450E183B3B /* ExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ExchangeView.swift"; path = "../Sources/Swift/Modems/Base/ExchangeView.swift"; sourceTree = SOURCE_ROOT; };
 		4A49C9D1D652D0EEFAF9B6ED /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SendView.swift"; path = "../Sources/Swift/Modems/Base/SendView.swift"; sourceTree = SOURCE_ROOT; };
@@ -501,8 +524,6 @@
 		84072DF909076B31006DA88B /* cocoaModemParams.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = cocoaModemParams.h; sourceTree = "<group>"; };
 		84072DFC09076B31006DA88B /* Plist.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Plist.h; sourceTree = "<group>"; };
 		84072DFD09076B31006DA88B /* cocoaModemDebug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = cocoaModemDebug.h; sourceTree = "<group>"; };
-		84072E4209076C49006DA88B /* StripPhi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StripPhi.h; sourceTree = "<group>"; };
-		84072E4309076C49006DA88B /* StripPhi.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StripPhi.m; sourceTree = "<group>"; };
 		84072FAA09076EBD006DA88B /* error.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = error.c; path = ../Sources/DSP/error.c; sourceTree = "<group>"; };
 		84072FAB09076EBD006DA88B /* error.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = error.h; path = ../Sources/DSP/error.h; sourceTree = "<group>"; };
 		84072FD609076F2D006DA88B /* BARTG Sprint.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "BARTG Sprint.xml"; sourceTree = "<group>"; };
@@ -629,8 +650,6 @@
 		84876EFA1076740400B83EDD /* DualRTTYConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DualRTTYConfig.m; sourceTree = "<group>"; };
 		84876EFF1076740400B83EDD /* HellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellConfig.h; sourceTree = "<group>"; };
 		84876F001076740400B83EDD /* HellConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellConfig.m; sourceTree = "<group>"; };
-		84876F031076740400B83EDD /* HellMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellMacros.h; sourceTree = "<group>"; };
-		84876F041076740400B83EDD /* HellMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellMacros.m; sourceTree = "<group>"; };
 		84876F051076740400B83EDD /* HellModulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellModulator.h; sourceTree = "<group>"; };
 		84876F061076740400B83EDD /* HellModulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellModulator.m; sourceTree = "<group>"; };
 		84876F071076740400B83EDD /* HellReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellReceiver.h; sourceTree = "<group>"; };
@@ -659,8 +678,6 @@
 		84876F231076740400B83EDD /* LiteRTTYControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiteRTTYControl.m; sourceTree = "<group>"; };
 		84876F251076740400B83EDD /* MacroInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroInterface.h; sourceTree = "<group>"; };
 		84876F261076740400B83EDD /* MacroInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroInterface.m; sourceTree = "<group>"; };
-		84876F271076740400B83EDD /* MacroSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroSheet.h; sourceTree = "<group>"; };
-		84876F281076740400B83EDD /* MacroSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroSheet.m; sourceTree = "<group>"; };
 		84876F2B1076740400B83EDD /* DominoDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DominoDemodulator.h; sourceTree = "<group>"; };
 		84876F2C1076740400B83EDD /* DominoDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DominoDemodulator.m; sourceTree = "<group>"; };
 		84876F2D1076740400B83EDD /* DominoHalfRateDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DominoHalfRateDemodulator.h; sourceTree = "<group>"; };
@@ -685,8 +702,6 @@
 		84876F4A1076740400B83EDD /* MFSKDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKDemodulator.h; sourceTree = "<group>"; };
 		84876F4B1076740400B83EDD /* MFSKDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSKDemodulator.m; sourceTree = "<group>"; };
 		84876F4C1076740400B83EDD /* MFSKFEC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKFEC.h; sourceTree = "<group>"; };
-		84876F4D1076740400B83EDD /* MFSKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKMacros.h; sourceTree = "<group>"; };
-		84876F4E1076740400B83EDD /* MFSKMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSKMacros.m; sourceTree = "<group>"; };
 		84876F4F1076740400B83EDD /* MFSKModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKModes.h; sourceTree = "<group>"; };
 		84876F501076740400B83EDD /* MFSKModulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKModulator.h; sourceTree = "<group>"; };
 		84876F511076740400B83EDD /* MFSKModulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSKModulator.m; sourceTree = "<group>"; };
@@ -700,8 +715,6 @@
 		84876F5F1076740400B83EDD /* PSKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSKConfig.m; sourceTree = "<group>"; };
 		84876F601076740400B83EDD /* PSKContestTxControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSKContestTxControl.h; sourceTree = "<group>"; };
 		84876F611076740400B83EDD /* PSKContestTxControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSKContestTxControl.m; sourceTree = "<group>"; };
-		84876F641076740400B83EDD /* PSKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSKMacros.h; sourceTree = "<group>"; };
-		84876F651076740400B83EDD /* PSKMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSKMacros.m; sourceTree = "<group>"; };
 		84876F661076740400B83EDD /* PSKModulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSKModulator.h; sourceTree = "<group>"; };
 		84876F671076740400B83EDD /* PSKModulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSKModulator.m; sourceTree = "<group>"; };
 		84876F681076740400B83EDD /* PSKReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSKReceiver.h; sourceTree = "<group>"; };
@@ -741,8 +754,6 @@
 		84876FB31076740500B83EDD /* RTTYConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYConfig.m; sourceTree = "<group>"; };
 		84876FB41076740500B83EDD /* RTTYInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYInterface.h; sourceTree = "<group>"; };
 		84876FB51076740500B83EDD /* RTTYInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYInterface.m; sourceTree = "<group>"; };
-		84876FB61076740500B83EDD /* RTTYMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYMacros.h; sourceTree = "<group>"; };
-		84876FB71076740500B83EDD /* RTTYMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYMacros.m; sourceTree = "<group>"; };
 		84876FB81076740500B83EDD /* RTTYModulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYModulator.h; sourceTree = "<group>"; };
 		84876FB91076740500B83EDD /* RTTYModulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYModulator.m; sourceTree = "<group>"; };
 		84876FBA1076740500B83EDD /* RTTYModulatorBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYModulatorBase.h; sourceTree = "<group>"; };
@@ -769,8 +780,6 @@
 		84876FE61076740500B83EDD /* CWConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWConfig.m; sourceTree = "<group>"; };
 		84876FE71076740500B83EDD /* CWDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWDemodulator.h; sourceTree = "<group>"; };
 		84876FE81076740500B83EDD /* CWDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWDemodulator.m; sourceTree = "<group>"; };
-		84876FE91076740500B83EDD /* CWMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMacros.h; sourceTree = "<group>"; };
-		84876FEA1076740500B83EDD /* CWMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMacros.m; sourceTree = "<group>"; };
 		84876FEB1076740500B83EDD /* CWMatchedFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMatchedFilter.h; sourceTree = "<group>"; };
 		84876FEC1076740500B83EDD /* CWMatchedFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMatchedFilter.m; sourceTree = "<group>"; };
 		84876FED1076740500B83EDD /* CWMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMixer.h; sourceTree = "<group>"; };
@@ -803,39 +812,9 @@
 		848770D3107674A900B83EDD /* ContestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestManager.m; sourceTree = "<group>"; };
 		848770D5107674A900B83EDD /* StdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdManager.h; sourceTree = "<group>"; };
 		848770D6107674A900B83EDD /* StdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StdManager.m; sourceTree = "<group>"; };
-		848770E7107674DA00B83EDD /* BARTG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARTG.h; sourceTree = "<group>"; };
-		848770E8107674DA00B83EDD /* BARTG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARTG.m; sourceTree = "<group>"; };
-		848770E9107674DA00B83EDD /* BARTGSprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARTGSprint.h; sourceTree = "<group>"; };
-		848770EA107674DA00B83EDD /* BARTGSprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARTGSprint.m; sourceTree = "<group>"; };
-		848770EB107674DA00B83EDD /* Contest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contest.h; sourceTree = "<group>"; };
-		848770EC107674DA00B83EDD /* Contest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contest.m; sourceTree = "<group>"; };
-		848770ED107674DA00B83EDD /* Generic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Generic.h; sourceTree = "<group>"; };
-		848770EE107674DA00B83EDD /* Generic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Generic.m; sourceTree = "<group>"; };
-		848770EF107674DA00B83EDD /* NumberOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOnly.h; sourceTree = "<group>"; };
-		848770F0107674DA00B83EDD /* NumberOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOnly.m; sourceTree = "<group>"; };
 		848770F1107674DA00B83EDD /* RoundupStatelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundupStatelist.h; sourceTree = "<group>"; };
-		848770F2107674DA00B83EDD /* RST Exchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RST Exchange.h"; sourceTree = "<group>"; };
-		848770F3107674DA00B83EDD /* RST Exchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RST Exchange.m"; sourceTree = "<group>"; };
-		848770F4107674DA00B83EDD /* RST Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RST Number.h"; sourceTree = "<group>"; };
-		848770F5107674DA00B83EDD /* RST Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RST Number.m"; sourceTree = "<group>"; };
-		848770F6107674DA00B83EDD /* RSTExchange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTExchange.h; sourceTree = "<group>"; };
-		848770F7107674DA00B83EDD /* RSTExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTExchange.m; sourceTree = "<group>"; };
-		848770F8107674DA00B83EDD /* RTTYRoundup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYRoundup.h; sourceTree = "<group>"; };
-		848770F9107674DA00B83EDD /* RTTYRoundup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYRoundup.m; sourceTree = "<group>"; };
-		848770FC107674DA00B83EDD /* SP RTTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SP RTTY.h"; sourceTree = "<group>"; };
-		848770FD107674DA00B83EDD /* SP RTTY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SP RTTY.m"; sourceTree = "<group>"; };
-		848770FE107674DA00B83EDD /* TARA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARA.h; sourceTree = "<group>"; };
-		848770FF107674DA00B83EDD /* TARA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARA.m; sourceTree = "<group>"; };
-		84877100107674DA00B83EDD /* WPX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPX.h; sourceTree = "<group>"; };
-		84877101107674DA00B83EDD /* WPX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPX.m; sourceTree = "<group>"; };
-		84877102107674DA00B83EDD /* XE RTTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XE RTTY.h"; sourceTree = "<group>"; };
-		84877103107674DA00B83EDD /* XE RTTY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XE RTTY.m"; sourceTree = "<group>"; };
-		84877104107674DA00B83EDD /* ContestBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestBar.h; sourceTree = "<group>"; };
-		84877105107674DA00B83EDD /* ContestBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestBar.m; sourceTree = "<group>"; };
 		84877106107674DA00B83EDD /* ContestInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestInterface.h; sourceTree = "<group>"; };
 		84877107107674DA00B83EDD /* ContestInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestInterface.m; sourceTree = "<group>"; };
-		8487710A107674DA00B83EDD /* ContestMacroSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestMacroSheet.h; sourceTree = "<group>"; };
-		8487710B107674DA00B83EDD /* ContestMacroSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestMacroSheet.m; sourceTree = "<group>"; };
 		8487713A1076754F00B83EDD /* Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module.h; sourceTree = "<group>"; };
 		8487713B1076754F00B83EDD /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module.m; sourceTree = "<group>"; };
 		8487713C1076754F00B83EDD /* Transceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transceiver.h; sourceTree = "<group>"; };
@@ -1062,6 +1041,29 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				F2D38BFB5AB0220BB0E11B53 /* RTTYMacros.swift */,
+				7425875C19FE61A39C61D81E /* PSKMacros.swift */,
+				4D1CD9A46701B7AD75B5A488 /* MFSKMacros.swift */,
+				BE088E582C04EB8ECA81644E /* HellMacros.swift */,
+				3F06AAF167FA426C9AF1D50E /* CWMacros.swift */,
+				D625F614BACE99C06144C803 /* MacroSheet.swift */,
+				6EAF2E2DF133906495A2311A /* ContestMacroSheet.swift */,
+				EFC80425C74DF7F2E958691D /* WPX.swift */,
+				D7804189A6BEAFA24D8B737B /* TARA.swift */,
+				86FAC3A9982D1BB135766E3A /* BARTGSprint.swift */,
+				A7058F77B550A29EF5F54E44 /* BARTG.swift */,
+				93BE06A2C32C099F9B4FC8EE /* XERTTY.swift */,
+				36E5F4E16D2A651A9BBCC5AD /* SPRTTY.swift */,
+				E9051795B4E648F8D7238E72 /* RTTYRoundup.swift */,
+				C5F1F0A9E4C95B534B3BA49D /* RST_Number.swift */,
+				2A5258C8D16EC01EA61697A4 /* RST_Exchange.swift */,
+				EDA6FC16DA9BA58CCE9AC49D /* NumberOnly.swift */,
+				33B2B583C4FFA670155B1409 /* Generic.swift */,
+				C0A710D0B12C1F063A9DFFF1 /* RSTExchange.swift */,
+				A6DD09C9A5E2543CC5A3CF6E /* Contest.swift */,
+				F0B8797112C8C4E721551846 /* ContestBar.swift */,
+				F997579EE2B794FF87B31475 /* StripPhi.swift */,
+				F793DCDC7D40D41F60981D72 /* ContestTypes.h */,
 				9694FEF03598E17FEE0FB90C /* CWSendView.swift */,
 				4D1C03AFBE2639450E183B3B /* ExchangeView.swift */,
 				4A49C9D1D652D0EEFAF9B6ED /* SendView.swift */,
@@ -1288,8 +1290,6 @@
 		84072E3D09076C1A006DA88B /* QSO */ = {
 			isa = PBXGroup;
 			children = (
-				84072E4209076C49006DA88B /* StripPhi.h */,
-				84072E4309076C49006DA88B /* StripPhi.m */,
 			);
 			path = QSO;
 			sourceTree = "<group>";
@@ -1624,8 +1624,6 @@
 			children = (
 				84876EFF1076740400B83EDD /* HellConfig.h */,
 				84876F001076740400B83EDD /* HellConfig.m */,
-				84876F031076740400B83EDD /* HellMacros.h */,
-				84876F041076740400B83EDD /* HellMacros.m */,
 				84876F051076740400B83EDD /* HellModulator.h */,
 				84876F061076740400B83EDD /* HellModulator.m */,
 				84876F071076740400B83EDD /* HellReceiver.h */,
@@ -1682,8 +1680,6 @@
 			children = (
 				84876F251076740400B83EDD /* MacroInterface.h */,
 				84876F261076740400B83EDD /* MacroInterface.m */,
-				84876F271076740400B83EDD /* MacroSheet.h */,
-				84876F281076740400B83EDD /* MacroSheet.m */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -1701,8 +1697,6 @@
 				84876F4A1076740400B83EDD /* MFSKDemodulator.h */,
 				84876F4B1076740400B83EDD /* MFSKDemodulator.m */,
 				84876F4C1076740400B83EDD /* MFSKFEC.h */,
-				84876F4D1076740400B83EDD /* MFSKMacros.h */,
-				84876F4E1076740400B83EDD /* MFSKMacros.m */,
 				84876F4F1076740400B83EDD /* MFSKModes.h */,
 				84876F501076740400B83EDD /* MFSKModulator.h */,
 				84876F511076740400B83EDD /* MFSKModulator.m */,
@@ -1761,8 +1755,6 @@
 				84876F5D1076740400B83EDD /* PSK.m */,
 				84876F5E1076740400B83EDD /* PSKConfig.h */,
 				84876F5F1076740400B83EDD /* PSKConfig.m */,
-				84876F641076740400B83EDD /* PSKMacros.h */,
-				84876F651076740400B83EDD /* PSKMacros.m */,
 				84876F681076740400B83EDD /* PSKReceiver.h */,
 				84876F691076740500B83EDD /* PSKReceiver.m */,
 				84876F661076740400B83EDD /* PSKModulator.h */,
@@ -1818,8 +1810,6 @@
 				84876FB31076740500B83EDD /* RTTYConfig.m */,
 				84876FB41076740500B83EDD /* RTTYInterface.h */,
 				84876FB51076740500B83EDD /* RTTYInterface.m */,
-				84876FB61076740500B83EDD /* RTTYMacros.h */,
-				84876FB71076740500B83EDD /* RTTYMacros.m */,
 				84876FBC1076740500B83EDD /* RTTYReceiver.h */,
 				84876FBD1076740500B83EDD /* RTTYReceiver.m */,
 				84876FBE1076740500B83EDD /* RTTYRxControl.h */,
@@ -1908,8 +1898,6 @@
 				84876FE61076740500B83EDD /* CWConfig.m */,
 				84876FE71076740500B83EDD /* CWDemodulator.h */,
 				84876FE81076740500B83EDD /* CWDemodulator.m */,
-				84876FE91076740500B83EDD /* CWMacros.h */,
-				84876FEA1076740500B83EDD /* CWMacros.m */,
 				84876FEB1076740500B83EDD /* CWMatchedFilter.h */,
 				84876FEC1076740500B83EDD /* CWMatchedFilter.m */,
 				84876FED1076740500B83EDD /* CWMixer.h */,
@@ -1998,12 +1986,8 @@
 			isa = PBXGroup;
 			children = (
 				848770E6107674DA00B83EDD /* Contest Interfaces */,
-				84877104107674DA00B83EDD /* ContestBar.h */,
-				84877105107674DA00B83EDD /* ContestBar.m */,
 				84877106107674DA00B83EDD /* ContestInterface.h */,
 				84877107107674DA00B83EDD /* ContestInterface.m */,
-				8487710A107674DA00B83EDD /* ContestMacroSheet.h */,
-				8487710B107674DA00B83EDD /* ContestMacroSheet.m */,
 			);
 			path = Contest;
 			sourceTree = "<group>";
@@ -2011,33 +1995,7 @@
 		848770E6107674DA00B83EDD /* Contest Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				848770E7107674DA00B83EDD /* BARTG.h */,
-				848770E8107674DA00B83EDD /* BARTG.m */,
-				848770E9107674DA00B83EDD /* BARTGSprint.h */,
-				848770EA107674DA00B83EDD /* BARTGSprint.m */,
-				848770EB107674DA00B83EDD /* Contest.h */,
-				848770EC107674DA00B83EDD /* Contest.m */,
-				848770ED107674DA00B83EDD /* Generic.h */,
-				848770EE107674DA00B83EDD /* Generic.m */,
-				848770EF107674DA00B83EDD /* NumberOnly.h */,
-				848770F0107674DA00B83EDD /* NumberOnly.m */,
 				848770F1107674DA00B83EDD /* RoundupStatelist.h */,
-				848770F2107674DA00B83EDD /* RST Exchange.h */,
-				848770F3107674DA00B83EDD /* RST Exchange.m */,
-				848770F4107674DA00B83EDD /* RST Number.h */,
-				848770F5107674DA00B83EDD /* RST Number.m */,
-				848770F6107674DA00B83EDD /* RSTExchange.h */,
-				848770F7107674DA00B83EDD /* RSTExchange.m */,
-				848770F8107674DA00B83EDD /* RTTYRoundup.h */,
-				848770F9107674DA00B83EDD /* RTTYRoundup.m */,
-				848770FC107674DA00B83EDD /* SP RTTY.h */,
-				848770FD107674DA00B83EDD /* SP RTTY.m */,
-				848770FE107674DA00B83EDD /* TARA.h */,
-				848770FF107674DA00B83EDD /* TARA.m */,
-				84877100107674DA00B83EDD /* WPX.h */,
-				84877101107674DA00B83EDD /* WPX.m */,
-				84877102107674DA00B83EDD /* XE RTTY.h */,
-				84877103107674DA00B83EDD /* XE RTTY.m */,
 			);
 			path = "Contest Interfaces";
 			sourceTree = "<group>";
@@ -2434,6 +2392,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7F1D8AF573C1C03A3BAAA04 /* RTTYMacros.swift in Sources */,
+				CFC3B07F3FF70A30AB230FE6 /* PSKMacros.swift in Sources */,
+				1C86C3001266E40476C6A061 /* MFSKMacros.swift in Sources */,
+				027563C755B07CE9BADDEFD7 /* HellMacros.swift in Sources */,
+				C77436F6C3180C9F1C5CCBA3 /* CWMacros.swift in Sources */,
+				DFB337472B1929A8F1119E7E /* MacroSheet.swift in Sources */,
+				787C3B5D483E5E0C09F06FBD /* ContestMacroSheet.swift in Sources */,
+				6684B3F4304DE38622930CDE /* WPX.swift in Sources */,
+				E6580D271EFF47F7E54B553F /* TARA.swift in Sources */,
+				D49F76A048A814EB96DCB69E /* BARTGSprint.swift in Sources */,
+				62FCA8FBC463D53033560617 /* BARTG.swift in Sources */,
+				97C8C83E3DE7D3726BF8D232 /* XERTTY.swift in Sources */,
+				7EEE9ED773EC6929B0998D33 /* SPRTTY.swift in Sources */,
+				09BA3DA5BC71B9732EE62E15 /* RTTYRoundup.swift in Sources */,
+				A6BB225C8B8E72D4E3F1F5F9 /* RST_Number.swift in Sources */,
+				1F1F96FA8FC308E11422C66C /* RST_Exchange.swift in Sources */,
+				6F3A217EB77CA1E03259540E /* NumberOnly.swift in Sources */,
+				AF4DD3B93FD1A25C003FBC7E /* Generic.swift in Sources */,
+				330B1F7E38CDA4C03A2E7AAF /* RSTExchange.swift in Sources */,
+				F85610EE3F2A356710670D4B /* Contest.swift in Sources */,
+				611CA1E73AAB141491716582 /* ContestBar.swift in Sources */,
+				F19F219D2C10F1E1D8E2D106 /* StripPhi.swift in Sources */,
 				8120AC48066A6EE6F5AA204C /* CWSendView.swift in Sources */,
 				F1F1959C310412601DC9B290 /* ExchangeView.swift in Sources */,
 				D273C1F1C55742C66B5993C6 /* SendView.swift in Sources */,
@@ -2520,7 +2500,6 @@
 				DF1B4819A5E0D03AB6A98064 /* splash.swift in Sources */,
 				8B3609519C91DEF776F06FB6 /* splashPanel.swift in Sources */,
 				0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */,
-				84072E4509076C49006DA88B /* StripPhi.m in Sources */,
 				84072FB309076EBD006DA88B /* error.c in Sources */,
 				8407326E09077551006DA88B /* main.m in Sources */,
 				84DA525109F6B059007B3C78 /* Config.m in Sources */,
@@ -2543,7 +2522,6 @@
 				848770501076740500B83EDD /* DualRTTY.m in Sources */,
 				848770511076740500B83EDD /* DualRTTYConfig.m in Sources */,
 				848770531076740500B83EDD /* HellConfig.m in Sources */,
-				848770551076740500B83EDD /* HellMacros.m in Sources */,
 				848770561076740500B83EDD /* HellModulator.m in Sources */,
 				848770571076740500B83EDD /* HellReceiver.m in Sources */,
 				848770581076740500B83EDD /* Hellschreiber.m in Sources */,
@@ -2558,7 +2536,6 @@
 				848770621076740500B83EDD /* LiteRTTY.m in Sources */,
 				848770631076740500B83EDD /* LiteRTTYControl.m in Sources */,
 				848770641076740500B83EDD /* MacroInterface.m in Sources */,
-				848770651076740500B83EDD /* MacroSheet.m in Sources */,
 				848770661076740500B83EDD /* DominoDemodulator.m in Sources */,
 				848770671076740500B83EDD /* DominoHalfRateDemodulator.m in Sources */,
 				848770681076740500B83EDD /* DominoHalfRateReceiver.m in Sources */,
@@ -2570,14 +2547,12 @@
 				848770721076740500B83EDD /* MFSK16Receiver.m in Sources */,
 				848770731076740500B83EDD /* MFSKConfig.m in Sources */,
 				848770741076740500B83EDD /* MFSKDemodulator.m in Sources */,
-				848770751076740500B83EDD /* MFSKMacros.m in Sources */,
 				848770761076740500B83EDD /* MFSKModulator.m in Sources */,
 				848770771076740500B83EDD /* MFSKReceiver.m in Sources */,
 				848770781076740500B83EDD /* MFSKVaricode.m in Sources */,
 				8487707B1076740500B83EDD /* PSK.m in Sources */,
 				8487707C1076740500B83EDD /* PSKConfig.m in Sources */,
 				8487707D1076740500B83EDD /* PSKContestTxControl.m in Sources */,
-				8487707F1076740500B83EDD /* PSKMacros.m in Sources */,
 				848770801076740500B83EDD /* PSKModulator.m in Sources */,
 				848770811076740500B83EDD /* PSKReceiver.m in Sources */,
 				848770821076740500B83EDD /* PSKTransmitControl.m in Sources */,
@@ -2597,7 +2572,6 @@
 				848770A01076740500B83EDD /* RTTY.m in Sources */,
 				848770A11076740500B83EDD /* RTTYConfig.m in Sources */,
 				848770A21076740500B83EDD /* RTTYInterface.m in Sources */,
-				848770A31076740500B83EDD /* RTTYMacros.m in Sources */,
 				848770A41076740500B83EDD /* RTTYModulator.m in Sources */,
 				848770A51076740500B83EDD /* RTTYModulatorBase.m in Sources */,
 				848770A61076740500B83EDD /* RTTYReceiver.m in Sources */,
@@ -2610,7 +2584,6 @@
 				848770B61076740500B83EDD /* CWAuralFilter.m in Sources */,
 				848770B71076740500B83EDD /* CWConfig.m in Sources */,
 				848770B81076740500B83EDD /* CWDemodulator.m in Sources */,
-				848770B91076740500B83EDD /* CWMacros.m in Sources */,
 				848770BA1076740500B83EDD /* CWMatchedFilter.m in Sources */,
 				848770BB1076740500B83EDD /* CWMixer.m in Sources */,
 				848770BC1076740500B83EDD /* CWModulator.m in Sources */,
@@ -2627,22 +2600,7 @@
 				848770DC107674A900B83EDD /* ModemManager.m in Sources */,
 				848770DD107674A900B83EDD /* ContestManager.m in Sources */,
 				848770DE107674A900B83EDD /* StdManager.m in Sources */,
-				8487711E107674DA00B83EDD /* BARTG.m in Sources */,
-				8487711F107674DA00B83EDD /* BARTGSprint.m in Sources */,
-				84877120107674DA00B83EDD /* Contest.m in Sources */,
-				84877121107674DA00B83EDD /* Generic.m in Sources */,
-				84877122107674DA00B83EDD /* NumberOnly.m in Sources */,
-				84877123107674DA00B83EDD /* RST Exchange.m in Sources */,
-				84877124107674DA00B83EDD /* RST Number.m in Sources */,
-				84877125107674DA00B83EDD /* RSTExchange.m in Sources */,
-				84877126107674DA00B83EDD /* RTTYRoundup.m in Sources */,
-				84877128107674DA00B83EDD /* SP RTTY.m in Sources */,
-				84877129107674DA00B83EDD /* TARA.m in Sources */,
-				8487712A107674DA00B83EDD /* WPX.m in Sources */,
-				8487712B107674DA00B83EDD /* XE RTTY.m in Sources */,
-				8487712C107674DA00B83EDD /* ContestBar.m in Sources */,
 				8487712D107674DA00B83EDD /* ContestInterface.m in Sources */,
-				8487712F107674DA00B83EDD /* ContestMacroSheet.m in Sources */,
 				848771681076789F00B83EDD /* CoreModem.m in Sources */,
 				848771691076789F00B83EDD /* CMFilterBank.m in Sources */,
 				8487716A1076789F00B83EDD /* CMNCO.m in Sources */,

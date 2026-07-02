@@ -10,8 +10,9 @@
 
 #import "ContestManager.h"
 #import "ContestInterface.h"  /* modem */
-#import "ContestMacroSheet.h"
+//  ContestMacroSheet now provided by cocoaModem-Swift.h
 #import "modemTypes.h"
+#import "ContestTypes.h"		//  ContestQSO struct (Contest is now Swift)
 #import "StdManager.h"
 #import "Plist.h"
 #import "Preferences.h"
@@ -19,17 +20,6 @@
 #import "cocoaModem-Swift.h"
 
 //  contests
-#import "Contest.h"
-#import "Generic.h"
-#import "BARTG.h"
-#import "BARTGSprint.h"
-#import "RTTYRoundup.h"
-#import "RST Exchange.h"
-#import "RST Number.h"
-#import "TARA.h"
-#import "WPX.h"
-#import "XE RTTY.h"
-#import "SP RTTY.h"
 
 
 @implementation ContestManager
@@ -368,7 +358,7 @@
 	if ( qsoInfo ) {
 		call = [ master callsign ]  ;
 		[ qsoInfo setCallsign:call ] ;
-		[ qsoInfo setDXExchange:[ master dxExchange ] ] ;
+		[ qsoInfo setDXExchange:[ master fetchDXExchange ] ] ;
 		
 		number = [ master qsoNumber ] ;
 		if ( number ) {

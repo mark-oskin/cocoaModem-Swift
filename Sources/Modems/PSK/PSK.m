@@ -10,8 +10,6 @@
 #import "TextAttribute.h"
 #import "cocoaModemParams.h"
 #import "Config.h"
-#import "Contest.h"					// for PSKMODE
-#import "ContestBar.h"
 #import "ModemDistributionBox.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
@@ -21,7 +19,7 @@
 #import "PSKAuralMonitor.h"
 #import "PSKConfig.h"
 #import "PSKContestTxControl.h"
-#import "PSKMacros.h"
+//  PSKMacros now provided by cocoaModem-Swift.h
 #import "PSKReceiver.h"
 #import "PSKTransmitControl.h"
 #import "StdManager.h"

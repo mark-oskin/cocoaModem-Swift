@@ -10,10 +10,9 @@
 #import "TextAttribute.h"
 #import "cocoaModemParams.h"
 #import "Config.h"
-#import "Contest.h"
 #import "ContestManager.h"
 #import "CWConfig.h"
-#import "CWMacros.h"
+//  CWMacros now provided by cocoaModem-Swift.h
 #import "CWMonitor.h"
 #import "CWReceiver.h"
 #import "CWRxControl.h"
@@ -22,7 +21,7 @@
 #import "ModemManager.h"
 #import "ModemSource.h"
 #import "Plist.h"
-#import "RTTYMacros.h"
+//  RTTYMacros now provided by cocoaModem-Swift.h
 #import "RTTYModulator.h"
 #import "RTTYTxConfig.h"
 #import "cocoaModem-Swift.h"

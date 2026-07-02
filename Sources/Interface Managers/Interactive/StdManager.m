@@ -8,8 +8,6 @@
 
 #import "StdManager.h"
 #import "ASCII.h"
-#import "Contest.h"
-#import "ContestBar.h"
 #import "ContestInterface.h"
 #import "ContestManager.h"
 #import "DualRTTY.h"
@@ -26,7 +24,7 @@
 #import "cocoaModem-Swift.h"
 #import "RTTY.h"
 #import "RTTYConfig.h"
-#import "RTTYMacros.h"
+//  RTTYMacros now provided by cocoaModem-Swift.h
 #import "SITOR.h"
 //  SynchAM converted to Swift -- declared in cocoaModem-Swift.h (imported above)
 #import "WBCW.h"
