@@ -49,7 +49,20 @@ Ground rules (see `Sources/Swift/Application/UTC.swift` for the pattern):
    `tools/pbx_swift.py remove-m <File.m>` retires the old implementation.
    Keep the build green after each batch; launch the app as a smoke test.
 
-## Converted so far (17 classes, all committed, build green)
+## Converted so far (49 classes, all committed, build green)
+
+Application (12), About (2), QSO/SubDictionary (2), Instrumentation (12),
+SITOR-B (3), Hellschreiber (1: HellDisplay), Synch-AM/FEC (4), plus Wave 3:
+Interface Managers base (ASColor, Messages, ParametricEqualizer), Contest UI/
+model (BackgroundTextField, DateTimeField, UpperFormatter, OptionView,
+OptionPanel, ContestQSOObj, ContestLog, RTTYRoundupMults, Cabrillo).
+
+Remaining ~219 Obj-C files: hardware-interfacing tier-1 (AudioManager, serial/
+PTT, NetAudio, AppleScript — convert but VERIFY with hardware), the central
+controllers (AppDelegate, Application — high blast radius, do with care), and
+the blocked tier-3 DSP core (see migration plan below).
+
+### Earlier note (kept for history — the first 17 classes)
 
 - Application: UTC, splash, splashPanel, ModemColor, VoiceAssistTextField,
   SleepManager, ModemSleepManager, MacroNode, MacroScripts, MacroMenu,
