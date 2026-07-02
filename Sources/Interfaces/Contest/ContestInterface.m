@@ -14,7 +14,7 @@
 #include "ContestMacroSheet.h"
 #include "ContestTextField.h"
 #include "ExchangeView.h"
-#include "UTC.h"
+#import "cocoaModem-Swift.h"
 #include "ModemManager.h"
 
 

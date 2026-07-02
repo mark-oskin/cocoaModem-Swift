@@ -30,7 +30,7 @@
 #import "StdManager.h"
 #import "TextEncoding.h"
 #import "UserInfo.h"
-#import "UTC.h"
+#import "cocoaModem-Swift.h"
 #import <math.h>
 #import <unistd.h>
 #import "CoreModem.h"

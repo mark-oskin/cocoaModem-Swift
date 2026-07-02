@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6215340BE8E07984B7343ED /* UTC.swift */; };
 		84072E2809076BF9006DA88B /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E2609076BF9006DA88B /* Application.m */; };
 		84072E3609076C06006DA88B /* MacroMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E2C09076C06006DA88B /* MacroMenu.m */; };
 		84072E3709076C06006DA88B /* MacroNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E2E09076C06006DA88B /* MacroNode.m */; };
@@ -40,8 +41,6 @@
 		8410101110BC8DD600761445 /* FAXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8410101010BC8DD600761445 /* FAXFrame.m */; };
 		841011E010BDBDED00761445 /* ClicklessWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 841011DF10BDBDED00761445 /* ClicklessWaterfall.m */; };
 		8416C8D00A51B97A00526F21 /* routerCloseScript.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8416C8CF0A51B97A00526F21 /* routerCloseScript.scpt */; };
-		8422FF3109606D18007AFA0B /* UTC.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8422FF2F09606D18007AFA0B /* UTC.h */; };
-		8422FF3209606D18007AFA0B /* UTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422FF3009606D18007AFA0B /* UTC.m */; };
 		84261C370F22FDFA00E9E515 /* cocoaModem 2.0.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 84261C360F22FDFA00E9E515 /* cocoaModem 2.0.sdef */; };
 		842BF6E20D4F299600B4923A /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842BF6E10D4F299600B4923A /* AudioUnit.framework */; };
 		842DBF30109FAF1C0039D90E /* AuralMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DBF2F109FAF1C0039D90E /* AuralMonitor.m */; };
@@ -388,7 +387,6 @@
 			files = (
 				84912E8C093A3D420091E7A4 /* ModemColor.h in CopyFiles */,
 				8481CD10095C8B15008EA65A /* RTTYWaterfall.h in CopyFiles */,
-				8422FF3109606D18007AFA0B /* UTC.h in CopyFiles */,
 				8499D00B09B37775006203F7 /* pttKey.scpt in CopyFiles */,
 				8499D00C09B37775006203F7 /* pttUnkey.scpt in CopyFiles */,
 				84F901230A150D84005540CC /* pttQuit.scpt in CopyFiles */,
@@ -418,6 +416,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F6215340BE8E07984B7343ED /* UTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UTC.swift"; path = "../Sources/Swift/Application/UTC.swift"; sourceTree = SOURCE_ROOT; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* cocoaModem 2.0_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cocoaModem 2.0_Prefix.pch"; sourceTree = "<group>"; };
@@ -1136,6 +1135,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAAA00000000000000000001 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F6215340BE8E07984B7343ED /* UTC.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -1190,6 +1197,7 @@
 		29B97314FDCFA39411CA2CEA /* cocoaModem 2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				AAAA00000000000000000001 /* Swift */,
 				080E96DDFE201D6D7F000001 /* Sources */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				84072FD509076F2D006DA88B /* File Resources */,
@@ -2564,6 +2572,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */,
 				84072E2809076BF9006DA88B /* Application.m in Sources */,
 				84072E3609076C06006DA88B /* MacroMenu.m in Sources */,
 				84072E3709076C06006DA88B /* MacroNode.m in Sources */,
@@ -2583,7 +2592,6 @@
 				8407326E09077551006DA88B /* main.m in Sources */,
 				84912E8D093A3D420091E7A4 /* ModemColor.m in Sources */,
 				8481CD11095C8B15008EA65A /* RTTYWaterfall.m in Sources */,
-				8422FF3209606D18007AFA0B /* UTC.m in Sources */,
 				84D43FE809B6275200D572CE /* DisplayColor.m in Sources */,
 				84DA525109F6B059007B3C78 /* Config.m in Sources */,
 				84DA525309F6B059007B3C78 /* Preferences.m in Sources */,
@@ -3310,9 +3318,13 @@
 				INFOPLIST_FILE = Info.plist;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				PRODUCT_BUNDLE_IDENTIFIER = "w7ay.cocoaModem-2.0";
 				PRODUCT_NAME = "cocoaModem 2.0";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "cocoaModem-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				PRODUCT_MODULE_NAME = cocoaModem;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -3335,6 +3347,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "w7ay.cocoaModem-2.0";
 				PRODUCT_NAME = "cocoaModem 2.0";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "cocoaModem-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				PRODUCT_MODULE_NAME = cocoaModem;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -3356,6 +3371,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "w7ay.cocoaModem-2.0";
 				PRODUCT_NAME = "cocoaModem 2.0";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "cocoaModem-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				PRODUCT_MODULE_NAME = cocoaModem;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Default;
