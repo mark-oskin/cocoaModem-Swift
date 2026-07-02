@@ -15,7 +15,7 @@
 {
 	NSSize size ;
 	int i,n ;
-	float x, dash[2] = { 2.0, 1.0 }, xp[41] ;
+	float x, dash[2] = { 2.0, 1.0 }, xp[81] ;
 	
     self = [ super initWithFrame:frame ] ;
     if ( self ) {
@@ -41,7 +41,11 @@
 			[ scale moveToPoint:NSMakePoint( x, 0 ) ] ;
 			[ scale lineToPoint:NSMakePoint( x, height ) ] ;
 		}
-		for ( i = 0; i < 41; i++ ) xp[i] = i*0.1 ;	//  flat response 
+		//  flat response: setResponse: reads 81 dB samples, so fill all 81
+		//  (the array was previously sized 41, leaving 40 samples of
+		//  uninitialized stack that could be NaN and crash NSBezierPath).
+		//  0 dB == flat.
+		for ( i = 0; i < 81; i++ ) xp[i] = 0.0 ;
 		[ self setResponse:xp ] ;
 	}
 	return self ;
