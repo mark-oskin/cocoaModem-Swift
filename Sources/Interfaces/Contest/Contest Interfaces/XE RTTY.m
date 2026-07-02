@@ -7,7 +7,6 @@
 //
 
 #import "XE RTTY.h"
-#import "Messages.h"
 #import "ContestManager.h"
 #import "TextEncoding.h"
 #import "TransparentTextField.h"

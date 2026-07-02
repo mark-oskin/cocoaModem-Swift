@@ -21,7 +21,6 @@
 #import "CWTxConfig.h"
 //  now provided by cocoaModem-Swift.h
 #import "ExchangeView.h"
-#import "Messages.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
 #import "Module.h"

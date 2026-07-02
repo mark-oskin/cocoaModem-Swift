@@ -9,7 +9,7 @@
 #import "ModemManager.h"
 #import "Application.h"
 #import "AppDelegate.h"		//  NSApp delegate
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "Modem.h"
 #import "PSK.h"
 #import "PTTHub.h"

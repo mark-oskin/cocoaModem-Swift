@@ -9,7 +9,7 @@
 #import "MacroInterface.h"
 #import "Application.h"
 #import "MacroSheet.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "StdManager.h"
 #import "RTTYMacros.h"
 #import "TextEncoding.h"

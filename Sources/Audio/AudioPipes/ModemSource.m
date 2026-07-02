@@ -12,7 +12,7 @@
 #import "Application.h"
 #import "AudioManager.h"
 #import "Config.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "ModemConfig.h"
 #import "TextEncoding.h"
 #import "Plist.h"
@@ -614,7 +614,7 @@
 	pad = [ pref floatValueForKey:[ deviceName stringByAppendingString:kInputPad ] ] ;
 	if ( dbPad ) {
 		[ dbPad setStringValue:[ NSString stringWithFormat:@"%d", (int)pad ] ] ;
-		[ Messages logMessage:"Updating input pad to %d from plist", (int)pad ] ;
+		{ char _logmsg[256] ; sprintf( _logmsg, "Updating input pad to %d from plist", (int)pad ) ; [ Messages logMessage:_logmsg ] ; }
 	}
 	
 	NSString *key = [ deviceName stringByAppendingString:kInputSlider ] ;
@@ -622,7 +622,7 @@
 	
 	if ( dbSlider != nil ) {
 		[ dbSlider setFloatValue:slider ] ;
-		[ Messages logMessage:"Updating input attenuator to %.1f from plist", slider ] ;
+		{ char _logmsg[256] ; sprintf( _logmsg, "Updating input attenuator to %.1f from plist", slider ) ; [ Messages logMessage:_logmsg ] ; }
 	}
 	[ self setDeviceLevelFromSlider ] ;
 
@@ -630,7 +630,7 @@
 		if ( audioManager == nil || [ audioManager audioDeviceForID:selectedSoundCard->deviceID ] == nil ) {
 			// 0.53a sampling rate option
 			NSString *rateString = [ pref stringValueForKey:[ deviceName stringByAppendingString:kInputSamplingRate ] ] ;
-			[ Messages logMessage:"Updating input sampling rate %s from plist", [ rateString cStringUsingEncoding:kTextEncoding ] ] ;		//  v0.62
+			{ char _logmsg[256] ; sprintf( _logmsg, "Updating input sampling rate %s from plist", [ rateString cStringUsingEncoding:kTextEncoding ] ) ; [ Messages logMessage:_logmsg ] ; }		//  v0.62
 			if ( rateString ) [ inputSamplingRateMenu selectItemWithTitle:rateString ] ;
 			[ self samplingRateChanged ] ;			//  v0.62
 		}

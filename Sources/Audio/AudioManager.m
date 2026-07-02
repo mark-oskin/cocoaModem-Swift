@@ -7,7 +7,7 @@
 //
 
 #import "AudioManager.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 
 //  AudioDeviceStart and AudioDeviceStop does not allow the same AudioDeviceIOProc to be used more than once per AudioDeviceID.
 //	Different modeminterfaces that uses the same device can therefore not subclass off the same base class that uses the same AudioDeviceIOProc.

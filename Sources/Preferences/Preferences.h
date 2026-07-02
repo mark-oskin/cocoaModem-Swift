@@ -16,6 +16,8 @@
 		Boolean hasPlist ;
 	}
 	
+	- (id)initWithPath:(NSString*)name ;					//  standalone dictionary (e.g., Cabrillo import/export)
+
 	- (void)fetchPlist:(Boolean)copy ;
 	- (void)savePlist ;
 	

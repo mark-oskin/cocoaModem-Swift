@@ -10,7 +10,6 @@
 #import "Application.h"
 #import "AYTextView.h"
 #import "cocoaModemParams.h"
-#import "Messages.h"
 #import "Config.h"
 #import "Contest.h"					// for HELLMODE
 #import "ExchangeView.h"

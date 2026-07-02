@@ -14,7 +14,7 @@
 #import "Modem.h"
 #import "ModemConfig.h"
 #import "ModemManager.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "Plist.h"
 #import "PTT.h"
 #import "PTTHub.h"
@@ -431,7 +431,7 @@
 			level = [ pref floatValueForKey:outputLevelKey ] ;
 			[ outputLevel setFloatValue:level ] ;
 			[ self outputLevelChanged ] ;
-			[ Messages logMessage:"%s set to %.3f", [ outputLevelKey cStringUsingEncoding:kTextEncoding ], level ] ;
+			{ char _logmsg[256] ; sprintf( _logmsg, "%s set to %.3f", [ outputLevelKey cStringUsingEncoding:kTextEncoding ], level ) ; [ Messages logMessage:_logmsg ] ; }
 		}
 	}
 	else {
@@ -440,7 +440,7 @@
 	if ( outputAttenuator && attenuatorKey ) {
 		level = [ pref floatValueForKey:attenuatorKey ] ;
 		[ outputAttenuator setFloatValue:level ] ;
-		[ Messages logMessage:"%s set to %.0f dB", [ attenuatorKey cStringUsingEncoding:kTextEncoding ], level ] ;
+		{ char _logmsg[256] ; sprintf( _logmsg, "%s set to %.0f dB", [ attenuatorKey cStringUsingEncoding:kTextEncoding ], level ) ; [ Messages logMessage:_logmsg ] ; }
 		[ self updateAttenuator ] ;
 	}
 	if ( ptt ) {
@@ -454,7 +454,7 @@
 			name = [ pref stringValueForKey:key ] ;
 			if ( name ) {
 				[ outputSamplingRateMenu selectItemWithTitle:name ] ;
-				[ Messages logMessage:"Updating output sampling rate %s from plist", [ name cStringUsingEncoding:kTextEncoding ] ] ;		//  v0.62
+				{ char _logmsg[256] ; sprintf( _logmsg, "Updating output sampling rate %s from plist", [ name cStringUsingEncoding:kTextEncoding ] ) ; [ Messages logMessage:_logmsg ] ; }		//  v0.62
 				[ self samplingRateChanged ] ;				//  v0.53b get the rate into the modem
 			}
 		}

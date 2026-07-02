@@ -7,7 +7,7 @@
 //
 
 #import "CrossedEllipse.h"
-#include "Messages.h"
+#import "cocoaModem-Swift.h"
 #include "CoreFilter.h"
 #include "CoreModemTypes.h"
 

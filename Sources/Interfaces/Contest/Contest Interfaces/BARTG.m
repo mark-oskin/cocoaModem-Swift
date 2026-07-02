@@ -9,7 +9,6 @@
 #import "BARTG.h"
 #import "ContestManager.h"
 #import "Contest.h"
-#import "Messages.h"
 #import "Modem.h"
 #import "TextEncoding.h"
 #import "TransparentTextField.h"

@@ -7,7 +7,7 @@
 //
 
 #import "MacLoggerDX.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation MacLoggerDX
@@ -36,7 +36,7 @@
 							const char *version = [ response cStringUsingEncoding:NSISOLatin1StringEncoding ] ;
 							//	check if version string starts with a 5
 							if ( version[0] == '5' ) isv5 = YES ;
-							[ Messages logMessage:"Found MacLoggerDX %s", version ] ;
+							{ char _logmsg[256] ; sprintf( _logmsg, "Found MacLoggerDX %s", version ) ; [ Messages logMessage:_logmsg ] ; }
 						}
 					}
 				}

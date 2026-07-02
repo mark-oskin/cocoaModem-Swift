@@ -10,7 +10,7 @@
 
 	#import <Cocoa/Cocoa.h>
 	#include "modemTypes.h"
-	#import "ASColor.h"
+	@class ASColor ;
 	
 	@class Application ;
 	@class ASPoint ;

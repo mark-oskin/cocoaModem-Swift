@@ -7,7 +7,7 @@
 //
 
 #import "ContestBar.h"
-#include "Messages.h"
+#import "cocoaModem-Swift.h"
 #include "ContestInterface.h"
 #include "ContestManager.h"
 #include "Plist.h"

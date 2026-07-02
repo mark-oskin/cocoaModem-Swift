@@ -12,7 +12,7 @@
 #import "ContestManager.h"
 #import "ExchangeView.h"
 #import "FSK.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
 #import "Module.h"

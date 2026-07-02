@@ -10,7 +10,7 @@
 #import "Application.h"
 #import "ASCIIModulator.h"
 #import "FSK.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "ModemDest.h"
 #import "ModemEqualizer.h"
 #import "Plist.h"

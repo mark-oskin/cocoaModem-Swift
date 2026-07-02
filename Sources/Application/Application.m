@@ -18,7 +18,6 @@
 #import "FSKHub.h"
 #import "LiteRTTY.h"
 #import "MacroInterface.h"
-#import "Messages.h"
 #import "modemTypes.h"
 #import "Plist.h"
 #import "Preferences.h"

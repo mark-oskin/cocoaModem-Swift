@@ -6,7 +6,7 @@
  *
  */
 
-#include "Messages.h"
+@class Messages ;
 
 #define noDEBUG 
 

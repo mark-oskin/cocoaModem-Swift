@@ -8,7 +8,7 @@
 
 #import "Router.h"
 #import "KeyerInterface.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "MicroKeyer.h"
 #import "RouterCommands.h"
 #import "TextEncoding.h"

@@ -7,7 +7,7 @@
 //
 
 #import "ExchangeView.h"
-#include "Messages.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation ExchangeView

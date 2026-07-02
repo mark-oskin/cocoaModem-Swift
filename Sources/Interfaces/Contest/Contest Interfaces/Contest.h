@@ -13,7 +13,7 @@
 	#include <time.h>
 	#include "cocoaModemParams.h"
 	#include "modemTypes.h"
-	#include "UpperFormatter.h"
+	@class UpperFormatter ;		//  UpperFormatter is now a Swift class (see cocoaModem-Swift.h)
 	#include "StripPhi.h"	
 	
 	#define MAXQ	8192

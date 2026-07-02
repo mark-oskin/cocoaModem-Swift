@@ -7,7 +7,7 @@
 //
 
 #import "AppleScriptSupport.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 
 @implementation AppleScriptSupport
 

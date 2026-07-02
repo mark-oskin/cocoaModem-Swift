@@ -9,7 +9,6 @@
 #import "FAX.h"
 #include "Application.h"
 #include "cocoaModemParams.h"
-#include "Messages.h"
 #include "Config.h"
 #include "ExchangeView.h"
 #include "FAXConfig.h"

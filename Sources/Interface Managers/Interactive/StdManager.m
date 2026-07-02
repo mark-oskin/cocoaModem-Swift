@@ -20,7 +20,6 @@
 #import "LiteASCII.h"
 #import "LitePSK.h"
 #import "LiteRTTY.h"
-#import "Messages.h"
 #import "MFSK.h"
 #import "Plist.h"
 #import "PSK.h"

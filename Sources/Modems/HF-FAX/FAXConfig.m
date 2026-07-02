@@ -10,7 +10,6 @@
 #include "Application.h"
 #include "FAX.h"
 #include "FAXDisplay.h"
-#include "Messages.h"
 #include "ModemSource.h"
 #import "cocoaModem-Swift.h"
 #include "Plist.h"

@@ -10,12 +10,8 @@
 
 #import "ContestManager.h"
 #import "Application.h"
-#import "Cabrillo.h"
-#import "Messages.h"
 #import "ContestInterface.h"  /* modem */
-#import "ContestLog.h"
 #import "ContestMacroSheet.h"
-#import "ContestQSOObj.h"
 #import "modemTypes.h"
 #import "StdManager.h"
 #import "Plist.h"

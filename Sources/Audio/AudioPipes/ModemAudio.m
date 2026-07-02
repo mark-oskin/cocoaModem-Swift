@@ -9,7 +9,7 @@
 #import "ModemAudio.h"
 #import "Application.h"
 #import "AudioManager.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "TextEncoding.h"
 #import "audioutils.h"
 
@@ -846,7 +846,7 @@ static int selectableSampleRate[6] = { 11025, 16000, 32000, 44100, 48000, 96000 
 		channels = audiobuffer->mNumberChannels ;
 		//  write bytes into data pipe (note: 512 stereo samples is 4096 bytes)
 		samples = audiobuffer->mDataByteSize/( sizeof( float )*audiobuffer->mNumberChannels ) ;
-		if ( ( samples%256 ) != 0 ) [ Messages logMessage:"Device input received %d samples; should be a multiple of 256", samples ] ;
+		if ( ( samples%256 ) != 0 ) { char _logmsg[256] ; sprintf( _logmsg, "Device input received %d samples; should be a multiple of 256", samples ) ; [ Messages logMessage:_logmsg ] ; }
 		[ resamplingPipe write:audiobuffer->mData samples:samples ] ;
 	}
 }

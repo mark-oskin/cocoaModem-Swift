@@ -8,11 +8,10 @@
 
 #import "Contest.h"
 #import <Cocoa/Cocoa.h>
-#import "Cabrillo.h"
 #import "cocoaModemParams.h"
 #import "ContestInterface.h"
 #import "ContestManager.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "Modem.h"
 #import "TextEncoding.h"
 #import "TransparentTextField.h"

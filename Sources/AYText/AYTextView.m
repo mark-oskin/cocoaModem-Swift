@@ -6,7 +6,7 @@
 //
 
 #import "AYTextView.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "TextEncoding.h"
 
 

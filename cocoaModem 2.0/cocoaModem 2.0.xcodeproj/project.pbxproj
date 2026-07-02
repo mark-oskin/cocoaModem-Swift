@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		456EA9F6A2B25FAC134B8F8D /* Cabrillo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492EA3F07E7043BB839F38C5 /* Cabrillo.swift */; };
+		940A6473DE199332ABEA918B /* RTTYRoundupMults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5873B8045ADA9E4C455758AB /* RTTYRoundupMults.swift */; };
+		BDE3068C4B6074EB604DF1E5 /* ContestLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46C0AD6857BFE7DF8D6481E /* ContestLog.swift */; };
+		F08BB6147CB9F016517D72F1 /* ContestQSOObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C6A06A7DE2E8D40FFB041 /* ContestQSOObj.swift */; };
+		18F259A85FDFE77313594E68 /* OptionPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C87DF3376A41DDBCD3ADAEFF /* OptionPanel.swift */; };
+		8F5E5CE2559317F0100698F4 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBDD6ADE82C2BC01E254CF4 /* OptionView.swift */; };
+		ABE5DB45E5BC5A4455F50ABF /* UpperFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7373CE90D7CA70E0DBA9AD /* UpperFormatter.swift */; };
+		BA1E9C17645647E651D939D6 /* DateTimeField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7A0C1CA6E5FF4E708E3E53 /* DateTimeField.swift */; };
+		554E3F974A5A309FE4E77FC2 /* BackgroundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23CC4B69A0066DF090927D5 /* BackgroundTextField.swift */; };
+		1B59EA929DD83C7174DEB801 /* ParametricEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6831E767CEFDEB21E9F20FBA /* ParametricEqualizer.swift */; };
+		B85BC9D6003E29A9710881C3 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7561B6CE17FD431605B98E0A /* Messages.swift */; };
+		C5F3841E71879AAB5D36D467 /* ASColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8A42BDDAC83B4F681EABEF /* ASColor.swift */; };
 		890E933758A40A9408BCD33B /* SynchAM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE92E63B4EBA9AE2F451503 /* SynchAM.swift */; };
 		AD42AE78011745473EA8AEC8 /* AMConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD39E7439C2976C78A5A84E /* AMConfig.swift */; };
 		3B36C6289CE3B22179C224C0 /* AMDemodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D12BC5CE1B5C296AC7F88C /* AMDemodulator.swift */; };
@@ -207,13 +219,9 @@
 		848770C61076740500B83EDD /* WBCW.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770041076740500B83EDD /* WBCW.m */; };
 		848770C71076740500B83EDD /* WFRTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770071076740500B83EDD /* WFRTTY.m */; };
 		848770C81076740500B83EDD /* WFRTTYConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770091076740500B83EDD /* WFRTTYConfig.m */; };
-		848770DA107674A900B83EDD /* ASColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770CC107674A900B83EDD /* ASColor.m */; };
-		848770DB107674A900B83EDD /* Messages.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770CE107674A900B83EDD /* Messages.m */; };
 		848770DC107674A900B83EDD /* ModemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770D0107674A900B83EDD /* ModemManager.m */; };
 		848770DD107674A900B83EDD /* ContestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770D3107674A900B83EDD /* ContestManager.m */; };
 		848770DE107674A900B83EDD /* StdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770D6107674A900B83EDD /* StdManager.m */; };
-		8487711C107674DA00B83EDD /* BackgroundTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770E3107674DA00B83EDD /* BackgroundTextField.m */; };
-		8487711D107674DA00B83EDD /* Cabrillo.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770E5107674DA00B83EDD /* Cabrillo.m */; };
 		8487711E107674DA00B83EDD /* BARTG.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770E8107674DA00B83EDD /* BARTG.m */; };
 		8487711F107674DA00B83EDD /* BARTGSprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770EA107674DA00B83EDD /* BARTGSprint.m */; };
 		84877120107674DA00B83EDD /* Contest.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770EC107674DA00B83EDD /* Contest.m */; };
@@ -223,23 +231,16 @@
 		84877124107674DA00B83EDD /* RST Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770F5107674DA00B83EDD /* RST Number.m */; };
 		84877125107674DA00B83EDD /* RSTExchange.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770F7107674DA00B83EDD /* RSTExchange.m */; };
 		84877126107674DA00B83EDD /* RTTYRoundup.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770F9107674DA00B83EDD /* RTTYRoundup.m */; };
-		84877127107674DA00B83EDD /* RTTYRoundupMults.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770FB107674DA00B83EDD /* RTTYRoundupMults.m */; };
 		84877128107674DA00B83EDD /* SP RTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770FD107674DA00B83EDD /* SP RTTY.m */; };
 		84877129107674DA00B83EDD /* TARA.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770FF107674DA00B83EDD /* TARA.m */; };
 		8487712A107674DA00B83EDD /* WPX.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877101107674DA00B83EDD /* WPX.m */; };
 		8487712B107674DA00B83EDD /* XE RTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877103107674DA00B83EDD /* XE RTTY.m */; };
 		8487712C107674DA00B83EDD /* ContestBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877105107674DA00B83EDD /* ContestBar.m */; };
 		8487712D107674DA00B83EDD /* ContestInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877107107674DA00B83EDD /* ContestInterface.m */; };
-		8487712E107674DA00B83EDD /* ContestLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877109107674DA00B83EDD /* ContestLog.m */; };
 		8487712F107674DA00B83EDD /* ContestMacroSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487710B107674DA00B83EDD /* ContestMacroSheet.m */; };
-		84877130107674DA00B83EDD /* ContestQSOObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487710D107674DA00B83EDD /* ContestQSOObj.m */; };
 		84877131107674DA00B83EDD /* ContestTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487710F107674DA00B83EDD /* ContestTextField.m */; };
-		84877132107674DA00B83EDD /* DateTimeField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877111107674DA00B83EDD /* DateTimeField.m */; };
-		84877133107674DA00B83EDD /* OptionPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877113107674DA00B83EDD /* OptionPanel.m */; };
 		84877134107674DA00B83EDD /* OptionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877115107674DA00B83EDD /* OptionTextField.m */; };
-		84877135107674DA00B83EDD /* OptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877117107674DA00B83EDD /* OptionView.m */; };
 		84877136107674DA00B83EDD /* TransparentTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877119107674DA00B83EDD /* TransparentTextField.m */; };
-		84877137107674DA00B83EDD /* UpperFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487711B107674DA00B83EDD /* UpperFormatter.m */; };
 		8487713E1076754F00B83EDD /* Module.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487713B1076754F00B83EDD /* Module.m */; };
 		8487713F1076754F00B83EDD /* Transceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487713D1076754F00B83EDD /* Transceiver.m */; };
 		848771681076789F00B83EDD /* CoreModem.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771421076789F00B83EDD /* CoreModem.m */; };
@@ -270,7 +271,6 @@
 		848771FC10767F4400B83EDD /* Boxcar.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771EA10767F4400B83EDD /* Boxcar.c */; };
 		848771FD10767F4400B83EDD /* Clears.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771EC10767F4400B83EDD /* Clears.c */; };
 		848771FE10767F4400B83EDD /* hadamard.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771EE10767F4400B83EDD /* hadamard.c */; };
-		848771FF10767F4400B83EDD /* ParametricEqualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771F110767F4400B83EDD /* ParametricEqualizer.m */; };
 		8490ACF00A2B60AA006E282F /* LogMacro.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8490ACEF0A2B60AA006E282F /* LogMacro.h */; };
 		8492B5CE11E125C300C5C598 /* PTT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492B5C711E125C300C5C598 /* PTT.m */; };
 		8492B5CF11E125C300C5C598 /* PTTHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492B5C911E125C300C5C598 /* PTTHub.m */; };
@@ -399,6 +399,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		492EA3F07E7043BB839F38C5 /* Cabrillo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Cabrillo.swift"; path = "../Sources/Swift/Interfaces/Contest/Cabrillo.swift"; sourceTree = SOURCE_ROOT; };
+		5873B8045ADA9E4C455758AB /* RTTYRoundupMults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYRoundupMults.swift"; path = "../Sources/Swift/Interfaces/Contest/RTTYRoundupMults.swift"; sourceTree = SOURCE_ROOT; };
+		D46C0AD6857BFE7DF8D6481E /* ContestLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContestLog.swift"; path = "../Sources/Swift/Interfaces/Contest/ContestLog.swift"; sourceTree = SOURCE_ROOT; };
+		CA8C6A06A7DE2E8D40FFB041 /* ContestQSOObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContestQSOObj.swift"; path = "../Sources/Swift/Interfaces/Contest/ContestQSOObj.swift"; sourceTree = SOURCE_ROOT; };
+		C87DF3376A41DDBCD3ADAEFF /* OptionPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OptionPanel.swift"; path = "../Sources/Swift/Interfaces/Contest/OptionPanel.swift"; sourceTree = SOURCE_ROOT; };
+		2EBDD6ADE82C2BC01E254CF4 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OptionView.swift"; path = "../Sources/Swift/Interfaces/Contest/OptionView.swift"; sourceTree = SOURCE_ROOT; };
+		5F7373CE90D7CA70E0DBA9AD /* UpperFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UpperFormatter.swift"; path = "../Sources/Swift/Interfaces/Contest/UpperFormatter.swift"; sourceTree = SOURCE_ROOT; };
+		5B7A0C1CA6E5FF4E708E3E53 /* DateTimeField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DateTimeField.swift"; path = "../Sources/Swift/Interfaces/Contest/DateTimeField.swift"; sourceTree = SOURCE_ROOT; };
+		C23CC4B69A0066DF090927D5 /* BackgroundTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "BackgroundTextField.swift"; path = "../Sources/Swift/Interfaces/Contest/BackgroundTextField.swift"; sourceTree = SOURCE_ROOT; };
+		6831E767CEFDEB21E9F20FBA /* ParametricEqualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ParametricEqualizer.swift"; path = "../Sources/Swift/Filters/Other Filters/ParametricEqualizer.swift"; sourceTree = SOURCE_ROOT; };
+		7561B6CE17FD431605B98E0A /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Messages.swift"; path = "../Sources/Swift/Interface Managers/Base/Messages.swift"; sourceTree = SOURCE_ROOT; };
+		4A8A42BDDAC83B4F681EABEF /* ASColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASColor.swift"; path = "../Sources/Swift/Interface Managers/Base/ASColor.swift"; sourceTree = SOURCE_ROOT; };
 		6BE92E63B4EBA9AE2F451503 /* SynchAM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SynchAM.swift"; path = "../Sources/Swift/Synchronous AM/SynchAM.swift"; sourceTree = SOURCE_ROOT; };
 		4BD39E7439C2976C78A5A84E /* AMConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AMConfig.swift"; path = "../Sources/Swift/Synchronous AM/AMConfig.swift"; sourceTree = SOURCE_ROOT; };
 		F7D12BC5CE1B5C296AC7F88C /* AMDemodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AMDemodulator.swift"; path = "../Sources/Swift/Synchronous AM/AMDemodulator.swift"; sourceTree = SOURCE_ROOT; };
@@ -788,20 +800,12 @@
 		848770071076740500B83EDD /* WFRTTY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFRTTY.m; sourceTree = "<group>"; };
 		848770081076740500B83EDD /* WFRTTYConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFRTTYConfig.h; sourceTree = "<group>"; };
 		848770091076740500B83EDD /* WFRTTYConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFRTTYConfig.m; sourceTree = "<group>"; };
-		848770CB107674A900B83EDD /* ASColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASColor.h; sourceTree = "<group>"; };
-		848770CC107674A900B83EDD /* ASColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASColor.m; sourceTree = "<group>"; };
-		848770CD107674A900B83EDD /* Messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Messages.h; sourceTree = "<group>"; };
-		848770CE107674A900B83EDD /* Messages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Messages.m; sourceTree = "<group>"; };
 		848770CF107674A900B83EDD /* ModemManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemManager.h; sourceTree = "<group>"; };
 		848770D0107674A900B83EDD /* ModemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemManager.m; sourceTree = "<group>"; };
 		848770D2107674A900B83EDD /* ContestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestManager.h; sourceTree = "<group>"; };
 		848770D3107674A900B83EDD /* ContestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestManager.m; sourceTree = "<group>"; };
 		848770D5107674A900B83EDD /* StdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdManager.h; sourceTree = "<group>"; };
 		848770D6107674A900B83EDD /* StdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StdManager.m; sourceTree = "<group>"; };
-		848770E2107674DA00B83EDD /* BackgroundTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTextField.h; sourceTree = "<group>"; };
-		848770E3107674DA00B83EDD /* BackgroundTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTextField.m; sourceTree = "<group>"; };
-		848770E4107674DA00B83EDD /* Cabrillo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cabrillo.h; sourceTree = "<group>"; };
-		848770E5107674DA00B83EDD /* Cabrillo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cabrillo.m; sourceTree = "<group>"; };
 		848770E7107674DA00B83EDD /* BARTG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARTG.h; sourceTree = "<group>"; };
 		848770E8107674DA00B83EDD /* BARTG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARTG.m; sourceTree = "<group>"; };
 		848770E9107674DA00B83EDD /* BARTGSprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARTGSprint.h; sourceTree = "<group>"; };
@@ -821,8 +825,6 @@
 		848770F7107674DA00B83EDD /* RSTExchange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSTExchange.m; sourceTree = "<group>"; };
 		848770F8107674DA00B83EDD /* RTTYRoundup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYRoundup.h; sourceTree = "<group>"; };
 		848770F9107674DA00B83EDD /* RTTYRoundup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYRoundup.m; sourceTree = "<group>"; };
-		848770FA107674DA00B83EDD /* RTTYRoundupMults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYRoundupMults.h; sourceTree = "<group>"; };
-		848770FB107674DA00B83EDD /* RTTYRoundupMults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYRoundupMults.m; sourceTree = "<group>"; };
 		848770FC107674DA00B83EDD /* SP RTTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SP RTTY.h"; sourceTree = "<group>"; };
 		848770FD107674DA00B83EDD /* SP RTTY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SP RTTY.m"; sourceTree = "<group>"; };
 		848770FE107674DA00B83EDD /* TARA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARA.h; sourceTree = "<group>"; };
@@ -835,26 +837,14 @@
 		84877105107674DA00B83EDD /* ContestBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestBar.m; sourceTree = "<group>"; };
 		84877106107674DA00B83EDD /* ContestInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestInterface.h; sourceTree = "<group>"; };
 		84877107107674DA00B83EDD /* ContestInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestInterface.m; sourceTree = "<group>"; };
-		84877108107674DA00B83EDD /* ContestLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestLog.h; sourceTree = "<group>"; };
-		84877109107674DA00B83EDD /* ContestLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestLog.m; sourceTree = "<group>"; };
 		8487710A107674DA00B83EDD /* ContestMacroSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestMacroSheet.h; sourceTree = "<group>"; };
 		8487710B107674DA00B83EDD /* ContestMacroSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestMacroSheet.m; sourceTree = "<group>"; };
-		8487710C107674DA00B83EDD /* ContestQSOObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestQSOObj.h; sourceTree = "<group>"; };
-		8487710D107674DA00B83EDD /* ContestQSOObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestQSOObj.m; sourceTree = "<group>"; };
 		8487710E107674DA00B83EDD /* ContestTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestTextField.h; sourceTree = "<group>"; };
 		8487710F107674DA00B83EDD /* ContestTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestTextField.m; sourceTree = "<group>"; };
-		84877110107674DA00B83EDD /* DateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTimeField.h; sourceTree = "<group>"; };
-		84877111107674DA00B83EDD /* DateTimeField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTimeField.m; sourceTree = "<group>"; };
-		84877112107674DA00B83EDD /* OptionPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionPanel.h; sourceTree = "<group>"; };
-		84877113107674DA00B83EDD /* OptionPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionPanel.m; sourceTree = "<group>"; };
 		84877114107674DA00B83EDD /* OptionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionTextField.h; sourceTree = "<group>"; };
 		84877115107674DA00B83EDD /* OptionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionTextField.m; sourceTree = "<group>"; };
-		84877116107674DA00B83EDD /* OptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionView.h; sourceTree = "<group>"; };
-		84877117107674DA00B83EDD /* OptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionView.m; sourceTree = "<group>"; };
 		84877118107674DA00B83EDD /* TransparentTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentTextField.h; sourceTree = "<group>"; };
 		84877119107674DA00B83EDD /* TransparentTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentTextField.m; sourceTree = "<group>"; };
-		8487711A107674DA00B83EDD /* UpperFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpperFormatter.h; sourceTree = "<group>"; };
-		8487711B107674DA00B83EDD /* UpperFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpperFormatter.m; sourceTree = "<group>"; };
 		8487713A1076754F00B83EDD /* Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module.h; sourceTree = "<group>"; };
 		8487713B1076754F00B83EDD /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module.m; sourceTree = "<group>"; };
 		8487713C1076754F00B83EDD /* Transceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transceiver.h; sourceTree = "<group>"; };
@@ -920,8 +910,6 @@
 		848771ED10767F4400B83EDD /* Clears.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clears.h; sourceTree = "<group>"; };
 		848771EE10767F4400B83EDD /* hadamard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hadamard.c; sourceTree = "<group>"; };
 		848771EF10767F4400B83EDD /* hadamard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hadamard.h; sourceTree = "<group>"; };
-		848771F010767F4400B83EDD /* ParametricEqualizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParametricEqualizer.h; sourceTree = "<group>"; };
-		848771F110767F4400B83EDD /* ParametricEqualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParametricEqualizer.m; sourceTree = "<group>"; };
 		84877587107859FD00B83EDD /* CMATC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMATC.h; sourceTree = "<group>"; };
 		8490ACEF0A2B60AA006E282F /* LogMacro.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LogMacro.h; sourceTree = "<group>"; };
 		8492B5C611E125C300C5C598 /* PTT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTT.h; sourceTree = "<group>"; };
@@ -1087,6 +1075,18 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				492EA3F07E7043BB839F38C5 /* Cabrillo.swift */,
+				5873B8045ADA9E4C455758AB /* RTTYRoundupMults.swift */,
+				D46C0AD6857BFE7DF8D6481E /* ContestLog.swift */,
+				CA8C6A06A7DE2E8D40FFB041 /* ContestQSOObj.swift */,
+				C87DF3376A41DDBCD3ADAEFF /* OptionPanel.swift */,
+				2EBDD6ADE82C2BC01E254CF4 /* OptionView.swift */,
+				5F7373CE90D7CA70E0DBA9AD /* UpperFormatter.swift */,
+				5B7A0C1CA6E5FF4E708E3E53 /* DateTimeField.swift */,
+				C23CC4B69A0066DF090927D5 /* BackgroundTextField.swift */,
+				6831E767CEFDEB21E9F20FBA /* ParametricEqualizer.swift */,
+				7561B6CE17FD431605B98E0A /* Messages.swift */,
+				4A8A42BDDAC83B4F681EABEF /* ASColor.swift */,
 				6BE92E63B4EBA9AE2F451503 /* SynchAM.swift */,
 				4BD39E7439C2976C78A5A84E /* AMConfig.swift */,
 				F7D12BC5CE1B5C296AC7F88C /* AMDemodulator.swift */,
@@ -1981,10 +1981,6 @@
 		848770CA107674A900B83EDD /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				848770CB107674A900B83EDD /* ASColor.h */,
-				848770CC107674A900B83EDD /* ASColor.m */,
-				848770CD107674A900B83EDD /* Messages.h */,
-				848770CE107674A900B83EDD /* Messages.m */,
 				848770CF107674A900B83EDD /* ModemManager.h */,
 				848770D0107674A900B83EDD /* ModemManager.m */,
 			);
@@ -2024,35 +2020,19 @@
 		848770E1107674DA00B83EDD /* Contest */ = {
 			isa = PBXGroup;
 			children = (
-				848770E2107674DA00B83EDD /* BackgroundTextField.h */,
-				848770E3107674DA00B83EDD /* BackgroundTextField.m */,
-				848770E4107674DA00B83EDD /* Cabrillo.h */,
-				848770E5107674DA00B83EDD /* Cabrillo.m */,
 				848770E6107674DA00B83EDD /* Contest Interfaces */,
 				84877104107674DA00B83EDD /* ContestBar.h */,
 				84877105107674DA00B83EDD /* ContestBar.m */,
 				84877106107674DA00B83EDD /* ContestInterface.h */,
 				84877107107674DA00B83EDD /* ContestInterface.m */,
-				84877108107674DA00B83EDD /* ContestLog.h */,
-				84877109107674DA00B83EDD /* ContestLog.m */,
 				8487710A107674DA00B83EDD /* ContestMacroSheet.h */,
 				8487710B107674DA00B83EDD /* ContestMacroSheet.m */,
-				8487710C107674DA00B83EDD /* ContestQSOObj.h */,
-				8487710D107674DA00B83EDD /* ContestQSOObj.m */,
 				8487710E107674DA00B83EDD /* ContestTextField.h */,
 				8487710F107674DA00B83EDD /* ContestTextField.m */,
-				84877110107674DA00B83EDD /* DateTimeField.h */,
-				84877111107674DA00B83EDD /* DateTimeField.m */,
-				84877112107674DA00B83EDD /* OptionPanel.h */,
-				84877113107674DA00B83EDD /* OptionPanel.m */,
 				84877114107674DA00B83EDD /* OptionTextField.h */,
 				84877115107674DA00B83EDD /* OptionTextField.m */,
-				84877116107674DA00B83EDD /* OptionView.h */,
-				84877117107674DA00B83EDD /* OptionView.m */,
 				84877118107674DA00B83EDD /* TransparentTextField.h */,
 				84877119107674DA00B83EDD /* TransparentTextField.m */,
-				8487711A107674DA00B83EDD /* UpperFormatter.h */,
-				8487711B107674DA00B83EDD /* UpperFormatter.m */,
 			);
 			path = Contest;
 			sourceTree = "<group>";
@@ -2079,8 +2059,6 @@
 				848770F7107674DA00B83EDD /* RSTExchange.m */,
 				848770F8107674DA00B83EDD /* RTTYRoundup.h */,
 				848770F9107674DA00B83EDD /* RTTYRoundup.m */,
-				848770FA107674DA00B83EDD /* RTTYRoundupMults.h */,
-				848770FB107674DA00B83EDD /* RTTYRoundupMults.m */,
 				848770FC107674DA00B83EDD /* SP RTTY.h */,
 				848770FD107674DA00B83EDD /* SP RTTY.m */,
 				848770FE107674DA00B83EDD /* TARA.h */,
@@ -2265,8 +2243,6 @@
 				848771ED10767F4400B83EDD /* Clears.h */,
 				848771EE10767F4400B83EDD /* hadamard.c */,
 				848771EF10767F4400B83EDD /* hadamard.h */,
-				848771F010767F4400B83EDD /* ParametricEqualizer.h */,
-				848771F110767F4400B83EDD /* ParametricEqualizer.m */,
 			);
 			path = "Other Filters";
 			sourceTree = "<group>";
@@ -2487,6 +2463,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456EA9F6A2B25FAC134B8F8D /* Cabrillo.swift in Sources */,
+				940A6473DE199332ABEA918B /* RTTYRoundupMults.swift in Sources */,
+				BDE3068C4B6074EB604DF1E5 /* ContestLog.swift in Sources */,
+				F08BB6147CB9F016517D72F1 /* ContestQSOObj.swift in Sources */,
+				18F259A85FDFE77313594E68 /* OptionPanel.swift in Sources */,
+				8F5E5CE2559317F0100698F4 /* OptionView.swift in Sources */,
+				ABE5DB45E5BC5A4455F50ABF /* UpperFormatter.swift in Sources */,
+				BA1E9C17645647E651D939D6 /* DateTimeField.swift in Sources */,
+				554E3F974A5A309FE4E77FC2 /* BackgroundTextField.swift in Sources */,
+				1B59EA929DD83C7174DEB801 /* ParametricEqualizer.swift in Sources */,
+				B85BC9D6003E29A9710881C3 /* Messages.swift in Sources */,
+				C5F3841E71879AAB5D36D467 /* ASColor.swift in Sources */,
 				890E933758A40A9408BCD33B /* SynchAM.swift in Sources */,
 				AD42AE78011745473EA8AEC8 /* AMConfig.swift in Sources */,
 				3B36C6289CE3B22179C224C0 /* AMDemodulator.swift in Sources */,
@@ -2650,13 +2638,9 @@
 				848770C61076740500B83EDD /* WBCW.m in Sources */,
 				848770C71076740500B83EDD /* WFRTTY.m in Sources */,
 				848770C81076740500B83EDD /* WFRTTYConfig.m in Sources */,
-				848770DA107674A900B83EDD /* ASColor.m in Sources */,
-				848770DB107674A900B83EDD /* Messages.m in Sources */,
 				848770DC107674A900B83EDD /* ModemManager.m in Sources */,
 				848770DD107674A900B83EDD /* ContestManager.m in Sources */,
 				848770DE107674A900B83EDD /* StdManager.m in Sources */,
-				8487711C107674DA00B83EDD /* BackgroundTextField.m in Sources */,
-				8487711D107674DA00B83EDD /* Cabrillo.m in Sources */,
 				8487711E107674DA00B83EDD /* BARTG.m in Sources */,
 				8487711F107674DA00B83EDD /* BARTGSprint.m in Sources */,
 				84877120107674DA00B83EDD /* Contest.m in Sources */,
@@ -2666,23 +2650,16 @@
 				84877124107674DA00B83EDD /* RST Number.m in Sources */,
 				84877125107674DA00B83EDD /* RSTExchange.m in Sources */,
 				84877126107674DA00B83EDD /* RTTYRoundup.m in Sources */,
-				84877127107674DA00B83EDD /* RTTYRoundupMults.m in Sources */,
 				84877128107674DA00B83EDD /* SP RTTY.m in Sources */,
 				84877129107674DA00B83EDD /* TARA.m in Sources */,
 				8487712A107674DA00B83EDD /* WPX.m in Sources */,
 				8487712B107674DA00B83EDD /* XE RTTY.m in Sources */,
 				8487712C107674DA00B83EDD /* ContestBar.m in Sources */,
 				8487712D107674DA00B83EDD /* ContestInterface.m in Sources */,
-				8487712E107674DA00B83EDD /* ContestLog.m in Sources */,
 				8487712F107674DA00B83EDD /* ContestMacroSheet.m in Sources */,
-				84877130107674DA00B83EDD /* ContestQSOObj.m in Sources */,
 				84877131107674DA00B83EDD /* ContestTextField.m in Sources */,
-				84877132107674DA00B83EDD /* DateTimeField.m in Sources */,
-				84877133107674DA00B83EDD /* OptionPanel.m in Sources */,
 				84877134107674DA00B83EDD /* OptionTextField.m in Sources */,
-				84877135107674DA00B83EDD /* OptionView.m in Sources */,
 				84877136107674DA00B83EDD /* TransparentTextField.m in Sources */,
-				84877137107674DA00B83EDD /* UpperFormatter.m in Sources */,
 				8487713E1076754F00B83EDD /* Module.m in Sources */,
 				8487713F1076754F00B83EDD /* Transceiver.m in Sources */,
 				848771681076789F00B83EDD /* CoreModem.m in Sources */,
@@ -2713,7 +2690,6 @@
 				848771FC10767F4400B83EDD /* Boxcar.c in Sources */,
 				848771FD10767F4400B83EDD /* Clears.c in Sources */,
 				848771FE10767F4400B83EDD /* hadamard.c in Sources */,
-				848771FF10767F4400B83EDD /* ParametricEqualizer.m in Sources */,
 				84BE1CDC1079B9540026FD70 /* AppDelegate.m in Sources */,
 				842E9F89108D15990016C292 /* ModemAudio.m in Sources */,
 				84670C1C109129EC00B2DF8C /* ResamplingPipe.m in Sources */,

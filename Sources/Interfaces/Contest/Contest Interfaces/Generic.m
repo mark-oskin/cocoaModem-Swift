@@ -7,12 +7,11 @@
 //
 
 #import "Generic.h"
-#import "Cabrillo.h"
 #import "ContestManager.h"
-#import "Messages.h"
 #import "Modem.h"
 #import "TextEncoding.h"
 #import "TransparentTextField.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation Generic

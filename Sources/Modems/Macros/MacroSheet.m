@@ -10,7 +10,6 @@
 #import "Application.h"
 #import "MacroInterface.h"
 #import "cocoaModem-Swift.h"
-#import "Messages.h"
 #import "Plist.h"
 #import "Preferences.h"
 #import "TextEncoding.h"

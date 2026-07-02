@@ -9,7 +9,7 @@
 #import "CWTxConfig.h"
 #import "Application.h"
 #import "CWModulator.h"
-#import "Messages.h"
+#import "cocoaModem-Swift.h"
 #import "Modem.h"
 #import "ModemDest.h"
 #import "ModemEqualizer.h"

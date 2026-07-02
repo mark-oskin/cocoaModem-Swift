@@ -11,7 +11,6 @@
 #import "Application.h"
 #import "AYTextView.h"
 #import "cocoaModemParams.h"
-#import "Messages.h"
 #import "Config.h"
 #import "Contest.h"					// for PSKMODE
 #import "ContestBar.h"

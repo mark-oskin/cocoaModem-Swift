@@ -7,7 +7,6 @@
 //
 
 #import "BARTGSprint.h"
-#import "Messages.h"
 #import "TextEncoding.h"
 #import "cocoaModem-Swift.h"
 
