@@ -65,6 +65,28 @@ for any bit/fixed-point math, and always launch-test after a batch.
 Blocked until their Obj-C subclasses convert first (ObjC can't subclass Swift):
 StripPhi (sub: ContestBar, Contest), Preferences (sub: Config).
 
+### Wave process (tools/hierarchy.py + tools/pbx_swift.py)
+
+- `tools/hierarchy.py leaves` lists classes whose Obj-C subclasses are already
+  gone — safe to convert now. Convert an entire inheritance subtree in one wave
+  (Swift resolves intra-module refs regardless of file order); a Swift class may
+  subclass a still-Obj-C base.
+- Per wave: add the wave's Obj-C base headers to the bridging header centrally,
+  dispatch agents (they write Swift + swap importers, and REPORT—not edit—shared
+  headers), then `pbx_swift.py add/remove-m/purge`, delete old files, build
+  Debug, **launch-test**, commit.
+- **Bridging-header leak (important):** the generated `cocoaModem-Swift.h`
+  re-imports the bridging header, so everything in the bridging header is visible
+  in every Obj-C file that imports the Swift header. Adding a base header can
+  therefore surface latent duplicate file-scope `enum`/`typedef`/global
+  definitions (e.g. PSKReceiver.m redefined RTTYReceiver.h's `enum
+  LockCondition`). These are real bugs — fix by removing the redundant local
+  copy. Keep the bridging header no larger than needed; remove a base header
+  once that base itself becomes Swift.
+- The deep DSP spine (CMPipe 105 desc → CMTappedPipe 75 → DestClient/Modem →
+  the mode trees) converts LAST, or stays Obj-C/C permanently (fine in a mixed
+  target; the C kernels in Sources/Filters need not become Swift).
+
 ## Remaining work (rough order)
 
 - [ ] Application layer: AppDelegate (NSScriptCommand/scripting),
