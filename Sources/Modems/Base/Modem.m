@@ -7,7 +7,6 @@
 //
 
 #import "Modem.h"
-#import "Application.h"
 #import "AYTextView.h"
 #import "cocoaModemParams.h"  // for RTTYMODE
 #import "ExchangeView.h"

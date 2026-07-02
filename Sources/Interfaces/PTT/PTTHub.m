@@ -7,8 +7,6 @@
 	
 	
 #import "PTTHub.h"
-#import "Application.h"
-#import	"AppDelegate.h"				// v0.60 - App delegate
 #import "cocoaModem-Swift.h"
 #import "RouterCommands.h"
 #import "TextEncoding.h"

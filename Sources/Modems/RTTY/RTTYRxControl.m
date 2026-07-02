@@ -7,7 +7,6 @@
 //
 
 #import "RTTYRxControl.h"
-#import "Application.h"
 #import "ASCIIReceiver.h"
 #import "AuralMonitor.h"
 #import "CoreModemTypes.h"

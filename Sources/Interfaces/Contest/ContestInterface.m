@@ -7,7 +7,6 @@
 //
 
 #import "ContestInterface.h"
-#include "Application.h"
 #include "Contest.h"
 #include "ContestBar.h"
 #include "ContestManager.h"

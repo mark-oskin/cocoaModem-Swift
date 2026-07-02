@@ -7,7 +7,6 @@
 //
 
 #import "HellConfig.h"
-#import "Application.h"
 #import "HellModulator.h"
 #import "Hellschreiber.h"
 #import "ModemDest.h"

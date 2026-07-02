@@ -7,7 +7,6 @@
 //
 
 #import "RTTYReceiver.h"
-#import "Application.h"
 #import "ExchangeView.h"
 #import "Modem.h"
 #import "cocoaModem-Swift.h"

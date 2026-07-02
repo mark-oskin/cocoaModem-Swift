@@ -7,8 +7,6 @@
 //
 
 #import "ASCII.h"
-#import "AppDelegate.h"
-#import "Application.h"
 #import "cocoaModemParams.h"
 #import "Config.h"
 #import "ModemSource.h"

@@ -3,9 +3,12 @@
 //  Objective-C declarations exposed to Swift.
 //
 
-#import "AppDelegate.h"		//  used by VoiceAssistTextField.swift
-#import "Application.h"		//  used by ModemSleepManager.swift, VoiceAssistTextField.swift
 #import "Preferences.h"		//  used by UserInfo.swift
+#import "StdManager.h"		//  Application.swift stdManager outlet
+#import "Config.h"		//  Application.swift config ivar
+#import "NetReceive.h"		//  Application.swift NetAudio port construction
+#import "NetSend.h"		//  Application.swift NetAudio port construction
+#import "audioutils.h"		//  Application.swift initAudioUtils()
 #import "Contest.h"		//  ContestQSO/Callsign/band()/... (Contest model Swift classes)
 #import "RoundupStatelist.h"	//  StateList (RTTYRoundupMults.swift)
 #import "StripPhi.h"		//  base class of QSO.swift

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A212468FA72AD343D83E050 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E8A4AB27EC520E2A83D71 /* Application.swift */; };
+		7A234CF2900F8993CC125BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E643DE99E10EF53F013DC2D1 /* AppDelegate.swift */; };
 		501EFD81C266869D655857C5 /* Transceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DE19D2919ECA18CFBAA0FD /* Transceiver.swift */; };
 		C248AEF5FC77872B4EF96497 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA868F3B3CBD56849B11BC /* Module.swift */; };
 		6E40DCD613FA17A2D5A65F40 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CC5166150037FA659121A2 /* Router.swift */; };
@@ -84,7 +86,6 @@
 		DF1B4819A5E0D03AB6A98064 /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA5396866DE8606BFE002ED /* splash.swift */; };
 		8B3609519C91DEF776F06FB6 /* splashPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E56FB99666F63B2B1619A /* splashPanel.swift */; };
 		0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6215340BE8E07984B7343ED /* UTC.swift */; };
-		84072E2809076BF9006DA88B /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E2609076BF9006DA88B /* Application.m */; };
 		84072E4509076C49006DA88B /* StripPhi.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E4309076C49006DA88B /* StripPhi.m */; };
 		84072FB309076EBD006DA88B /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 84072FAA09076EBD006DA88B /* error.c */; };
 		84072FCD09076EE4006DA88B /* AYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072FCC09076EE4006DA88B /* AYTextView.m */; };
@@ -288,7 +289,6 @@
 		84AB92C010A7630700A26242 /* RTTYMatchedFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB92BF10A7630700A26242 /* RTTYMatchedFilter.m */; };
 		84AB93A510A793FF00A26242 /* RTTYMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB93A410A793FF00A26242 /* RTTYMixer.m */; };
 		84B40494109A70FD0082E332 /* audioutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84B40492109A70FD0082E332 /* audioutils.c */; };
-		84BE1CDC1079B9540026FD70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE1CDB1079B9540026FD70 /* AppDelegate.m */; };
 		84C02E0D11142BAB00DB8AA4 /* ASCIITxConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C02E0C11142BAB00DB8AA4 /* ASCIITxConfig.m */; };
 		84C02E1311142FBD00DB8AA4 /* ASCIIModulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C02E1211142FBD00DB8AA4 /* ASCIIModulator.m */; };
 		84CD579B09A05D6500E8011A /* BARTG Sprint.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD609076F2D006DA88B /* BARTG Sprint.xml */; };
@@ -402,6 +402,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		612E8A4AB27EC520E2A83D71 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Application.swift"; path = "../Sources/Swift/Application/Application.swift"; sourceTree = SOURCE_ROOT; };
+		E643DE99E10EF53F013DC2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AppDelegate.swift"; path = "../Sources/Swift/Application/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		59DE19D2919ECA18CFBAA0FD /* Transceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Transceiver.swift"; path = "../Sources/Swift/Interfaces/AppleScript/Transceiver.swift"; sourceTree = SOURCE_ROOT; };
 		8FEA868F3B3CBD56849B11BC /* Module.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Module.swift"; path = "../Sources/Swift/Interfaces/AppleScript/Module/Module.swift"; sourceTree = SOURCE_ROOT; };
 		82CC5166150037FA659121A2 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Router.swift"; path = "../Sources/Swift/Interfaces/Digital Interfaces/Keyer/Router.swift"; sourceTree = SOURCE_ROOT; };
@@ -491,8 +493,6 @@
 		84072DF909076B31006DA88B /* cocoaModemParams.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = cocoaModemParams.h; sourceTree = "<group>"; };
 		84072DFC09076B31006DA88B /* Plist.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Plist.h; sourceTree = "<group>"; };
 		84072DFD09076B31006DA88B /* cocoaModemDebug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = cocoaModemDebug.h; sourceTree = "<group>"; };
-		84072E2509076BF9006DA88B /* Application.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
-		84072E2609076BF9006DA88B /* Application.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
 		84072E4209076C49006DA88B /* StripPhi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StripPhi.h; sourceTree = "<group>"; };
 		84072E4309076C49006DA88B /* StripPhi.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StripPhi.m; sourceTree = "<group>"; };
 		84072FAA09076EBD006DA88B /* error.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = error.c; path = ../Sources/DSP/error.c; sourceTree = "<group>"; };
@@ -929,8 +929,6 @@
 		84B40492109A70FD0082E332 /* audioutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = audioutils.c; sourceTree = "<group>"; };
 		84B40493109A70FD0082E332 /* audioutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioutils.h; sourceTree = "<group>"; };
 		84B43C090F39324000E399D7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ContestLog.nib; sourceTree = "<group>"; };
-		84BE1CDA1079B9540026FD70 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84BE1CDB1079B9540026FD70 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84C02E0B11142BAB00DB8AA4 /* ASCIITxConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIITxConfig.h; sourceTree = "<group>"; };
 		84C02E0C11142BAB00DB8AA4 /* ASCIITxConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCIITxConfig.m; sourceTree = "<group>"; };
 		84C02E1111142FBD00DB8AA4 /* ASCIIModulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIIModulator.h; sourceTree = "<group>"; };
@@ -1070,6 +1068,8 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				612E8A4AB27EC520E2A83D71 /* Application.swift */,
+				E643DE99E10EF53F013DC2D1 /* AppDelegate.swift */,
 				59DE19D2919ECA18CFBAA0FD /* Transceiver.swift */,
 				8FEA868F3B3CBD56849B11BC /* Module.swift */,
 				82CC5166150037FA659121A2 /* Router.swift */,
@@ -1275,10 +1275,6 @@
 		84072E0109076B46006DA88B /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				84BE1CDA1079B9540026FD70 /* AppDelegate.h */,
-				84BE1CDB1079B9540026FD70 /* AppDelegate.m */,
-				84072E2509076BF9006DA88B /* Application.h */,
-				84072E2609076BF9006DA88B /* Application.m */,
 				8422FF2F09606D18007AFA0B /* UTC.h */,
 				8422FF3009606D18007AFA0B /* UTC.m */,
 				848765B81074078700B83EDD /* memory.h */,
@@ -2450,6 +2446,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A212468FA72AD343D83E050 /* Application.swift in Sources */,
+				7A234CF2900F8993CC125BCB /* AppDelegate.swift in Sources */,
 				501EFD81C266869D655857C5 /* Transceiver.swift in Sources */,
 				C248AEF5FC77872B4EF96497 /* Module.swift in Sources */,
 				6E40DCD613FA17A2D5A65F40 /* Router.swift in Sources */,
@@ -2527,7 +2525,6 @@
 				DF1B4819A5E0D03AB6A98064 /* splash.swift in Sources */,
 				8B3609519C91DEF776F06FB6 /* splashPanel.swift in Sources */,
 				0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */,
-				84072E2809076BF9006DA88B /* Application.m in Sources */,
 				84072E4509076C49006DA88B /* StripPhi.m in Sources */,
 				84072FB309076EBD006DA88B /* error.c in Sources */,
 				84072FCD09076EE4006DA88B /* AYTextView.m in Sources */,
@@ -2685,7 +2682,6 @@
 				848771FC10767F4400B83EDD /* Boxcar.c in Sources */,
 				848771FD10767F4400B83EDD /* Clears.c in Sources */,
 				848771FE10767F4400B83EDD /* hadamard.c in Sources */,
-				84BE1CDC1079B9540026FD70 /* AppDelegate.m in Sources */,
 				842E9F89108D15990016C292 /* ModemAudio.m in Sources */,
 				84670C1C109129EC00B2DF8C /* ResamplingPipe.m in Sources */,
 				84B40494109A70FD0082E332 /* audioutils.c in Sources */,

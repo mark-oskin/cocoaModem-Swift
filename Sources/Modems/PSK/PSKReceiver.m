@@ -7,8 +7,6 @@
 //
 
 #import "PSKReceiver.h"
-#import "AppDelegate.h"
-#import "Application.h"
 #import "cocoaModemParams.h"
 #import "ExchangeView.h"
 #import "Plist.h"

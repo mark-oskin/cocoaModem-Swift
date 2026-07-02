@@ -7,7 +7,6 @@
 //
 
 #import "ASCIITxConfig.h"
-#import "Application.h"
 #import "ASCIIModulator.h"
 #import "cocoaModem-Swift.h"
 #import "ModemDest.h"

@@ -7,7 +7,6 @@
 //
 
 #import "Config.h"
-#import "Application.h"
 #import "cocoaModemDebug.h"
 #import "ContestManager.h"
 #import "Hellschreiber.h"

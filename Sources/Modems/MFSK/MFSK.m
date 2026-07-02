@@ -6,7 +6,6 @@
 	#include "Copyright.h"
 	
 #import "MFSK.h"
-#import "Application.h"
 #import "cocoaModemParams.h"
 #import "DominoModulator.h"
 #import "DominoReceiver.h"

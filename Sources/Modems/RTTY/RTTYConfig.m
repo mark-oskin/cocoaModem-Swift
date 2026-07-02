@@ -8,7 +8,6 @@
 
 #import "RTTYConfig.h"
 #import "CMDSPWindow.h"
-#import "Application.h"
 #import "FSKHub.h"
 #import "FSKMenu.h"
 #import "cocoaModem-Swift.h"

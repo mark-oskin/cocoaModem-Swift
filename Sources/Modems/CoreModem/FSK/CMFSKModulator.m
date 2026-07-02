@@ -7,7 +7,7 @@
 //
 
 #import "CMFSKModulator.h"
-#import "Application.h"
+#import "cocoaModem-Swift.h"
 #import "CoreModemTypes.h"
 #import "CMBaudot.h"
 #import "FSKHub.h"

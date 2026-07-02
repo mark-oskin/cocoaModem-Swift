@@ -7,7 +7,7 @@
 //
 
 #import "ModemAuralMonitor.h"
-#import "Application.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation ModemAuralMonitor

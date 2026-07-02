@@ -7,7 +7,7 @@
 //
 
 #import "RTTYMatchedFilter.h"
-#import "Application.h"
+#import "cocoaModem-Swift.h"
 
 @implementation RTTYMatchedFilter
 

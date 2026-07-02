@@ -7,7 +7,6 @@
 //
 
 #import "MacroInterface.h"
-#import "Application.h"
 #import "MacroSheet.h"
 #import "cocoaModem-Swift.h"
 #import "StdManager.h"

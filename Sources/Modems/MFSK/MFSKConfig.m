@@ -8,7 +8,6 @@
 
 #import "MFSKConfig.h"
 #import "CMDSPWindow.h"
-#import "Application.h"
 #import "MFSK.h"
 #import "MFSKModulator.h"
 #import "cocoaModem-Swift.h"

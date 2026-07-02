@@ -7,8 +7,6 @@
 //
 
 #import "ModemManager.h"
-#import "Application.h"
-#import "AppDelegate.h"		//  NSApp delegate
 #import "cocoaModem-Swift.h"
 #import "Modem.h"
 #import "PSK.h"
@@ -376,8 +374,8 @@ Boolean gTestDump = NO ;
 
 - (void)updateModemNow:(InstalledModem*)installed
 {
-	extern Boolean gSplashShowing ;
-	Boolean splashShowing = gSplashShowing ;
+	//  gSplashShowing global moved into the Swift Application class (Application.swift)
+	Boolean splashShowing = [ Application splashShowing ] ;
 	
 	if ( installed->updatedFromPlist == NO ) {
 		//  v0.78c [ selectedModem setVisibleState:NO ] ;

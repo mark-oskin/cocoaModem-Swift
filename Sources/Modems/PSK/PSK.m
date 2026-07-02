@@ -7,8 +7,6 @@
 //
 
 #import "PSK.h"
-#import "AppDelegate.h"
-#import "Application.h"
 #import "AYTextView.h"
 #import "cocoaModemParams.h"
 #import "Config.h"

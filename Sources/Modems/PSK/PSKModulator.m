@@ -7,7 +7,7 @@
 //
 
 #import "PSKModulator.h"
-#import "Application.h"
+#import "cocoaModem-Swift.h"
 #import "PSK.h"
 #import "CMVaricode.h"
 #import "CoreModemTypes.h"

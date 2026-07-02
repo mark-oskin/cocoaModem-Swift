@@ -7,7 +7,6 @@
 //
 
 #import "WBCW.h"
-#import "Application.h"
 #import "AYTextView.h"
 #import "cocoaModemParams.h"
 #import "Config.h"

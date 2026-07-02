@@ -7,7 +7,7 @@
 	
 	
 #import "CWMonitor.h"
-#import "Application.h"
+#import "cocoaModem-Swift.h"
 #import "AuralMonitor.h"
 #import "CWReceiver.h"
 #import "Plist.h"

@@ -7,7 +7,6 @@
 //
 
 #import "StdManager.h"
-#import "Application.h"
 #import "ASCII.h"
 #import "Contest.h"
 #import "ContestBar.h"

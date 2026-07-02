@@ -8,8 +8,7 @@
 
 #import "RTTYModulatorBase.h"
 
-#import "Application.h"
-#import "AppDelegate.h"
+#import "cocoaModem-Swift.h"
 #import "Baudot.h"
 #import "CoreModemTypes.h"
 #import "FSKHub.h"

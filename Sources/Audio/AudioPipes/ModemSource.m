@@ -9,7 +9,6 @@
 
 #import "ModemSource.h"
 #import "AIFFSource.h"
-#import "Application.h"
 #import "Config.h"
 #import "cocoaModem-Swift.h"
 #import "ModemConfig.h"

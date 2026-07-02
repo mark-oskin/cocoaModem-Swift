@@ -7,7 +7,6 @@
 //
 
 #import "ModemConfig.h"
-#import "Application.h"
 #import "Config.h"
 #import "Modem.h"
 #import "cocoaModem-Swift.h"

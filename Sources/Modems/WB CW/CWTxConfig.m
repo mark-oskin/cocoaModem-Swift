@@ -7,7 +7,6 @@
 	
 
 #import "CWTxConfig.h"
-#import "Application.h"
 #import "CWModulator.h"
 #import "cocoaModem-Swift.h"
 #import "Modem.h"

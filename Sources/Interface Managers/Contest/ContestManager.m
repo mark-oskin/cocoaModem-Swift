@@ -9,7 +9,6 @@
 #define	disableContest	1
 
 #import "ContestManager.h"
-#import "Application.h"
 #import "ContestInterface.h"  /* modem */
 #import "ContestMacroSheet.h"
 #import "modemTypes.h"

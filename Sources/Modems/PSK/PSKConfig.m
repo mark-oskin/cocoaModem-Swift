@@ -7,7 +7,6 @@
 //
 
 #import "PSKConfig.h"
-#import "Application.h"
 #import "cocoaModem-Swift.h"
 #import "ModemDest.h"
 //  ModemEqualizer is now a Swift class (see cocoaModem-Swift.h)

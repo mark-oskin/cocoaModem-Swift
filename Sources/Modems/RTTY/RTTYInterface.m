@@ -6,7 +6,6 @@
 	#include "Copyright.h"
 	
 #import "RTTYInterface.h"
-#import "Application.h"
 #import "cocoaModemParams.h"
 #import "ContestBar.h"
 #import "ContestManager.h"

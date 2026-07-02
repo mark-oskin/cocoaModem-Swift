@@ -7,7 +7,6 @@
 //
 
 #import "FAXConfig.h"
-#include "Application.h"
 #include "FAX.h"
 #include "FAXDisplay.h"
 #include "ModemSource.h"
