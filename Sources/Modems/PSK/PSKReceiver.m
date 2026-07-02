@@ -36,10 +36,9 @@
 #define q90		(q180*90./180.)
 #define q45		(q180*45./180.)
 
-enum LockCondition {
-	kNoData,
-	kHasData
-} ;
+//  enum LockCondition { kNoData, kHasData } is provided by RTTYReceiver.h
+//  (visible here via the generated Swift header); the former local copy was a
+//  redundant duplicate that now collides, so it has been removed.
 
 
 @implementation PSKReceiver

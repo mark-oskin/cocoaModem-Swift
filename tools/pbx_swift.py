@@ -89,11 +89,24 @@ def remove_m(names):
     save(text)
 
 
+def purge(names):
+    """Remove every pbxproj line referencing <name>.h or <name>.m (file refs,
+    build files, group children, Sources/CopyFiles/Resources phase entries)."""
+    text = load()
+    alt = "|".join(re.escape(n) for n in names)
+    pat = re.compile(r".*/\* (" + alt + r")\.[hm]( in (Sources|CopyFiles|Resources))? \*/.*\n")
+    text2, n = pat.subn("", text)
+    save(text2)
+    print("purged %d ref lines for %d classes" % (n, len(names)))
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "add":
         add_files(sys.argv[2:])
     elif cmd == "remove-m":
         remove_m(sys.argv[2:])
+    elif cmd == "purge":
+        purge(sys.argv[2:])
     else:
         sys.exit("unknown command")
