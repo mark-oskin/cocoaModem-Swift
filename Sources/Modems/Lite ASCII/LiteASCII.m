@@ -7,7 +7,6 @@
 //
 
 #import "LiteASCII.h"
-#import "ModemManager.h"
 #import "LiteASCIIControl.h"
 #import "ModemSource.h"
 #import "cocoaModem-Swift.h"

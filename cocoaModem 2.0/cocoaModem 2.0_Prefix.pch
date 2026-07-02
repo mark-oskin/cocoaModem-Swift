@@ -6,4 +6,5 @@
     #import <Cocoa/Cocoa.h>
     #import "TextEncoding.h"	//  kTextEncoding — formerly reached transitively via Messages.h (now Swift)
     #import "TextAttribute.h"	//  TextAttribute struct — AYTextView (Swift) exposes it in the generated header
+    #import <AudioToolbox/AudioToolbox.h>	//  AudioUnit type exposed by NetSend/NetReceive.swift in the generated header
 #endif

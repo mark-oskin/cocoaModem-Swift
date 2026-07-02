@@ -7,12 +7,10 @@
 //
 
 #import "ModemConfig.h"
-#import "Config.h"
 #import "Modem.h"
 #import "cocoaModem-Swift.h"
 #import "ModemDest.h"
 //  ModemEqualizer is now a Swift class (see cocoaModem-Swift.h)
-#import "ModemManager.h"
 #import "ModemSource.h"
 
 

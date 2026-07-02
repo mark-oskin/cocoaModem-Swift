@@ -14,8 +14,6 @@
 #import "Plist.h"
 #import "PSK.h"
 #import "PSKAuralMonitor.h"
-#import "PSKModulator.h"
-#import "CMPCO.h"
 #import "CMDSPWindow.h"
 
 

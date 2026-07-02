@@ -10,7 +10,7 @@
 	#import "CMFIR.h"
 	#import "CoreModemTypes.h"
 	#import "ModemConfig.h"
-	#import "Preferences.h"
+	@class Preferences ;
 	#import "RTTYAuralMonitor.h"
 	#import "RTTYTypes.h"
 

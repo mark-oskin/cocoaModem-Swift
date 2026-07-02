@@ -7,7 +7,7 @@
 #import "PSKDemodulator.h"
 #import "PSK.h"
 #import "PSKMatchedFilter.h"
-#import "VCO8k.h"
+#import "cocoaModem-Swift.h"
 #include <math.h>
 
 @implementation PSKDemodulator

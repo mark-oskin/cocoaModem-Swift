@@ -8,8 +8,8 @@
 
 #import "AuralMonitor.h"
 #import "Plist.h"
-#import "Preferences.h"
 #import "AuralMonitor.h"
+#import "cocoaModem-Swift.h"
 
 @implementation AuralMonitor
 

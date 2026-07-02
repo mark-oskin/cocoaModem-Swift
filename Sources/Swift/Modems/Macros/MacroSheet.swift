@@ -8,8 +8,8 @@
 
 import Cocoa
 
-private let CMFIGSCODE: unichar = 0x1b
-private let CMLTRSCODE: unichar = 0x1f
+private let macroFIGSCODE: unichar = 0x1b
+private let macroLTRSCODE: unichar = 0x1f
 
 //  macros storage (in Plist) strings are separated by ~ characters
 //  (global C function in the original; now file-private -- only used here).
@@ -226,9 +226,9 @@ class MacroSheet: NSWindow {
 				switch Int( c ) {
 				//  0.68
 				case Int( UInt8( ascii: "l" ) ):
-					appendToMessageBuf( String( utf16CodeUnits: [CMLTRSCODE], count: 1 ) )
+					appendToMessageBuf( String( utf16CodeUnits: [macroLTRSCODE], count: 1 ) )
 				case Int( UInt8( ascii: "f" ) ):
-					appendToMessageBuf( String( utf16CodeUnits: [CMFIGSCODE], count: 1 ) )
+					appendToMessageBuf( String( utf16CodeUnits: [macroFIGSCODE], count: 1 ) )
 				case Int( UInt8( ascii: "n" ) ), Int( UInt8( ascii: "p" ) ): /* already paired as \r\n at the AFSK generator */
 					appendToMessageBuf( "\n" )
 				case Int( UInt8( ascii: "r" ) ):
@@ -383,7 +383,7 @@ class MacroSheet: NSWindow {
 		let msgObject = pref.object( forKey: messageKey )
 		let titleObject = pref.object( forKey: titleKey )
 
-		updateFromMessageObject( msgObject, titleObject: titleObject )
+		updateFromMessageObject( msgObject as? NSObject, titleObject: titleObject as? NSObject )
 	}
 
 	//  v0.93a - fixed [ @"" class ]

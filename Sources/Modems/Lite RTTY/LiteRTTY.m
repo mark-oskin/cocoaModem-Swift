@@ -7,7 +7,6 @@
 //
 
 #import "LiteRTTY.h"
-#import "ModemManager.h"
 #import "LiteRTTYControl.h"
 #import "ModemSource.h"
 #import "cocoaModem-Swift.h"

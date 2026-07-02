@@ -7,14 +7,11 @@
 //
 
 #import "ModemDest.h"
-#import "Config.h"
 #import "DestClient.h"
 #import "Modem.h"
 #import "ModemConfig.h"
-#import "ModemManager.h"
 #import "cocoaModem-Swift.h"
 #import "Plist.h"
-#import "PTTHub.h"
 #import "TextEncoding.h"
 #include <math.h>
 

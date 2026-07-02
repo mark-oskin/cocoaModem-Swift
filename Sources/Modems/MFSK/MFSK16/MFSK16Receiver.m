@@ -7,7 +7,7 @@
 //
 
 #import "MFSK16Receiver.h"
-#import "MFSK16Demodulator.h"
+#import "cocoaModem-Swift.h"
 
 @implementation MFSK16Receiver
 

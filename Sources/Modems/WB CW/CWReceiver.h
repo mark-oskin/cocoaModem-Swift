@@ -8,7 +8,7 @@
 #define _CWRECEIVER_H_
 
 	#import "RTTYReceiver.h"
-	#import "CMPCO.h"
+	@class CMPCO ;
 	
 	@class CWRxControl ;
 	@class CWAuralFilter ;

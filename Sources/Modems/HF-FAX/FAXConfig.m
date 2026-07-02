@@ -8,12 +8,10 @@
 
 #import "FAXConfig.h"
 #include "FAX.h"
-#include "FAXDisplay.h"
 #include "ModemSource.h"
 #import "cocoaModem-Swift.h"
 #include "Plist.h"
 #include "VUMeter.h"
-#include "CMPCO.h"
 #include "CMDSPWindow.h"
 
 @implementation FAXConfig

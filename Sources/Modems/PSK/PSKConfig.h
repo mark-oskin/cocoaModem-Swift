@@ -10,7 +10,7 @@
 
 	#import <Cocoa/Cocoa.h>
 	#import "ModemConfig.h"
-	#import "Preferences.h"
+	@class Preferences ;
 	#import "CMFIR.h"
 	
 	@class PSK ;

@@ -10,7 +10,7 @@
 	#import <Cocoa/Cocoa.h>
 	#import "CMPSKmatchedFilter.h"
 	#import "CMToneReceiver.h"
-	#import "CMVaricode.h"
+	@class CMVaricode ;
 	#import "CMPSKModes.h"
 	#import "CMComplexFIR.h"
 	#import "CMFFT.h"

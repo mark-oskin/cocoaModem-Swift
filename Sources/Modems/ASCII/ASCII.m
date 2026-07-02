@@ -8,7 +8,6 @@
 
 #import "ASCII.h"
 #import "cocoaModemParams.h"
-#import "Config.h"
 #import "ModemSource.h"
 #import "Plist.h"
 //  RTTYMacros now provided by cocoaModem-Swift.h

@@ -8,7 +8,7 @@
 
 #import "HellReceiver.h"
 #include "Hellschreiber.h"
-#include "CMPCO.h"
+#import "cocoaModem-Swift.h"
 #include "CoreModemTypes.h"
 #include "CMFIR.h"
 #include <math.h>

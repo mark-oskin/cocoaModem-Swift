@@ -7,8 +7,7 @@
 //
 
 #import "FAXReceiver.h"
-#include "FAX.h"
-#include "CMPCO.h"
+#import "cocoaModem-Swift.h"#include "FAX.h"
 #include "CoreModemTypes.h"
 #include "CMFIR.h"
 #include <math.h>

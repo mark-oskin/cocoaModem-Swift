@@ -9,7 +9,6 @@
 #import "MacroInterface.h"
 //  MacroSheet now provided by cocoaModem-Swift.h
 #import "cocoaModem-Swift.h"
-#import "StdManager.h"
 //  RTTYMacros now provided by cocoaModem-Swift.h
 #import "TextEncoding.h"
 

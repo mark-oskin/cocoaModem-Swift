@@ -10,12 +10,10 @@
 #import "ASCIIReceiver.h"
 #import "AuralMonitor.h"
 #import "CoreModemTypes.h"
-#import "CrossedEllipse.h"
 #import "Modem.h"
 #import "RTTY.h"
 #import "RTTYAuralMonitor.h"
 #import "RTTYConfig.h"
-#import "RTTYModulator.h"
 #import "RTTYTxConfig.h"
 //  now provided by cocoaModem-Swift.h
 #import "cocoaModem-Swift.h"

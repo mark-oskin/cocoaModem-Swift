@@ -10,6 +10,7 @@
 #import "CWDemodulator.h"
 #import "CWMonitor.h"
 #import "CWRxControl.h"
+#import "cocoaModem-Swift.h"
 
 //enum LockCondition {
 //	kNoData,

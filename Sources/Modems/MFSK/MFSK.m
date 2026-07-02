@@ -7,21 +7,16 @@
 	
 #import "MFSK.h"
 #import "cocoaModemParams.h"
-#import "DominoModulator.h"
 #import "DominoReceiver.h"
 #import "DominoHalfRateReceiver.h"
-#import "MFSK16Modulator.h"
 #import "MFSK16Receiver.h"
 #import "MFSKConfig.h"
-#import "MFSKDemodulator.h"
 //  MFSKMacros now provided by cocoaModem-Swift.h
 #import "MFSKModes.h"
 #import "cocoaModem-Swift.h"
-#import "ModemManager.h"
 #import "ModemSource.h"
 #import "NoiseUtils.h"
 #import "Plist.h"
-#import "Stdmanager.h"
 #import "TextEncoding.h"
 #import "VUMeter.h"
 //  ScrollingField converted to Swift (see cocoaModem-Swift.h, imported above)

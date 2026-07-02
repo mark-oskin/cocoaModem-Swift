@@ -7,7 +7,7 @@
 	
 	
 #import "CWMatchedFilter.h"
-#import "MorseDecoder.h"
+#import "cocoaModem-Swift.h"#import "MorseDecoder.h"
 #import "Clears.h"
 #import "CWReceiver.h"
 

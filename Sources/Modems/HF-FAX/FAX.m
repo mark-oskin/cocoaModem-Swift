@@ -8,15 +8,11 @@
 
 #import "FAX.h"
 #include "cocoaModemParams.h"
-#include "Config.h"
 #include "FAXConfig.h"
-#include "FAXDisplay.h"
 #include "FAXReceiver.h"
 #include "ModemDistributionBox.h"
-#include "ModemManager.h"
 #include "ModemSource.h"
 #include "Plist.h"
-#include "StdManager.h"
 #include "VUMeter.h"
 #import "cocoaModem-Swift.h"
 #include <stdlib.h>						// for malloc()

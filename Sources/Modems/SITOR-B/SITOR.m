@@ -8,7 +8,6 @@
 
 #import "SITOR.h"
 #import "cocoaModemParams.h"
-#import "Config.h"
 #import "WFRTTYConfig.h"
 #import "ModemSource.h"
 #import "Plist.h"
@@ -18,7 +17,6 @@
 #import "SITORReceiver.h"
 #import "SITORRxControl.h"
 #import "cocoaModem-Swift.h"
-#import "StdManager.h"
 
 
 @implementation SITOR

@@ -6,7 +6,7 @@
 	#include "Copyright.h"
 	
 #import "CMPSKDemodulator.h"
-
+#import "cocoaModem-Swift.h"
 @implementation CMPSKDemodulator
 
 - (id)init

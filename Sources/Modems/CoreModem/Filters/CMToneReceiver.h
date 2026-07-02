@@ -10,7 +10,7 @@
 	#define _CMTONERECEIVER_H_
 
 	#import <Cocoa/Cocoa.h>
-	#include "CMPCO.h"
+	@class CMPCO ;
 	#include "CMTappedPipe.h"
 	#include "CMFIR.h"
 

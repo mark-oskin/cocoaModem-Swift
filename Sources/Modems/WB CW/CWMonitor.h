@@ -8,8 +8,8 @@
 	#define _CWMONITOR_H_
 
 	#import "DestClient.h"
-	#import "CMPCO.h"
-	#import "Preferences.h"
+	@class CMPCO ;
+	@class Preferences ;
 
 	@class CWReceiver ;
 	@class WBCW ;

@@ -10,7 +10,6 @@
 #include "ContestManager.h"
 //  ContestMacroSheet now provided by cocoaModem-Swift.h
 #import "cocoaModem-Swift.h"
-#include "ModemManager.h"
 
 
 @implementation ContestInterface

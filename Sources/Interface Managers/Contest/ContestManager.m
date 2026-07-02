@@ -13,9 +13,7 @@
 //  ContestMacroSheet now provided by cocoaModem-Swift.h
 #import "modemTypes.h"
 #import "ContestTypes.h"		//  ContestQSO struct (Contest is now Swift)
-#import "StdManager.h"
 #import "Plist.h"
-#import "Preferences.h"
 #import "TextEncoding.h"
 #import "cocoaModem-Swift.h"
 

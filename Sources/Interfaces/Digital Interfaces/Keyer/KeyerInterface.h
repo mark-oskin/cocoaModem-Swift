@@ -5,46 +5,21 @@
 //  Created by Kok Chen on 2/11/08.
 //  Copyright 2008 Kok Chen, W7AY. All rights reserved.
 //
+//  The KeyerInterface class is now Swift (see KeyerInterface.swift /
+//  cocoaModem-Swift.h).  Only the two global C helper functions remain here in
+//  C, so that Router.swift, MicroKeyer.swift and any Obj-C caller keep a stable
+//  C-linkage symbol (a Swift global function cannot export a plain C symbol).
+//
 
 #ifndef _KEYERINTERFACE_H_
 	#define _KEYERINTERFACE_H_
 
-	#import <Cocoa/Cocoa.h>
-	#import "AppleScriptSupport.h"
-	@class Router ;
-	#import "MicroKeyer.h"
-	
-	// base class for PTTHub.m and FSKHub.m to provide linkage to Router.m (µH Router)
-	
-	typedef struct {
-		MicroKeyer *keyer ;
-		int controlPort ;
-		//  FSK
-		int fskPort ;
-		int flagsPort ;
-		int currentBaudConstant ;
-		int currentTxInvert ;
-		int currentStopIndex ;		
-		//  PTT
-		int pttPort ;
-	} MicroHamKeyerCache ;
-	
-	@interface KeyerInterface : AppleScriptSupport {
-		//  µH Router
-		MicroKeyer *selectedMicroKeyer ;
-		Router *router ;
-		MicroHamKeyerCache microKeyerCache[16] ;
-		int activeKeyers ;
-	}
+	@class KeyerInterface ;
 
-	- (void)setKeyerMode:(int)mode controlPort:(int)port ;		//  v0.87
-
-	
+	//  Open a pair of ports to the parent ports for read and write to a given type of connection.
 	void obtainRouterPorts( int *readFileDescriptor, int *writeFileDescriptor, int type, int parentReadFileDescriptor, int parentWriteFileDescriptor ) ;
-	
-	void obtainKeyerPortsFromKeyerID( int *readFileDescriptor, int *writeFileDescriptor, char *keyerID, int parentReadFileDescriptor, int parentWriteFileDescriptor ) ; //  v0.89
 
-		
-	@end
+	//  v0.89 -- open a keyer from its keyerID
+	void obtainKeyerPortsFromKeyerID( int *readFileDescriptor, int *writeFileDescriptor, char *keyerID, int parentReadFileDescriptor, int parentWriteFileDescriptor ) ;
 
 #endif

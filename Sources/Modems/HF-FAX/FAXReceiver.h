@@ -9,8 +9,8 @@
 	#define _FAXRECEIVER_H_
 
 	#import <Cocoa/Cocoa.h>
-	#import "FAXDisplay.h"
-	#import "DataPipe.h"
+	@class FAXDisplay ;
+	@class DataPipe ;
 	#import "CMToneReceiver.h"
 	#import "CMFIR.h"
 	#import "CMFFT.h"

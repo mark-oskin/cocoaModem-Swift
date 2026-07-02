@@ -7,7 +7,7 @@
 //
 
 #import "DominoHalfRateReceiver.h"
-#import "DominoHalfRateDemodulator.h"
+#import "cocoaModem-Swift.h"
 #import "MFSKModes.h"
 
 

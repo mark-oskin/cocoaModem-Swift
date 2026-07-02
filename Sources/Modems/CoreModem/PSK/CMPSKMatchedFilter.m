@@ -7,7 +7,7 @@
 	#include "Copyright.h"
 
 #import "CMPSKMatchedFilter.h"
-#include "CMPCO.h"
+#import "cocoaModem-Swift.h"
 #include "CMDSPWindow.h"
 
 

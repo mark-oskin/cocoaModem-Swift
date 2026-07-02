@@ -10,9 +10,7 @@
 #import "TextAttribute.h"
 #import "cocoaModemParams.h"  // for RTTYMODE
 #import "ModemConfig.h"
-#import "ModemManager.h"
 #import "ModemSource.h"
-#import "Preferences.h"
 #import "cocoaModem-Swift.h"
 #import "TextEncoding.h"
 

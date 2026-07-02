@@ -8,7 +8,7 @@
 
 #import "CoreFilter.h"
 #import "AudioDeviceTypes.h"
-#import "ResamplingPipe.h"
+@class ResamplingPipe ;
 
 #define BUFLEN		512
 

@@ -9,13 +9,10 @@
 #import "WFRTTY.h"
 #import "TextAttribute.h"
 #import "cocoaModemParams.h"
-#import "Config.h"
 #import "ContestManager.h"
-#import "ModemManager.h"
 #import "ModemSource.h"
 #import "Plist.h"
 //  RTTYMacros now provided by cocoaModem-Swift.h
-#import "RTTYModulator.h"
 #import "RTTYReceiver.h"
 #import "RTTYRxControl.h"
 #import "RTTYTxConfig.h"

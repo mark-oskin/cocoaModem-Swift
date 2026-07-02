@@ -9,7 +9,6 @@
 #import "WBCW.h"
 #import "TextAttribute.h"
 #import "cocoaModemParams.h"
-#import "Config.h"
 #import "ContestManager.h"
 #import "CWConfig.h"
 //  CWMacros now provided by cocoaModem-Swift.h
@@ -18,14 +17,11 @@
 #import "CWRxControl.h"
 #import "CWTxConfig.h"
 //  now provided by cocoaModem-Swift.h
-#import "ModemManager.h"
 #import "ModemSource.h"
 #import "Plist.h"
 //  RTTYMacros now provided by cocoaModem-Swift.h
-#import "RTTYModulator.h"
 #import "RTTYTxConfig.h"
 #import "cocoaModem-Swift.h"
-#import "StdManager.h"
 
 @implementation WBCW
 

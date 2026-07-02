@@ -12,7 +12,7 @@
 //
 
 #import "DigitalInterface.h"
-#import "Config.h"
+@class Config ;
 
 #define	kVOXType			0
 #define	kCocoaPTTType		1

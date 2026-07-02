@@ -8,7 +8,6 @@
 
 #import "RTTYAuralMonitor.h"
 #import "cocoaModem-Swift.h"
-#import "FSKHub.h"
 
 @implementation RTTYAuralMonitor
 

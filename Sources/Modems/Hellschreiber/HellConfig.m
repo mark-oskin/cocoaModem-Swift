@@ -7,7 +7,6 @@
 //
 
 #import "HellConfig.h"
-#import "HellModulator.h"
 #import "Hellschreiber.h"
 #import "ModemDest.h"
 //  ModemEqualizer is now a Swift class (see cocoaModem-Swift.h)
@@ -16,7 +15,6 @@
 #import "Plist.h"
 #import "TextEncoding.h"
 #import "VUMeter.h"
-#import "CMPCO.h"
 #import "CMDSPWindow.h"
 
 @implementation HellConfig

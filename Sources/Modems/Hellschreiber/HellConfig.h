@@ -10,9 +10,9 @@
 
 	#import <Cocoa/Cocoa.h>
 	#include "ModemConfig.h"
-	#include "Preferences.h"
+	@class Preferences ;
 	#include "CMFIR.h"
-	#include "HellModulator.h"
+	@class HellModulator ;
 	#include "HellschreiberFont.h"
 	
 	@class Hellschreiber ;

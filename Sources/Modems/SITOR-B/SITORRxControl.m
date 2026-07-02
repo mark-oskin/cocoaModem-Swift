@@ -8,12 +8,10 @@
 
 #import "SITORRxControl.h"
 #import "CoreModemTypes.h"
-#import "CrossedEllipse.h"
 #import "SITOR.h"
 #import "Modem.h"
 #import "RTTYConfig.h"
 #import "RTTYInterface.h"
-#import "RTTYModulator.h"
 #import "RTTYRxControl.h"
 #import "cocoaModem-Swift.h"
 //  now provided by cocoaModem-Swift.h

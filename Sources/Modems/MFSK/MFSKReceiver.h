@@ -11,7 +11,7 @@
 	#include "CoreFilter.h"
 	#include "CMTappedPipe.h"
 	#include "CMFFT.h"
-	#include "CMPCO.h"
+	@class CMPCO ;
 
 	@class MFSKDemodulator ;
 	@class MFSKIndicator ;

@@ -12,7 +12,6 @@
 #include "CMRTTYMatchedFilter.h"
 #include "AnalyzeConfig.h"
 #include "ChannelSelector.h"
-#include "CrossedEllipse.h"
 #include "ModemConfig.h"
 #include "ModemSource.h"
 #include "CMATC.h"

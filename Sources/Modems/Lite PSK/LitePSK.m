@@ -7,7 +7,7 @@
 //
 
 #import "LitePSK.h"
-#import "ModemManager.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation LitePSK

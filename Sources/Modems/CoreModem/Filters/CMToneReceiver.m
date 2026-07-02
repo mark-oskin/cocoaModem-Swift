@@ -7,7 +7,7 @@
 //
 
 #import "CMToneReceiver.h"
-#include "CMPCO.h"
+#import "cocoaModem-Swift.h"
 #include "CoreModemTypes.h"
 #include "CMDSPWindow.h"
 

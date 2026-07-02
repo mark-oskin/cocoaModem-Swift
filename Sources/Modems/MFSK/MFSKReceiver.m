@@ -7,7 +7,6 @@
 	
 	
 #import "MFSKReceiver.h"
-#import "MFSKDemodulator.h"
 #import "cocoaModem-Swift.h"		//  MFSKIndicator converted to Swift
 #import "MFSKModes.h"
 

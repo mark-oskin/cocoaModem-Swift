@@ -9,7 +9,9 @@
 	#define _CWMATCHEDFILTER_H_
 
 	#import "CoreModem.h"
-	#import "CWSpeedPipeline.h"
+	@class CWPipeline ;
+	@class CWSpeedPipeline ;
+	#import "CWPipelineTypes.h"
 	
 	@class CWReceiver ;
 	@class MorseDecoder ;

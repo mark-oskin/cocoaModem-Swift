@@ -12,7 +12,7 @@
 	#include "CMFIR.h"
 	#include "CoreModemTypes.h"
 	#include "ModemConfig.h"
-	#include "Preferences.h"
+	@class Preferences ;
 	#include "RTTYTypes.h"
 	
 	

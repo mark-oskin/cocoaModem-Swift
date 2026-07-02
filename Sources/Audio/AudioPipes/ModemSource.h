@@ -14,7 +14,7 @@
 	#import "modemTypes.h"
 	#import "ModemAudio.h"
 	#import "AIFFSource.h"
-	#import "ResamplingPipe.h"
+	@class ResamplingPipe ;
 	
 	@class Preferences ;
 	

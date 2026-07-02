@@ -9,7 +9,6 @@
 #import "Analyze.h"
 #include "AnalyzeConfig.h"
 #include "Modem.h"
-#include "ModemManager.h"
 #include "ModemSource.h"
 #include "Plist.h"
 #include "RTTYConfig.h"

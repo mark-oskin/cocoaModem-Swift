@@ -12,7 +12,6 @@
 //  ModemEqualizer is now a Swift class (see cocoaModem-Swift.h)
 #import "Plist.h"
 #import "RTTY.h"
-#import "RTTYModulator.h"
 #import "RTTYReceiver.h"
 #import "RTTYRxControl.h"
 

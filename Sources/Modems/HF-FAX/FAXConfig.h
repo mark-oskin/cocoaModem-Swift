@@ -10,7 +10,7 @@
 
 	#import <Cocoa/Cocoa.h>
 	#include "ModemConfig.h"
-	#include "Preferences.h"
+	@class Preferences ;
 	#include "CMFIR.h"
 	
 	@class FAX ;

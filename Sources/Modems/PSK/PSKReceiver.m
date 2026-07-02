@@ -9,14 +9,10 @@
 #import "PSKReceiver.h"
 #import "cocoaModemParams.h"
 #import "Plist.h"
-#import "Preferences.h"
 #import "PSK.h"
 #import "PSKAuralMonitor.h"
-#import "PSKBrowserHub.h"
-#import "PSKHub.h"
 #import "cocoaModem-Swift.h"
 //  now provided by cocoaModem-Swift.h
-#import "CMPCO.h"
 #import "CMDSPWindow.h"
 #import <math.h>
 

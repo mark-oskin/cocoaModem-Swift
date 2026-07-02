@@ -126,7 +126,7 @@ class LitePSKDemodulator: NSObject {
     func afcToFrequency(_ freq: Float) {
         if disabled_ { return }
 
-        let old = vco.frequency()
+        let old = vco.frequency
         frequency_ = frequency_ * 0.7 + freq * 0.3
         if abs(frequency_ - old) > 0.027 /* 10 degrees */ { vco.setCarrier(frequency_) }
     }
@@ -342,7 +342,7 @@ class LitePSKDemodulator: NSObject {
                     if abs(tune) > 0.05 {
                         vco.tune(tune)
                         //  update demodulator frequency
-                        frequency_ = vco.frequency()
+                        frequency_ = vco.frequency
                     }
                     freqError = 0
                 }
