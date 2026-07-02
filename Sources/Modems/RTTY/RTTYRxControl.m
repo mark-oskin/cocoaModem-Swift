@@ -21,7 +21,7 @@
 #import "RTTYTxConfig.h"
 #import "RTTYWaterfall.h"
 #import "Spectrum.h"
-#import "SubDictionary.h"
+#import "cocoaModem-Swift.h"
 #import "TextEncoding.h"
 
 

@@ -13,7 +13,6 @@
 #import "Messages.h"
 #import "Plist.h"
 #import "Preferences.h"
-#import "QSO.h"
 #import "TextEncoding.h"
 
 #define CMFIGSCODE	0x1b

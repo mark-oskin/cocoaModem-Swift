@@ -30,7 +30,7 @@
 #import "PSKReceiver.h"
 #import "PSKTransmitControl.h"
 #import "StdManager.h"
-#import "SubDictionary.h"
+#import "cocoaModem-Swift.h"
 #import "TextEncoding.h"
 #import "Transceiver.h"
 #import "VUMeter.h"

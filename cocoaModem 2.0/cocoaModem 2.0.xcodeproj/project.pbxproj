@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4072F1B0114B2EDB2AC5E1CE /* QSO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F92A46C457EA07C76E629ED /* QSO.swift */; };
+		EFB2E8A2EC85D07AE6AD6150 /* SubDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20756F510D402CAF757CE1B2 /* SubDictionary.swift */; };
+		8331787660865E502D9DFFF4 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D72A832BAB2766FDA1CD9 /* Speech.swift */; };
+		C6E359426170EBFE6844A88F /* DisplayColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013EFD3DFA653D2CDB67F796 /* DisplayColor.swift */; };
+		4961DAB421CD90AA3F67B5E9 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE359D31261289EE5A358B2 /* AboutView.swift */; };
+		43FD938FE388F73D3355B0BF /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8EB2D6E7F20867602FEC8B /* About.swift */; };
 		BD22ADF8FE7657A2C55D17C9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D1CF1B0D4F59C72D180CF9 /* UserInfo.swift */; };
 		A67CFEC32638676D7A73633F /* MacroMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D92B1B4E7EE5DE20CC31E5 /* MacroMenu.swift */; };
 		B13A2A769FE240AB0591C2DD /* MacroScripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCC85EAD3787D2205F8239 /* MacroScripts.swift */; };
@@ -19,7 +25,6 @@
 		8B3609519C91DEF776F06FB6 /* splashPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E56FB99666F63B2B1619A /* splashPanel.swift */; };
 		0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6215340BE8E07984B7343ED /* UTC.swift */; };
 		84072E2809076BF9006DA88B /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E2609076BF9006DA88B /* Application.m */; };
-		84072E4409076C49006DA88B /* QSO.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E4109076C49006DA88B /* QSO.m */; };
 		84072E4509076C49006DA88B /* StripPhi.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E4309076C49006DA88B /* StripPhi.m */; };
 		84072FA209076EAF006DA88B /* Oscilloscope.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072F9809076EAF006DA88B /* Oscilloscope.m */; };
 		84072FA309076EAF006DA88B /* PSKMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072F9A09076EAF006DA88B /* PSKMonitor.m */; };
@@ -28,8 +33,6 @@
 		84072FA609076EAF006DA88B /* Waterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072FA009076EAF006DA88B /* Waterfall.m */; };
 		84072FB309076EBD006DA88B /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 84072FAA09076EBD006DA88B /* error.c */; };
 		84072FCD09076EE4006DA88B /* AYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072FCC09076EE4006DA88B /* AYTextView.m */; };
-		84072FD309076EF1006DA88B /* About.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072FD009076EF1006DA88B /* About.m */; };
-		84072FD409076EF1006DA88B /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072FD209076EF1006DA88B /* AboutView.m */; };
 		84072FDF09076F2D006DA88B /* CQ WPX RTTY.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD709076F2D006DA88B /* CQ WPX RTTY.xml */; };
 		84072FE009076F2D006DA88B /* Generic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD809076F2D006DA88B /* Generic.xml */; };
 		84072FE109076F2D006DA88B /* RST - QSO Number.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD909076F2D006DA88B /* RST - QSO Number.xml */; };
@@ -55,7 +58,6 @@
 		842E9F89108D15990016C292 /* ModemAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E9F88108D15990016C292 /* ModemAudio.m */; };
 		84369152127D299400C12271 /* routerVersion.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 843690BC127D1C3B00C12271 /* routerVersion.scpt */; };
 		843769A310AD3C6B0000F62D /* ModemAuralMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 843769A210AD3C6B0000F62D /* ModemAuralMonitor.m */; };
-		84486E5614E4F62400DA126E /* Speech.m in Sources */ = {isa = PBXBuildFile; fileRef = 84486E5514E4F62400DA126E /* Speech.m */; };
 		8452B40D09DE1B4C0050F52E /* SP RTTY.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8452B40C09DE1B4C0050F52E /* SP RTTY.xml */; };
 		845E718D0A2ADA96005F5DB7 /* routerLaunchScript.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 845E718C0A2ADA96005F5DB7 /* routerLaunchScript.scpt */; };
 		8464303D1116355100D686D2 /* LiteASCII.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464303C1116355100D686D2 /* LiteASCII.m */; };
@@ -292,8 +294,6 @@
 		84D087FC098EB19E00A9D784 /* cm bitmap.font in Resources */ = {isa = PBXBuildFile; fileRef = 84D087FA098EB17600A9D784 /* cm bitmap.font */; };
 		84D33EAA0FC652FB006EBC6C /* jisToUni.dat in Resources */ = {isa = PBXBuildFile; fileRef = 84D33EA80FC652FB006EBC6C /* jisToUni.dat */; };
 		84D33EAB0FC652FB006EBC6C /* uniToJis.dat in Resources */ = {isa = PBXBuildFile; fileRef = 84D33EA90FC652FB006EBC6C /* uniToJis.dat */; };
-		84D43FE709B6275200D572CE /* DisplayColor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84D43FE509B6275200D572CE /* DisplayColor.h */; };
-		84D43FE809B6275200D572CE /* DisplayColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D43FE609B6275200D572CE /* DisplayColor.m */; };
 		84D649630FC38C470042FCE2 /* About.nib in Resources */ = {isa = PBXBuildFile; fileRef = 84D649620FC38C470042FCE2 /* About.nib */; };
 		84D6497D0FC38E930042FCE2 /* Analyze.nib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6497C0FC38E930042FCE2 /* Analyze.nib */; };
 		84D649800FC38EB00042FCE2 /* Cabrillo.nib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6497F0FC38EB00042FCE2 /* Cabrillo.nib */; };
@@ -369,7 +369,6 @@
 		84F77F3112E4B14B00852473 /* UserPTTInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F77F3012E4B14B00852473 /* UserPTTInterface.m */; };
 		84F77F3612E4B47F00852473 /* MacLoggerDX.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F77F3512E4B47F00852473 /* MacLoggerDX.m */; };
 		84F901230A150D84005540CC /* pttQuit.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84F901220A150D84005540CC /* pttQuit.scpt */; };
-		84FA229210A9FEB90082AD06 /* SubDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA229110A9FEB90082AD06 /* SubDictionary.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -385,7 +384,6 @@
 				8499D00B09B37775006203F7 /* pttKey.scpt in CopyFiles */,
 				8499D00C09B37775006203F7 /* pttUnkey.scpt in CopyFiles */,
 				84F901230A150D84005540CC /* pttQuit.scpt in CopyFiles */,
-				84D43FE709B6275200D572CE /* DisplayColor.h in CopyFiles */,
 				8467342E09E37B1200F90063 /* mldxKey.scpt in CopyFiles */,
 				8467342F09E37B1200F90063 /* mldxUnkey.scpt in CopyFiles */,
 				849C0A4810F93A7C00F342E7 /* mldx5Key.scpt in CopyFiles */,
@@ -408,6 +406,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F92A46C457EA07C76E629ED /* QSO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "QSO.swift"; path = "../Sources/Swift/QSO/QSO.swift"; sourceTree = SOURCE_ROOT; };
+		20756F510D402CAF757CE1B2 /* SubDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SubDictionary.swift"; path = "../Sources/Swift/Preferences/SubDictionary.swift"; sourceTree = SOURCE_ROOT; };
+		176D72A832BAB2766FDA1CD9 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Speech.swift"; path = "../Sources/Swift/Application/Speech.swift"; sourceTree = SOURCE_ROOT; };
+		013EFD3DFA653D2CDB67F796 /* DisplayColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DisplayColor.swift"; path = "../Sources/Swift/Instrumentation/DisplayColor.swift"; sourceTree = SOURCE_ROOT; };
+		2EE359D31261289EE5A358B2 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AboutView.swift"; path = "../Sources/Swift/About/AboutView.swift"; sourceTree = SOURCE_ROOT; };
+		0E8EB2D6E7F20867602FEC8B /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "About.swift"; path = "../Sources/Swift/About/About.swift"; sourceTree = SOURCE_ROOT; };
 		C3D1CF1B0D4F59C72D180CF9 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserInfo.swift"; path = "../Sources/Swift/Application/UserInfo.swift"; sourceTree = SOURCE_ROOT; };
 		82D92B1B4E7EE5DE20CC31E5 /* MacroMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MacroMenu.swift"; path = "../Sources/Swift/Application/MacroMenu.swift"; sourceTree = SOURCE_ROOT; };
 		ABFCC85EAD3787D2205F8239 /* MacroScripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MacroScripts.swift"; path = "../Sources/Swift/Application/MacroScripts.swift"; sourceTree = SOURCE_ROOT; };
@@ -430,8 +434,6 @@
 		84072DFD09076B31006DA88B /* cocoaModemDebug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = cocoaModemDebug.h; sourceTree = "<group>"; };
 		84072E2509076BF9006DA88B /* Application.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
 		84072E2609076BF9006DA88B /* Application.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
-		84072E4009076C49006DA88B /* QSO.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QSO.h; sourceTree = "<group>"; };
-		84072E4109076C49006DA88B /* QSO.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = QSO.m; sourceTree = "<group>"; };
 		84072E4209076C49006DA88B /* StripPhi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StripPhi.h; sourceTree = "<group>"; };
 		84072E4309076C49006DA88B /* StripPhi.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StripPhi.m; sourceTree = "<group>"; };
 		84072F9709076EAF006DA88B /* Oscilloscope.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Oscilloscope.h; sourceTree = "<group>"; };
@@ -448,10 +450,6 @@
 		84072FAB09076EBD006DA88B /* error.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = error.h; path = ../Sources/DSP/error.h; sourceTree = "<group>"; };
 		84072FCB09076EE4006DA88B /* AYTextView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AYTextView.h; sourceTree = "<group>"; };
 		84072FCC09076EE4006DA88B /* AYTextView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AYTextView.m; sourceTree = "<group>"; };
-		84072FCF09076EF1006DA88B /* About.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = About.h; sourceTree = "<group>"; };
-		84072FD009076EF1006DA88B /* About.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = About.m; sourceTree = "<group>"; };
-		84072FD109076EF1006DA88B /* AboutView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AboutView.h; sourceTree = "<group>"; };
-		84072FD209076EF1006DA88B /* AboutView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AboutView.m; sourceTree = "<group>"; };
 		84072FD609076F2D006DA88B /* BARTG Sprint.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "BARTG Sprint.xml"; sourceTree = "<group>"; };
 		84072FD709076F2D006DA88B /* CQ WPX RTTY.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "CQ WPX RTTY.xml"; sourceTree = "<group>"; };
 		84072FD809076F2D006DA88B /* Generic.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Generic.xml; sourceTree = "<group>"; };
@@ -516,8 +514,6 @@
 		843769A210AD3C6B0000F62D /* ModemAuralMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemAuralMonitor.m; sourceTree = "<group>"; };
 		843872C60AA3ED71007AD6BF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SoftRock.nib; sourceTree = "<group>"; };
 		8439648409BD667D00866AE7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = "English.lproj/HF-FAX.nib"; sourceTree = "<group>"; };
-		84486E5414E4F62400DA126E /* Speech.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Speech.h; sourceTree = "<group>"; };
-		84486E5514E4F62400DA126E /* Speech.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Speech.m; sourceTree = "<group>"; };
 		8452B40C09DE1B4C0050F52E /* SP RTTY.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "SP RTTY.xml"; sourceTree = "<group>"; };
 		845E718C0A2ADA96005F5DB7 /* routerLaunchScript.scpt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.scpt; path = routerLaunchScript.scpt; sourceTree = "<group>"; };
 		8464303B1116355100D686D2 /* LiteASCII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiteASCII.h; sourceTree = "<group>"; };
@@ -993,8 +989,6 @@
 		84D33EA80FC652FB006EBC6C /* jisToUni.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = jisToUni.dat; sourceTree = "<group>"; };
 		84D33EA90FC652FB006EBC6C /* uniToJis.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = uniToJis.dat; sourceTree = "<group>"; };
 		84D33FB50FC71DC2006EBC6C /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
-		84D43FE509B6275200D572CE /* DisplayColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayColor.h; sourceTree = "<group>"; };
-		84D43FE609B6275200D572CE /* DisplayColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayColor.m; sourceTree = "<group>"; };
 		84D649740FC38D9F0042FCE2 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84D649780FC38E690042FCE2 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/About.nib; sourceTree = SOURCE_ROOT; };
 		84D6497E0FC38EA40042FCE2 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/Analyze.nib; sourceTree = SOURCE_ROOT; };
@@ -1093,8 +1087,6 @@
 		84F77F3412E4B47F00852473 /* MacLoggerDX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacLoggerDX.h; sourceTree = "<group>"; };
 		84F77F3512E4B47F00852473 /* MacLoggerDX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacLoggerDX.m; sourceTree = "<group>"; };
 		84F901220A150D84005540CC /* pttQuit.scpt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.scpt; path = pttQuit.scpt; sourceTree = "<group>"; };
-		84FA229010A9FEB90082AD06 /* SubDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubDictionary.h; sourceTree = "<group>"; };
-		84FA229110A9FEB90082AD06 /* SubDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubDictionary.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* cocoaModem 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cocoaModem 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -1120,6 +1112,12 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				5F92A46C457EA07C76E629ED /* QSO.swift */,
+				20756F510D402CAF757CE1B2 /* SubDictionary.swift */,
+				176D72A832BAB2766FDA1CD9 /* Speech.swift */,
+				013EFD3DFA653D2CDB67F796 /* DisplayColor.swift */,
+				2EE359D31261289EE5A358B2 /* AboutView.swift */,
+				0E8EB2D6E7F20867602FEC8B /* About.swift */,
 				C3D1CF1B0D4F59C72D180CF9 /* UserInfo.swift */,
 				82D92B1B4E7EE5DE20CC31E5 /* MacroMenu.swift */,
 				ABFCC85EAD3787D2205F8239 /* MacroScripts.swift */,
@@ -1260,8 +1258,6 @@
 				84BE1CDB1079B9540026FD70 /* AppDelegate.m */,
 				84072E2509076BF9006DA88B /* Application.h */,
 				84072E2609076BF9006DA88B /* Application.m */,
-				84486E5414E4F62400DA126E /* Speech.h */,
-				84486E5514E4F62400DA126E /* Speech.m */,
 				8422FF2F09606D18007AFA0B /* UTC.h */,
 				8422FF3009606D18007AFA0B /* UTC.m */,
 				848765B81074078700B83EDD /* memory.h */,
@@ -1273,8 +1269,6 @@
 		84072E3D09076C1A006DA88B /* QSO */ = {
 			isa = PBXGroup;
 			children = (
-				84072E4009076C49006DA88B /* QSO.h */,
-				84072E4109076C49006DA88B /* QSO.m */,
 				84072E4209076C49006DA88B /* StripPhi.h */,
 				84072E4309076C49006DA88B /* StripPhi.m */,
 			);
@@ -1288,8 +1282,6 @@
 				84DA524D09F6B059007B3C78 /* Config.m */,
 				84DA524E09F6B059007B3C78 /* Preferences.h */,
 				84DA524F09F6B059007B3C78 /* Preferences.m */,
-				84FA229010A9FEB90082AD06 /* SubDictionary.h */,
-				84FA229110A9FEB90082AD06 /* SubDictionary.m */,
 			);
 			path = Preferences;
 			sourceTree = "<group>";
@@ -1317,8 +1309,6 @@
 				8481CD0F095C8B15008EA65A /* RTTYWaterfall.m */,
 				84EB98F20B21269400434940 /* CWWaterfall.h */,
 				84EB98F30B21269400434940 /* CWWaterfall.m */,
-				84D43FE509B6275200D572CE /* DisplayColor.h */,
-				84D43FE609B6275200D572CE /* DisplayColor.m */,
 				84A854B80B1F67E6003A69CF /* ModemEqualizerPlot.h */,
 				84A854B90B1F67E6003A69CF /* ModemEqualizerPlot.m */,
 				84D7F37D0B7C219500CF3D0D /* NoiseUtils.h */,
@@ -1339,10 +1329,6 @@
 		84072FCE09076EF1006DA88B /* About */ = {
 			isa = PBXGroup;
 			children = (
-				84072FCF09076EF1006DA88B /* About.h */,
-				84072FD009076EF1006DA88B /* About.m */,
-				84072FD109076EF1006DA88B /* AboutView.h */,
-				84072FD209076EF1006DA88B /* AboutView.m */,
 			);
 			path = About;
 			sourceTree = "<group>";
@@ -2544,6 +2530,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4072F1B0114B2EDB2AC5E1CE /* QSO.swift in Sources */,
+				EFB2E8A2EC85D07AE6AD6150 /* SubDictionary.swift in Sources */,
+				8331787660865E502D9DFFF4 /* Speech.swift in Sources */,
+				C6E359426170EBFE6844A88F /* DisplayColor.swift in Sources */,
+				4961DAB421CD90AA3F67B5E9 /* AboutView.swift in Sources */,
+				43FD938FE388F73D3355B0BF /* About.swift in Sources */,
 				BD22ADF8FE7657A2C55D17C9 /* UserInfo.swift in Sources */,
 				A67CFEC32638676D7A73633F /* MacroMenu.swift in Sources */,
 				B13A2A769FE240AB0591C2DD /* MacroScripts.swift in Sources */,
@@ -2556,7 +2548,6 @@
 				8B3609519C91DEF776F06FB6 /* splashPanel.swift in Sources */,
 				0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */,
 				84072E2809076BF9006DA88B /* Application.m in Sources */,
-				84072E4409076C49006DA88B /* QSO.m in Sources */,
 				84072E4509076C49006DA88B /* StripPhi.m in Sources */,
 				84072FA209076EAF006DA88B /* Oscilloscope.m in Sources */,
 				84072FA309076EAF006DA88B /* PSKMonitor.m in Sources */,
@@ -2565,11 +2556,8 @@
 				84072FA609076EAF006DA88B /* Waterfall.m in Sources */,
 				84072FB309076EBD006DA88B /* error.c in Sources */,
 				84072FCD09076EE4006DA88B /* AYTextView.m in Sources */,
-				84072FD309076EF1006DA88B /* About.m in Sources */,
-				84072FD409076EF1006DA88B /* AboutView.m in Sources */,
 				8407326E09077551006DA88B /* main.m in Sources */,
 				8481CD11095C8B15008EA65A /* RTTYWaterfall.m in Sources */,
-				84D43FE809B6275200D572CE /* DisplayColor.m in Sources */,
 				84DA525109F6B059007B3C78 /* Config.m in Sources */,
 				84DA525309F6B059007B3C78 /* Preferences.m in Sources */,
 				84A854BB0B1F67E6003A69CF /* ModemEqualizerPlot.m in Sources */,
@@ -2776,7 +2764,6 @@
 				84AB925010A7549600A26242 /* AMConfig.m in Sources */,
 				84AB92C010A7630700A26242 /* RTTYMatchedFilter.m in Sources */,
 				84AB93A510A793FF00A26242 /* RTTYMixer.m in Sources */,
-				84FA229210A9FEB90082AD06 /* SubDictionary.m in Sources */,
 				84CE741810AAF515003D0C99 /* CMFSKDemodulator.m in Sources */,
 				84CE741D10AAF6A3003D0C99 /* CMFSKMatchedFilter.m in Sources */,
 				84CE742210AAF7B6003D0C99 /* CMFSKModulator.m in Sources */,
@@ -2806,7 +2793,6 @@
 				84F77F2C12E4AE1B00852473 /* AppleScriptSupport.m in Sources */,
 				84F77F3112E4B14B00852473 /* UserPTTInterface.m in Sources */,
 				84F77F3612E4B47F00852473 /* MacLoggerDX.m in Sources */,
-				84486E5614E4F62400DA126E /* Speech.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

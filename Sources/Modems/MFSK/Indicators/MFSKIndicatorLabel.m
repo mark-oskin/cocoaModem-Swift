@@ -7,7 +7,7 @@
 //
 
 #import "MFSKIndicatorLabel.h"
-#include "DisplayColor.h"
+#import "cocoaModem-Swift.h"
 
 //  Draw fixed tick marks (16 ticks with 16 pixels separation)
 @implementation MFSKIndicatorLabel

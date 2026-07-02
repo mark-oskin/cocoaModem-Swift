@@ -9,7 +9,7 @@
 #import "Application.h"
 #import "CoreFilter.h"
 #import "cocoaModemParams.h"
-#import "DisplayColor.h"
+#import "cocoaModem-Swift.h"
 #import "Messages.h"
 #import "Modem.h"
 

@@ -7,7 +7,7 @@
 //
 
 #import "PhaseIndicator.h"
-#include "DisplayColor.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation PhaseIndicator

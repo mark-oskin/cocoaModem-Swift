@@ -19,7 +19,6 @@
 #import "modemTypes.h"
 #import "StdManager.h"
 #import "Plist.h"
-#import "QSO.h"
 #import "Preferences.h"
 #import "TextEncoding.h"
 #import "cocoaModem-Swift.h"

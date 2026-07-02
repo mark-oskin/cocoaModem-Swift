@@ -9,8 +9,7 @@
 	#define _PREFERENCES_H_
 
 	#import <Cocoa/Cocoa.h>
-	#import "SubDictionary.h"
-
+	@class SubDictionary ;
 	@interface Preferences : NSObject {
 		NSMutableDictionary *prefs ;
 		NSString *path ;

@@ -7,7 +7,7 @@
 //
 
 #import "MFSKIndicator.h"
-#include "DisplayColor.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation MFSKIndicator

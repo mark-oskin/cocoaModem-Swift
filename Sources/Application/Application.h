@@ -9,8 +9,9 @@
 	#define _APPLICATION_H_
 
 	#import <Cocoa/Cocoa.h>
-	#import "Speech.h"
-	
+
+	@class Speech ;		//  Speech is now a Swift class (see cocoaModem-Swift.h)
+
 	@class About ;
 	@class AppDelegate ;
 	@class AudioManager ;

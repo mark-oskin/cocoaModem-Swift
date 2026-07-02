@@ -7,7 +7,6 @@
 //
 
 #import "Application.h"
-#import "About.h"
 #import "AppDelegate.h"
 #import "AudioInterfaceTypes.h"
 #import "AudioManager.h"
@@ -23,7 +22,6 @@
 #import "modemTypes.h"
 #import "Plist.h"
 #import "Preferences.h"
-#import "QSO.h"
 #import "StdManager.h"
 #import "TextEncoding.h"
 #import "cocoaModem-Swift.h"

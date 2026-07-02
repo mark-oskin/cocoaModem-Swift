@@ -15,7 +15,6 @@
 #import "Plist.h"
 #import "PSK.h"
 #import "PTTHub.h"
-#import "QSO.h"
 #import "RTTY.h"
 #import "DualRTTY.h"
 #import "StdManager.h"

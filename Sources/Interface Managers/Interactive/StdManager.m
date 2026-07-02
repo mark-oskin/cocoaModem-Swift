@@ -25,7 +25,7 @@
 #import "Plist.h"
 #import "PSK.h"
 #import "PSKConfig.h"
-#import "QSO.h"
+#import "cocoaModem-Swift.h"
 #import "RTTY.h"
 #import "RTTYConfig.h"
 #import "RTTYMacros.h"

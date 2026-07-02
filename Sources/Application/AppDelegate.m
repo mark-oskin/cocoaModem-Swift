@@ -14,7 +14,7 @@
 #import "FSKHub.h"
 #import "ModemManager.h"
 #import "PSK.h"
-#import "QSO.h"
+#import "cocoaModem-Swift.h"
 #import "StdManager.h"
 #import "TextEncoding.h"
 
