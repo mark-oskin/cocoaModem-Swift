@@ -11,7 +11,6 @@
 #import "cocoaModemDebug.h"
 #import "ContestManager.h"
 #import "Hellschreiber.h"
-#import	"MacroScripts.h"
 #import "ModemSource.h"
 #import "Plist.h"
 #import "PSK.h"
@@ -21,7 +20,7 @@
 #import "DualRTTY.h"
 #import "StdManager.h"
 #import "TextEncoding.h"
-#import "UserInfo.h"
+#import "cocoaModem-Swift.h"
 
 @implementation Config
 

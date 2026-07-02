@@ -12,7 +12,7 @@
 #import "Messages.h"
 #import "MFSK.h"
 #import "MFSKModulator.h"
-#import "ModemColor.h"
+#import "cocoaModem-Swift.h"
 #import "Messages.h"
 #import "ModemDest.h"
 #import "ModemEqualizer.h"

@@ -11,7 +11,7 @@
 #import "Messages.h"
 #import "TextEncoding.h"
 #import "TransparentTextField.h"
-#import "UserInfo.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation RST_Number

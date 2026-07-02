@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD22ADF8FE7657A2C55D17C9 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D1CF1B0D4F59C72D180CF9 /* UserInfo.swift */; };
+		A67CFEC32638676D7A73633F /* MacroMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D92B1B4E7EE5DE20CC31E5 /* MacroMenu.swift */; };
+		B13A2A769FE240AB0591C2DD /* MacroScripts.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCC85EAD3787D2205F8239 /* MacroScripts.swift */; };
+		4AE9ADECC6F1F05B4AA5EA42 /* MacroNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B05E7D31F7BF4401AE1AB9 /* MacroNode.swift */; };
+		90FA7977503661312F2DC9CC /* ModemSleepManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C09EA2739BBA604E6E017D /* ModemSleepManager.swift */; };
+		311D77FABA9842C063779855 /* SleepManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE4E3865DD1EA5FDEF06B0B2 /* SleepManager.swift */; };
+		E069C542321FB4BE4BCD402A /* VoiceAssistTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE2213B2AC4D2D5F047EC3 /* VoiceAssistTextField.swift */; };
+		D4597992887F86277721C227 /* ModemColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33260CF28797AC3542E5E353 /* ModemColor.swift */; };
+		DF1B4819A5E0D03AB6A98064 /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA5396866DE8606BFE002ED /* splash.swift */; };
+		8B3609519C91DEF776F06FB6 /* splashPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E56FB99666F63B2B1619A /* splashPanel.swift */; };
 		0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6215340BE8E07984B7343ED /* UTC.swift */; };
 		84072E2809076BF9006DA88B /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E2609076BF9006DA88B /* Application.m */; };
-		84072E3609076C06006DA88B /* MacroMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E2C09076C06006DA88B /* MacroMenu.m */; };
-		84072E3709076C06006DA88B /* MacroNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E2E09076C06006DA88B /* MacroNode.m */; };
-		84072E3909076C06006DA88B /* splash.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E3209076C06006DA88B /* splash.m */; };
-		84072E3A09076C06006DA88B /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E3409076C06006DA88B /* UserInfo.m */; };
 		84072E4409076C49006DA88B /* QSO.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E4109076C49006DA88B /* QSO.m */; };
 		84072E4509076C49006DA88B /* StripPhi.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E4309076C49006DA88B /* StripPhi.m */; };
 		84072FA209076EAF006DA88B /* Oscilloscope.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072F9809076EAF006DA88B /* Oscilloscope.m */; };
@@ -60,7 +66,6 @@
 		8467342E09E37B1200F90063 /* mldxKey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8467342C09E37B1200F90063 /* mldxKey.scpt */; };
 		8467342F09E37B1200F90063 /* mldxUnkey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8467342D09E37B1200F90063 /* mldxUnkey.scpt */; };
 		846734A309E464A900F90063 /* cm bitmapdoublewide.font in Resources */ = {isa = PBXBuildFile; fileRef = 846734A209E464A900F90063 /* cm bitmapdoublewide.font */; };
-		8475211E1538B7480070D295 /* VoiceAssistTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475211D1538B7480070D295 /* VoiceAssistTextField.m */; };
 		8477C13411126109004AC82F /* ASCII.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477C13311126109004AC82F /* ASCII.m */; };
 		8477C14E111264EF004AC82F /* ASCII.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8477C14C111264EF004AC82F /* ASCII.nib */; };
 		8477C1C91112B101004AC82F /* ASCIIReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477C1C81112B101004AC82F /* ASCIIReceiver.m */; };
@@ -261,7 +266,6 @@
 		848771FF10767F4400B83EDD /* ParametricEqualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771F110767F4400B83EDD /* ParametricEqualizer.m */; };
 		8490ACF00A2B60AA006E282F /* LogMacro.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8490ACEF0A2B60AA006E282F /* LogMacro.h */; };
 		84912E8C093A3D420091E7A4 /* ModemColor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84912E8A093A3D420091E7A4 /* ModemColor.h */; };
-		84912E8D093A3D420091E7A4 /* ModemColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84912E8B093A3D420091E7A4 /* ModemColor.m */; };
 		8492B5CE11E125C300C5C598 /* PTT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492B5C711E125C300C5C598 /* PTT.m */; };
 		8492B5CF11E125C300C5C598 /* PTTHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492B5C911E125C300C5C598 /* PTTHub.m */; };
 		8499D00B09B37775006203F7 /* pttKey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8499D00909B37775006203F7 /* pttKey.scpt */; };
@@ -352,11 +356,8 @@
 		84DA525309F6B059007B3C78 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA524F09F6B059007B3C78 /* Preferences.m */; };
 		84E368990CDD5062003D1849 /* TextEncoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E368980CDD5062003D1849 /* TextEncoding.h */; };
 		84E5D84D0CDF907E00A0767A /* splashPanel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E5D84B0CDF907E00A0767A /* splashPanel.h */; };
-		84E5D84E0CDF907E00A0767A /* splashPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E5D84C0CDF907E00A0767A /* splashPanel.m */; };
 		84E6E7F80A1254BF00643B06 /* SleepManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E6E7F60A1254BF00643B06 /* SleepManager.h */; };
-		84E6E7F90A1254BF00643B06 /* SleepManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6E7F70A1254BF00643B06 /* SleepManager.m */; };
 		84E6E8EB0A125C3300643B06 /* ModemSleepManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E6E8E90A125C3300643B06 /* ModemSleepManager.h */; };
-		84E6E8EC0A125C3300643B06 /* ModemSleepManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6E8EA0A125C3300643B06 /* ModemSleepManager.m */; };
 		84E6E9F30B5F6BE40051ADDD /* AMWaterfall.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E6E9F10B5F6BE40051ADDD /* AMWaterfall.h */; };
 		84E6E9F40B5F6BE40051ADDD /* AMWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6E9F20B5F6BE40051ADDD /* AMWaterfall.m */; };
 		84EB98F40B21269400434940 /* CWWaterfall.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84EB98F20B21269400434940 /* CWWaterfall.h */; };
@@ -371,7 +372,6 @@
 		84F77F2C12E4AE1B00852473 /* AppleScriptSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F77F2B12E4AE1B00852473 /* AppleScriptSupport.m */; };
 		84F77F3112E4B14B00852473 /* UserPTTInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F77F3012E4B14B00852473 /* UserPTTInterface.m */; };
 		84F77F3612E4B47F00852473 /* MacLoggerDX.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F77F3512E4B47F00852473 /* MacLoggerDX.m */; };
-		84F7846F12E8A9CC00852473 /* MacroScripts.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F7846E12E8A9CC00852473 /* MacroScripts.m */; };
 		84F901230A150D84005540CC /* pttQuit.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84F901220A150D84005540CC /* pttQuit.scpt */; };
 		84FA229210A9FEB90082AD06 /* SubDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FA229110A9FEB90082AD06 /* SubDictionary.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -416,6 +416,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C3D1CF1B0D4F59C72D180CF9 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserInfo.swift"; path = "../Sources/Swift/Application/UserInfo.swift"; sourceTree = SOURCE_ROOT; };
+		82D92B1B4E7EE5DE20CC31E5 /* MacroMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MacroMenu.swift"; path = "../Sources/Swift/Application/MacroMenu.swift"; sourceTree = SOURCE_ROOT; };
+		ABFCC85EAD3787D2205F8239 /* MacroScripts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MacroScripts.swift"; path = "../Sources/Swift/Application/MacroScripts.swift"; sourceTree = SOURCE_ROOT; };
+		E0B05E7D31F7BF4401AE1AB9 /* MacroNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MacroNode.swift"; path = "../Sources/Swift/Application/MacroNode.swift"; sourceTree = SOURCE_ROOT; };
+		34C09EA2739BBA604E6E017D /* ModemSleepManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModemSleepManager.swift"; path = "../Sources/Swift/Application/ModemSleepManager.swift"; sourceTree = SOURCE_ROOT; };
+		AE4E3865DD1EA5FDEF06B0B2 /* SleepManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SleepManager.swift"; path = "../Sources/Swift/Application/SleepManager.swift"; sourceTree = SOURCE_ROOT; };
+		3FEE2213B2AC4D2D5F047EC3 /* VoiceAssistTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "VoiceAssistTextField.swift"; path = "../Sources/Swift/Application/VoiceAssistTextField.swift"; sourceTree = SOURCE_ROOT; };
+		33260CF28797AC3542E5E353 /* ModemColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModemColor.swift"; path = "../Sources/Swift/Application/ModemColor.swift"; sourceTree = SOURCE_ROOT; };
+		0EA5396866DE8606BFE002ED /* splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "splash.swift"; path = "../Sources/Swift/Application/splash.swift"; sourceTree = SOURCE_ROOT; };
+		520E56FB99666F63B2B1619A /* splashPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "splashPanel.swift"; path = "../Sources/Swift/Application/splashPanel.swift"; sourceTree = SOURCE_ROOT; };
 		F6215340BE8E07984B7343ED /* UTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UTC.swift"; path = "../Sources/Swift/Application/UTC.swift"; sourceTree = SOURCE_ROOT; };
 		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
@@ -1138,6 +1148,16 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				C3D1CF1B0D4F59C72D180CF9 /* UserInfo.swift */,
+				82D92B1B4E7EE5DE20CC31E5 /* MacroMenu.swift */,
+				ABFCC85EAD3787D2205F8239 /* MacroScripts.swift */,
+				E0B05E7D31F7BF4401AE1AB9 /* MacroNode.swift */,
+				34C09EA2739BBA604E6E017D /* ModemSleepManager.swift */,
+				AE4E3865DD1EA5FDEF06B0B2 /* SleepManager.swift */,
+				3FEE2213B2AC4D2D5F047EC3 /* VoiceAssistTextField.swift */,
+				33260CF28797AC3542E5E353 /* ModemColor.swift */,
+				0EA5396866DE8606BFE002ED /* splash.swift */,
+				520E56FB99666F63B2B1619A /* splashPanel.swift */,
 				F6215340BE8E07984B7343ED /* UTC.swift */,
 			);
 			name = Swift;
@@ -2572,12 +2592,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD22ADF8FE7657A2C55D17C9 /* UserInfo.swift in Sources */,
+				A67CFEC32638676D7A73633F /* MacroMenu.swift in Sources */,
+				B13A2A769FE240AB0591C2DD /* MacroScripts.swift in Sources */,
+				4AE9ADECC6F1F05B4AA5EA42 /* MacroNode.swift in Sources */,
+				90FA7977503661312F2DC9CC /* ModemSleepManager.swift in Sources */,
+				311D77FABA9842C063779855 /* SleepManager.swift in Sources */,
+				E069C542321FB4BE4BCD402A /* VoiceAssistTextField.swift in Sources */,
+				D4597992887F86277721C227 /* ModemColor.swift in Sources */,
+				DF1B4819A5E0D03AB6A98064 /* splash.swift in Sources */,
+				8B3609519C91DEF776F06FB6 /* splashPanel.swift in Sources */,
 				0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */,
 				84072E2809076BF9006DA88B /* Application.m in Sources */,
-				84072E3609076C06006DA88B /* MacroMenu.m in Sources */,
-				84072E3709076C06006DA88B /* MacroNode.m in Sources */,
-				84072E3909076C06006DA88B /* splash.m in Sources */,
-				84072E3A09076C06006DA88B /* UserInfo.m in Sources */,
 				84072E4409076C49006DA88B /* QSO.m in Sources */,
 				84072E4509076C49006DA88B /* StripPhi.m in Sources */,
 				84072FA209076EAF006DA88B /* Oscilloscope.m in Sources */,
@@ -2590,18 +2616,14 @@
 				84072FD309076EF1006DA88B /* About.m in Sources */,
 				84072FD409076EF1006DA88B /* AboutView.m in Sources */,
 				8407326E09077551006DA88B /* main.m in Sources */,
-				84912E8D093A3D420091E7A4 /* ModemColor.m in Sources */,
 				8481CD11095C8B15008EA65A /* RTTYWaterfall.m in Sources */,
 				84D43FE809B6275200D572CE /* DisplayColor.m in Sources */,
 				84DA525109F6B059007B3C78 /* Config.m in Sources */,
 				84DA525309F6B059007B3C78 /* Preferences.m in Sources */,
-				84E6E7F90A1254BF00643B06 /* SleepManager.m in Sources */,
-				84E6E8EC0A125C3300643B06 /* ModemSleepManager.m in Sources */,
 				84A854BB0B1F67E6003A69CF /* ModemEqualizerPlot.m in Sources */,
 				84EB98F50B21269400434940 /* CWWaterfall.m in Sources */,
 				84E6E9F40B5F6BE40051ADDD /* AMWaterfall.m in Sources */,
 				84D7F3800B7C219500CF3D0D /* NoiseUtils.c in Sources */,
-				84E5D84E0CDF907E00A0767A /* splashPanel.m in Sources */,
 				84BD2CC90FF7537200AD2324 /* MFSKWaterfall.m in Sources */,
 				848765BA1074078700B83EDD /* memory.c in Sources */,
 				84876DE21076737900B83EDD /* NetAudio.m in Sources */,
@@ -2832,9 +2854,7 @@
 				84F77F2C12E4AE1B00852473 /* AppleScriptSupport.m in Sources */,
 				84F77F3112E4B14B00852473 /* UserPTTInterface.m in Sources */,
 				84F77F3612E4B47F00852473 /* MacLoggerDX.m in Sources */,
-				84F7846F12E8A9CC00852473 /* MacroScripts.m in Sources */,
 				84486E5614E4F62400DA126E /* Speech.m in Sources */,
-				8475211E1538B7480070D295 /* VoiceAssistTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

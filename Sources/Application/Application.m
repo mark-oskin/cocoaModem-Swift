@@ -19,17 +19,13 @@
 #import "FSKHub.h"
 #import "LiteRTTY.h"
 #import "MacroInterface.h"
-#import "MacroScripts.h"
 #import "Messages.h"
 #import "modemTypes.h"
-#import "ModemSleepManager.h"
 #import "Plist.h"
 #import "Preferences.h"
 #import "QSO.h"
-#import "splash.h"
 #import "StdManager.h"
 #import "TextEncoding.h"
-#import "UserInfo.h"
 #import "cocoaModem-Swift.h"
 #import <math.h>
 #import <unistd.h>

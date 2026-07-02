@@ -10,7 +10,7 @@
 #import "Application.h"
 #import "Config.h"
 #import "Modem.h"
-#import "ModemColor.h"
+#import "cocoaModem-Swift.h"
 #import "ModemDest.h"
 #import "ModemEqualizer.h"
 #import "ModemManager.h"

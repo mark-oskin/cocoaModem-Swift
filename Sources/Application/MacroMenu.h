@@ -8,7 +8,8 @@
 #ifndef _MACROMENU_H_
 	#define _MACROMENU_H_
 	#import <Cocoa/Cocoa.h>
-	#include "MacroNode.h"
+
+	@class MacroNode ;
 
 	@interface MacroMenu : NSObject {
 		MacroNode *rootNode[6] ;

@@ -22,7 +22,7 @@
 #import "QSO.h"
 #import "Preferences.h"
 #import "TextEncoding.h"
-#import "UserInfo.h"
+#import "cocoaModem-Swift.h"
 
 //  contests
 #import "Contest.h"

@@ -14,7 +14,7 @@
 #import "FSKMenu.h"
 #import "Messages.h"
 #import "Oscilloscope.h"
-#import "ModemColor.h"
+#import "cocoaModem-Swift.h"
 #import "Messages.h"
 #import "ModemSource.h"
 #import "modemTypes.h"

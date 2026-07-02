@@ -9,7 +9,6 @@
 	#define _APPLICATION_H_
 
 	#import <Cocoa/Cocoa.h>
-	#import "splash.h"
 	#import "Speech.h"
 	
 	@class About ;
@@ -23,6 +22,7 @@
 	@class MacroScripts ;
 	@class ModemManager ;
 	@class ModemSleepManager ;
+	@class splash ;
 	@class StdManager ;
 	@class UserInfo ;
 	

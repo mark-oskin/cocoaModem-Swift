@@ -9,7 +9,7 @@
 #import "BARTGSprint.h"
 #import "Messages.h"
 #import "TextEncoding.h"
-#import "UserInfo.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation BARTGSprint

@@ -9,13 +9,12 @@
 #import "MacroSheet.h"
 #import "Application.h"
 #import "MacroInterface.h"
-#import "MacroScripts.h"
+#import "cocoaModem-Swift.h"
 #import "Messages.h"
 #import "Plist.h"
 #import "Preferences.h"
 #import "QSO.h"
 #import "TextEncoding.h"
-#import "UserInfo.h"
 
 #define CMFIGSCODE	0x1b
 #define CMLTRSCODE	0x1f
