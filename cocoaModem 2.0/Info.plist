@@ -22,6 +22,8 @@
 	<string>YES</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>cocoaModem uses audio input to demodulate radio signals from your transceiver.</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>OSAScriptingDefinition</key>
