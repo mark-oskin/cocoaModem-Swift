@@ -265,7 +265,6 @@
 		848771FE10767F4400B83EDD /* hadamard.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771EE10767F4400B83EDD /* hadamard.c */; };
 		848771FF10767F4400B83EDD /* ParametricEqualizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771F110767F4400B83EDD /* ParametricEqualizer.m */; };
 		8490ACF00A2B60AA006E282F /* LogMacro.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8490ACEF0A2B60AA006E282F /* LogMacro.h */; };
-		84912E8C093A3D420091E7A4 /* ModemColor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84912E8A093A3D420091E7A4 /* ModemColor.h */; };
 		8492B5CE11E125C300C5C598 /* PTT.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492B5C711E125C300C5C598 /* PTT.m */; };
 		8492B5CF11E125C300C5C598 /* PTTHub.m in Sources */ = {isa = PBXBuildFile; fileRef = 8492B5C911E125C300C5C598 /* PTTHub.m */; };
 		8499D00B09B37775006203F7 /* pttKey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8499D00909B37775006203F7 /* pttKey.scpt */; };
@@ -355,9 +354,6 @@
 		84DA525209F6B059007B3C78 /* Preferences.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84DA524E09F6B059007B3C78 /* Preferences.h */; };
 		84DA525309F6B059007B3C78 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA524F09F6B059007B3C78 /* Preferences.m */; };
 		84E368990CDD5062003D1849 /* TextEncoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E368980CDD5062003D1849 /* TextEncoding.h */; };
-		84E5D84D0CDF907E00A0767A /* splashPanel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E5D84B0CDF907E00A0767A /* splashPanel.h */; };
-		84E6E7F80A1254BF00643B06 /* SleepManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E6E7F60A1254BF00643B06 /* SleepManager.h */; };
-		84E6E8EB0A125C3300643B06 /* ModemSleepManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E6E8E90A125C3300643B06 /* ModemSleepManager.h */; };
 		84E6E9F30B5F6BE40051ADDD /* AMWaterfall.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E6E9F10B5F6BE40051ADDD /* AMWaterfall.h */; };
 		84E6E9F40B5F6BE40051ADDD /* AMWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6E9F20B5F6BE40051ADDD /* AMWaterfall.m */; };
 		84EB98F40B21269400434940 /* CWWaterfall.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84EB98F20B21269400434940 /* CWWaterfall.h */; };
@@ -385,7 +381,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				84912E8C093A3D420091E7A4 /* ModemColor.h in CopyFiles */,
 				8481CD10095C8B15008EA65A /* RTTYWaterfall.h in CopyFiles */,
 				8499D00B09B37775006203F7 /* pttKey.scpt in CopyFiles */,
 				8499D00C09B37775006203F7 /* pttUnkey.scpt in CopyFiles */,
@@ -398,8 +393,6 @@
 				849C0A4A10F93A7C00F342E7 /* mldxVersion.scpt in CopyFiles */,
 				84DA525009F6B059007B3C78 /* Config.h in CopyFiles */,
 				84DA525209F6B059007B3C78 /* Preferences.h in CopyFiles */,
-				84E6E7F80A1254BF00643B06 /* SleepManager.h in CopyFiles */,
-				84E6E8EB0A125C3300643B06 /* ModemSleepManager.h in CopyFiles */,
 				845E718D0A2ADA96005F5DB7 /* routerLaunchScript.scpt in CopyFiles */,
 				8416C8D00A51B97A00526F21 /* routerCloseScript.scpt in CopyFiles */,
 				84369152127D299400C12271 /* routerVersion.scpt in CopyFiles */,
@@ -409,7 +402,6 @@
 				84E6E9F30B5F6BE40051ADDD /* AMWaterfall.h in CopyFiles */,
 				84D7F37F0B7C219500CF3D0D /* NoiseUtils.h in CopyFiles */,
 				84E368990CDD5062003D1849 /* TextEncoding.h in CopyFiles */,
-				84E5D84D0CDF907E00A0767A /* splashPanel.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,14 +430,6 @@
 		84072DFD09076B31006DA88B /* cocoaModemDebug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = cocoaModemDebug.h; sourceTree = "<group>"; };
 		84072E2509076BF9006DA88B /* Application.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
 		84072E2609076BF9006DA88B /* Application.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
-		84072E2B09076C06006DA88B /* MacroMenu.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MacroMenu.h; sourceTree = "<group>"; };
-		84072E2C09076C06006DA88B /* MacroMenu.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MacroMenu.m; sourceTree = "<group>"; };
-		84072E2D09076C06006DA88B /* MacroNode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = MacroNode.h; sourceTree = "<group>"; };
-		84072E2E09076C06006DA88B /* MacroNode.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = MacroNode.m; sourceTree = "<group>"; };
-		84072E3109076C06006DA88B /* splash.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = splash.h; sourceTree = "<group>"; };
-		84072E3209076C06006DA88B /* splash.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = splash.m; sourceTree = "<group>"; };
-		84072E3309076C06006DA88B /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
-		84072E3409076C06006DA88B /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
 		84072E4009076C49006DA88B /* QSO.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QSO.h; sourceTree = "<group>"; };
 		84072E4109076C49006DA88B /* QSO.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = QSO.m; sourceTree = "<group>"; };
 		84072E4209076C49006DA88B /* StripPhi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StripPhi.h; sourceTree = "<group>"; };
@@ -548,8 +532,6 @@
 		8467342D09E37B1200F90063 /* mldxUnkey.scpt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.scpt; path = mldxUnkey.scpt; sourceTree = "<group>"; };
 		846734A209E464A900F90063 /* cm bitmapdoublewide.font */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cm bitmapdoublewide.font"; sourceTree = "<group>"; };
 		846CE47E09A45AF800F5D214 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MFSK.nib; sourceTree = "<group>"; };
-		8475211C1538B7480070D295 /* VoiceAssistTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceAssistTextField.h; sourceTree = "<group>"; };
-		8475211D1538B7480070D295 /* VoiceAssistTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceAssistTextField.m; sourceTree = "<group>"; };
 		8477C13211126109004AC82F /* ASCII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCII.h; sourceTree = "<group>"; };
 		8477C13311126109004AC82F /* ASCII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCII.m; sourceTree = "<group>"; };
 		8477C14D111264EF004AC82F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ASCII.nib; sourceTree = "<group>"; };
@@ -962,8 +944,6 @@
 		848771F110767F4400B83EDD /* ParametricEqualizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParametricEqualizer.m; sourceTree = "<group>"; };
 		84877587107859FD00B83EDD /* CMATC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMATC.h; sourceTree = "<group>"; };
 		8490ACEF0A2B60AA006E282F /* LogMacro.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LogMacro.h; sourceTree = "<group>"; };
-		84912E8A093A3D420091E7A4 /* ModemColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemColor.h; sourceTree = "<group>"; };
-		84912E8B093A3D420091E7A4 /* ModemColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemColor.m; sourceTree = "<group>"; };
 		8492B5C611E125C300C5C598 /* PTT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTT.h; sourceTree = "<group>"; };
 		8492B5C711E125C300C5C598 /* PTT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTT.m; sourceTree = "<group>"; };
 		8492B5C811E125C300C5C598 /* PTTHub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTTHub.h; sourceTree = "<group>"; };
@@ -1079,12 +1059,6 @@
 		84E368980CDD5062003D1849 /* TextEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextEncoding.h; sourceTree = "<group>"; };
 		84E4DF6B0997D3800064B8F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SITOR.nib; sourceTree = "<group>"; };
 		84E4E01D0997EA7A0064B8F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SITORRxControl.nib; sourceTree = "<group>"; };
-		84E5D84B0CDF907E00A0767A /* splashPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = splashPanel.h; sourceTree = "<group>"; };
-		84E5D84C0CDF907E00A0767A /* splashPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = splashPanel.m; sourceTree = "<group>"; };
-		84E6E7F60A1254BF00643B06 /* SleepManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepManager.h; sourceTree = "<group>"; };
-		84E6E7F70A1254BF00643B06 /* SleepManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepManager.m; sourceTree = "<group>"; };
-		84E6E8E90A125C3300643B06 /* ModemSleepManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemSleepManager.h; sourceTree = "<group>"; };
-		84E6E8EA0A125C3300643B06 /* ModemSleepManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemSleepManager.m; sourceTree = "<group>"; };
 		84E6E90D0B5F3FBE0051ADDD /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SynchAM.nib; sourceTree = "<group>"; };
 		84E6E9F10B5F6BE40051ADDD /* AMWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMWaterfall.h; sourceTree = "<group>"; };
 		84E6E9F20B5F6BE40051ADDD /* AMWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMWaterfall.m; sourceTree = "<group>"; };
@@ -1118,8 +1092,6 @@
 		84F77F3012E4B14B00852473 /* UserPTTInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserPTTInterface.m; sourceTree = "<group>"; };
 		84F77F3412E4B47F00852473 /* MacLoggerDX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacLoggerDX.h; sourceTree = "<group>"; };
 		84F77F3512E4B47F00852473 /* MacLoggerDX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacLoggerDX.m; sourceTree = "<group>"; };
-		84F7846D12E8A9CC00852473 /* MacroScripts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroScripts.h; sourceTree = "<group>"; };
-		84F7846E12E8A9CC00852473 /* MacroScripts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroScripts.m; sourceTree = "<group>"; };
 		84F901220A150D84005540CC /* pttQuit.scpt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.scpt; path = pttQuit.scpt; sourceTree = "<group>"; };
 		84FA229010A9FEB90082AD06 /* SubDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubDictionary.h; sourceTree = "<group>"; };
 		84FA229110A9FEB90082AD06 /* SubDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubDictionary.m; sourceTree = "<group>"; };
@@ -1288,28 +1260,8 @@
 				84BE1CDB1079B9540026FD70 /* AppDelegate.m */,
 				84072E2509076BF9006DA88B /* Application.h */,
 				84072E2609076BF9006DA88B /* Application.m */,
-				84F7846D12E8A9CC00852473 /* MacroScripts.h */,
-				84F7846E12E8A9CC00852473 /* MacroScripts.m */,
-				84E6E8E90A125C3300643B06 /* ModemSleepManager.h */,
-				84E6E8EA0A125C3300643B06 /* ModemSleepManager.m */,
-				84E6E7F60A1254BF00643B06 /* SleepManager.h */,
-				84E6E7F70A1254BF00643B06 /* SleepManager.m */,
-				84072E2B09076C06006DA88B /* MacroMenu.h */,
-				84072E2C09076C06006DA88B /* MacroMenu.m */,
-				84072E2D09076C06006DA88B /* MacroNode.h */,
-				84072E2E09076C06006DA88B /* MacroNode.m */,
 				84486E5414E4F62400DA126E /* Speech.h */,
 				84486E5514E4F62400DA126E /* Speech.m */,
-				8475211C1538B7480070D295 /* VoiceAssistTextField.h */,
-				8475211D1538B7480070D295 /* VoiceAssistTextField.m */,
-				84072E3109076C06006DA88B /* splash.h */,
-				84072E3209076C06006DA88B /* splash.m */,
-				84E5D84B0CDF907E00A0767A /* splashPanel.h */,
-				84E5D84C0CDF907E00A0767A /* splashPanel.m */,
-				84072E3309076C06006DA88B /* UserInfo.h */,
-				84072E3409076C06006DA88B /* UserInfo.m */,
-				84912E8A093A3D420091E7A4 /* ModemColor.h */,
-				84912E8B093A3D420091E7A4 /* ModemColor.m */,
 				8422FF2F09606D18007AFA0B /* UTC.h */,
 				8422FF3009606D18007AFA0B /* UTC.m */,
 				848765B81074078700B83EDD /* memory.h */,
