@@ -7,6 +7,7 @@
 //
 
 #import "Router.h"
+#import "KeyerInterface.h"
 #import "Messages.h"
 #import "MicroKeyer.h"
 #import "RouterCommands.h"

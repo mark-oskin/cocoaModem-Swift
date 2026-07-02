@@ -8,6 +8,7 @@
 	
 #import "CWPipeline.h"
 #import "CWMatchedFilter.h"
+#import "Clears.h"
 
 @implementation CWPipeline
 

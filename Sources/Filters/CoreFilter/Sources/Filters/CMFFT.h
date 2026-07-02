@@ -17,7 +17,7 @@
 		PowerSpectrum
 	} CMFFTStyle ;
 	
-	typedef COMPLEX_SPLIT FFTData ;
+	typedef DSPSplitComplex FFTData ;
 	
 	typedef struct {
 		int log2n ;
@@ -27,7 +27,7 @@
 		float *realBuf, *imagBuf ;
 		CMFFTStyle style ;
 		FFTSetup vfft ;
-		COMPLEX_SPLIT z ;
+		DSPSplitComplex z ;
 	} CMFFT ;
 		
 	CMFFT *FFTSpectrum( int log2n, Boolean useWindow ) ;

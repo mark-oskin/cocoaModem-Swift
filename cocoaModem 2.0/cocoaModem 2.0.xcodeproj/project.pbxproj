@@ -35,7 +35,7 @@
 		8407326E09077551006DA88B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407326D09077551006DA88B /* main.m */; };
 		8407334B0907774F006DA88B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407334A0907774F006DA88B /* AudioToolbox.framework */; };
 		8407335E0907776D006DA88B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407335D0907776D006DA88B /* ApplicationServices.framework */; };
-		8407343109077797006DA88B /* vecLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407343009077797006DA88B /* vecLib.framework */; };
+		8407343109077797006DA88B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407343009077797006DA88B /* Accelerate.framework */; };
 		84073443090777B5006DA88B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84073442090777B5006DA88B /* CoreAudio.framework */; };
 		8410101110BC8DD600761445 /* FAXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8410101010BC8DD600761445 /* FAXFrame.m */; };
 		841011E010BDBDED00761445 /* ClicklessWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 841011DF10BDBDED00761445 /* ClicklessWaterfall.m */; };
@@ -496,7 +496,7 @@
 		8407326D09077551006DA88B /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8407334A0907774F006DA88B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
 		8407335D0907776D006DA88B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
-		8407343009077797006DA88B /* vecLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = vecLib.framework; path = /System/Library/Frameworks/vecLib.framework; sourceTree = "<absolute>"; };
+		8407343009077797006DA88B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
 		84073442090777B5006DA88B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
 		840DFDEE119001200061DF35 /* FSKMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKMenu.h; sourceTree = "<group>"; };
 		840EC5F00976446D00BCEEE3 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/WFRTTY.nib; sourceTree = "<group>"; };
@@ -1126,7 +1126,7 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				8407334B0907774F006DA88B /* AudioToolbox.framework in Frameworks */,
 				8407335E0907776D006DA88B /* ApplicationServices.framework in Frameworks */,
-				8407343109077797006DA88B /* vecLib.framework in Frameworks */,
+				8407343109077797006DA88B /* Accelerate.framework in Frameworks */,
 				84073443090777B5006DA88B /* CoreAudio.framework in Frameworks */,
 				842BF6E20D4F299600B4923A /* AudioUnit.framework in Frameworks */,
 				848768221074104C00B83EDD /* IOKit.framework in Frameworks */,
@@ -1166,7 +1166,7 @@
 				8407335D0907776D006DA88B /* ApplicationServices.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				84073442090777B5006DA88B /* CoreAudio.framework */,
-				8407343009077797006DA88B /* vecLib.framework */,
+				8407343009077797006DA88B /* Accelerate.framework */,
 				848768211074104C00B83EDD /* IOKit.framework */,
 			);
 			name = "Linked Frameworks";

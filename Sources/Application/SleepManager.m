@@ -7,6 +7,7 @@
 
 #import "SleepManager.h"
 #import <IOKit/IOMessage.h>
+#import <IOKit/pwr_mgt/IOPMLib.h>
 
 
 @implementation SleepManager

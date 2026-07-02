@@ -7,6 +7,7 @@
 	
 	
 #import "NamedFIFO.h"
+#include <sys/ioctl.h>
 
 
 //  implementation of a Unix named FIFO for doing read() and write() operations

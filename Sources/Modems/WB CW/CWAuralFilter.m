@@ -21,17 +21,17 @@ typedef struct {
 	CWMatchedFilter *matchedFilter, *originalMatchedFilter ;
 	CMATC *atc ;
 	MorseDecoder *decoder ;
-} CWPipeline ;
+} CWAuralPipelineStages ;
 
 
 
 //  NOTE: the aural filter does not have a morse decoder pipeline
 - (void)initPipelineStages:(CMTonePair*)pair decoder:(MorseDecoder*)decoder bandwidth:(float)bandwidth
 {
-	CWPipeline *p ;	
+	CWAuralPipelineStages *p ;	
 	
 	tonePair = *pair ;
-	p = (CWPipeline*)( pipeline = ( void* )malloc( sizeof( CWPipeline ) ) ) ;
+	p = (CWAuralPipelineStages*)( pipeline = ( void* )malloc( sizeof( CWAuralPipelineStages ) ) ) ;
 	// -- bandpass filter (none)
 	p->bandpassFilter = p->originalBandpassFilter = nil ;
 	//  -- CW mixer (mixes signal to I&Q baseband)
@@ -46,7 +46,7 @@ typedef struct {
 
 - (void)setCWBandwidth:(float)bandwidth
 {
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWAuralPipelineStages *p = (CWAuralPipelineStages*)pipeline;
 
 	if ( p->mixer ) [ p->mixer setCWBandwidth:bandwidth ] ;
 }
@@ -66,7 +66,7 @@ typedef struct {
 
 - (void)dealloc
 {
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWAuralPipelineStages *p = (CWAuralPipelineStages*)pipeline;
 	
 	[ self setClient:nil ] ;
 	[ p->mixer release ] ;
@@ -81,7 +81,7 @@ typedef struct {
 
 - (void)setupDemodulatorChain
 {
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWAuralPipelineStages *p = (CWAuralPipelineStages*)pipeline;
 
 	//  connect AudioPipes (only mixer is used)
 	[ p->mixer setReceiver:(CWReceiver*)receiver ] ;

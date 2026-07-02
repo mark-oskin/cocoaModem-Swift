@@ -8,7 +8,7 @@
 #ifndef _GENERIC_H_
 	#define _GENERIC_H_
 
-	#include <Contest.h>
+	#include "Contest.h"
 
 
 	@interface Generic : Contest {

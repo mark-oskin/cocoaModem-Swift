@@ -8,7 +8,7 @@
 #ifndef _RSTEXCHANGE_H_
 	#define _RSTEXCHANGE_H_
 
-	#include <Contest.h>
+	#include "Contest.h"
 
 
 	@interface RSTExchange : Contest {

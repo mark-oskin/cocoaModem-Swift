@@ -7,6 +7,7 @@
 	
 #import "CWSpeedPipeline.h"
 #import "CWMatchedFilter.h"
+#import "Clears.h"
 
 @implementation CWSpeedPipeline
 

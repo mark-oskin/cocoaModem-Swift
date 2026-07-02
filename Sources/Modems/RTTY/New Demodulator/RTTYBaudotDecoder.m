@@ -8,7 +8,7 @@
 
 #import "RTTYBaudotDecoder.h"
 #import "RTTYDemodulator.h"
-#import <Baudot.h>
+#import "Baudot.h"
 
 
 @implementation RTTYBaudotDecoder

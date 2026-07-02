@@ -22,17 +22,17 @@ typedef struct {
 	CWMatchedFilter *matchedFilter, *originalMatchedFilter ;
 	CMATC *atc ;
 	MorseDecoder *decoder ;
-} CWPipeline ;
+} CWDemodPipelineStages ;
 
 
 - (void)initPipelineStages:(CMTonePair*)pair decoder:(MorseDecoder*)decoder bandwidth:(float)bandwidth
 {
-	CWPipeline *p ;	
+	CWDemodPipelineStages *p ;	
 	CWMatchedFilter *matchedFilter ;
 	
 	isRTTY = NO ;
 	tonePair = *pair ;
-	p = (CWPipeline*)( pipeline = ( void* )malloc( sizeof( CWPipeline ) ) ) ;
+	p = (CWDemodPipelineStages*)( pipeline = ( void* )malloc( sizeof( CWDemodPipelineStages ) ) ) ;
 	// -- bandpass filter (none)
 	p->bandpassFilter = p->originalBandpassFilter = nil ;
 	//  -- CW mixer (mixes signal to I&Q baseband
@@ -50,14 +50,14 @@ typedef struct {
 
 - (void)setLatency:(int)value
 {
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWDemodPipelineStages *p = (CWDemodPipelineStages*)pipeline;
 
 	[ p->matchedFilter setLatency:value ] ;
 }
 
 - (void)setCWBandwidth:(float)bandwidth
 {
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWDemodPipelineStages *p = (CWDemodPipelineStages*)pipeline;
 
 	//  use constant 250 Hz filter for automatic decoding
 	if ( p->mixer ) [ p->mixer setCWBandwidth:300.0 ] ;
@@ -85,7 +85,7 @@ typedef struct {
 
 - (void)dealloc
 {
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWDemodPipelineStages *p = (CWDemodPipelineStages*)pipeline;
 	
 	[ self setClient:nil ] ;
 	[ p->decoder release ] ;
@@ -105,7 +105,7 @@ typedef struct {
 
 - (void)setupDemodulatorChain
 {
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWDemodPipelineStages *p = (CWDemodPipelineStages*)pipeline;
 
 	//  connect AudioPipes
 	[ p->matchedFilter setDecoder:p->decoder receiver:(CWReceiver*)receiver ] ;
@@ -116,28 +116,28 @@ typedef struct {
 
 - (void)newClick:(float)delta
 {
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWDemodPipelineStages *p = (CWDemodPipelineStages*)pipeline;
 
 	if ( p->matchedFilter ) [ p->matchedFilter newClick:delta ] ;
 }
 
 - (void)changeCodeSpeedTo:(int)speed
 {
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWDemodPipelineStages *p = (CWDemodPipelineStages*)pipeline;
 
 	if ( p->matchedFilter ) [ p->matchedFilter changeCodeSpeedTo:speed ] ;
 }
 
 - (void)changeSquelchTo:(float)squelch fastQSB:(float)fast slowQSB:(float)slow
 {
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWDemodPipelineStages *p = (CWDemodPipelineStages*)pipeline;
 
 	if ( p->matchedFilter ) [ p->matchedFilter setSquelch:squelch fastQSB:fast slowQSB:slow ] ;
 }
 
 - (void)importData:(CMPipe*)pipe
 {	
-	CWPipeline *p = (CWPipeline*)pipeline;
+	CWDemodPipelineStages *p = (CWDemodPipelineStages*)pipeline;
 	
 	//  send data through the processing chain starting at the mixer
 	if ( p->mixer )  [ p->mixer importData:pipe ] ;

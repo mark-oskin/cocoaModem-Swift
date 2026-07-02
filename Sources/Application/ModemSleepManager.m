@@ -7,6 +7,7 @@
 	
 	
 #import "ModemSleepManager.h"
+#import <IOKit/pwr_mgt/IOPMLib.h>
 
 
 @implementation ModemSleepManager
