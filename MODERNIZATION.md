@@ -49,11 +49,34 @@ Ground rules (see `Sources/Swift/Application/UTC.swift` for the pattern):
    `tools/pbx_swift.py remove-m <File.m>` retires the old implementation.
    Keep the build green after each batch; launch the app as a smoke test.
 
+## Converted so far (17 classes, all committed, build green)
+
+- Application: UTC, splash, splashPanel, ModemColor, VoiceAssistTextField,
+  SleepManager, ModemSleepManager, MacroNode, MacroScripts, MacroMenu,
+  UserInfo, Speech (faithful NSSpeechSynthesizer port — TODO AVSpeechSynthesizer).
+- About: About, AboutView.  Instrumentation: DisplayColor.
+  Preferences: SubDictionary.  QSO: QSO (`@objc(QSO) : StripPhi`, base stays ObjC).
+
+Lesson banked (see DisplayColor): porting numeric C to Swift 1:1 is unsafe —
+Swift's checked arithmetic/conversions TRAP where C silently wraps/truncates.
+Use guarded conversions + wrapping operators (`&+`, `&<<`, `UInt32(bitPattern:)`)
+for any bit/fixed-point math, and always launch-test after a batch.
+
+Blocked until their Obj-C subclasses convert first (ObjC can't subclass Swift):
+StripPhi (sub: ContestBar, Contest), Preferences (sub: Config).
+
 ## Remaining work (rough order)
 
-- [ ] Application layer: Speech (consider AVSpeechSynthesizer), AppDelegate,
+- [ ] Application layer: AppDelegate (NSScriptCommand/scripting),
       Application.m (1.4k lines, central controller — do late).
-- [ ] Categories, QSO, Preferences, Interface Managers.
+- [ ] Interface Managers, Interfaces, Contest (44 files, interconnected).
+- [ ] Instrumentation waterfalls/scopes (UI bitmap drawing — same overflow
+      risk class as DisplayColor; convert carefully, verify visually).
+- [ ] **Modems — 156 files, DSP signal path. HIGHEST RISK.** Demodulation
+      correctness cannot be validated without a radio + audio input; a launch
+      test only proves it doesn't crash. Convert incrementally WITH on-air /
+      recorded-signal A/B testing, or leave as working Obj-C/C — a mixed-language
+      target is fine and the C DSP kernels (Sources/Filters) need not become Swift.
 - [ ] Audio layer (AudioManager and friends still use pre-10.6 CoreAudio
       `AudioDeviceGetProperty` API — works but deprecated; migrate to
       `AudioObjectGetPropertyData` during conversion).
