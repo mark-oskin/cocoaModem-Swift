@@ -19,8 +19,7 @@
 #import "Plist.h"
 #import "RTTYReceiver.h"
 #import "RTTYTxConfig.h"
-//  now provided by cocoaModem-Swift.h
-#import "SITORDemodulator.h"
+//  SITORDemodulator now provided by cocoaModem-Swift.h
 #import "SITORReceiver.h"
 #import "SITORRxControl.h"
 #import "cocoaModem-Swift.h"

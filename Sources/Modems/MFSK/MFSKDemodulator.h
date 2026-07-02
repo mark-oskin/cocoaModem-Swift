@@ -12,7 +12,7 @@
 	#import "CoreFilter.h"
 	#import "CMFFT.h"
 	#import "CMVaricode.h"
-	#import "ConvolutionCode.h"
+	@class ConvolutionCode ;		//  ConvolutionCode converted to Swift (cocoaModem-Swift.h)
 	#import "DataPipe.h"
 	#import "MFSKFEC.h"
 	#import "MFSKIndicator.h"

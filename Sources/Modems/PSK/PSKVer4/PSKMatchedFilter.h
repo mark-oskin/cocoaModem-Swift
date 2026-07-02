@@ -7,7 +7,7 @@
 //
 
 #import "CMPSKmatchedFilter.h"
-#import "ConvolutionCode.h"
+@class ConvolutionCode ;		//  ConvolutionCode converted to Swift (cocoaModem-Swift.h)
 
 
 typedef struct {

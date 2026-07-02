@@ -8,7 +8,7 @@
 	
 #import "MFSKModulator.h"
 #import "cocoaModemParams.h"
-#import "ConvolutionCode.h"
+#import "cocoaModem-Swift.h"
 #import "MFSKVaricode.h"
 #import "MFSKDemodulator.h"
 

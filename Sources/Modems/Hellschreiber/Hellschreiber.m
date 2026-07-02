@@ -15,7 +15,6 @@
 #import "Contest.h"					// for HELLMODE
 #import "ExchangeView.h"
 #import "HellConfig.h"
-#import "HellDisplay.h"
 #import "HellMacros.h"
 #import "HellReceiver.h"
 #import "ModemDistributionBox.h"

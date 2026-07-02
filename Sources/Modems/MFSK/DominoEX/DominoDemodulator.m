@@ -7,6 +7,7 @@
 //
 
 #import "DominoDemodulator.h"
+#import "cocoaModem-Swift.h"
 #import "DominoVaricode.h"
 #import "MFSK.h"
 #import "MFSKModes.h"

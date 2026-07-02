@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890E933758A40A9408BCD33B /* SynchAM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE92E63B4EBA9AE2F451503 /* SynchAM.swift */; };
+		AD42AE78011745473EA8AEC8 /* AMConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD39E7439C2976C78A5A84E /* AMConfig.swift */; };
+		3B36C6289CE3B22179C224C0 /* AMDemodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D12BC5CE1B5C296AC7F88C /* AMDemodulator.swift */; };
+		5F5EFAEDE1576F5E6A9974AB /* ConvolutionCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B4CD208084B39822D1C94 /* ConvolutionCode.swift */; };
+		F90A27152B2696E5574F7664 /* SITORDemodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8132E4FAC2FBC06B0802E74 /* SITORDemodulator.swift */; };
+		DCDB88AABDAF126DC9A8D97F /* SITORBitSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882E837243BB59595E626261 /* SITORBitSync.swift */; };
+		3A7B079392F89E40653F35F8 /* MooreDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7DBFBBFF9268A2F9C831A6 /* MooreDecoder.swift */; };
+		3438619F704F49AAA5E49FCE /* HellDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1F9800D3771D2A8E03FE9C /* HellDisplay.swift */; };
 		37A4AE5D66993B47A73BB4FD /* RTTYMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA5746F2F00D840B925F88 /* RTTYMonitor.swift */; };
 		32323A98DDBF5470FFE5B17A /* PSKMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FADA6926E1EC87EC3EF0C /* PSKMonitor.swift */; };
 		E7D7DD13025F15D80D906D60 /* ModemEqualizerPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5512A599C6B9A0B2277C9E17 /* ModemEqualizerPlot.swift */; };
@@ -105,9 +113,7 @@
 		848770231076740500B83EDD /* VUSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E901076740400B83EDD /* VUSegment.m */; };
 		848770501076740500B83EDD /* DualRTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876EF81076740400B83EDD /* DualRTTY.m */; };
 		848770511076740500B83EDD /* DualRTTYConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876EFA1076740400B83EDD /* DualRTTYConfig.m */; };
-		848770521076740500B83EDD /* ConvolutionCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876EFD1076740400B83EDD /* ConvolutionCode.m */; };
 		848770531076740500B83EDD /* HellConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F001076740400B83EDD /* HellConfig.m */; };
-		848770541076740500B83EDD /* HellDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F021076740400B83EDD /* HellDisplay.m */; };
 		848770551076740500B83EDD /* HellMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F041076740400B83EDD /* HellMacros.m */; };
 		848770561076740500B83EDD /* HellModulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F061076740400B83EDD /* HellModulator.m */; };
 		848770571076740500B83EDD /* HellReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F081076740400B83EDD /* HellReceiver.m */; };
@@ -179,15 +185,10 @@
 		848770A61076740500B83EDD /* RTTYReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FBD1076740500B83EDD /* RTTYReceiver.m */; };
 		848770A71076740500B83EDD /* RTTYRxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FBF1076740500B83EDD /* RTTYRxControl.m */; };
 		848770A81076740500B83EDD /* RTTYTxConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FC11076740500B83EDD /* RTTYTxConfig.m */; };
-		848770A91076740500B83EDD /* MooreDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FC61076740500B83EDD /* MooreDecoder.m */; };
 		848770AA1076740500B83EDD /* SITOR.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FC81076740500B83EDD /* SITOR.m */; };
-		848770AB1076740500B83EDD /* SITORBitSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FCA1076740500B83EDD /* SITORBitSync.m */; };
 		848770AC1076740500B83EDD /* SITORConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FCC1076740500B83EDD /* SITORConfig.m */; };
-		848770AD1076740500B83EDD /* SITORDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FCE1076740500B83EDD /* SITORDemodulator.m */; };
 		848770AE1076740500B83EDD /* SITORReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FD01076740500B83EDD /* SITORReceiver.m */; };
 		848770AF1076740500B83EDD /* SITORRxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FD21076740500B83EDD /* SITORRxControl.m */; };
-		848770B11076740500B83EDD /* AMDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FD71076740500B83EDD /* AMDemodulator.m */; };
-		848770B31076740500B83EDD /* SynchAM.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FDB1076740500B83EDD /* SynchAM.m */; };
 		848770B61076740500B83EDD /* CWAuralFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FE41076740500B83EDD /* CWAuralFilter.m */; };
 		848770B71076740500B83EDD /* CWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FE61076740500B83EDD /* CWConfig.m */; };
 		848770B81076740500B83EDD /* CWDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FE81076740500B83EDD /* CWDemodulator.m */; };
@@ -278,7 +279,6 @@
 		849C0A4810F93A7C00F342E7 /* mldx5Key.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4510F93A5B00F342E7 /* mldx5Key.scpt */; };
 		849C0A4910F93A7C00F342E7 /* mldx5Unkey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4610F93A5B00F342E7 /* mldx5Unkey.scpt */; };
 		849C0A4A10F93A7C00F342E7 /* mldxVersion.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4710F93A6200F342E7 /* mldxVersion.scpt */; };
-		84AB925010A7549600A26242 /* AMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB924F10A7549600A26242 /* AMConfig.m */; };
 		84AB92C010A7630700A26242 /* RTTYMatchedFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB92BF10A7630700A26242 /* RTTYMatchedFilter.m */; };
 		84AB93A510A793FF00A26242 /* RTTYMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB93A410A793FF00A26242 /* RTTYMixer.m */; };
 		84B40494109A70FD0082E332 /* audioutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84B40492109A70FD0082E332 /* audioutils.c */; };
@@ -399,6 +399,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6BE92E63B4EBA9AE2F451503 /* SynchAM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SynchAM.swift"; path = "../Sources/Swift/Synchronous AM/SynchAM.swift"; sourceTree = SOURCE_ROOT; };
+		4BD39E7439C2976C78A5A84E /* AMConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AMConfig.swift"; path = "../Sources/Swift/Synchronous AM/AMConfig.swift"; sourceTree = SOURCE_ROOT; };
+		F7D12BC5CE1B5C296AC7F88C /* AMDemodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AMDemodulator.swift"; path = "../Sources/Swift/Synchronous AM/AMDemodulator.swift"; sourceTree = SOURCE_ROOT; };
+		FA2B4CD208084B39822D1C94 /* ConvolutionCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ConvolutionCode.swift"; path = "../Sources/Swift/FEC/ConvolutionCode.swift"; sourceTree = SOURCE_ROOT; };
+		A8132E4FAC2FBC06B0802E74 /* SITORDemodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SITORDemodulator.swift"; path = "../Sources/Swift/SITOR-B/SITORDemodulator.swift"; sourceTree = SOURCE_ROOT; };
+		882E837243BB59595E626261 /* SITORBitSync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SITORBitSync.swift"; path = "../Sources/Swift/SITOR-B/SITORBitSync.swift"; sourceTree = SOURCE_ROOT; };
+		6F7DBFBBFF9268A2F9C831A6 /* MooreDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MooreDecoder.swift"; path = "../Sources/Swift/SITOR-B/MooreDecoder.swift"; sourceTree = SOURCE_ROOT; };
+		4D1F9800D3771D2A8E03FE9C /* HellDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HellDisplay.swift"; path = "../Sources/Swift/Hellschreiber/HellDisplay.swift"; sourceTree = SOURCE_ROOT; };
 		09FA5746F2F00D840B925F88 /* RTTYMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYMonitor.swift"; path = "../Sources/Swift/Instrumentation/RTTYMonitor.swift"; sourceTree = SOURCE_ROOT; };
 		7E6FADA6926E1EC87EC3EF0C /* PSKMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PSKMonitor.swift"; path = "../Sources/Swift/Instrumentation/PSKMonitor.swift"; sourceTree = SOURCE_ROOT; };
 		5512A599C6B9A0B2277C9E17 /* ModemEqualizerPlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModemEqualizerPlot.swift"; path = "../Sources/Swift/Instrumentation/ModemEqualizerPlot.swift"; sourceTree = SOURCE_ROOT; };
@@ -586,12 +594,8 @@
 		84876EF81076740400B83EDD /* DualRTTY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DualRTTY.m; sourceTree = "<group>"; };
 		84876EF91076740400B83EDD /* DualRTTYConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DualRTTYConfig.h; sourceTree = "<group>"; };
 		84876EFA1076740400B83EDD /* DualRTTYConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DualRTTYConfig.m; sourceTree = "<group>"; };
-		84876EFC1076740400B83EDD /* ConvolutionCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvolutionCode.h; sourceTree = "<group>"; };
-		84876EFD1076740400B83EDD /* ConvolutionCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvolutionCode.m; sourceTree = "<group>"; };
 		84876EFF1076740400B83EDD /* HellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellConfig.h; sourceTree = "<group>"; };
 		84876F001076740400B83EDD /* HellConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellConfig.m; sourceTree = "<group>"; };
-		84876F011076740400B83EDD /* HellDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellDisplay.h; sourceTree = "<group>"; };
-		84876F021076740400B83EDD /* HellDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellDisplay.m; sourceTree = "<group>"; };
 		84876F031076740400B83EDD /* HellMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellMacros.h; sourceTree = "<group>"; };
 		84876F041076740400B83EDD /* HellMacros.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellMacros.m; sourceTree = "<group>"; };
 		84876F051076740400B83EDD /* HellModulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellModulator.h; sourceTree = "<group>"; };
@@ -740,25 +744,14 @@
 		84876FC11076740500B83EDD /* RTTYTxConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYTxConfig.m; sourceTree = "<group>"; };
 		84876FC21076740500B83EDD /* RTTYTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYTypes.h; sourceTree = "<group>"; };
 		84876FC41076740500B83EDD /* Moore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moore.h; sourceTree = "<group>"; };
-		84876FC51076740500B83EDD /* MooreDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MooreDecoder.h; sourceTree = "<group>"; };
-		84876FC61076740500B83EDD /* MooreDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MooreDecoder.m; sourceTree = "<group>"; };
 		84876FC71076740500B83EDD /* SITOR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITOR.h; sourceTree = "<group>"; };
 		84876FC81076740500B83EDD /* SITOR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SITOR.m; sourceTree = "<group>"; };
-		84876FC91076740500B83EDD /* SITORBitSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITORBitSync.h; sourceTree = "<group>"; };
-		84876FCA1076740500B83EDD /* SITORBitSync.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SITORBitSync.m; sourceTree = "<group>"; };
 		84876FCB1076740500B83EDD /* SITORConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITORConfig.h; sourceTree = "<group>"; };
 		84876FCC1076740500B83EDD /* SITORConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SITORConfig.m; sourceTree = "<group>"; };
-		84876FCD1076740500B83EDD /* SITORDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITORDemodulator.h; sourceTree = "<group>"; };
-		84876FCE1076740500B83EDD /* SITORDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SITORDemodulator.m; sourceTree = "<group>"; };
 		84876FCF1076740500B83EDD /* SITORReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITORReceiver.h; sourceTree = "<group>"; };
 		84876FD01076740500B83EDD /* SITORReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SITORReceiver.m; sourceTree = "<group>"; };
 		84876FD11076740500B83EDD /* SITORRxControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITORRxControl.h; sourceTree = "<group>"; };
 		84876FD21076740500B83EDD /* SITORRxControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SITORRxControl.m; sourceTree = "<group>"; };
-		84876FD41076740500B83EDD /* AMConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMConfig.h; sourceTree = "<group>"; };
-		84876FD61076740500B83EDD /* AMDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDemodulator.h; sourceTree = "<group>"; };
-		84876FD71076740500B83EDD /* AMDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDemodulator.m; sourceTree = "<group>"; };
-		84876FDA1076740500B83EDD /* SynchAM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchAM.h; sourceTree = "<group>"; };
-		84876FDB1076740500B83EDD /* SynchAM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchAM.m; sourceTree = "<group>"; };
 		84876FE31076740500B83EDD /* CWAuralFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAuralFilter.h; sourceTree = "<group>"; };
 		84876FE41076740500B83EDD /* CWAuralFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAuralFilter.m; sourceTree = "<group>"; };
 		84876FE51076740500B83EDD /* CWConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWConfig.h; sourceTree = "<group>"; };
@@ -941,7 +934,6 @@
 		849C0A4610F93A5B00F342E7 /* mldx5Unkey.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = mldx5Unkey.scpt; sourceTree = "<group>"; };
 		849C0A4710F93A6200F342E7 /* mldxVersion.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = mldxVersion.scpt; sourceTree = "<group>"; };
 		84A851E50B1E1898003A69CF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ModemEqualizer.nib; sourceTree = "<group>"; };
-		84AB924F10A7549600A26242 /* AMConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMConfig.m; sourceTree = "<group>"; };
 		84AB92BE10A7630700A26242 /* RTTYMatchedFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYMatchedFilter.h; sourceTree = "<group>"; };
 		84AB92BF10A7630700A26242 /* RTTYMatchedFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYMatchedFilter.m; sourceTree = "<group>"; };
 		84AB93A310A793FF00A26242 /* RTTYMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYMixer.h; sourceTree = "<group>"; };
@@ -1095,6 +1087,14 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				6BE92E63B4EBA9AE2F451503 /* SynchAM.swift */,
+				4BD39E7439C2976C78A5A84E /* AMConfig.swift */,
+				F7D12BC5CE1B5C296AC7F88C /* AMDemodulator.swift */,
+				FA2B4CD208084B39822D1C94 /* ConvolutionCode.swift */,
+				A8132E4FAC2FBC06B0802E74 /* SITORDemodulator.swift */,
+				882E837243BB59595E626261 /* SITORBitSync.swift */,
+				6F7DBFBBFF9268A2F9C831A6 /* MooreDecoder.swift */,
+				4D1F9800D3771D2A8E03FE9C /* HellDisplay.swift */,
 				09FA5746F2F00D840B925F88 /* RTTYMonitor.swift */,
 				7E6FADA6926E1EC87EC3EF0C /* PSKMonitor.swift */,
 				5512A599C6B9A0B2277C9E17 /* ModemEqualizerPlot.swift */,
@@ -1612,8 +1612,6 @@
 		84876EFB1076740400B83EDD /* FEC */ = {
 			isa = PBXGroup;
 			children = (
-				84876EFC1076740400B83EDD /* ConvolutionCode.h */,
-				84876EFD1076740400B83EDD /* ConvolutionCode.m */,
 			);
 			path = FEC;
 			sourceTree = "<group>";
@@ -1623,8 +1621,6 @@
 			children = (
 				84876EFF1076740400B83EDD /* HellConfig.h */,
 				84876F001076740400B83EDD /* HellConfig.m */,
-				84876F011076740400B83EDD /* HellDisplay.h */,
-				84876F021076740400B83EDD /* HellDisplay.m */,
 				84876F031076740400B83EDD /* HellMacros.h */,
 				84876F041076740400B83EDD /* HellMacros.m */,
 				84876F051076740400B83EDD /* HellModulator.h */,
@@ -1903,16 +1899,10 @@
 			isa = PBXGroup;
 			children = (
 				84876FC41076740500B83EDD /* Moore.h */,
-				84876FC51076740500B83EDD /* MooreDecoder.h */,
-				84876FC61076740500B83EDD /* MooreDecoder.m */,
 				84876FC71076740500B83EDD /* SITOR.h */,
 				84876FC81076740500B83EDD /* SITOR.m */,
-				84876FC91076740500B83EDD /* SITORBitSync.h */,
-				84876FCA1076740500B83EDD /* SITORBitSync.m */,
 				84876FCB1076740500B83EDD /* SITORConfig.h */,
 				84876FCC1076740500B83EDD /* SITORConfig.m */,
-				84876FCD1076740500B83EDD /* SITORDemodulator.h */,
-				84876FCE1076740500B83EDD /* SITORDemodulator.m */,
 				84876FCF1076740500B83EDD /* SITORReceiver.h */,
 				84876FD01076740500B83EDD /* SITORReceiver.m */,
 				84876FD11076740500B83EDD /* SITORRxControl.h */,
@@ -1924,12 +1914,6 @@
 		84876FD31076740500B83EDD /* Synchronous AM */ = {
 			isa = PBXGroup;
 			children = (
-				84876FD41076740500B83EDD /* AMConfig.h */,
-				84AB924F10A7549600A26242 /* AMConfig.m */,
-				84876FD61076740500B83EDD /* AMDemodulator.h */,
-				84876FD71076740500B83EDD /* AMDemodulator.m */,
-				84876FDA1076740500B83EDD /* SynchAM.h */,
-				84876FDB1076740500B83EDD /* SynchAM.m */,
 			);
 			path = "Synchronous AM";
 			sourceTree = "<group>";
@@ -2503,6 +2487,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890E933758A40A9408BCD33B /* SynchAM.swift in Sources */,
+				AD42AE78011745473EA8AEC8 /* AMConfig.swift in Sources */,
+				3B36C6289CE3B22179C224C0 /* AMDemodulator.swift in Sources */,
+				5F5EFAEDE1576F5E6A9974AB /* ConvolutionCode.swift in Sources */,
+				F90A27152B2696E5574F7664 /* SITORDemodulator.swift in Sources */,
+				DCDB88AABDAF126DC9A8D97F /* SITORBitSync.swift in Sources */,
+				3A7B079392F89E40653F35F8 /* MooreDecoder.swift in Sources */,
+				3438619F704F49AAA5E49FCE /* HellDisplay.swift in Sources */,
 				37A4AE5D66993B47A73BB4FD /* RTTYMonitor.swift in Sources */,
 				32323A98DDBF5470FFE5B17A /* PSKMonitor.swift in Sources */,
 				E7D7DD13025F15D80D906D60 /* ModemEqualizerPlot.swift in Sources */,
@@ -2564,9 +2556,7 @@
 				848770231076740500B83EDD /* VUSegment.m in Sources */,
 				848770501076740500B83EDD /* DualRTTY.m in Sources */,
 				848770511076740500B83EDD /* DualRTTYConfig.m in Sources */,
-				848770521076740500B83EDD /* ConvolutionCode.m in Sources */,
 				848770531076740500B83EDD /* HellConfig.m in Sources */,
-				848770541076740500B83EDD /* HellDisplay.m in Sources */,
 				848770551076740500B83EDD /* HellMacros.m in Sources */,
 				848770561076740500B83EDD /* HellModulator.m in Sources */,
 				848770571076740500B83EDD /* HellReceiver.m in Sources */,
@@ -2638,15 +2628,10 @@
 				848770A61076740500B83EDD /* RTTYReceiver.m in Sources */,
 				848770A71076740500B83EDD /* RTTYRxControl.m in Sources */,
 				848770A81076740500B83EDD /* RTTYTxConfig.m in Sources */,
-				848770A91076740500B83EDD /* MooreDecoder.m in Sources */,
 				848770AA1076740500B83EDD /* SITOR.m in Sources */,
-				848770AB1076740500B83EDD /* SITORBitSync.m in Sources */,
 				848770AC1076740500B83EDD /* SITORConfig.m in Sources */,
-				848770AD1076740500B83EDD /* SITORDemodulator.m in Sources */,
 				848770AE1076740500B83EDD /* SITORReceiver.m in Sources */,
 				848770AF1076740500B83EDD /* SITORRxControl.m in Sources */,
-				848770B11076740500B83EDD /* AMDemodulator.m in Sources */,
-				848770B31076740500B83EDD /* SynchAM.m in Sources */,
 				848770B61076740500B83EDD /* CWAuralFilter.m in Sources */,
 				848770B71076740500B83EDD /* CWConfig.m in Sources */,
 				848770B81076740500B83EDD /* CWDemodulator.m in Sources */,
@@ -2736,7 +2721,6 @@
 				842DBF30109FAF1C0039D90E /* AuralMonitor.m in Sources */,
 				842DBF8610A002FA0039D90E /* PushedStereoDest.m in Sources */,
 				84D98DBA10A5F34400B278AC /* AudioManager.m in Sources */,
-				84AB925010A7549600A26242 /* AMConfig.m in Sources */,
 				84AB92C010A7630700A26242 /* RTTYMatchedFilter.m in Sources */,
 				84AB93A510A793FF00A26242 /* RTTYMixer.m in Sources */,
 				84CE741810AAF515003D0C99 /* CMFSKDemodulator.m in Sources */,

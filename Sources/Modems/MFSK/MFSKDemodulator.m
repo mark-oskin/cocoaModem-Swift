@@ -7,6 +7,7 @@
 	
 	
 #import "MFSKDemodulator.h"
+#import "cocoaModem-Swift.h"
 #import "MFSK.h"
 #import "MFSKVaricode.h"
 

@@ -29,3 +29,5 @@
 #import "WFRTTYConfig.h"
 #import "CMBaudotDecoder.h"
 #import "CMFSKDemodulator.h"
+#import "ParametricEqualizer.h"	//  AMDemodulator.swift (ParametricEqualizer/ParametricRange)
+#import "ModemManager.h"		//  SynchAM.swift init(into:nib:manager:)

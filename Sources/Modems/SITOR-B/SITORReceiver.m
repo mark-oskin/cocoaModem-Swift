@@ -9,7 +9,7 @@
 #import "Modem.h"
 #import "RTTYSingleFilter.h"
 #import "RTTYMPFilter.h"
-#import "SITORDemodulator.h"
+#import "cocoaModem-Swift.h"		//  SITORDemodulator is now Swift
 #import "SITORRxControl.h"
 
 @implementation SITORReceiver

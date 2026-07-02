@@ -7,6 +7,7 @@
 //
 
 #import "PSKMatchedFilter.h"
+#import "cocoaModem-Swift.h"
 #include <math.h>
 
 @implementation PSKMatchedFilter

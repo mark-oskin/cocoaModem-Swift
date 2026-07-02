@@ -30,7 +30,7 @@
 #import "RTTYConfig.h"
 #import "RTTYMacros.h"
 #import "SITOR.h"
-#import "SynchAM.h"
+//  SynchAM converted to Swift -- declared in cocoaModem-Swift.h (imported above)
 #import "WBCW.h"
 #import "WFRTTY.h"
 
