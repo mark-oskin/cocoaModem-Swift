@@ -87,8 +87,79 @@ StripPhi (sub: ContestBar, Contest), Preferences (sub: Config).
   the mode trees) converts LAST, or stays Obj-C/C permanently (fine in a mixed
   target; the C kernels in Sources/Filters need not become Swift).
 
+## The ivar-coupling wall (READ THIS before converting modem classes)
+
+**Swift subclasses cannot access an Objective-C superclass's instance
+variables** — only its methods and `@property` declarations. cocoaModem's DSP
+framework is built on the opposite convention: subclasses reach directly into
+their base classes' `@protected` ivars (C structs, fixed C arrays, DSP ring
+buffers, `void*` pipelines). This partitions every remaining class into three
+tiers:
+
+1. **Cleanly convertible** — rooted at a system class (NSObject/NSView/…) or
+   touches its Obj-C base only through methods. Convert freely (this is what
+   every wave so far did). ~60 such classes remain (see
+   `tools/hierarchy.py` — system-rooted leaves).
+2. **KVC-convertible** — subclasses an Obj-C base and reads/writes only
+   *scalar/object* base ivars, and only *off the per-sample hot path*. Reach
+   them with `value(forKey:)` / `setValue(_:forKey:)` (relies on
+   `accessInstanceVariablesDirectly`, default YES). Done for `AMConfig` /
+   `SynchAM`; validated by launching and switching to the Synch-AM tab. Do NOT
+   use KVC on per-sample DSP paths (string-keyed lookup is far too slow) and it
+   cannot reach C-struct / C-array / `void*` ivars at all.
+3. **Blocked** — subclasses an Obj-C base and accesses C-struct/array/`void*`
+   ivars, and/or does so per-sample. This is most of the modem signal path
+   (receivers, demodulators, modulators, matched filters, configs). Cannot be
+   converted without first refactoring the shared bases.
+
+### Migration plan for the blocked DSP core (tier 3)
+
+The blocked classes all hang off a handful of shared Obj-C bases. To unblock
+them, convert **bottom-up, one whole inheritance tree at a time**, because the
+moment a base becomes Swift its ivars become Swift properties that Swift
+subclasses can see — but its *Obj-C* subclasses break (Obj-C can't subclass
+Swift), so the entire tree must convert together in one wave. Order:
+
+1. `CoreFilter` C kernels (Sources/Filters/CoreFilter/*.c) — leave as C. Swift
+   calls them fine. No conversion needed or wanted.
+2. `CMPipe` → `CMTappedPipe` → (`CMFilter`, `CMNCO`, `DestClient`, …): the DSP
+   pipe framework, ~75 classes. Convert as ONE coordinated migration (or expose
+   every `@protected` ivar as `@property` first, then convert incrementally).
+   This is the load-bearing step; everything else depends on it.
+3. `Modem` → `MacroInterface` → `ContestInterface` → `RTTYInterface` and the
+   per-mode receiver/modulator/demod/config trees (RTTY, PSK, MFSK, WB CW,
+   Analyze, HF-FAX, Dual RTTY, …).
+4. `StripPhi` → `Contest` → `RSTExchange` and the contest-exchange classes.
+
+Two ways to execute each tree:
+- **(A) Expose-then-convert (safer, incremental):** add `@property` accessors
+  for the accessed ivars on the Obj-C base, convert the leaves to Swift using
+  those accessors, then convert the base last. Keeps the build green between
+  steps. More churn, but each step is testable.
+- **(B) Whole-tree atomic:** convert the entire tree in one wave. Less churn,
+  but no green build until the whole tree compiles, and no incremental testing.
+
+**Recommendation:** the DSP signal path is battle-tested and its correctness
+(actually demodulating on-air signals) cannot be verified without a radio +
+audio input — a launch test only proves it doesn't crash. Do tier-3 conversion
+**only with hardware in the loop, using approach (A)**, one mode at a time,
+A/B-comparing decode output against the Obj-C build on recorded signals. Absent
+that, leaving tier 3 as Obj-C/C is the correct, professional outcome: a
+mixed-language target is fully idiomatic and the DSP stays proven.
+
 ## Remaining work (rough order)
 
+- [ ] Tier-1 clean classes still Obj-C (convert freely, no hardware needed):
+      Interface Managers base (ASColor, Messages, ContestManager), Contest UI
+      widgets (BackgroundTextField, DateTimeField, UpperFormatter, OptionView/
+      Panel, ContestQSOObj, ContestLog, RTTYRoundupMults, Cabrillo),
+      ParametricEqualizer. (Wave 3 — in progress.)
+- [ ] Tier-1 but hardware-interfacing (convert mechanically, but VERIFY with
+      hardware): AudioManager (CoreAudio — also migrate AudioDeviceGetProperty
+      → AudioObjectGetPropertyData), PTT / SerialPort / microKEYER / Router /
+      FSK / DigitalInterfaces (serial), NetAudio (BonjourService/Socket,
+      NetReceive/NetSend), Transceiver / Module (AppleScript).
+- [ ] Tier-3 DSP core: per the migration plan above — hardware-gated.
 - [ ] Application layer: AppDelegate (NSScriptCommand/scripting),
       Application.m (1.4k lines, central controller — do late).
 - [ ] Interface Managers, Interfaces, Contest (44 files, interconnected).
