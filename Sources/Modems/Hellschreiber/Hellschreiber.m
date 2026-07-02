@@ -7,11 +7,10 @@
 //
 
 #import "Hellschreiber.h"
-#import "AYTextView.h"
+#import "TextAttribute.h"
 #import "cocoaModemParams.h"
 #import "Config.h"
 #import "Contest.h"					// for HELLMODE
-#import "ExchangeView.h"
 #import "HellConfig.h"
 #import "HellMacros.h"
 #import "HellReceiver.h"

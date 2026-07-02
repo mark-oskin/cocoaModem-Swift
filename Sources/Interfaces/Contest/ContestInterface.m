@@ -11,8 +11,6 @@
 #include "ContestBar.h"
 #include "ContestManager.h"
 #include "ContestMacroSheet.h"
-#include "ContestTextField.h"
-#include "ExchangeView.h"
 #import "cocoaModem-Swift.h"
 #include "ModemManager.h"
 

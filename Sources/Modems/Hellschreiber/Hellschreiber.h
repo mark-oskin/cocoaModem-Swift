@@ -10,7 +10,8 @@
 
 	#import <Cocoa/Cocoa.h>
 	#include "ContestInterface.h"
-	#include "AYTextView.h"
+	#import "TextAttribute.h"
+	@class AYTextView ;
 	#include "HellschreiberFont.h"
 	
 	typedef struct {

@@ -9,7 +9,6 @@
 #import "XE RTTY.h"
 #import "ContestManager.h"
 #import "TextEncoding.h"
-#import "TransparentTextField.h"
 #import "cocoaModem-Swift.h"
 
 

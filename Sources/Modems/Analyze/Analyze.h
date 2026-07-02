@@ -10,7 +10,7 @@
 
 	#import <Cocoa/Cocoa.h>
 	#include "Modem.h"
-	#include "AYTextView.h"
+	@class AYTextView ;
 
 	@interface Analyze : Modem {
 	

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8120AC48066A6EE6F5AA204C /* CWSendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9694FEF03598E17FEE0FB90C /* CWSendView.swift */; };
+		F1F1959C310412601DC9B290 /* ExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1C03AFBE2639450E183B3B /* ExchangeView.swift */; };
+		D273C1F1C55742C66B5993C6 /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49C9D1D652D0EEFAF9B6ED /* SendView.swift */; };
+		C732CC1EE72182628F469393 /* AYTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB71AC0EB65E8E914A0DC471 /* AYTextView.swift */; };
+		7B32EEA6C38E1FEA6BDEC02A /* TransparentTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B953F886E763F94819793819 /* TransparentTextField.swift */; };
+		183CA06BD5F95C0AC2CE0B57 /* ContestTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BCECD2F9864CB08FF9F633 /* ContestTextField.swift */; };
+		63F12CADA609C72D2E41776F /* OptionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E100DECA55254190693C282C /* OptionTextField.swift */; };
 		7A212468FA72AD343D83E050 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612E8A4AB27EC520E2A83D71 /* Application.swift */; };
 		7A234CF2900F8993CC125BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E643DE99E10EF53F013DC2D1 /* AppDelegate.swift */; };
 		501EFD81C266869D655857C5 /* Transceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DE19D2919ECA18CFBAA0FD /* Transceiver.swift */; };
@@ -88,7 +95,6 @@
 		0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6215340BE8E07984B7343ED /* UTC.swift */; };
 		84072E4509076C49006DA88B /* StripPhi.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E4309076C49006DA88B /* StripPhi.m */; };
 		84072FB309076EBD006DA88B /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 84072FAA09076EBD006DA88B /* error.c */; };
-		84072FCD09076EE4006DA88B /* AYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072FCC09076EE4006DA88B /* AYTextView.m */; };
 		84072FDF09076F2D006DA88B /* CQ WPX RTTY.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD709076F2D006DA88B /* CQ WPX RTTY.xml */; };
 		84072FE009076F2D006DA88B /* Generic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD809076F2D006DA88B /* Generic.xml */; };
 		84072FE109076F2D006DA88B /* RST - QSO Number.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD909076F2D006DA88B /* RST - QSO Number.xml */; };
@@ -138,12 +144,10 @@
 		848770151076740500B83EDD /* ModemDest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E741076740400B83EDD /* ModemDest.m */; };
 		848770161076740500B83EDD /* ModemSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E761076740400B83EDD /* ModemSource.m */; };
 		848770171076740500B83EDD /* DataPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E791076740400B83EDD /* DataPipe.m */; };
-		848770181076740500B83EDD /* ExchangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E7B1076740400B83EDD /* ExchangeView.m */; };
 		8487701A1076740500B83EDD /* Modem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E7F1076740400B83EDD /* Modem.m */; };
 		8487701B1076740500B83EDD /* ModemConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E811076740400B83EDD /* ModemConfig.m */; };
 		8487701C1076740500B83EDD /* ModemDistributionBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E831076740400B83EDD /* ModemDistributionBox.m */; };
 		8487701F1076740500B83EDD /* NewNCO.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E891076740400B83EDD /* NewNCO.m */; };
-		848770201076740500B83EDD /* SendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E8B1076740400B83EDD /* SendView.m */; };
 		848770221076740500B83EDD /* VUMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E8E1076740400B83EDD /* VUMeter.m */; };
 		848770501076740500B83EDD /* DualRTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876EF81076740400B83EDD /* DualRTTY.m */; };
 		848770511076740500B83EDD /* DualRTTYConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876EFA1076740400B83EDD /* DualRTTYConfig.m */; };
@@ -223,7 +227,6 @@
 		848770BE1076740500B83EDD /* CWPipeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FF41076740500B83EDD /* CWPipeline.m */; };
 		848770BF1076740500B83EDD /* CWReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FF61076740500B83EDD /* CWReceiver.m */; };
 		848770C01076740500B83EDD /* CWRxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FF81076740500B83EDD /* CWRxControl.m */; };
-		848770C11076740500B83EDD /* CWSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FFA1076740500B83EDD /* CWSendView.m */; };
 		848770C21076740500B83EDD /* CWSpeedPipeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FFC1076740500B83EDD /* CWSpeedPipeline.m */; };
 		848770C31076740500B83EDD /* CWTxConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FFE1076740500B83EDD /* CWTxConfig.m */; };
 		848770C51076740500B83EDD /* MorseDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770021076740500B83EDD /* MorseDecoder.m */; };
@@ -249,9 +252,6 @@
 		8487712C107674DA00B83EDD /* ContestBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877105107674DA00B83EDD /* ContestBar.m */; };
 		8487712D107674DA00B83EDD /* ContestInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877107107674DA00B83EDD /* ContestInterface.m */; };
 		8487712F107674DA00B83EDD /* ContestMacroSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487710B107674DA00B83EDD /* ContestMacroSheet.m */; };
-		84877131107674DA00B83EDD /* ContestTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487710F107674DA00B83EDD /* ContestTextField.m */; };
-		84877134107674DA00B83EDD /* OptionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877115107674DA00B83EDD /* OptionTextField.m */; };
-		84877136107674DA00B83EDD /* TransparentTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877119107674DA00B83EDD /* TransparentTextField.m */; };
 		848771681076789F00B83EDD /* CoreModem.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771421076789F00B83EDD /* CoreModem.m */; };
 		848771691076789F00B83EDD /* CMFilterBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771461076789F00B83EDD /* CMFilterBank.m */; };
 		8487716A1076789F00B83EDD /* CMNCO.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771481076789F00B83EDD /* CMNCO.m */; };
@@ -402,6 +402,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9694FEF03598E17FEE0FB90C /* CWSendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWSendView.swift"; path = "../Sources/Swift/Modems/WB CW/CWSendView.swift"; sourceTree = SOURCE_ROOT; };
+		4D1C03AFBE2639450E183B3B /* ExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ExchangeView.swift"; path = "../Sources/Swift/Modems/Base/ExchangeView.swift"; sourceTree = SOURCE_ROOT; };
+		4A49C9D1D652D0EEFAF9B6ED /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SendView.swift"; path = "../Sources/Swift/Modems/Base/SendView.swift"; sourceTree = SOURCE_ROOT; };
+		DB71AC0EB65E8E914A0DC471 /* AYTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AYTextView.swift"; path = "../Sources/Swift/AYText/AYTextView.swift"; sourceTree = SOURCE_ROOT; };
+		B953F886E763F94819793819 /* TransparentTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TransparentTextField.swift"; path = "../Sources/Swift/Interfaces/Contest/TransparentTextField.swift"; sourceTree = SOURCE_ROOT; };
+		E6BCECD2F9864CB08FF9F633 /* ContestTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContestTextField.swift"; path = "../Sources/Swift/Interfaces/Contest/ContestTextField.swift"; sourceTree = SOURCE_ROOT; };
+		E100DECA55254190693C282C /* OptionTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "OptionTextField.swift"; path = "../Sources/Swift/Interfaces/Contest/OptionTextField.swift"; sourceTree = SOURCE_ROOT; };
+		5C239C0873A69A4C004BC429 /* TextAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TextAttribute.h"; path = "../Sources/Includes/TextAttribute.h"; sourceTree = SOURCE_ROOT; };
 		612E8A4AB27EC520E2A83D71 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Application.swift"; path = "../Sources/Swift/Application/Application.swift"; sourceTree = SOURCE_ROOT; };
 		E643DE99E10EF53F013DC2D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AppDelegate.swift"; path = "../Sources/Swift/Application/AppDelegate.swift"; sourceTree = SOURCE_ROOT; };
 		59DE19D2919ECA18CFBAA0FD /* Transceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Transceiver.swift"; path = "../Sources/Swift/Interfaces/AppleScript/Transceiver.swift"; sourceTree = SOURCE_ROOT; };
@@ -497,8 +505,6 @@
 		84072E4309076C49006DA88B /* StripPhi.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StripPhi.m; sourceTree = "<group>"; };
 		84072FAA09076EBD006DA88B /* error.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = error.c; path = ../Sources/DSP/error.c; sourceTree = "<group>"; };
 		84072FAB09076EBD006DA88B /* error.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = error.h; path = ../Sources/DSP/error.h; sourceTree = "<group>"; };
-		84072FCB09076EE4006DA88B /* AYTextView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AYTextView.h; sourceTree = "<group>"; };
-		84072FCC09076EE4006DA88B /* AYTextView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = AYTextView.m; sourceTree = "<group>"; };
 		84072FD609076F2D006DA88B /* BARTG Sprint.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "BARTG Sprint.xml"; sourceTree = "<group>"; };
 		84072FD709076F2D006DA88B /* CQ WPX RTTY.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "CQ WPX RTTY.xml"; sourceTree = "<group>"; };
 		84072FD809076F2D006DA88B /* Generic.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Generic.xml; sourceTree = "<group>"; };
@@ -607,8 +613,6 @@
 		84876E761076740400B83EDD /* ModemSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemSource.m; sourceTree = "<group>"; };
 		84876E781076740400B83EDD /* DataPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataPipe.h; sourceTree = "<group>"; };
 		84876E791076740400B83EDD /* DataPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataPipe.m; sourceTree = "<group>"; };
-		84876E7A1076740400B83EDD /* ExchangeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExchangeView.h; sourceTree = "<group>"; };
-		84876E7B1076740400B83EDD /* ExchangeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExchangeView.m; sourceTree = "<group>"; };
 		84876E7E1076740400B83EDD /* Modem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modem.h; sourceTree = "<group>"; };
 		84876E7F1076740400B83EDD /* Modem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modem.m; sourceTree = "<group>"; };
 		84876E801076740400B83EDD /* ModemConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemConfig.h; sourceTree = "<group>"; };
@@ -617,8 +621,6 @@
 		84876E831076740400B83EDD /* ModemDistributionBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemDistributionBox.m; sourceTree = "<group>"; };
 		84876E881076740400B83EDD /* NewNCO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewNCO.h; sourceTree = "<group>"; };
 		84876E891076740400B83EDD /* NewNCO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewNCO.m; sourceTree = "<group>"; };
-		84876E8A1076740400B83EDD /* SendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendView.h; sourceTree = "<group>"; };
-		84876E8B1076740400B83EDD /* SendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendView.m; sourceTree = "<group>"; };
 		84876E8D1076740400B83EDD /* VUMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUMeter.h; sourceTree = "<group>"; };
 		84876E8E1076740400B83EDD /* VUMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUMeter.m; sourceTree = "<group>"; };
 		84876EF71076740400B83EDD /* DualRTTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DualRTTY.h; sourceTree = "<group>"; };
@@ -783,8 +785,6 @@
 		84876FF61076740500B83EDD /* CWReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWReceiver.m; sourceTree = "<group>"; };
 		84876FF71076740500B83EDD /* CWRxControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWRxControl.h; sourceTree = "<group>"; };
 		84876FF81076740500B83EDD /* CWRxControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWRxControl.m; sourceTree = "<group>"; };
-		84876FF91076740500B83EDD /* CWSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSendView.h; sourceTree = "<group>"; };
-		84876FFA1076740500B83EDD /* CWSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSendView.m; sourceTree = "<group>"; };
 		84876FFB1076740500B83EDD /* CWSpeedPipeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSpeedPipeline.h; sourceTree = "<group>"; };
 		84876FFC1076740500B83EDD /* CWSpeedPipeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSpeedPipeline.m; sourceTree = "<group>"; };
 		84876FFD1076740500B83EDD /* CWTxConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTxConfig.h; sourceTree = "<group>"; };
@@ -836,12 +836,6 @@
 		84877107107674DA00B83EDD /* ContestInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestInterface.m; sourceTree = "<group>"; };
 		8487710A107674DA00B83EDD /* ContestMacroSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestMacroSheet.h; sourceTree = "<group>"; };
 		8487710B107674DA00B83EDD /* ContestMacroSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestMacroSheet.m; sourceTree = "<group>"; };
-		8487710E107674DA00B83EDD /* ContestTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestTextField.h; sourceTree = "<group>"; };
-		8487710F107674DA00B83EDD /* ContestTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestTextField.m; sourceTree = "<group>"; };
-		84877114107674DA00B83EDD /* OptionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionTextField.h; sourceTree = "<group>"; };
-		84877115107674DA00B83EDD /* OptionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionTextField.m; sourceTree = "<group>"; };
-		84877118107674DA00B83EDD /* TransparentTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparentTextField.h; sourceTree = "<group>"; };
-		84877119107674DA00B83EDD /* TransparentTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparentTextField.m; sourceTree = "<group>"; };
 		8487713A1076754F00B83EDD /* Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module.h; sourceTree = "<group>"; };
 		8487713B1076754F00B83EDD /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module.m; sourceTree = "<group>"; };
 		8487713C1076754F00B83EDD /* Transceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transceiver.h; sourceTree = "<group>"; };
@@ -1068,6 +1062,14 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				9694FEF03598E17FEE0FB90C /* CWSendView.swift */,
+				4D1C03AFBE2639450E183B3B /* ExchangeView.swift */,
+				4A49C9D1D652D0EEFAF9B6ED /* SendView.swift */,
+				DB71AC0EB65E8E914A0DC471 /* AYTextView.swift */,
+				B953F886E763F94819793819 /* TransparentTextField.swift */,
+				E6BCECD2F9864CB08FF9F633 /* ContestTextField.swift */,
+				E100DECA55254190693C282C /* OptionTextField.swift */,
+				5C239C0873A69A4C004BC429 /* TextAttribute.h */,
 				612E8A4AB27EC520E2A83D71 /* Application.swift */,
 				E643DE99E10EF53F013DC2D1 /* AppDelegate.swift */,
 				59DE19D2919ECA18CFBAA0FD /* Transceiver.swift */,
@@ -1315,8 +1317,6 @@
 		84072FCA09076EE4006DA88B /* AYText */ = {
 			isa = PBXGroup;
 			children = (
-				84072FCB09076EE4006DA88B /* AYTextView.h */,
-				84072FCC09076EE4006DA88B /* AYTextView.m */,
 			);
 			path = AYText;
 			sourceTree = "<group>";
@@ -1585,8 +1585,6 @@
 			children = (
 				84876E781076740400B83EDD /* DataPipe.h */,
 				84876E791076740400B83EDD /* DataPipe.m */,
-				84876E7A1076740400B83EDD /* ExchangeView.h */,
-				84876E7B1076740400B83EDD /* ExchangeView.m */,
 				84876E7E1076740400B83EDD /* Modem.h */,
 				84876E7F1076740400B83EDD /* Modem.m */,
 				843769A110AD3C6B0000F62D /* ModemAuralMonitor.h */,
@@ -1597,8 +1595,6 @@
 				84876E831076740400B83EDD /* ModemDistributionBox.m */,
 				84876E881076740400B83EDD /* NewNCO.h */,
 				84876E891076740400B83EDD /* NewNCO.m */,
-				84876E8A1076740400B83EDD /* SendView.h */,
-				84876E8B1076740400B83EDD /* SendView.m */,
 				84876E8D1076740400B83EDD /* VUMeter.h */,
 				84876E8E1076740400B83EDD /* VUMeter.m */,
 			);
@@ -1926,8 +1922,6 @@
 				84876FF61076740500B83EDD /* CWReceiver.m */,
 				84876FF71076740500B83EDD /* CWRxControl.h */,
 				84876FF81076740500B83EDD /* CWRxControl.m */,
-				84876FF91076740500B83EDD /* CWSendView.h */,
-				84876FFA1076740500B83EDD /* CWSendView.m */,
 				84876FFB1076740500B83EDD /* CWSpeedPipeline.h */,
 				84876FFC1076740500B83EDD /* CWSpeedPipeline.m */,
 				84876FFD1076740500B83EDD /* CWTxConfig.h */,
@@ -2010,12 +2004,6 @@
 				84877107107674DA00B83EDD /* ContestInterface.m */,
 				8487710A107674DA00B83EDD /* ContestMacroSheet.h */,
 				8487710B107674DA00B83EDD /* ContestMacroSheet.m */,
-				8487710E107674DA00B83EDD /* ContestTextField.h */,
-				8487710F107674DA00B83EDD /* ContestTextField.m */,
-				84877114107674DA00B83EDD /* OptionTextField.h */,
-				84877115107674DA00B83EDD /* OptionTextField.m */,
-				84877118107674DA00B83EDD /* TransparentTextField.h */,
-				84877119107674DA00B83EDD /* TransparentTextField.m */,
 			);
 			path = Contest;
 			sourceTree = "<group>";
@@ -2446,6 +2434,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8120AC48066A6EE6F5AA204C /* CWSendView.swift in Sources */,
+				F1F1959C310412601DC9B290 /* ExchangeView.swift in Sources */,
+				D273C1F1C55742C66B5993C6 /* SendView.swift in Sources */,
+				C732CC1EE72182628F469393 /* AYTextView.swift in Sources */,
+				7B32EEA6C38E1FEA6BDEC02A /* TransparentTextField.swift in Sources */,
+				183CA06BD5F95C0AC2CE0B57 /* ContestTextField.swift in Sources */,
+				63F12CADA609C72D2E41776F /* OptionTextField.swift in Sources */,
 				7A212468FA72AD343D83E050 /* Application.swift in Sources */,
 				7A234CF2900F8993CC125BCB /* AppDelegate.swift in Sources */,
 				501EFD81C266869D655857C5 /* Transceiver.swift in Sources */,
@@ -2527,7 +2522,6 @@
 				0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */,
 				84072E4509076C49006DA88B /* StripPhi.m in Sources */,
 				84072FB309076EBD006DA88B /* error.c in Sources */,
-				84072FCD09076EE4006DA88B /* AYTextView.m in Sources */,
 				8407326E09077551006DA88B /* main.m in Sources */,
 				84DA525109F6B059007B3C78 /* Config.m in Sources */,
 				84DA525309F6B059007B3C78 /* Preferences.m in Sources */,
@@ -2541,12 +2535,10 @@
 				848770151076740500B83EDD /* ModemDest.m in Sources */,
 				848770161076740500B83EDD /* ModemSource.m in Sources */,
 				848770171076740500B83EDD /* DataPipe.m in Sources */,
-				848770181076740500B83EDD /* ExchangeView.m in Sources */,
 				8487701A1076740500B83EDD /* Modem.m in Sources */,
 				8487701B1076740500B83EDD /* ModemConfig.m in Sources */,
 				8487701C1076740500B83EDD /* ModemDistributionBox.m in Sources */,
 				8487701F1076740500B83EDD /* NewNCO.m in Sources */,
-				848770201076740500B83EDD /* SendView.m in Sources */,
 				848770221076740500B83EDD /* VUMeter.m in Sources */,
 				848770501076740500B83EDD /* DualRTTY.m in Sources */,
 				848770511076740500B83EDD /* DualRTTYConfig.m in Sources */,
@@ -2626,7 +2618,6 @@
 				848770BE1076740500B83EDD /* CWPipeline.m in Sources */,
 				848770BF1076740500B83EDD /* CWReceiver.m in Sources */,
 				848770C01076740500B83EDD /* CWRxControl.m in Sources */,
-				848770C11076740500B83EDD /* CWSendView.m in Sources */,
 				848770C21076740500B83EDD /* CWSpeedPipeline.m in Sources */,
 				848770C31076740500B83EDD /* CWTxConfig.m in Sources */,
 				848770C51076740500B83EDD /* MorseDecoder.m in Sources */,
@@ -2652,9 +2643,6 @@
 				8487712C107674DA00B83EDD /* ContestBar.m in Sources */,
 				8487712D107674DA00B83EDD /* ContestInterface.m in Sources */,
 				8487712F107674DA00B83EDD /* ContestMacroSheet.m in Sources */,
-				84877131107674DA00B83EDD /* ContestTextField.m in Sources */,
-				84877134107674DA00B83EDD /* OptionTextField.m in Sources */,
-				84877136107674DA00B83EDD /* TransparentTextField.m in Sources */,
 				848771681076789F00B83EDD /* CoreModem.m in Sources */,
 				848771691076789F00B83EDD /* CMFilterBank.m in Sources */,
 				8487716A1076789F00B83EDD /* CMNCO.m in Sources */,

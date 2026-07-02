@@ -14,7 +14,6 @@
 #import "cocoaModem-Swift.h"
 #import "Modem.h"
 #import "TextEncoding.h"
-#import "TransparentTextField.h"
 
 @implementation Contest
 

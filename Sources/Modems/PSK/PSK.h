@@ -10,7 +10,8 @@
 
 	#import <Cocoa/Cocoa.h>
 	#import "ContestInterface.h"
-	#import "AYTextView.h"
+	#import "TextAttribute.h"
+	@class AYTextView ;
 	#import "CMPSKModes.h"
 
 	@class Module ;

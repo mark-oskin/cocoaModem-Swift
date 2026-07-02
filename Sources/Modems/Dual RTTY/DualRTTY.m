@@ -7,13 +7,12 @@
 //
 
 #import "DualRTTY.h"
-#import "AYTextView.h"
+#import "TextAttribute.h"
 #import "cocoaModemParams.h"
 #import "Config.h"
 #import "Contest.h"
 #import "ContestManager.h"
 #import "DualRTTYConfig.h"
-#import "ExchangeView.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
 #import "Plist.h"

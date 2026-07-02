@@ -7,7 +7,7 @@
 //
 
 #import "WBCW.h"
-#import "AYTextView.h"
+#import "TextAttribute.h"
 #import "cocoaModemParams.h"
 #import "Config.h"
 #import "Contest.h"
@@ -19,7 +19,6 @@
 #import "CWRxControl.h"
 #import "CWTxConfig.h"
 //  now provided by cocoaModem-Swift.h
-#import "ExchangeView.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
 #import "Plist.h"

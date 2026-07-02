@@ -9,7 +9,6 @@
 #import "cocoaModemParams.h"
 #import "ContestBar.h"
 #import "ContestManager.h"
-#import "ExchangeView.h"
 #import "cocoaModem-Swift.h"
 #import "ModemManager.h"
 #import "ModemSource.h"

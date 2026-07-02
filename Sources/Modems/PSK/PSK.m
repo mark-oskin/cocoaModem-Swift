@@ -7,12 +7,11 @@
 //
 
 #import "PSK.h"
-#import "AYTextView.h"
+#import "TextAttribute.h"
 #import "cocoaModemParams.h"
 #import "Config.h"
 #import "Contest.h"					// for PSKMODE
 #import "ContestBar.h"
-#import "ExchangeView.h"
 #import "ModemDistributionBox.h"
 #import "ModemManager.h"
 #import "ModemSource.h"

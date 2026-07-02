@@ -12,7 +12,7 @@
 	#import "CoreFilter.h"
 	#import "CoreModemTypes.h"
 	#import "RTTYRxControl.h"
-	#import "AYTextView.h"
+	@class AYTextView ;
 		
 	@interface SITORRxControl : RTTYRxControl {
 		IBOutlet id lockedIndicator ;

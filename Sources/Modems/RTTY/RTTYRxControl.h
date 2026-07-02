@@ -11,7 +11,8 @@
 	#import <Cocoa/Cocoa.h>
 	#include "CoreFilter.h"
 	#include "CoreModemTypes.h"
-	#include "AYTextView.h"
+	#import "TextAttribute.h"
+	@class AYTextView ;
 	
 	@class ExchangeView ;
 	@class Modem ;

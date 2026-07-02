@@ -9,7 +9,7 @@
 
 	#import <Cocoa/Cocoa.h>
 	#include "ContestInterface.h"
-	#include "AYTextView.h"
+	@class AYTextView ;
 	
 	@class RTTYConfig ;
 	@class RTTYRxControl ;

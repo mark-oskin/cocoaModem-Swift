@@ -8,7 +8,6 @@
 
 #import "Analyze.h"
 #include "AnalyzeConfig.h"
-#include "ExchangeView.h"
 #include "Modem.h"
 #include "ModemManager.h"
 #include "ModemSource.h"
