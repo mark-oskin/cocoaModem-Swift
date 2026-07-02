@@ -8,6 +8,7 @@
 
 #import "MultiStereoATC.h"
 #include "StereoRefATCBuffer.h"
+#import "cocoaModem-Swift.h"		//  AnalyzeScope + RTTYDecoder + RTTYRegister are now Swift
 
 //  This is an implementation of multiATC which derives takes an indepedent channel for clocking
 //  First the dut signal stream calls importData

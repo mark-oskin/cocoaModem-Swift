@@ -15,7 +15,6 @@
 #import "WFRTTYConfig.h"
 #import "ExchangeView.h"
 #import "ModemSource.h"
-#import "Module.h"
 #import "Plist.h"
 #import "RTTYReceiver.h"
 #import "RTTYTxConfig.h"
@@ -25,7 +24,6 @@
 #import "cocoaModem-Swift.h"
 #import "StdManager.h"
 
-#import "Transceiver.h"
 
 @implementation SITOR
 

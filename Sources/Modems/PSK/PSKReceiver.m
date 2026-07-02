@@ -11,15 +11,11 @@
 #import "Application.h"
 #import "cocoaModemParams.h"
 #import "ExchangeView.h"
-#import "FrequencyIndicator.h"
-#import "Module.h"
-#import "PhaseIndicator.h"
 #import "Plist.h"
 #import "Preferences.h"
 #import "PSK.h"
 #import "PSKAuralMonitor.h"
 #import "PSKBrowserHub.h"
-#import "PSKControl.h"
 #import "PSKHub.h"
 #import "cocoaModem-Swift.h"
 //  now provided by cocoaModem-Swift.h
@@ -40,6 +36,14 @@
 //  (visible here via the generated Swift header); the former local copy was a
 //  redundant duplicate that now collides, so it has been removed.
 
+
+//  delayedRelease was moved out of the PSKReceiver.h @interface ivar block so
+//  that header can be imported into the Swift module (NSAutoreleasePool ivars
+//  are unavailable in ARC).  It stays a private ivar of this (MRC) .m.
+@interface PSKReceiver () {
+	NSAutoreleasePool *delayedRelease ;
+}
+@end
 
 @implementation PSKReceiver
 

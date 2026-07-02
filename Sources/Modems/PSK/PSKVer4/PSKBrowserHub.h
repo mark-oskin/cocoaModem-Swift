@@ -7,7 +7,10 @@
 //
 
 #import "PSKHub.h"
-#import "LinkedArray.h"
+@class LinkedArray ;
+@class Preferences ;
+@class LitePSKDemodulator ;
+@class PSKBrowserTable ;
 #import "CMFFT.h"
 
 

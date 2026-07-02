@@ -10,13 +10,12 @@
 #import "Application.h"
 #import "cocoaModem-Swift.h"
 #import "ModemDest.h"
-#import "ModemEqualizer.h"
+//  ModemEqualizer is now a Swift class (see cocoaModem-Swift.h)
 #import "ModemSource.h"
 #import "Plist.h"
 #import "PSK.h"
 #import "PSKAuralMonitor.h"
 #import "PSKModulator.h"
-#import "PTT.h"
 #import "CMPCO.h"
 #import "CMDSPWindow.h"
 

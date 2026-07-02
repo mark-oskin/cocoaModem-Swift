@@ -10,9 +10,9 @@
 
 	#import <Cocoa/Cocoa.h>
 	#include "AnalyzeConfig.h"
-	#include "AnalyzeScope.h"
-	#include "CMATC.h"
-	#include "RTTYDecoder.h"
+	#include "CMATC.h"			//  CMATCPair + RTTYByte (via CMATCTypes.h)
+	@class AnalyzeScope ;		//  now Swift
+	@class RTTYDecoder ;		//  now Swift
 
 
 	@interface MultiStereoATC : CMATC {

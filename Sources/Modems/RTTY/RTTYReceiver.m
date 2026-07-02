@@ -10,7 +10,7 @@
 #import "Application.h"
 #import "ExchangeView.h"
 #import "Modem.h"
-#import "Module.h"
+#import "cocoaModem-Swift.h"
 #import "RTTYAuralMonitor.h"
 #import "RTTYDemodulator.h"
 #import "RTTYSingleFilter.h"

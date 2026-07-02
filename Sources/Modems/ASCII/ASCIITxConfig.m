@@ -9,10 +9,9 @@
 #import "ASCIITxConfig.h"
 #import "Application.h"
 #import "ASCIIModulator.h"
-#import "FSK.h"
 #import "cocoaModem-Swift.h"
 #import "ModemDest.h"
-#import "ModemEqualizer.h"
+//  ModemEqualizer is now a Swift class (see cocoaModem-Swift.h)
 #import "Plist.h"
 #import "RTTY.h"
 #import "RTTYReceiver.h"

@@ -9,9 +9,11 @@
 #import <Cocoa/Cocoa.h>
 #import "DataPipe.h"
 #import "PSKDemodulator.h"
-#import "PSKBrowserTable.h"
-#import "LitePSKDemodulator.h"
+#import "PSKBrowserTypes.h"		//  Slot/Row (PSKBrowserTable converted to Swift)
 #import <AudioToolbox/AudioConverter.h>
+
+@class PSKBrowserTable ;			//  now in cocoaModem-Swift.h
+@class LitePSKDemodulator ;			//  now in cocoaModem-Swift.h
 
 @class PSK ;
 @class PSKAuralMonitor ;

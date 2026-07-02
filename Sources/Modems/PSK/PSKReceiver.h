@@ -86,9 +86,6 @@
 		float transmitFrequency ;
 		NSColor *txOff, *txReady1, *txReady0, *txWait, *txActive ;
 		int indicatorState ;
-
-		//  autorelease management
-		NSAutoreleasePool *delayedRelease ;
 	}
 	
 	- (IBAction)browserSquelchChanged:(id)sender ;

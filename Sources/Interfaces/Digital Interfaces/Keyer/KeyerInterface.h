@@ -11,7 +11,7 @@
 
 	#import <Cocoa/Cocoa.h>
 	#import "AppleScriptSupport.h"
-	#import "Router.h"
+	@class Router ;
 	#import "MicroKeyer.h"
 	
 	// base class for PTTHub.m and FSKHub.m to provide linkage to Router.m (µH Router)

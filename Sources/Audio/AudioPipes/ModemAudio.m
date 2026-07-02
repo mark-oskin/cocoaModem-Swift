@@ -8,7 +8,6 @@
 
 #import "ModemAudio.h"
 #import "Application.h"
-#import "AudioManager.h"
 #import "cocoaModem-Swift.h"
 #import "TextEncoding.h"
 #import "audioutils.h"

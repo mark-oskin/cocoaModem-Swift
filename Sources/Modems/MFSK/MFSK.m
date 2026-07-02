@@ -20,14 +20,12 @@
 #import "cocoaModem-Swift.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
-#import "Module.h"
 #import "NoiseUtils.h"
 #import "Plist.h"
 #import "Stdmanager.h"
 #import "TextEncoding.h"
-#import "Transceiver.h"
 #import "VUMeter.h"
-#import "ScrollingField.h"
+//  ScrollingField converted to Swift (see cocoaModem-Swift.h, imported above)
 
 @implementation MFSK
 

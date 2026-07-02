@@ -23,15 +23,12 @@
 #import "ExchangeView.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
-#import "Module.h"
 #import "Plist.h"
-#import "PTT.h"
 #import "RTTYMacros.h"
 #import "RTTYModulator.h"
 #import "RTTYTxConfig.h"
 #import "cocoaModem-Swift.h"
 #import "StdManager.h"
-#import "Transceiver.h"
 
 @implementation WBCW
 

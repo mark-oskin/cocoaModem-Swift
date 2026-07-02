@@ -10,7 +10,7 @@
 	#define _FAXDISPLAY_H_
 	
 	#include "FAXView.h"
-	#include "NamedFIFO.h"
+	@class NamedFIFO ;
 	
 	typedef unsigned char MessageBuffer[2] ;
 		

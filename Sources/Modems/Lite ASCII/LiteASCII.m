@@ -16,7 +16,6 @@
 #import "ASCIITxConfig.h"
 #import "RTTYTypes.h"
 //  now provided by cocoaModem-Swift.h
-#import "Transceiver.h"
 #import "WFRTTYConfig.h"
 
 

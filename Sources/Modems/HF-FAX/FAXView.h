@@ -8,8 +8,9 @@
 	#define _FAXVIEW_H_
 
 	#import <Cocoa/Cocoa.h>
-	#import "FAXFrame.h"
-	
+	#import "FAXFrame.h"		//  BackingFrame + FAX macros (FAXFrame class is now Swift)
+	@class FAXFrame ;
+
 
 	@interface FAXView : NSImageView {
 		FAXFrame *faxFrame ;

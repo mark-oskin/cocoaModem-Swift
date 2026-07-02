@@ -28,67 +28,7 @@ typedef struct {
 } BackingFrame ;
 
 
-@interface FAXFrame : NSObject {
-	NSImage *image ;
-	NSBitmapImageRep *bitmapRep ;
-	BackingFrame frame ;
-
-	NSLock *imageLock ;
-	NSLock *bitmapRepLock ;
-	NSLock *updateLock ;
-	NSLock *dumpLock ;
-	
-	unsigned char *pixelBuffer ;
-	int width, height, rowBytes, lsize, viewHeight ;
-	int scrollOffset ;
-	
-	//  resampling by 11025/(IOC*pi*2) nominal decimation
-	int IOC ;
-	float imageWidth ;			//  fractional width based on IOC
-	int actualWidth ;			//  width truncated to integer pixels
-	float decimationRatio ;
-	float inputImageWidth ;		//  actual fractional sample length of 1/2 second of data
-	float ppm ;
-	
-	//  v0.81  save folder
-	NSString *alternateFolder ;
-}
-
-- (id)initWidth:(int)w height:(int)h ;
-- (void)resetFrame ;
-
-- (NSImage*)image ;
-- (BackingFrame*)backingFrame ;
-
-- (void)swapImageRep ;
-
-- (void)drawLineAtRow:(int)row ;
-- (int)drawLineInFrameAtRow:(int)row refresh:(Boolean)refresh ;
-- (int)drawLineAndAdvanceRow ;
-- (void)redrawFrame ;
-
-- (void)markDisplayRow ;
-- (void)setFrameMark:(int)offset ;
-
-- (void)dumpCurrentFrameToFolder:(NSString*)folder ;
-
-//	image position
-- (void)startNewImage ;
-- (void)setHorizontalOffset:(int)position ;
-- (void)clearSwath:(int)ht ;
-- (int)frameOrigin ;
-- (int)frameOffsetForSample:(int)h ofRow:(int)v ;
-- (void)setSamplingParameters ;
-- (void)setScrollOffset:(int)offset ;
-
-- (Boolean)passedMark ;
-- (void)setPPM:(float)p ;
-- (void)setHalfSize:(Boolean)isHalfSize ;
-- (void)mouseDownAt:(float)position ;
-
-//	image intensity
-- (void)setGrayscaleFrom:(float)black to:(float)white ;
-- (void)addPixel:(int)v ;
-- (int)pixelAtSample:(int)h ofRow:(int)v ;
-
-@end
+//  The FAXFrame class itself was ported to Swift (see
+//  Sources/Swift/Modems/HF-FAX/FAXFrame.swift and cocoaModem-Swift.h).  This
+//  header now only publishes the shared C types (BackingFrame + macros above)
+//  that the Swift class and the Objective-C FAXView / FAXDisplay all consume.

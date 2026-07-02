@@ -19,7 +19,6 @@
 #import "ModemDistributionBox.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
-#import "Module.h"
 #import "Plist.h"
 #import "StdManager.h"
 #import "TextEncoding.h"

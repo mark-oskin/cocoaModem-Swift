@@ -6,6 +6,7 @@
 //
 
 #import "../Local Headers/NetReceive.h"
+#import "cocoaModem-Swift.h"		//  BonjourService/BonjourSocket are now Swift
 
 //  This is a Cocoa encapsulation for the AUNetReceive audio unit.
 //  It uses Bonjour to connect to an AUNetSend (_apple-ausend._tcp) service.

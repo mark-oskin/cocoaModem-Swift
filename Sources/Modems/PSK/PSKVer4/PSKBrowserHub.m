@@ -7,8 +7,8 @@
 //
 
 #import "PSKBrowserHub.h"
+#import "cocoaModem-Swift.h"		//  ClickedTableView, PSKBrowserTable, LitePSKDemodulator (Swift)
 #import "Application.h"
-#import "ClickedTableView.h"
 #import "PSK.h"
 #import "PSKReceiver.h"
 #include <vecLib/vDSP.h>

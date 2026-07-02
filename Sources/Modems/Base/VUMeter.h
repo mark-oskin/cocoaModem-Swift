@@ -10,7 +10,7 @@
 
 	#import <Cocoa/Cocoa.h>
 	#include "CoreFilter.h"
-	#include "VUSegment.h"
+	@class VUSegment ;
 
 	typedef struct {
 		VUSegment *segment ;

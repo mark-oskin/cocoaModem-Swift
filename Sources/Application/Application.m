@@ -9,7 +9,6 @@
 #import "Application.h"
 #import "AppDelegate.h"
 #import "AudioInterfaceTypes.h"
-#import "AudioManager.h"
 #import "AuralMonitor.h"
 #import "Config.h"
 #import "Contest.h"
@@ -437,7 +436,7 @@ NSThread *mainThread ;
 	
 	//	v0.89  Digital Interfaces (cocoaPTT, MacLoggerDX, microHAM devices, etc
 	if ( dontOpenRouter ) {
-		digitalInterfaces = [ [ DigitalInterfaces alloc ] initWithoutRouter ] ;
+		digitalInterfaces = [ [ DigitalInterfaces alloc ] initWithoutRouter:YES ] ;
 	}
 	else {
 		digitalInterfaces = [ [ DigitalInterfaces alloc ] init ] ;

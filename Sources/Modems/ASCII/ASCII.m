@@ -12,7 +12,6 @@
 #import "cocoaModemParams.h"
 #import "Config.h"
 #import "ModemSource.h"
-#import "Module.h"
 #import "Plist.h"
 #import "RTTYMacros.h"
 #import "RTTYReceiver.h"
@@ -20,7 +19,6 @@
 #import "RTTYTxConfig.h"
 //  now provided by cocoaModem-Swift.h
 #import "cocoaModem-Swift.h"
-#import "Transceiver.h"
 #import "WFRTTYConfig.h"
 
 

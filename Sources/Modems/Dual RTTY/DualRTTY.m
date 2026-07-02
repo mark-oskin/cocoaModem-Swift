@@ -15,10 +15,8 @@
 #import "ContestManager.h"
 #import "DualRTTYConfig.h"
 #import "ExchangeView.h"
-#import "FSK.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
-#import "Module.h"
 #import "Plist.h"
 #import "RTTYMacros.h"
 #import "RTTYModulator.h"
@@ -27,7 +25,6 @@
 #import "RTTYTxConfig.h"
 //  now provided by cocoaModem-Swift.h
 #import "cocoaModem-Swift.h"
-#import "Transceiver.h"
 
 @implementation DualRTTY
 

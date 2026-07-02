@@ -7,6 +7,7 @@
 //
 
 #import "FSKHub.h"
+#import "cocoaModem-Swift.h"
 #import "Application.h"
 #import "RouterCommands.h"
 #import "TextEncoding.h"

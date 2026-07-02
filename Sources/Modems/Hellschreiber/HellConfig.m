@@ -11,11 +11,10 @@
 #import "HellModulator.h"
 #import "Hellschreiber.h"
 #import "ModemDest.h"
-#import "ModemEqualizer.h"
+//  ModemEqualizer is now a Swift class (see cocoaModem-Swift.h)
 #import "ModemSource.h"
 #import "cocoaModem-Swift.h"
 #import "Plist.h"
-#import "PTT.h"
 #import "TextEncoding.h"
 #import "VUMeter.h"
 #import "CMPCO.h"

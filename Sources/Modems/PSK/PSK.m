@@ -24,14 +24,12 @@
 #import "PSKAuralMonitor.h"
 #import "PSKConfig.h"
 #import "PSKContestTxControl.h"
-#import "PSKControl.h"
 #import "PSKMacros.h"
 #import "PSKReceiver.h"
 #import "PSKTransmitControl.h"
 #import "StdManager.h"
 #import "cocoaModem-Swift.h"
 #import "TextEncoding.h"
-#import "Transceiver.h"
 #import "VUMeter.h"
 //  now provided by cocoaModem-Swift.h
 

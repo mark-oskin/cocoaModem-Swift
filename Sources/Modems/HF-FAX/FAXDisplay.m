@@ -13,7 +13,7 @@
 #include <math.h>
 #include <sys/types.h>
 #include <sys/stat.h>
-#include "FAXStepper.h"
+#import "cocoaModem-Swift.h"		//  FAXStepper + FAXFrame are now Swift
 
 
 @implementation FAXDisplay

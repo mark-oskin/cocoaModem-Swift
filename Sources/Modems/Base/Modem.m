@@ -15,8 +15,7 @@
 #import "ModemManager.h"
 #import "ModemSource.h"
 #import "Preferences.h"
-#import "PTT.h"
-#import "Transceiver.h"
+#import "cocoaModem-Swift.h"
 #import "TextEncoding.h"
 
 @implementation Modem

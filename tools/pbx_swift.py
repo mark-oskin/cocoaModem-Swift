@@ -100,9 +100,35 @@ def purge(names):
     print("purged %d ref lines for %d classes" % (n, len(names)))
 
 
+def add_header(paths):
+    """Register a .h as a project file reference (no build phase) so the
+    headermap can resolve #import "name.h" from the bridging/prefix header."""
+    text = ensure_swift_group(load())
+    for rel in paths:
+        name = rel.split("/")[-1]
+        fid = uid("hdrref:" + rel)
+        if fid in text:
+            print("header already present:", rel)
+            continue
+        text = text.replace(
+            "/* Begin PBXFileReference section */\n",
+            "/* Begin PBXFileReference section */\n"
+            "\t\t%s /* %s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; "
+            "name = \"%s\"; path = \"../%s\"; sourceTree = SOURCE_ROOT; };\n"
+            % (fid, name, name, rel), 1)
+        text = text.replace(
+            "%s /* Swift */ = {\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n" % SWIFT_GROUP_ID,
+            "%s /* Swift */ = {\n\t\t\tisa = PBXGroup;\n\t\t\tchildren = (\n"
+            "\t\t\t\t%s /* %s */,\n" % (SWIFT_GROUP_ID, fid, name), 1)
+        print("added header ref:", rel)
+    save(text)
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1]
-    if cmd == "add":
+    if cmd == "addheader":
+        add_header(sys.argv[2:])
+    elif cmd == "add":
         add_files(sys.argv[2:])
     elif cmd == "remove-m":
         remove_m(sys.argv[2:])

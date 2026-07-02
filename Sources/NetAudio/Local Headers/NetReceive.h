@@ -10,7 +10,8 @@
 
 	#import <Cocoa/Cocoa.h>
 	#import "../Headers/NetAudio.h"
-	#import "../Local Headers/BonjourService.h"
+	@class BonjourService ;		//  BonjourService/BonjourSocket are now Swift (cocoaModem-Swift.h)
+	@class BonjourSocket ;
 
 
 	typedef struct {

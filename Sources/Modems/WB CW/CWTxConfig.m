@@ -12,7 +12,7 @@
 #import "cocoaModem-Swift.h"
 #import "Modem.h"
 #import "ModemDest.h"
-#import "ModemEqualizer.h"
+//  ModemEqualizer is now a Swift class (see cocoaModem-Swift.h)
 
 
 @implementation CWTxConfig

@@ -15,8 +15,9 @@
 	@class ConvolutionCode ;		//  ConvolutionCode converted to Swift (cocoaModem-Swift.h)
 	#import "DataPipe.h"
 	#import "MFSKFEC.h"
-	#import "MFSKIndicator.h"
-	#import "MFSKIndicatorLabel.h"
+	@class MFSKIndicator ;			//  MFSKIndicator converted to Swift (cocoaModem-Swift.h)
+	@class MFSKIndicatorLabel ;		//  MFSKIndicatorLabel converted to Swift (cocoaModem-Swift.h)
+	#define MFSKFREQOFFSET		56	//  pixels to the nominal first bin (relocated from MFSKIndicator.h)
 	
 	typedef struct {
 		float bin[24] ;

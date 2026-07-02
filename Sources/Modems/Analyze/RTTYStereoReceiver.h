@@ -11,7 +11,6 @@
 	#import <Cocoa/Cocoa.h>
 	#import "CMFSKMixer.h"
 	#import "RTTYReceiver.h"
-	#import "AnalyzeScope.h"
 	#import "ChannelSelector.h"
 	#import "CMBaudotDecoder.h"		//  CoreModem private
 

@@ -31,3 +31,24 @@
 #import "CMBaudotDecoder.h"
 #import "CMFSKDemodulator.h"
 #import "ModemManager.h"		//  SynchAM.swift init(into:nib:manager:)
+#import "MFSKModes.h"		//  DOMINOEX*/MFSK16 tags (ScrollingField.swift)
+#import "PrivateNSFont.h"	//  NSFont _defaultGlyphForChar: (ScrollingField.swift)
+#import "CMATCTypes.h"		//  CMATCPair/RTTYByte (AnalyzeScope/RTTYDecoder.swift)
+#import "FAXFrame.h"		//  BackingFrame struct (FAXFrame.swift)
+
+//  --- Wave 4 (Audio / PSK / serial-PTT) ---
+#import "AudioManagerTypes.h"	//  RegisteredAudioDevice + CoreAudio shims (AudioManager.swift)
+#import "ModemAudio.h"		//  AudioManager.swift calls ModemAudio
+#import "PSK.h"			//  PSKControl.swift
+#import "PSKReceiver.h"		//  PSKControl.swift (delayedRelease ivar moved to .m)
+#import "PSKBrowserHub.h"	//  PSKBrowserTable/LitePSKDemodulator.swift
+#import "PSKBrowserTypes.h"	//  Slot/Row (PSKBrowserTable.swift)
+#import "VCO8k.h"		//  LitePSKDemodulator.swift
+#import "LitePSKMatchedFilter.h"	//  LitePSKDemodulator.swift
+#import "CMVaricode.h"		//  LitePSKDemodulator.swift
+#import "Plist.h"		//  plist key macros (PSKBrowserTable.swift)
+#import "FSKHub.h"		//  PTT/FSK/DigitalInterfaces.swift (pulls PTTHub/KeyerInterface/obtainRouterPorts)
+#import "VOXInterface.h"		//  DigitalInterfaces.swift
+#import "CocoaPTTInterface.h"	//  DigitalInterfaces.swift
+#import "UserPTTInterface.h"	//  DigitalInterfaces.swift
+#import "MacLoggerDX.h"		//  DigitalInterfaces.swift

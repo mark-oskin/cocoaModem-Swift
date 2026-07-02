@@ -14,6 +14,18 @@
 		float space ;
 	} CMATCPair ;
 
+	//  Moved here from RTTYDecoder.h so that the Swift RTTYDecoder port and the
+	//  Objective-C MultiStereoATC can share the same C struct.
+	typedef struct {
+		Boolean frameSync ;
+		int offset ;
+		int character ;
+		float equalization ;
+		float confidence ;
+		long tick ;
+		long syncTick ;
+	} RTTYByte ;
+
 	typedef struct {
 		CMATCPair data[768] ;
 		float attack, decay ;

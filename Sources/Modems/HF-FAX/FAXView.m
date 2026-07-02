@@ -7,6 +7,7 @@
 	
 	
 #import "FAXView.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation FAXView

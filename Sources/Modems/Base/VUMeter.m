@@ -7,6 +7,7 @@
 //
 
 #import "VUMeter.h"
+#import "cocoaModem-Swift.h"
 #include "modemTypes.h"
 
 

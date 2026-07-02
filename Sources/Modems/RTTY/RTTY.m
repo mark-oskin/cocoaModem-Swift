@@ -15,7 +15,7 @@
 #import "ExchangeView.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
-#import "Module.h"
+#import "cocoaModem-Swift.h"
 #import "Plist.h"
 #import "RTTYConfig.h"
 #import "RTTYMacros.h"
@@ -23,7 +23,6 @@
 #import "RTTYReceiver.h"
 #import "RTTYRxControl.h"
 #import "RTTYTxConfig.h"
-#import "Transceiver.h"
 
 @implementation RTTY
 

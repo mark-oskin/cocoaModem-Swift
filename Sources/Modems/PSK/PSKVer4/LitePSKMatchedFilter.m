@@ -7,7 +7,7 @@
 //
 
 #import "LitePSKMatchedFilter.h"
-#import	"LitePSKDemodulator.h"
+#import	"cocoaModem-Swift.h"		//  LitePSKDemodulator (Swift)
 
 #define piBy2	( 3.1415926535/2 )
 

@@ -8,7 +8,7 @@
 
 #import "AnalyzeConfig.h"
 #include "Analyze.h"
-#include "AnalyzeScope.h"
+#import "cocoaModem-Swift.h"		//  AnalyzeScope is now Swift
 #include "ModemSource.h"
 #include "RTTYRxControl.h"
 #include "VUMeter.h"
