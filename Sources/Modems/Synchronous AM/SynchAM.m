@@ -7,7 +7,7 @@
 #import "SynchAM.h"
 #import "AMConfig.h"
 #import "AMDemodulator.h"
-#import "AMWaterfall.h"
+#import "cocoaModem-Swift.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
 #import "Plist.h"

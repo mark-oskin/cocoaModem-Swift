@@ -17,10 +17,8 @@
 #import "RTTYAuralMonitor.h"
 #import "RTTYConfig.h"
 #import "RTTYModulator.h"
-#import "RTTYMonitor.h"
 #import "RTTYTxConfig.h"
-#import "RTTYWaterfall.h"
-#import "Spectrum.h"
+//  now provided by cocoaModem-Swift.h
 #import "cocoaModem-Swift.h"
 #import "TextEncoding.h"
 

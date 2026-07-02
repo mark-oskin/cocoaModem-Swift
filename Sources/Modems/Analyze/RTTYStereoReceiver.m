@@ -20,7 +20,7 @@
 #include "StereoRefATCBuffer.h"
 #include "RTTYMPFilter.h"
 #include "RTTYSingleFilter.h"
-#include "Spectrum.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation RTTYStereoReceiver

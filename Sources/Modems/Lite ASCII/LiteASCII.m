@@ -10,12 +10,12 @@
 #import "ModemManager.h"
 #import "LiteASCIIControl.h"
 #import "ModemSource.h"
-#import "Oscilloscope.h"
+#import "cocoaModem-Swift.h"
 #import "Plist.h"
 #import "ASCIIReceiver.h"
 #import "ASCIITxConfig.h"
 #import "RTTYTypes.h"
-#import "RTTYWaterfall.h"
+//  now provided by cocoaModem-Swift.h
 #import "Transceiver.h"
 #import "WFRTTYConfig.h"
 

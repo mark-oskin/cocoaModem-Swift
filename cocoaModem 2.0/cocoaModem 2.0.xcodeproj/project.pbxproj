@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37A4AE5D66993B47A73BB4FD /* RTTYMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FA5746F2F00D840B925F88 /* RTTYMonitor.swift */; };
+		32323A98DDBF5470FFE5B17A /* PSKMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6FADA6926E1EC87EC3EF0C /* PSKMonitor.swift */; };
+		E7D7DD13025F15D80D906D60 /* ModemEqualizerPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5512A599C6B9A0B2277C9E17 /* ModemEqualizerPlot.swift */; };
+		5A6073CDF58D25C7E4F9A7AE /* Oscilloscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E2C0FDA5E262D6A5C78C0 /* Oscilloscope.swift */; };
+		00256CCE1E8A24164D3BE918 /* MiniSpectrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFF23F0357E71FD9391F78D /* MiniSpectrum.swift */; };
+		55B35B7440E8EC8E1E5DF145 /* Spectrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EA44E6896F16982BC84102 /* Spectrum.swift */; };
+		A73A33497A9C45589AC71E76 /* CWWaterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE795E878AD81524971D066 /* CWWaterfall.swift */; };
+		5BCE2EE77D30B7D1023BC444 /* MFSKWaterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C152B222D5FEE0F90396470 /* MFSKWaterfall.swift */; };
+		E32E22C312247EB4FEF8A17C /* ClicklessWaterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E437A6D52A356CC052BD65 /* ClicklessWaterfall.swift */; };
+		99B996F7AD40FBCF6BC6D9B7 /* AMWaterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B3D1ABC2BB670812BDE138 /* AMWaterfall.swift */; };
+		4A52277B372EFF161E59CC5B /* RTTYWaterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EE7E99858D877A1FE5CF86 /* RTTYWaterfall.swift */; };
+		AA63370CA2C2471C6708006E /* Waterfall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DD5C2C6205F78B2CECE846 /* Waterfall.swift */; };
 		4072F1B0114B2EDB2AC5E1CE /* QSO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F92A46C457EA07C76E629ED /* QSO.swift */; };
 		EFB2E8A2EC85D07AE6AD6150 /* SubDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20756F510D402CAF757CE1B2 /* SubDictionary.swift */; };
 		8331787660865E502D9DFFF4 /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D72A832BAB2766FDA1CD9 /* Speech.swift */; };
@@ -26,11 +38,6 @@
 		0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6215340BE8E07984B7343ED /* UTC.swift */; };
 		84072E2809076BF9006DA88B /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E2609076BF9006DA88B /* Application.m */; };
 		84072E4509076C49006DA88B /* StripPhi.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072E4309076C49006DA88B /* StripPhi.m */; };
-		84072FA209076EAF006DA88B /* Oscilloscope.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072F9809076EAF006DA88B /* Oscilloscope.m */; };
-		84072FA309076EAF006DA88B /* PSKMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072F9A09076EAF006DA88B /* PSKMonitor.m */; };
-		84072FA409076EAF006DA88B /* RTTYMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072F9C09076EAF006DA88B /* RTTYMonitor.m */; };
-		84072FA509076EAF006DA88B /* Spectrum.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072F9E09076EAF006DA88B /* Spectrum.m */; };
-		84072FA609076EAF006DA88B /* Waterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072FA009076EAF006DA88B /* Waterfall.m */; };
 		84072FB309076EBD006DA88B /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 84072FAA09076EBD006DA88B /* error.c */; };
 		84072FCD09076EE4006DA88B /* AYTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84072FCC09076EE4006DA88B /* AYTextView.m */; };
 		84072FDF09076F2D006DA88B /* CQ WPX RTTY.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD709076F2D006DA88B /* CQ WPX RTTY.xml */; };
@@ -48,7 +55,6 @@
 		8407343109077797006DA88B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407343009077797006DA88B /* Accelerate.framework */; };
 		84073443090777B5006DA88B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84073442090777B5006DA88B /* CoreAudio.framework */; };
 		8410101110BC8DD600761445 /* FAXFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8410101010BC8DD600761445 /* FAXFrame.m */; };
-		841011E010BDBDED00761445 /* ClicklessWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 841011DF10BDBDED00761445 /* ClicklessWaterfall.m */; };
 		8416C8D00A51B97A00526F21 /* routerCloseScript.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8416C8CF0A51B97A00526F21 /* routerCloseScript.scpt */; };
 		84261C370F22FDFA00E9E515 /* cocoaModem 2.0.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 84261C360F22FDFA00E9E515 /* cocoaModem 2.0.sdef */; };
 		842BF6E20D4F299600B4923A /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842BF6E10D4F299600B4923A /* AudioUnit.framework */; };
@@ -74,8 +80,6 @@
 		8477C1FD1112D567004AC82F /* ASCIIDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477C1FC1112D567004AC82F /* ASCIIDemodulator.m */; };
 		8477C2171112D8F0004AC82F /* ASCIIDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477C2161112D8F0004AC82F /* ASCIIDecoder.m */; };
 		8477C25E1112DCCE004AC82F /* ASCIIATC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477C25D1112DCCE004AC82F /* ASCIIATC.m */; };
-		8481CD10095C8B15008EA65A /* RTTYWaterfall.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8481CD0E095C8B15008EA65A /* RTTYWaterfall.h */; };
-		8481CD11095C8B15008EA65A /* RTTYWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 8481CD0F095C8B15008EA65A /* RTTYWaterfall.m */; };
 		848765BA1074078700B83EDD /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 848765B91074078700B83EDD /* memory.c */; };
 		848768221074104C00B83EDD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848768211074104C00B83EDD /* IOKit.framework */; };
 		84876DE21076737900B83EDD /* NetAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876DDA1076737900B83EDD /* NetAudio.m */; };
@@ -274,13 +278,10 @@
 		849C0A4810F93A7C00F342E7 /* mldx5Key.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4510F93A5B00F342E7 /* mldx5Key.scpt */; };
 		849C0A4910F93A7C00F342E7 /* mldx5Unkey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4610F93A5B00F342E7 /* mldx5Unkey.scpt */; };
 		849C0A4A10F93A7C00F342E7 /* mldxVersion.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4710F93A6200F342E7 /* mldxVersion.scpt */; };
-		84A854BA0B1F67E6003A69CF /* ModemEqualizerPlot.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84A854B80B1F67E6003A69CF /* ModemEqualizerPlot.h */; };
-		84A854BB0B1F67E6003A69CF /* ModemEqualizerPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A854B90B1F67E6003A69CF /* ModemEqualizerPlot.m */; };
 		84AB925010A7549600A26242 /* AMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB924F10A7549600A26242 /* AMConfig.m */; };
 		84AB92C010A7630700A26242 /* RTTYMatchedFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB92BF10A7630700A26242 /* RTTYMatchedFilter.m */; };
 		84AB93A510A793FF00A26242 /* RTTYMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB93A410A793FF00A26242 /* RTTYMixer.m */; };
 		84B40494109A70FD0082E332 /* audioutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84B40492109A70FD0082E332 /* audioutils.c */; };
-		84BD2CC90FF7537200AD2324 /* MFSKWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD2CC80FF7537200AD2324 /* MFSKWaterfall.m */; };
 		84BE1CDC1079B9540026FD70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BE1CDB1079B9540026FD70 /* AppDelegate.m */; };
 		84C02E0D11142BAB00DB8AA4 /* ASCIITxConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C02E0C11142BAB00DB8AA4 /* ASCIITxConfig.m */; };
 		84C02E1311142FBD00DB8AA4 /* ASCIIModulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C02E1211142FBD00DB8AA4 /* ASCIIModulator.m */; };
@@ -354,10 +355,6 @@
 		84DA525209F6B059007B3C78 /* Preferences.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84DA524E09F6B059007B3C78 /* Preferences.h */; };
 		84DA525309F6B059007B3C78 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA524F09F6B059007B3C78 /* Preferences.m */; };
 		84E368990CDD5062003D1849 /* TextEncoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E368980CDD5062003D1849 /* TextEncoding.h */; };
-		84E6E9F30B5F6BE40051ADDD /* AMWaterfall.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E6E9F10B5F6BE40051ADDD /* AMWaterfall.h */; };
-		84E6E9F40B5F6BE40051ADDD /* AMWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6E9F20B5F6BE40051ADDD /* AMWaterfall.m */; };
-		84EB98F40B21269400434940 /* CWWaterfall.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84EB98F20B21269400434940 /* CWWaterfall.h */; };
-		84EB98F50B21269400434940 /* CWWaterfall.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB98F30B21269400434940 /* CWWaterfall.m */; };
 		84F77F1A12E4A3AB00852473 /* CocoaPTTInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F77F0D12E4A3AB00852473 /* CocoaPTTInterface.m */; };
 		84F77F1B12E4A3AB00852473 /* DigitalInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F77F0F12E4A3AB00852473 /* DigitalInterface.m */; };
 		84F77F1C12E4A3AB00852473 /* KeyerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F77F1212E4A3AB00852473 /* KeyerInterface.m */; };
@@ -380,7 +377,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				8481CD10095C8B15008EA65A /* RTTYWaterfall.h in CopyFiles */,
 				8499D00B09B37775006203F7 /* pttKey.scpt in CopyFiles */,
 				8499D00C09B37775006203F7 /* pttUnkey.scpt in CopyFiles */,
 				84F901230A150D84005540CC /* pttQuit.scpt in CopyFiles */,
@@ -395,9 +391,6 @@
 				8416C8D00A51B97A00526F21 /* routerCloseScript.scpt in CopyFiles */,
 				84369152127D299400C12271 /* routerVersion.scpt in CopyFiles */,
 				8490ACF00A2B60AA006E282F /* LogMacro.h in CopyFiles */,
-				84A854BA0B1F67E6003A69CF /* ModemEqualizerPlot.h in CopyFiles */,
-				84EB98F40B21269400434940 /* CWWaterfall.h in CopyFiles */,
-				84E6E9F30B5F6BE40051ADDD /* AMWaterfall.h in CopyFiles */,
 				84D7F37F0B7C219500CF3D0D /* NoiseUtils.h in CopyFiles */,
 				84E368990CDD5062003D1849 /* TextEncoding.h in CopyFiles */,
 			);
@@ -406,6 +399,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09FA5746F2F00D840B925F88 /* RTTYMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYMonitor.swift"; path = "../Sources/Swift/Instrumentation/RTTYMonitor.swift"; sourceTree = SOURCE_ROOT; };
+		7E6FADA6926E1EC87EC3EF0C /* PSKMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PSKMonitor.swift"; path = "../Sources/Swift/Instrumentation/PSKMonitor.swift"; sourceTree = SOURCE_ROOT; };
+		5512A599C6B9A0B2277C9E17 /* ModemEqualizerPlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModemEqualizerPlot.swift"; path = "../Sources/Swift/Instrumentation/ModemEqualizerPlot.swift"; sourceTree = SOURCE_ROOT; };
+		711E2C0FDA5E262D6A5C78C0 /* Oscilloscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Oscilloscope.swift"; path = "../Sources/Swift/Instrumentation/Oscilloscope.swift"; sourceTree = SOURCE_ROOT; };
+		0DFF23F0357E71FD9391F78D /* MiniSpectrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MiniSpectrum.swift"; path = "../Sources/Swift/Instrumentation/MiniSpectrum.swift"; sourceTree = SOURCE_ROOT; };
+		19EA44E6896F16982BC84102 /* Spectrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Spectrum.swift"; path = "../Sources/Swift/Instrumentation/Spectrum.swift"; sourceTree = SOURCE_ROOT; };
+		3AE795E878AD81524971D066 /* CWWaterfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWWaterfall.swift"; path = "../Sources/Swift/Instrumentation/CWWaterfall.swift"; sourceTree = SOURCE_ROOT; };
+		1C152B222D5FEE0F90396470 /* MFSKWaterfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MFSKWaterfall.swift"; path = "../Sources/Swift/Instrumentation/MFSKWaterfall.swift"; sourceTree = SOURCE_ROOT; };
+		C9E437A6D52A356CC052BD65 /* ClicklessWaterfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ClicklessWaterfall.swift"; path = "../Sources/Swift/Instrumentation/ClicklessWaterfall.swift"; sourceTree = SOURCE_ROOT; };
+		46B3D1ABC2BB670812BDE138 /* AMWaterfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AMWaterfall.swift"; path = "../Sources/Swift/Instrumentation/AMWaterfall.swift"; sourceTree = SOURCE_ROOT; };
+		70EE7E99858D877A1FE5CF86 /* RTTYWaterfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYWaterfall.swift"; path = "../Sources/Swift/Instrumentation/RTTYWaterfall.swift"; sourceTree = SOURCE_ROOT; };
+		A3DD5C2C6205F78B2CECE846 /* Waterfall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Waterfall.swift"; path = "../Sources/Swift/Instrumentation/Waterfall.swift"; sourceTree = SOURCE_ROOT; };
 		5F92A46C457EA07C76E629ED /* QSO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "QSO.swift"; path = "../Sources/Swift/QSO/QSO.swift"; sourceTree = SOURCE_ROOT; };
 		20756F510D402CAF757CE1B2 /* SubDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SubDictionary.swift"; path = "../Sources/Swift/Preferences/SubDictionary.swift"; sourceTree = SOURCE_ROOT; };
 		176D72A832BAB2766FDA1CD9 /* Speech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Speech.swift"; path = "../Sources/Swift/Application/Speech.swift"; sourceTree = SOURCE_ROOT; };
@@ -436,16 +441,6 @@
 		84072E2609076BF9006DA88B /* Application.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
 		84072E4209076C49006DA88B /* StripPhi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = StripPhi.h; sourceTree = "<group>"; };
 		84072E4309076C49006DA88B /* StripPhi.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = StripPhi.m; sourceTree = "<group>"; };
-		84072F9709076EAF006DA88B /* Oscilloscope.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Oscilloscope.h; sourceTree = "<group>"; };
-		84072F9809076EAF006DA88B /* Oscilloscope.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Oscilloscope.m; sourceTree = "<group>"; };
-		84072F9909076EAF006DA88B /* PSKMonitor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSKMonitor.h; sourceTree = "<group>"; };
-		84072F9A09076EAF006DA88B /* PSKMonitor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = PSKMonitor.m; sourceTree = "<group>"; };
-		84072F9B09076EAF006DA88B /* RTTYMonitor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = RTTYMonitor.h; sourceTree = "<group>"; };
-		84072F9C09076EAF006DA88B /* RTTYMonitor.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = RTTYMonitor.m; sourceTree = "<group>"; };
-		84072F9D09076EAF006DA88B /* Spectrum.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Spectrum.h; sourceTree = "<group>"; };
-		84072F9E09076EAF006DA88B /* Spectrum.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Spectrum.m; sourceTree = "<group>"; };
-		84072F9F09076EAF006DA88B /* Waterfall.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Waterfall.h; sourceTree = "<group>"; };
-		84072FA009076EAF006DA88B /* Waterfall.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = Waterfall.m; sourceTree = "<group>"; };
 		84072FAA09076EBD006DA88B /* error.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = error.c; path = ../Sources/DSP/error.c; sourceTree = "<group>"; };
 		84072FAB09076EBD006DA88B /* error.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = error.h; path = ../Sources/DSP/error.h; sourceTree = "<group>"; };
 		84072FCB09076EE4006DA88B /* AYTextView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AYTextView.h; sourceTree = "<group>"; };
@@ -493,8 +488,6 @@
 		840EC5F00976446D00BCEEE3 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/WFRTTY.nib; sourceTree = "<group>"; };
 		8410100F10BC8DD600761445 /* FAXFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAXFrame.h; sourceTree = "<group>"; };
 		8410101010BC8DD600761445 /* FAXFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAXFrame.m; sourceTree = "<group>"; };
-		841011DE10BDBDED00761445 /* ClicklessWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClicklessWaterfall.h; sourceTree = "<group>"; };
-		841011DF10BDBDED00761445 /* ClicklessWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClicklessWaterfall.m; sourceTree = "<group>"; };
 		8416C8CF0A51B97A00526F21 /* routerCloseScript.scpt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.scpt; path = routerCloseScript.scpt; sourceTree = "<group>"; };
 		84220354096100F1007AFA0B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/RTTYRoundupMults.nib; sourceTree = "<group>"; };
 		8422FF2F09606D18007AFA0B /* UTC.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UTC.h; sourceTree = "<group>"; };
@@ -539,8 +532,6 @@
 		8477C2161112D8F0004AC82F /* ASCIIDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCIIDecoder.m; sourceTree = "<group>"; };
 		8477C25C1112DCCE004AC82F /* ASCIIATC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIIATC.h; sourceTree = "<group>"; };
 		8477C25D1112DCCE004AC82F /* ASCIIATC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCIIATC.m; sourceTree = "<group>"; };
-		8481CD0E095C8B15008EA65A /* RTTYWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYWaterfall.h; sourceTree = "<group>"; };
-		8481CD0F095C8B15008EA65A /* RTTYWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYWaterfall.m; sourceTree = "<group>"; };
 		8486AA160EC956D500840E69 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PSKReceiver.nib; sourceTree = "<group>"; };
 		8486AA1F0EC957FD00840E69 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PSKAlarms.nib; sourceTree = "<group>"; };
 		848765B81074078700B83EDD /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
@@ -950,8 +941,6 @@
 		849C0A4610F93A5B00F342E7 /* mldx5Unkey.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = mldx5Unkey.scpt; sourceTree = "<group>"; };
 		849C0A4710F93A6200F342E7 /* mldxVersion.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = mldxVersion.scpt; sourceTree = "<group>"; };
 		84A851E50B1E1898003A69CF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ModemEqualizer.nib; sourceTree = "<group>"; };
-		84A854B80B1F67E6003A69CF /* ModemEqualizerPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemEqualizerPlot.h; sourceTree = "<group>"; };
-		84A854B90B1F67E6003A69CF /* ModemEqualizerPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemEqualizerPlot.m; sourceTree = "<group>"; };
 		84AB924F10A7549600A26242 /* AMConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMConfig.m; sourceTree = "<group>"; };
 		84AB92BE10A7630700A26242 /* RTTYMatchedFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYMatchedFilter.h; sourceTree = "<group>"; };
 		84AB92BF10A7630700A26242 /* RTTYMatchedFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYMatchedFilter.m; sourceTree = "<group>"; };
@@ -963,8 +952,6 @@
 		84B40492109A70FD0082E332 /* audioutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = audioutils.c; sourceTree = "<group>"; };
 		84B40493109A70FD0082E332 /* audioutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioutils.h; sourceTree = "<group>"; };
 		84B43C090F39324000E399D7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ContestLog.nib; sourceTree = "<group>"; };
-		84BD2CC70FF7537200AD2324 /* MFSKWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKWaterfall.h; sourceTree = "<group>"; };
-		84BD2CC80FF7537200AD2324 /* MFSKWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSKWaterfall.m; sourceTree = "<group>"; };
 		84BE1CDA1079B9540026FD70 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84BE1CDB1079B9540026FD70 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		84C02E0B11142BAB00DB8AA4 /* ASCIITxConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIITxConfig.h; sourceTree = "<group>"; };
@@ -1054,15 +1041,11 @@
 		84E4DF6B0997D3800064B8F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SITOR.nib; sourceTree = "<group>"; };
 		84E4E01D0997EA7A0064B8F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SITORRxControl.nib; sourceTree = "<group>"; };
 		84E6E90D0B5F3FBE0051ADDD /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SynchAM.nib; sourceTree = "<group>"; };
-		84E6E9F10B5F6BE40051ADDD /* AMWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMWaterfall.h; sourceTree = "<group>"; };
-		84E6E9F20B5F6BE40051ADDD /* AMWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMWaterfall.m; sourceTree = "<group>"; };
 		84E86D630CDFA8ED00691926 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Splash.nib; sourceTree = "<group>"; };
 		84E899A60CDBFEA200E7E22A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/LiteRTTY.nib; sourceTree = "<group>"; };
 		84E89ADC0CDC339000E7E22A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/LiteRTTYControl.nib; sourceTree = "<group>"; };
 		84E89BC40CDC4EE900E7E22A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/LitePSK.nib; sourceTree = "<group>"; };
 		84EB987F0B20FF8600434940 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/WBCW.nib; sourceTree = "<group>"; };
-		84EB98F20B21269400434940 /* CWWaterfall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWWaterfall.h; sourceTree = "<group>"; };
-		84EB98F30B21269400434940 /* CWWaterfall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWWaterfall.m; sourceTree = "<group>"; };
 		84EB9B0C0B2167A000434940 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SimpleModemDest.nib; sourceTree = "<group>"; };
 		84EBADDB0B279A6200434940 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CWRxControl.nib; sourceTree = "<group>"; };
 		84F77F0C12E4A3AB00852473 /* CocoaPTTInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaPTTInterface.h; sourceTree = "<group>"; };
@@ -1112,6 +1095,18 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				09FA5746F2F00D840B925F88 /* RTTYMonitor.swift */,
+				7E6FADA6926E1EC87EC3EF0C /* PSKMonitor.swift */,
+				5512A599C6B9A0B2277C9E17 /* ModemEqualizerPlot.swift */,
+				711E2C0FDA5E262D6A5C78C0 /* Oscilloscope.swift */,
+				0DFF23F0357E71FD9391F78D /* MiniSpectrum.swift */,
+				19EA44E6896F16982BC84102 /* Spectrum.swift */,
+				3AE795E878AD81524971D066 /* CWWaterfall.swift */,
+				1C152B222D5FEE0F90396470 /* MFSKWaterfall.swift */,
+				C9E437A6D52A356CC052BD65 /* ClicklessWaterfall.swift */,
+				46B3D1ABC2BB670812BDE138 /* AMWaterfall.swift */,
+				70EE7E99858D877A1FE5CF86 /* RTTYWaterfall.swift */,
+				A3DD5C2C6205F78B2CECE846 /* Waterfall.swift */,
 				5F92A46C457EA07C76E629ED /* QSO.swift */,
 				20756F510D402CAF757CE1B2 /* SubDictionary.swift */,
 				176D72A832BAB2766FDA1CD9 /* Speech.swift */,
@@ -1289,28 +1284,6 @@
 		84072F9409076EAF006DA88B /* Instrumentation */ = {
 			isa = PBXGroup;
 			children = (
-				84072F9709076EAF006DA88B /* Oscilloscope.h */,
-				84072F9809076EAF006DA88B /* Oscilloscope.m */,
-				84072F9909076EAF006DA88B /* PSKMonitor.h */,
-				84072F9A09076EAF006DA88B /* PSKMonitor.m */,
-				84072F9B09076EAF006DA88B /* RTTYMonitor.h */,
-				84072F9C09076EAF006DA88B /* RTTYMonitor.m */,
-				84072F9D09076EAF006DA88B /* Spectrum.h */,
-				84072F9E09076EAF006DA88B /* Spectrum.m */,
-				84072F9F09076EAF006DA88B /* Waterfall.h */,
-				84072FA009076EAF006DA88B /* Waterfall.m */,
-				841011DE10BDBDED00761445 /* ClicklessWaterfall.h */,
-				841011DF10BDBDED00761445 /* ClicklessWaterfall.m */,
-				84BD2CC70FF7537200AD2324 /* MFSKWaterfall.h */,
-				84BD2CC80FF7537200AD2324 /* MFSKWaterfall.m */,
-				84E6E9F10B5F6BE40051ADDD /* AMWaterfall.h */,
-				84E6E9F20B5F6BE40051ADDD /* AMWaterfall.m */,
-				8481CD0E095C8B15008EA65A /* RTTYWaterfall.h */,
-				8481CD0F095C8B15008EA65A /* RTTYWaterfall.m */,
-				84EB98F20B21269400434940 /* CWWaterfall.h */,
-				84EB98F30B21269400434940 /* CWWaterfall.m */,
-				84A854B80B1F67E6003A69CF /* ModemEqualizerPlot.h */,
-				84A854B90B1F67E6003A69CF /* ModemEqualizerPlot.m */,
 				84D7F37D0B7C219500CF3D0D /* NoiseUtils.h */,
 				84D7F37E0B7C219500CF3D0D /* NoiseUtils.c */,
 			);
@@ -2530,6 +2503,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A4AE5D66993B47A73BB4FD /* RTTYMonitor.swift in Sources */,
+				32323A98DDBF5470FFE5B17A /* PSKMonitor.swift in Sources */,
+				E7D7DD13025F15D80D906D60 /* ModemEqualizerPlot.swift in Sources */,
+				5A6073CDF58D25C7E4F9A7AE /* Oscilloscope.swift in Sources */,
+				00256CCE1E8A24164D3BE918 /* MiniSpectrum.swift in Sources */,
+				55B35B7440E8EC8E1E5DF145 /* Spectrum.swift in Sources */,
+				A73A33497A9C45589AC71E76 /* CWWaterfall.swift in Sources */,
+				5BCE2EE77D30B7D1023BC444 /* MFSKWaterfall.swift in Sources */,
+				E32E22C312247EB4FEF8A17C /* ClicklessWaterfall.swift in Sources */,
+				99B996F7AD40FBCF6BC6D9B7 /* AMWaterfall.swift in Sources */,
+				4A52277B372EFF161E59CC5B /* RTTYWaterfall.swift in Sources */,
+				AA63370CA2C2471C6708006E /* Waterfall.swift in Sources */,
 				4072F1B0114B2EDB2AC5E1CE /* QSO.swift in Sources */,
 				EFB2E8A2EC85D07AE6AD6150 /* SubDictionary.swift in Sources */,
 				8331787660865E502D9DFFF4 /* Speech.swift in Sources */,
@@ -2549,22 +2534,12 @@
 				0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */,
 				84072E2809076BF9006DA88B /* Application.m in Sources */,
 				84072E4509076C49006DA88B /* StripPhi.m in Sources */,
-				84072FA209076EAF006DA88B /* Oscilloscope.m in Sources */,
-				84072FA309076EAF006DA88B /* PSKMonitor.m in Sources */,
-				84072FA409076EAF006DA88B /* RTTYMonitor.m in Sources */,
-				84072FA509076EAF006DA88B /* Spectrum.m in Sources */,
-				84072FA609076EAF006DA88B /* Waterfall.m in Sources */,
 				84072FB309076EBD006DA88B /* error.c in Sources */,
 				84072FCD09076EE4006DA88B /* AYTextView.m in Sources */,
 				8407326E09077551006DA88B /* main.m in Sources */,
-				8481CD11095C8B15008EA65A /* RTTYWaterfall.m in Sources */,
 				84DA525109F6B059007B3C78 /* Config.m in Sources */,
 				84DA525309F6B059007B3C78 /* Preferences.m in Sources */,
-				84A854BB0B1F67E6003A69CF /* ModemEqualizerPlot.m in Sources */,
-				84EB98F50B21269400434940 /* CWWaterfall.m in Sources */,
-				84E6E9F40B5F6BE40051ADDD /* AMWaterfall.m in Sources */,
 				84D7F3800B7C219500CF3D0D /* NoiseUtils.c in Sources */,
-				84BD2CC90FF7537200AD2324 /* MFSKWaterfall.m in Sources */,
 				848765BA1074078700B83EDD /* memory.c in Sources */,
 				84876DE21076737900B83EDD /* NetAudio.m in Sources */,
 				84876DE31076737900B83EDD /* BonjourService.m in Sources */,
@@ -2771,7 +2746,6 @@
 				84CE76C510ABB343003D0C99 /* PSKAuralMonitor.m in Sources */,
 				843769A310AD3C6B0000F62D /* ModemAuralMonitor.m in Sources */,
 				8410101110BC8DD600761445 /* FAXFrame.m in Sources */,
-				841011E010BDBDED00761445 /* ClicklessWaterfall.m in Sources */,
 				8477C13411126109004AC82F /* ASCII.m in Sources */,
 				8477C1C91112B101004AC82F /* ASCIIReceiver.m in Sources */,
 				8477C1FD1112D567004AC82F /* ASCIIDemodulator.m in Sources */,

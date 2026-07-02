@@ -34,7 +34,7 @@
 #import "TextEncoding.h"
 #import "Transceiver.h"
 #import "VUMeter.h"
-#import "Waterfall.h"
+//  now provided by cocoaModem-Swift.h
 
 //	PSK Aural Monitor keys
 #define	kAuralMonitor0				@"PSK Aural Monitor for xcvr 0"

@@ -15,7 +15,6 @@
 #import "ModemEqualizer.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
-#import "Oscilloscope.h"
 
 
 @implementation ModemConfig

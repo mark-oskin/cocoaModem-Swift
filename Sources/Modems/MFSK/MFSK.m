@@ -18,7 +18,7 @@
 #import "MFSKDemodulator.h"
 #import "MFSKMacros.h"
 #import "MFSKModes.h"
-#import "MFSKWaterfall.h"
+#import "cocoaModem-Swift.h"
 #import "ModemManager.h"
 #import "ModemSource.h"
 #import "Module.h"

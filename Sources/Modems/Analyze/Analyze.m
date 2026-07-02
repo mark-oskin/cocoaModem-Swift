@@ -17,7 +17,7 @@
 #include "RTTYConfig.h"
 #include "RTTYStereoReceiver.h"
 #include "RTTYRxControl.h"
-#include "Spectrum.h"
+#import "cocoaModem-Swift.h"
 
 
 @implementation Analyze

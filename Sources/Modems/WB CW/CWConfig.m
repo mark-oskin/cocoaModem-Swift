@@ -8,7 +8,7 @@
 
 #import "CWConfig.h"
 #import "ModemSource.h"
-#import "Oscilloscope.h"
+#import "cocoaModem-Swift.h"
 #import "PTT.h"
 #import "VUMeter.h"
 

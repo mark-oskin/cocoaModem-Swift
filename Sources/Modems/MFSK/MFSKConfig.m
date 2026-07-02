@@ -18,7 +18,6 @@
 #import "ModemEqualizer.h"
 #import "ModemSource.h"
 #import "modemTypes.h"
-#import "Oscilloscope.h"
 #import "Plist.h"
 #import "PTT.h"
 

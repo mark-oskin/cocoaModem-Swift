@@ -10,7 +10,7 @@
 #include "WFRTTY.h"
 #include "ModemDest.h"
 #include "ModemSource.h"
-#include "Oscilloscope.h"
+#import "cocoaModem-Swift.h"
 #include "Plist.h"
 #include "RTTYRxControl.h"
 #include "VUMeter.h"

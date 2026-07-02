@@ -26,7 +26,7 @@
 #import "StdManager.h"
 #import "TextEncoding.h"
 #import "VUMeter.h"
-#import "Waterfall.h"
+#import "cocoaModem-Swift.h"
 #import <stdlib.h>						// for malloc()
 #import <string.h>						// for memset()
 

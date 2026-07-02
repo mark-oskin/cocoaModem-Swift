@@ -13,7 +13,6 @@
 #import "FSKHub.h"
 #import "FSKMenu.h"
 #import "Messages.h"
-#import "Oscilloscope.h"
 #import "cocoaModem-Swift.h"
 #import "Messages.h"
 #import "ModemSource.h"

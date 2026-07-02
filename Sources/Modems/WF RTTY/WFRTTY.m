@@ -25,8 +25,8 @@
 #import "RTTYReceiver.h"
 #import "RTTYRxControl.h"
 #import "RTTYTxConfig.h"
-#import "RTTYWaterfall.h"
-#import "Spectrum.h"
+//  now provided by cocoaModem-Swift.h
+#import "cocoaModem-Swift.h"
 #import "Transceiver.h"
 #import "WFRTTYConfig.h"
 

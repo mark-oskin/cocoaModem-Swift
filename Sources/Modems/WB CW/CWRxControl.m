@@ -10,8 +10,8 @@
 #import "CWConfig.h"
 #import "CWMonitor.h"
 #import "CWReceiver.h"
-#import "CWWaterfall.h"
-#import "Oscilloscope.h"
+//  now provided by cocoaModem-Swift.h
+#import "cocoaModem-Swift.h"
 #import "Plist.h"
 #import "WBCW.h"
 

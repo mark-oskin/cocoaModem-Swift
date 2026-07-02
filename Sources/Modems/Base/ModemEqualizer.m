@@ -8,7 +8,7 @@
 
 #import "ModemEqualizer.h"
 #include <math.h>
-#include "ModemEqualizerPlot.h"
+#import "cocoaModem-Swift.h"
 #include "Plist.h"
 #include "Preferences.h"
 

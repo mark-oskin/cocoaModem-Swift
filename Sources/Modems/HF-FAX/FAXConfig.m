@@ -12,7 +12,7 @@
 #include "FAXDisplay.h"
 #include "Messages.h"
 #include "ModemSource.h"
-#include "Oscilloscope.h"
+#import "cocoaModem-Swift.h"
 #include "Plist.h"
 #include "VUMeter.h"
 #include "CMPCO.h"

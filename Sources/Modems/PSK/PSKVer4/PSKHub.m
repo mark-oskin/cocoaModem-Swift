@@ -10,7 +10,7 @@
 #import "PSK.h"
 #import "PSKDemodulator.h"
 #import "PSKReceiver.h"
-#import "Waterfall.h"
+#import "cocoaModem-Swift.h"
 #import <AudioUnit/AudioUnitProperties.h>
 
 #define	REMOVECOUNT		6		// defer removal from LitPSKDemodulator list (in case of QSB)

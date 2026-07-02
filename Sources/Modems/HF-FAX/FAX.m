@@ -21,7 +21,7 @@
 #include "Plist.h"
 #include "StdManager.h"
 #include "VUMeter.h"
-#include "Waterfall.h"
+#import "cocoaModem-Swift.h"
 #include <stdlib.h>						// for malloc()
 #include <string.h>						// for memset()
 

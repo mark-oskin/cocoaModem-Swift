@@ -21,8 +21,8 @@
 #import "PSKBrowserHub.h"
 #import "PSKControl.h"
 #import "PSKHub.h"
-#import "PSKMonitor.h"
-#import "Waterfall.h"
+#import "cocoaModem-Swift.h"
+//  now provided by cocoaModem-Swift.h
 #import "CMPCO.h"
 #import "CMDSPWindow.h"
 #import <math.h>

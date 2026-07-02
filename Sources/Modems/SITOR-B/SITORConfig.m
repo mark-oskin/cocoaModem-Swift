@@ -9,7 +9,7 @@
 #import "SITORConfig.h"
 #import "SITOR.h"
 #import "ModemSource.h"
-#import "Oscilloscope.h"
+#import "cocoaModem-Swift.h"
 #import "Plist.h"
 #import "RTTYRxControl.h"
 #import "VUMeter.h"

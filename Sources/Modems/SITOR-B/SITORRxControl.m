@@ -14,11 +14,10 @@
 #import "RTTYConfig.h"
 #import "RTTYInterface.h"
 #import "RTTYModulator.h"
-#import "RTTYMonitor.h"
 #import "RTTYRxControl.h"
-#import "RTTYWaterfall.h"
+#import "cocoaModem-Swift.h"
+//  now provided by cocoaModem-Swift.h
 #import "SITORReceiver.h"
-#import "Spectrum.h"
 #import "TextEncoding.h"
 
 

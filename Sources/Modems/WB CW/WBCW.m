@@ -19,7 +19,7 @@
 #import "CWReceiver.h"
 #import "CWRxControl.h"
 #import "CWTxConfig.h"
-#import "CWWaterfall.h"
+//  now provided by cocoaModem-Swift.h
 #import "ExchangeView.h"
 #import "Messages.h"
 #import "ModemManager.h"
@@ -30,7 +30,7 @@
 #import "RTTYMacros.h"
 #import "RTTYModulator.h"
 #import "RTTYTxConfig.h"
-#import "Spectrum.h"
+#import "cocoaModem-Swift.h"
 #import "StdManager.h"
 #import "Transceiver.h"
 

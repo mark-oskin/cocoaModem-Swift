@@ -9,7 +9,7 @@
 #import "PSKConfig.h"
 #import "Application.h"
 #import "Messages.h"
-#import "Oscilloscope.h"
+#import "cocoaModem-Swift.h"
 #import "ModemDest.h"
 #import "ModemEqualizer.h"
 #import "ModemSource.h"

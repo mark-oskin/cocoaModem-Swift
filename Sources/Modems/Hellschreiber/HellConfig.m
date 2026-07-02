@@ -14,7 +14,7 @@
 #import "ModemDest.h"
 #import "ModemEqualizer.h"
 #import "ModemSource.h"
-#import "Oscilloscope.h"
+#import "cocoaModem-Swift.h"
 #import "Plist.h"
 #import "PTT.h"
 #import "TextEncoding.h"
