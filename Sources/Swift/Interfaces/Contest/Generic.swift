@@ -284,7 +284,7 @@ class Generic: Contest, NSTextFieldDelegate {
         var myCall = ""
         if let used = usedCallString { myCall = cTrunc(used, 13) }
 
-        let expanded = manager?.expandMacro(inUserAndQSOInfo: cabrillo.exchangeString()) ?? ""
+        let expanded = manager?.expandMacroInUserAndQSOInfo(cabrillo.exchangeString()) ?? ""
         let exchSent = String(expanded.prefix(16))
 
         var count: Int32 = 0

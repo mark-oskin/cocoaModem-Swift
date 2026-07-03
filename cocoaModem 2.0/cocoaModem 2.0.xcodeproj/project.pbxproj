@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B04CD7E6D4540F74106EF76 /* ContestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A2FCFBBA9B624940B3069 /* ContestManager.swift */; };
 		1A3AA8EFAFDEA8A8CC471506 /* LiteASCII.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A0F4910B4AD94201B1188 /* LiteASCII.swift */; };
 		CC6F2E6193CB4BFB89A803A3 /* WBCW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7208E3F024FAD27A56498 /* WBCW.swift */; };
 		58E238C27906B3D990FCF7A4 /* SITOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76E8E5EA99AF20FBE2ADDD /* SITOR.swift */; };
@@ -296,7 +297,6 @@
 		848765BA1074078700B83EDD /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 848765B91074078700B83EDD /* memory.c */; };
 		848768221074104C00B83EDD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848768211074104C00B83EDD /* IOKit.framework */; };
 		848770591076740500B83EDD /* HellschreiberFont.c in Sources */ = {isa = PBXBuildFile; fileRef = 84876F0B1076740400B83EDD /* HellschreiberFont.c */; };
-		848770DD107674A900B83EDD /* ContestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770D3107674A900B83EDD /* ContestManager.m */; };
 		848771681076789F00B83EDD /* CoreModem.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771421076789F00B83EDD /* CoreModem.m */; };
 		848771F310767F4400B83EDD /* CMComplexFIR.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771D610767F4400B83EDD /* CMComplexFIR.c */; };
 		848771F410767F4400B83EDD /* CMDSPWindow.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771D810767F4400B83EDD /* CMDSPWindow.c */; };
@@ -406,6 +406,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0A2A2FCFBBA9B624940B3069 /* ContestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContestManager.swift"; path = "../Sources/Swift/Interfaces/Contest/ContestManager.swift"; sourceTree = SOURCE_ROOT; };
 		EB6A0F4910B4AD94201B1188 /* LiteASCII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LiteASCII.swift"; path = "../Sources/Swift/Modems/Lite ASCII/LiteASCII.swift"; sourceTree = SOURCE_ROOT; };
 		1AF7208E3F024FAD27A56498 /* WBCW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WBCW.swift"; path = "../Sources/Swift/Modems/WB CW/WBCW.swift"; sourceTree = SOURCE_ROOT; };
 		9B76E8E5EA99AF20FBE2ADDD /* SITOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SITOR.swift"; path = "../Sources/Swift/Modems/SITOR-B/SITOR.swift"; sourceTree = SOURCE_ROOT; };
@@ -756,8 +757,6 @@
 		84876FA91076740500B83EDD /* Baudot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baudot.h; sourceTree = "<group>"; };
 		84876FC21076740500B83EDD /* RTTYTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYTypes.h; sourceTree = "<group>"; };
 		84876FC41076740500B83EDD /* Moore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moore.h; sourceTree = "<group>"; };
-		848770D2107674A900B83EDD /* ContestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestManager.h; sourceTree = "<group>"; };
-		848770D3107674A900B83EDD /* ContestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestManager.m; sourceTree = "<group>"; };
 		848770F1107674DA00B83EDD /* RoundupStatelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundupStatelist.h; sourceTree = "<group>"; };
 		8487713A1076754F00B83EDD /* Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module.h; sourceTree = "<group>"; };
 		8487713B1076754F00B83EDD /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module.m; sourceTree = "<group>"; };
@@ -911,6 +910,7 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				0A2A2FCFBBA9B624940B3069 /* ContestManager.swift */,
 				EB6A0F4910B4AD94201B1188 /* LiteASCII.swift */,
 				1AF7208E3F024FAD27A56498 /* WBCW.swift */,
 				9B76E8E5EA99AF20FBE2ADDD /* SITOR.swift */,
@@ -1753,8 +1753,6 @@
 		848770D1107674A900B83EDD /* Contest */ = {
 			isa = PBXGroup;
 			children = (
-				848770D2107674A900B83EDD /* ContestManager.h */,
-				848770D3107674A900B83EDD /* ContestManager.m */,
 			);
 			path = Contest;
 			sourceTree = "<group>";
@@ -2128,6 +2126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B04CD7E6D4540F74106EF76 /* ContestManager.swift in Sources */,
 				1A3AA8EFAFDEA8A8CC471506 /* LiteASCII.swift in Sources */,
 				CC6F2E6193CB4BFB89A803A3 /* WBCW.swift in Sources */,
 				58E238C27906B3D990FCF7A4 /* SITOR.swift in Sources */,
@@ -2391,7 +2390,6 @@
 				84D7F3800B7C219500CF3D0D /* NoiseUtils.c in Sources */,
 				848765BA1074078700B83EDD /* memory.c in Sources */,
 				848770591076740500B83EDD /* HellschreiberFont.c in Sources */,
-				848770DD107674A900B83EDD /* ContestManager.m in Sources */,
 				848771681076789F00B83EDD /* CoreModem.m in Sources */,
 				848771F310767F4400B83EDD /* CMComplexFIR.c in Sources */,
 				848771F410767F4400B83EDD /* CMDSPWindow.c in Sources */,

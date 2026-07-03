@@ -3,15 +3,14 @@
 //  Objective-C declarations exposed to Swift.
 //
 //  After the full Swift migration, almost every class is Swift; this exposes
-//  only the remaining C-type / C-function headers and the two classes that
-//  stay Objective-C (CoreModem's extern sin/cos tables, ContestManager).
+//  only the remaining C-type / C-function headers and the class that
+//  stays Objective-C (CoreModem's extern sin/cos tables).
 //
 
 #import "audioutils.h"		//  C audio helpers (initAudioUtils, ...)
 #import "CoreFilter.h"		//  CMFFT/CMFIR C structs + FFT/FIR C functions
 #import "CoreModemTypes.h"	//  CMTonePair / CMDataStream / CMDDA / ...
 #import "CoreModem.h"		//  extern mssin/lssin/mscos/lscos tables (still ObjC)
-#import "ContestManager.h"	//  still ObjC (two-phase alloc/init)
 #import "KeyerInterface.h"	//  obtainRouterPorts C functions (still ObjC)
 #import "Boxcar.h"		//  BoxcarFilter C functions
 
