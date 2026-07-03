@@ -730,7 +730,7 @@ class PSKDemodulator: CMPSKDemodulator {
         //  wait for start bit
         if bit == 0 && varicodeCharacter == 0 { return }
 
-        varicodeCharacter = varicodeCharacter * 2 + bit
+        varicodeCharacter = varicodeCharacter &* 2 &+ bit
         if (varicodeCharacter & 0x3) == 0 {
             if printEnabled {
                 //  this flushes two potential bad character syncs when print is initially enabled

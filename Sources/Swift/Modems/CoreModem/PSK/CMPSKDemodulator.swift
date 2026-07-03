@@ -405,7 +405,7 @@ class CMPSKDemodulator: CMToneReceiver {
         //  wait for start bit
         if bit == 0 && varicodeCharacter == 0 { return }
 
-        varicodeCharacter = varicodeCharacter * 2 + bit
+        varicodeCharacter = varicodeCharacter &* 2 &+ bit
         if (varicodeCharacter & 0x3) == 0 {
             if printEnabled {
                 let decoded = varicode.decode(varicodeCharacter)
