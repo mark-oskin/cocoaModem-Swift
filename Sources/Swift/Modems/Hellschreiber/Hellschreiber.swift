@@ -704,7 +704,6 @@ class Hellschreiber: ContestInterface, NSTextViewDelegate {
         (config as? HellConfig)?.selectFont(unalignedFont)
     }
 
-    @objc(addFont:index:)
     func addFont(_ inFont: UnsafeMutablePointer<HellschreiberFontHeader>!, index: Int32) {
         if index == 0 {
             fonts = 1

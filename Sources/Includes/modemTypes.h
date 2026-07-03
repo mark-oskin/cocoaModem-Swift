@@ -12,7 +12,6 @@
 
 	#include "CoreModemTypes.h"
 		
-	extern int vuSegmentTable[1416] ;
 	
 	typedef struct {
 		unsigned char day ;

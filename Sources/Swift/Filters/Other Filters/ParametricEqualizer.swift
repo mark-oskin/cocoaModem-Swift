@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Accelerate
 
 //  C struct kept identical (float low/high/value).  AMDemodulator.swift builds
 //  an array of these and passes a pointer into init(_:ranges:order:).
@@ -126,7 +127,6 @@ class ParametricEqualizer: NSObject {
         designEqualizer()
     }
 
-    @objc
     func filter() -> UnsafeMutablePointer<CMFIR>? {
         return fir
     }

@@ -167,7 +167,6 @@ class HellModulator: MSKGenerator {
         transmitBPF = CMFIRFilter(fir, Int32(n))
     }
 
-    @objc(setFont:)
     func setFont(_ newfont: UnsafeMutablePointer<HellschreiberFontHeader>?) {
         font = newfont
     }

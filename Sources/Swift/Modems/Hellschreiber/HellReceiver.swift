@@ -16,6 +16,7 @@
 //
 
 import Cocoa
+import Accelerate
 
 private let pi: Double = Double.pi
 

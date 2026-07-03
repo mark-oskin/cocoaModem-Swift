@@ -8,14 +8,8 @@
 	#define _COREFILTER_H_
 
 	#import "CoreFilterTypes.h"
-	//  CMPipe / CMTappedPipe are now Swift (cocoaModem-Swift.h); forward-declare
-	//  here so this umbrella still type-checks for pointer use.  Swift port batch A.
-	@class CMPipe ;
-	@class CMTappedPipe ;
-	#import "CMFIR.h"
-	#import "CMIIR.h"
-	#import "CMFFT.h"
-	#import "CMDSPWindow.h"
-	#import "CMComplexFIR.h"
+	//  The CMFIR / CMIIR / CMFFT / CMDSPWindow / CMComplexFIR kernels are now Swift
+	//  (Sources/Swift/Filters/…); only the shared value types in CoreFilterTypes.h
+	//  (CMAnalyticPair / CMAnalyticBuffer) still need to reach Swift from here.
 
 #endif

@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A357241091C54D7134E49451 /* KeyerInterfaceC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD32F16342A8269999D49723 /* KeyerInterfaceC.swift */; };
+		F4212BE0C34C4FB34C1AB134 /* HellschreiberFontC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DD4C90A533EED8EB43AB69 /* HellschreiberFontC.swift */; };
+		82590AA6CFA03060CFBCA7E9 /* CoreModem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A4B32D737CAA44597B8F9 /* CoreModem.swift */; };
+		E73CA3B098EBB748C7581D82 /* error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB928655FB9AC0146A38CAC /* error.swift */; };
+		8EF0F7419F3FADFAB456A172 /* NoiseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6597828FEA634912DA33E2D /* NoiseUtils.swift */; };
+		E524FBE95251AF49755A3D1F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306B3EAA4FFEFFF6A022012 /* main.swift */; };
+		9C5ACA43F98CFA8A86F60126 /* memory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F959A1ABD4724048D2DE67 /* memory.swift */; };
+		6D1045CE0D68467C8C3E88CD /* audioutils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3907C8E85148ED90C16B3526 /* audioutils.swift */; };
+		CABE88971D5A65539DEBBECB /* Clears.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBFFCC60874412A510BFCD1 /* Clears.swift */; };
+		E22B66540C32F85370E8ED32 /* Hadamard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D0F784ED56C9191AF1449 /* Hadamard.swift */; };
+		05A7F74E0EE2F9A0CE2E9479 /* Boxcar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE45361EABE8C76C46ACCBB /* Boxcar.swift */; };
+		26ACDD3AAF27E7AD3F89CBF9 /* CMComplexFIR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F20B452FFE44B5B2549E84 /* CMComplexFIR.swift */; };
+		C39FF88BF846CE5C5FE58029 /* CMFFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DAAA381732FA54353D6A9D /* CMFFT.swift */; };
+		B81D9ECE28C82296518F3B0E /* CMIIR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A64A56B0E80C7E2DE27FF /* CMIIR.swift */; };
+		1F4FB60E68AB79C5914C825C /* CMDSPWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB47D7E3FAE40DAEC24EE039 /* CMDSPWindow.swift */; };
+		A2761E9DF4EB3BE207D69F23 /* CMFIR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B071BF4902902157FDE45 /* CMFIR.swift */; };
 		6B04CD7E6D4540F74106EF76 /* ContestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2A2FCFBBA9B624940B3069 /* ContestManager.swift */; };
 		1A3AA8EFAFDEA8A8CC471506 /* LiteASCII.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A0F4910B4AD94201B1188 /* LiteASCII.swift */; };
 		CC6F2E6193CB4BFB89A803A3 /* WBCW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7208E3F024FAD27A56498 /* WBCW.swift */; };
@@ -266,7 +282,6 @@
 		DF1B4819A5E0D03AB6A98064 /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA5396866DE8606BFE002ED /* splash.swift */; };
 		8B3609519C91DEF776F06FB6 /* splashPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520E56FB99666F63B2B1619A /* splashPanel.swift */; };
 		0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6215340BE8E07984B7343ED /* UTC.swift */; };
-		84072FB309076EBD006DA88B /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 84072FAA09076EBD006DA88B /* error.c */; };
 		84072FDF09076F2D006DA88B /* CQ WPX RTTY.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD709076F2D006DA88B /* CQ WPX RTTY.xml */; };
 		84072FE009076F2D006DA88B /* Generic.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD809076F2D006DA88B /* Generic.xml */; };
 		84072FE109076F2D006DA88B /* RST - QSO Number.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD909076F2D006DA88B /* RST - QSO Number.xml */; };
@@ -276,7 +291,6 @@
 		84072FE509076F2D006DA88B /* XE RTTY.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FDD09076F2D006DA88B /* XE RTTY.xml */; };
 		84072FE909076F5F006DA88B /* Versions in Resources */ = {isa = PBXBuildFile; fileRef = 84072FE809076F5F006DA88B /* Versions */; };
 		84072FEB09076F72006DA88B /* cocoaModem.icns in Resources */ = {isa = PBXBuildFile; fileRef = 84072FEA09076F72006DA88B /* cocoaModem.icns */; };
-		8407326E09077551006DA88B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8407326D09077551006DA88B /* main.m */; };
 		8407334B0907774F006DA88B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407334A0907774F006DA88B /* AudioToolbox.framework */; };
 		8407335E0907776D006DA88B /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407335D0907776D006DA88B /* ApplicationServices.framework */; };
 		8407343109077797006DA88B /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8407343009077797006DA88B /* Accelerate.framework */; };
@@ -294,25 +308,13 @@
 		8467342F09E37B1200F90063 /* mldxUnkey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8467342D09E37B1200F90063 /* mldxUnkey.scpt */; };
 		846734A309E464A900F90063 /* cm bitmapdoublewide.font in Resources */ = {isa = PBXBuildFile; fileRef = 846734A209E464A900F90063 /* cm bitmapdoublewide.font */; };
 		8477C14E111264EF004AC82F /* ASCII.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8477C14C111264EF004AC82F /* ASCII.nib */; };
-		848765BA1074078700B83EDD /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 848765B91074078700B83EDD /* memory.c */; };
 		848768221074104C00B83EDD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848768211074104C00B83EDD /* IOKit.framework */; };
-		848770591076740500B83EDD /* HellschreiberFont.c in Sources */ = {isa = PBXBuildFile; fileRef = 84876F0B1076740400B83EDD /* HellschreiberFont.c */; };
-		848771681076789F00B83EDD /* CoreModem.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771421076789F00B83EDD /* CoreModem.m */; };
-		848771F310767F4400B83EDD /* CMComplexFIR.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771D610767F4400B83EDD /* CMComplexFIR.c */; };
-		848771F410767F4400B83EDD /* CMDSPWindow.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771D810767F4400B83EDD /* CMDSPWindow.c */; };
-		848771F510767F4400B83EDD /* CMFFT.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771DA10767F4400B83EDD /* CMFFT.c */; };
-		848771F710767F4400B83EDD /* CMFIR.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771DE10767F4400B83EDD /* CMFIR.c */; };
-		848771F810767F4400B83EDD /* CMIIR.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771E010767F4400B83EDD /* CMIIR.c */; };
-		848771FC10767F4400B83EDD /* Boxcar.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771EA10767F4400B83EDD /* Boxcar.c */; };
-		848771FD10767F4400B83EDD /* Clears.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771EC10767F4400B83EDD /* Clears.c */; };
-		848771FE10767F4400B83EDD /* hadamard.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771EE10767F4400B83EDD /* hadamard.c */; };
 		8490ACF00A2B60AA006E282F /* LogMacro.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8490ACEF0A2B60AA006E282F /* LogMacro.h */; };
 		8499D00B09B37775006203F7 /* pttKey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8499D00909B37775006203F7 /* pttKey.scpt */; };
 		8499D00C09B37775006203F7 /* pttUnkey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8499D00A09B37775006203F7 /* pttUnkey.scpt */; };
 		849C0A4810F93A7C00F342E7 /* mldx5Key.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4510F93A5B00F342E7 /* mldx5Key.scpt */; };
 		849C0A4910F93A7C00F342E7 /* mldx5Unkey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4610F93A5B00F342E7 /* mldx5Unkey.scpt */; };
 		849C0A4A10F93A7C00F342E7 /* mldxVersion.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4710F93A6200F342E7 /* mldxVersion.scpt */; };
-		84B40494109A70FD0082E332 /* audioutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84B40492109A70FD0082E332 /* audioutils.c */; };
 		84CD579B09A05D6500E8011A /* BARTG Sprint.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD609076F2D006DA88B /* BARTG Sprint.xml */; };
 		84CD57FB09A066AF00E8011A /* BARTG HF.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84CD57FA09A066AF00E8011A /* BARTG HF.xml */; };
 		84D087FC098EB19E00A9D784 /* cm bitmap.font in Resources */ = {isa = PBXBuildFile; fileRef = 84D087FA098EB17600A9D784 /* cm bitmap.font */; };
@@ -366,14 +368,11 @@
 		84D64B0F0FC48FBF0042FCE2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D64B0D0FC48FBF0042FCE2 /* Localizable.strings */; };
 		84D6E99B0D396EB0006D376E /* RST - Exchange.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84D6E99A0D396EB0006D376E /* RST - Exchange.xml */; };
 		84D756F80B2F5D6B0051D58E /* smallspeakers.tif in Resources */ = {isa = PBXBuildFile; fileRef = 84D756F70B2F5D6B0051D58E /* smallspeakers.tif */; };
-		84D7F37F0B7C219500CF3D0D /* NoiseUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84D7F37D0B7C219500CF3D0D /* NoiseUtils.h */; };
-		84D7F3800B7C219500CF3D0D /* NoiseUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84D7F37E0B7C219500CF3D0D /* NoiseUtils.c */; };
 		84D804DC09822B8400960664 /* QSO Number (No RST).xml in Resources */ = {isa = PBXBuildFile; fileRef = 84D804DB09822B8400960664 /* QSO Number (No RST).xml */; };
 		84DA4A1509F30E45007B3C78 /* cm bitmap aa.font in Resources */ = {isa = PBXBuildFile; fileRef = 84D08DE80990147000A9D784 /* cm bitmap aa.font */; };
 		84DA4D2E09F4504B007B3C78 /* cm small.font in Resources */ = {isa = PBXBuildFile; fileRef = 84DA4D2D09F4504B007B3C78 /* cm small.font */; };
 		84DA4DB709F4566B007B3C78 /* cm small aa.font in Resources */ = {isa = PBXBuildFile; fileRef = 84DA4DB609F4566B007B3C78 /* cm small aa.font */; };
 		84E368990CDD5062003D1849 /* TextEncoding.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84E368980CDD5062003D1849 /* TextEncoding.h */; };
-		84F77F1C12E4A3AB00852473 /* KeyerInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F77F1212E4A3AB00852473 /* KeyerInterface.m */; };
 		84F901230A150D84005540CC /* pttQuit.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 84F901220A150D84005540CC /* pttQuit.scpt */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -398,7 +397,6 @@
 				8416C8D00A51B97A00526F21 /* routerCloseScript.scpt in CopyFiles */,
 				84369152127D299400C12271 /* routerVersion.scpt in CopyFiles */,
 				8490ACF00A2B60AA006E282F /* LogMacro.h in CopyFiles */,
-				84D7F37F0B7C219500CF3D0D /* NoiseUtils.h in CopyFiles */,
 				84E368990CDD5062003D1849 /* TextEncoding.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +404,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DD32F16342A8269999D49723 /* KeyerInterfaceC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "KeyerInterfaceC.swift"; path = "../Sources/Swift/Interfaces/Digital Interfaces/Keyer/KeyerInterfaceC.swift"; sourceTree = SOURCE_ROOT; };
+		F2DD4C90A533EED8EB43AB69 /* HellschreiberFontC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HellschreiberFontC.swift"; path = "../Sources/Swift/Modems/Hellschreiber/HellschreiberFontC.swift"; sourceTree = SOURCE_ROOT; };
+		0B9A4B32D737CAA44597B8F9 /* CoreModem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CoreModem.swift"; path = "../Sources/Swift/Modems/CoreModem/CoreModem.swift"; sourceTree = SOURCE_ROOT; };
+		7EB928655FB9AC0146A38CAC /* error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "error.swift"; path = "../Sources/Swift/DSP/error.swift"; sourceTree = SOURCE_ROOT; };
+		C6597828FEA634912DA33E2D /* NoiseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NoiseUtils.swift"; path = "../Sources/Swift/Instrumentation/NoiseUtils.swift"; sourceTree = SOURCE_ROOT; };
+		6306B3EAA4FFEFFF6A022012 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "main.swift"; path = "../Sources/Swift/Application/main.swift"; sourceTree = SOURCE_ROOT; };
+		32F959A1ABD4724048D2DE67 /* memory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "memory.swift"; path = "../Sources/Swift/Application/memory.swift"; sourceTree = SOURCE_ROOT; };
+		3907C8E85148ED90C16B3526 /* audioutils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "audioutils.swift"; path = "../Sources/Swift/Audio/audioutils.swift"; sourceTree = SOURCE_ROOT; };
+		1BBFFCC60874412A510BFCD1 /* Clears.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Clears.swift"; path = "../Sources/Swift/Filters/Clears.swift"; sourceTree = SOURCE_ROOT; };
+		7D7D0F784ED56C9191AF1449 /* Hadamard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Hadamard.swift"; path = "../Sources/Swift/Filters/Hadamard.swift"; sourceTree = SOURCE_ROOT; };
+		0DE45361EABE8C76C46ACCBB /* Boxcar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Boxcar.swift"; path = "../Sources/Swift/Filters/Boxcar.swift"; sourceTree = SOURCE_ROOT; };
+		94F20B452FFE44B5B2549E84 /* CMComplexFIR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMComplexFIR.swift"; path = "../Sources/Swift/Filters/CoreFilter/CMComplexFIR.swift"; sourceTree = SOURCE_ROOT; };
+		11DAAA381732FA54353D6A9D /* CMFFT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMFFT.swift"; path = "../Sources/Swift/Filters/CoreFilter/CMFFT.swift"; sourceTree = SOURCE_ROOT; };
+		1F8A64A56B0E80C7E2DE27FF /* CMIIR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMIIR.swift"; path = "../Sources/Swift/Filters/CoreFilter/CMIIR.swift"; sourceTree = SOURCE_ROOT; };
+		FB47D7E3FAE40DAEC24EE039 /* CMDSPWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMDSPWindow.swift"; path = "../Sources/Swift/Filters/CoreFilter/CMDSPWindow.swift"; sourceTree = SOURCE_ROOT; };
+		868B071BF4902902157FDE45 /* CMFIR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMFIR.swift"; path = "../Sources/Swift/Filters/CoreFilter/CMFIR.swift"; sourceTree = SOURCE_ROOT; };
 		0A2A2FCFBBA9B624940B3069 /* ContestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContestManager.swift"; path = "../Sources/Swift/Interfaces/Contest/ContestManager.swift"; sourceTree = SOURCE_ROOT; };
 		EB6A0F4910B4AD94201B1188 /* LiteASCII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LiteASCII.swift"; path = "../Sources/Swift/Modems/Lite ASCII/LiteASCII.swift"; sourceTree = SOURCE_ROOT; };
 		1AF7208E3F024FAD27A56498 /* WBCW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WBCW.swift"; path = "../Sources/Swift/Modems/WB CW/WBCW.swift"; sourceTree = SOURCE_ROOT; };
@@ -681,8 +695,6 @@
 		84072DF909076B31006DA88B /* cocoaModemParams.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = cocoaModemParams.h; sourceTree = "<group>"; };
 		84072DFC09076B31006DA88B /* Plist.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Plist.h; sourceTree = "<group>"; };
 		84072DFD09076B31006DA88B /* cocoaModemDebug.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = cocoaModemDebug.h; sourceTree = "<group>"; };
-		84072FAA09076EBD006DA88B /* error.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = error.c; path = ../Sources/DSP/error.c; sourceTree = "<group>"; };
-		84072FAB09076EBD006DA88B /* error.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = error.h; path = ../Sources/DSP/error.h; sourceTree = "<group>"; };
 		84072FD609076F2D006DA88B /* BARTG Sprint.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "BARTG Sprint.xml"; sourceTree = "<group>"; };
 		84072FD709076F2D006DA88B /* CQ WPX RTTY.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "CQ WPX RTTY.xml"; sourceTree = "<group>"; };
 		84072FD809076F2D006DA88B /* Generic.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Generic.xml; sourceTree = "<group>"; };
@@ -717,7 +729,6 @@
 		8407300D09077011006DA88B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/QSO.nib; sourceTree = "<group>"; };
 		8407300F09077011006DA88B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/RTTYRxControl.nib; sourceTree = "<group>"; };
 		8407301009077011006DA88B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/UserInfo.nib; sourceTree = "<group>"; };
-		8407326D09077551006DA88B /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8407334A0907774F006DA88B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
 		8407335D0907776D006DA88B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
 		8407343009077797006DA88B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = /System/Library/Frameworks/Accelerate.framework; sourceTree = "<absolute>"; };
@@ -746,11 +757,7 @@
 		8477C14D111264EF004AC82F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ASCII.nib; sourceTree = "<group>"; };
 		8486AA160EC956D500840E69 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PSKReceiver.nib; sourceTree = "<group>"; };
 		8486AA1F0EC957FD00840E69 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PSKAlarms.nib; sourceTree = "<group>"; };
-		848765B81074078700B83EDD /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
-		848765B91074078700B83EDD /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
 		848768211074104C00B83EDD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		84876F0B1076740400B83EDD /* HellschreiberFont.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HellschreiberFont.c; sourceTree = "<group>"; };
-		84876F0C1076740400B83EDD /* HellschreiberFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellschreiberFont.h; sourceTree = "<group>"; };
 		84876F351076740400B83EDD /* DominoVaricode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DominoVaricode.h; sourceTree = "<group>"; };
 		84876F4C1076740400B83EDD /* MFSKFEC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKFEC.h; sourceTree = "<group>"; };
 		84876F4F1076740400B83EDD /* MFSKModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKModes.h; sourceTree = "<group>"; };
@@ -762,8 +769,6 @@
 		8487713B1076754F00B83EDD /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module.m; sourceTree = "<group>"; };
 		8487713C1076754F00B83EDD /* Transceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transceiver.h; sourceTree = "<group>"; };
 		8487713D1076754F00B83EDD /* Transceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transceiver.m; sourceTree = "<group>"; };
-		848771411076789F00B83EDD /* CoreModem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreModem.h; sourceTree = "<group>"; };
-		848771421076789F00B83EDD /* CoreModem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreModem.m; sourceTree = "<group>"; };
 		848771431076789F00B83EDD /* CoreModemTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreModemTypes.h; sourceTree = "<group>"; };
 		848771521076789F00B83EDD /* CMPSKModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPSKModes.h; sourceTree = "<group>"; };
 		8487715C1076789F00B83EDD /* CMATCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMATCTypes.h; sourceTree = "<group>"; };
@@ -772,22 +777,6 @@
 		8487717E10767A1300B83EDD /* FSK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSK.m; sourceTree = "<group>"; };
 		848771D010767F4400B83EDD /* CoreFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFilter.h; sourceTree = "<group>"; };
 		848771D110767F4400B83EDD /* CoreFilterTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFilterTypes.h; sourceTree = "<group>"; };
-		848771D610767F4400B83EDD /* CMComplexFIR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMComplexFIR.c; sourceTree = "<group>"; };
-		848771D710767F4400B83EDD /* CMComplexFIR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMComplexFIR.h; sourceTree = "<group>"; };
-		848771D810767F4400B83EDD /* CMDSPWindow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMDSPWindow.c; sourceTree = "<group>"; };
-		848771D910767F4400B83EDD /* CMDSPWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDSPWindow.h; sourceTree = "<group>"; };
-		848771DA10767F4400B83EDD /* CMFFT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMFFT.c; sourceTree = "<group>"; };
-		848771DB10767F4400B83EDD /* CMFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFFT.h; sourceTree = "<group>"; };
-		848771DE10767F4400B83EDD /* CMFIR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMFIR.c; sourceTree = "<group>"; };
-		848771DF10767F4400B83EDD /* CMFIR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFIR.h; sourceTree = "<group>"; };
-		848771E010767F4400B83EDD /* CMIIR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMIIR.c; sourceTree = "<group>"; };
-		848771E110767F4400B83EDD /* CMIIR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMIIR.h; sourceTree = "<group>"; };
-		848771EA10767F4400B83EDD /* Boxcar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Boxcar.c; sourceTree = "<group>"; };
-		848771EB10767F4400B83EDD /* Boxcar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boxcar.h; sourceTree = "<group>"; };
-		848771EC10767F4400B83EDD /* Clears.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Clears.c; sourceTree = "<group>"; };
-		848771ED10767F4400B83EDD /* Clears.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clears.h; sourceTree = "<group>"; };
-		848771EE10767F4400B83EDD /* hadamard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hadamard.c; sourceTree = "<group>"; };
-		848771EF10767F4400B83EDD /* hadamard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hadamard.h; sourceTree = "<group>"; };
 		8490ACEF0A2B60AA006E282F /* LogMacro.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LogMacro.h; sourceTree = "<group>"; };
 		8492B5C611E125C300C5C598 /* PTT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTT.h; sourceTree = "<group>"; };
 		8492B5C711E125C300C5C598 /* PTT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTT.m; sourceTree = "<group>"; };
@@ -800,8 +789,6 @@
 		84B12B3D0FF3714000CF2B3D /* PrivateNSFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateNSFont.h; sourceTree = "<group>"; };
 		84B40485109A70640082E332 /* AudioDeviceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDeviceTypes.h; sourceTree = "<group>"; };
 		84B4048F109A70BB0082E332 /* AudioInterfaceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioInterfaceTypes.h; sourceTree = "<group>"; };
-		84B40492109A70FD0082E332 /* audioutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = audioutils.c; sourceTree = "<group>"; };
-		84B40493109A70FD0082E332 /* audioutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioutils.h; sourceTree = "<group>"; };
 		84B43C090F39324000E399D7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ContestLog.nib; sourceTree = "<group>"; };
 		84CD57ED09A0603800E8011A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/BARTG.nib; sourceTree = "<group>"; };
 		84CD57FA09A066AF00E8011A /* BARTG HF.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "BARTG HF.xml"; sourceTree = "<group>"; };
@@ -860,8 +847,6 @@
 		84D64B0E0FC48FBF0042FCE2 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		84D6E99A0D396EB0006D376E /* RST - Exchange.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "RST - Exchange.xml"; sourceTree = "<group>"; };
 		84D756F70B2F5D6B0051D58E /* smallspeakers.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = smallspeakers.tif; path = icon/smallspeakers.tif; sourceTree = "<group>"; };
-		84D7F37D0B7C219500CF3D0D /* NoiseUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiseUtils.h; sourceTree = "<group>"; };
-		84D7F37E0B7C219500CF3D0D /* NoiseUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NoiseUtils.c; sourceTree = "<group>"; };
 		84D804DB09822B8400960664 /* QSO Number (No RST).xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "QSO Number (No RST).xml"; sourceTree = "<group>"; };
 		84DA4D2D09F4504B007B3C78 /* cm small.font */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cm small.font"; sourceTree = "<group>"; };
 		84DA4DB609F4566B007B3C78 /* cm small aa.font */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cm small aa.font"; sourceTree = "<group>"; };
@@ -877,8 +862,6 @@
 		84EB987F0B20FF8600434940 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/WBCW.nib; sourceTree = "<group>"; };
 		84EB9B0C0B2167A000434940 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SimpleModemDest.nib; sourceTree = "<group>"; };
 		84EBADDB0B279A6200434940 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/CWRxControl.nib; sourceTree = "<group>"; };
-		84F77F1112E4A3AB00852473 /* KeyerInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyerInterface.h; sourceTree = "<group>"; };
-		84F77F1212E4A3AB00852473 /* KeyerInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyerInterface.m; sourceTree = "<group>"; };
 		84F77F1512E4A3AB00852473 /* Router.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Router.h; sourceTree = "<group>"; };
 		84F77F1612E4A3AB00852473 /* Router.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Router.m; sourceTree = "<group>"; };
 		84F77F1712E4A3AB00852473 /* RouterCommands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouterCommands.h; sourceTree = "<group>"; };
@@ -910,6 +893,22 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				DD32F16342A8269999D49723 /* KeyerInterfaceC.swift */,
+				F2DD4C90A533EED8EB43AB69 /* HellschreiberFontC.swift */,
+				0B9A4B32D737CAA44597B8F9 /* CoreModem.swift */,
+				7EB928655FB9AC0146A38CAC /* error.swift */,
+				C6597828FEA634912DA33E2D /* NoiseUtils.swift */,
+				6306B3EAA4FFEFFF6A022012 /* main.swift */,
+				32F959A1ABD4724048D2DE67 /* memory.swift */,
+				3907C8E85148ED90C16B3526 /* audioutils.swift */,
+				1BBFFCC60874412A510BFCD1 /* Clears.swift */,
+				7D7D0F784ED56C9191AF1449 /* Hadamard.swift */,
+				0DE45361EABE8C76C46ACCBB /* Boxcar.swift */,
+				94F20B452FFE44B5B2549E84 /* CMComplexFIR.swift */,
+				11DAAA381732FA54353D6A9D /* CMFFT.swift */,
+				1F8A64A56B0E80C7E2DE27FF /* CMIIR.swift */,
+				FB47D7E3FAE40DAEC24EE039 /* CMDSPWindow.swift */,
+				868B071BF4902902157FDE45 /* CMFIR.swift */,
 				0A2A2FCFBBA9B624940B3069 /* ContestManager.swift */,
 				EB6A0F4910B4AD94201B1188 /* LiteASCII.swift */,
 				1AF7208E3F024FAD27A56498 /* WBCW.swift */,
@@ -1249,9 +1248,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8407326D09077551006DA88B /* main.m */,
-				84072FAA09076EBD006DA88B /* error.c */,
-				84072FAB09076EBD006DA88B /* error.h */,
 				32CA4F630368D1EE00C91783 /* cocoaModem 2.0_Prefix.pch */,
 			);
 			name = "Other Sources";
@@ -1303,8 +1299,6 @@
 			children = (
 				8422FF2F09606D18007AFA0B /* UTC.h */,
 				8422FF3009606D18007AFA0B /* UTC.m */,
-				848765B81074078700B83EDD /* memory.h */,
-				848765B91074078700B83EDD /* memory.c */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -1326,8 +1320,6 @@
 		84072F9409076EAF006DA88B /* Instrumentation */ = {
 			isa = PBXGroup;
 			children = (
-				84D7F37D0B7C219500CF3D0D /* NoiseUtils.h */,
-				84D7F37E0B7C219500CF3D0D /* NoiseUtils.c */,
 			);
 			path = Instrumentation;
 			sourceTree = "<group>";
@@ -1518,8 +1510,6 @@
 				84876E701076740400B83EDD /* AudioPipes */,
 				84B40485109A70640082E332 /* AudioDeviceTypes.h */,
 				84B4048F109A70BB0082E332 /* AudioInterfaceTypes.h */,
-				84B40492109A70FD0082E332 /* audioutils.c */,
-				84B40493109A70FD0082E332 /* audioutils.h */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -1580,8 +1570,6 @@
 		84876EFE1076740400B83EDD /* Hellschreiber */ = {
 			isa = PBXGroup;
 			children = (
-				84876F0B1076740400B83EDD /* HellschreiberFont.c */,
-				84876F0C1076740400B83EDD /* HellschreiberFont.h */,
 			);
 			path = Hellschreiber;
 			sourceTree = "<group>";
@@ -1814,8 +1802,6 @@
 		848771401076789F00B83EDD /* CoreModem */ = {
 			isa = PBXGroup;
 			children = (
-				848771411076789F00B83EDD /* CoreModem.h */,
-				848771421076789F00B83EDD /* CoreModem.m */,
 				848771431076789F00B83EDD /* CoreModemTypes.h */,
 				848771441076789F00B83EDD /* Filters */,
 				8487714D1076789F00B83EDD /* PSK */,
@@ -1890,16 +1876,6 @@
 		848771D310767F4400B83EDD /* Filters */ = {
 			isa = PBXGroup;
 			children = (
-				848771D610767F4400B83EDD /* CMComplexFIR.c */,
-				848771D710767F4400B83EDD /* CMComplexFIR.h */,
-				848771D810767F4400B83EDD /* CMDSPWindow.c */,
-				848771D910767F4400B83EDD /* CMDSPWindow.h */,
-				848771DA10767F4400B83EDD /* CMFFT.c */,
-				848771DB10767F4400B83EDD /* CMFFT.h */,
-				848771DE10767F4400B83EDD /* CMFIR.c */,
-				848771DF10767F4400B83EDD /* CMFIR.h */,
-				848771E010767F4400B83EDD /* CMIIR.c */,
-				848771E110767F4400B83EDD /* CMIIR.h */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -1914,12 +1890,6 @@
 		848771E910767F4400B83EDD /* Other Filters */ = {
 			isa = PBXGroup;
 			children = (
-				848771EA10767F4400B83EDD /* Boxcar.c */,
-				848771EB10767F4400B83EDD /* Boxcar.h */,
-				848771EC10767F4400B83EDD /* Clears.c */,
-				848771ED10767F4400B83EDD /* Clears.h */,
-				848771EE10767F4400B83EDD /* hadamard.c */,
-				848771EF10767F4400B83EDD /* hadamard.h */,
 			);
 			path = "Other Filters";
 			sourceTree = "<group>";
@@ -1981,8 +1951,6 @@
 		84F77F1012E4A3AB00852473 /* Keyer */ = {
 			isa = PBXGroup;
 			children = (
-				84F77F1112E4A3AB00852473 /* KeyerInterface.h */,
-				84F77F1212E4A3AB00852473 /* KeyerInterface.m */,
 				84F77F1512E4A3AB00852473 /* Router.h */,
 				84F77F1612E4A3AB00852473 /* Router.m */,
 				84F77F1712E4A3AB00852473 /* RouterCommands.h */,
@@ -2126,6 +2094,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A357241091C54D7134E49451 /* KeyerInterfaceC.swift in Sources */,
+				F4212BE0C34C4FB34C1AB134 /* HellschreiberFontC.swift in Sources */,
+				82590AA6CFA03060CFBCA7E9 /* CoreModem.swift in Sources */,
+				E73CA3B098EBB748C7581D82 /* error.swift in Sources */,
+				8EF0F7419F3FADFAB456A172 /* NoiseUtils.swift in Sources */,
+				E524FBE95251AF49755A3D1F /* main.swift in Sources */,
+				9C5ACA43F98CFA8A86F60126 /* memory.swift in Sources */,
+				6D1045CE0D68467C8C3E88CD /* audioutils.swift in Sources */,
+				CABE88971D5A65539DEBBECB /* Clears.swift in Sources */,
+				E22B66540C32F85370E8ED32 /* Hadamard.swift in Sources */,
+				05A7F74E0EE2F9A0CE2E9479 /* Boxcar.swift in Sources */,
+				26ACDD3AAF27E7AD3F89CBF9 /* CMComplexFIR.swift in Sources */,
+				C39FF88BF846CE5C5FE58029 /* CMFFT.swift in Sources */,
+				B81D9ECE28C82296518F3B0E /* CMIIR.swift in Sources */,
+				1F4FB60E68AB79C5914C825C /* CMDSPWindow.swift in Sources */,
+				A2761E9DF4EB3BE207D69F23 /* CMFIR.swift in Sources */,
 				6B04CD7E6D4540F74106EF76 /* ContestManager.swift in Sources */,
 				1A3AA8EFAFDEA8A8CC471506 /* LiteASCII.swift in Sources */,
 				CC6F2E6193CB4BFB89A803A3 /* WBCW.swift in Sources */,
@@ -2385,22 +2369,6 @@
 				DF1B4819A5E0D03AB6A98064 /* splash.swift in Sources */,
 				8B3609519C91DEF776F06FB6 /* splashPanel.swift in Sources */,
 				0B1F7386D9F559A4336CC12F /* UTC.swift in Sources */,
-				84072FB309076EBD006DA88B /* error.c in Sources */,
-				8407326E09077551006DA88B /* main.m in Sources */,
-				84D7F3800B7C219500CF3D0D /* NoiseUtils.c in Sources */,
-				848765BA1074078700B83EDD /* memory.c in Sources */,
-				848770591076740500B83EDD /* HellschreiberFont.c in Sources */,
-				848771681076789F00B83EDD /* CoreModem.m in Sources */,
-				848771F310767F4400B83EDD /* CMComplexFIR.c in Sources */,
-				848771F410767F4400B83EDD /* CMDSPWindow.c in Sources */,
-				848771F510767F4400B83EDD /* CMFFT.c in Sources */,
-				848771F710767F4400B83EDD /* CMFIR.c in Sources */,
-				848771F810767F4400B83EDD /* CMIIR.c in Sources */,
-				848771FC10767F4400B83EDD /* Boxcar.c in Sources */,
-				848771FD10767F4400B83EDD /* Clears.c in Sources */,
-				848771FE10767F4400B83EDD /* hadamard.c in Sources */,
-				84B40494109A70FD0082E332 /* audioutils.c in Sources */,
-				84F77F1C12E4A3AB00852473 /* KeyerInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
