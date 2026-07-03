@@ -42,10 +42,11 @@ class CoreModem: NSObject {
         }
     }
 
-    deinit {
-        mssin.deallocate()
-        lssin.deallocate()
-        mscos.deallocate()
-        lscos.deallocate()
-    }
+    //  NOTE: no deinit that frees the tables.  mssin/lssin/mscos/lscos are
+    //  process-lifetime global lookup tables read by every NCO (all tone
+    //  generation).  The instance that builds them is created once and then
+    //  discarded (Application.swift), so a deinit that deallocated the tables
+    //  would leave those globals dangling — silencing PSK/AFSK/CW output.  The
+    //  original MRC C leaked this object for exactly this reason, so the tables
+    //  are intentionally never freed.
 }
