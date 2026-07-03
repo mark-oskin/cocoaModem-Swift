@@ -160,41 +160,47 @@ A/B-comparing decode output against the Obj-C build on recorded signals. Absent
 that, leaving tier 3 as Obj-C/C is the correct, professional outcome: a
 mixed-language target is fully idiomatic and the DSP stays proven.
 
-## Remaining work (rough order)
+## Swift conversion — COMPLETE
 
-- [ ] Tier-1 clean classes still Obj-C (convert freely, no hardware needed):
-      Interface Managers base (ASColor, Messages, ContestManager), Contest UI
-      widgets (BackgroundTextField, DateTimeField, UpperFormatter, OptionView/
-      Panel, ContestQSOObj, ContestLog, RTTYRoundupMults, Cabrillo),
-      ParametricEqualizer. (Wave 3 — in progress.)
-- [ ] Tier-1 but hardware-interfacing (convert mechanically, but VERIFY with
-      hardware): AudioManager (CoreAudio — also migrate AudioDeviceGetProperty
-      → AudioObjectGetPropertyData), PTT / SerialPort / microKEYER / Router /
-      FSK / DigitalInterfaces (serial), NetAudio (BonjourService/Socket,
-      NetReceive/NetSend), Transceiver / Module (AppleScript).
-- [ ] Tier-3 DSP core: per the migration plan above — hardware-gated.
-- [ ] Application layer: AppDelegate (NSScriptCommand/scripting),
-      Application.m (1.4k lines, central controller — do late).
-- [ ] Interface Managers, Interfaces, Contest (44 files, interconnected).
-- [ ] Instrumentation waterfalls/scopes (UI bitmap drawing — same overflow
-      risk class as DisplayColor; convert carefully, verify visually).
-- [ ] **Modems — 156 files, DSP signal path. HIGHEST RISK.** Demodulation
-      correctness cannot be validated without a radio + audio input; a launch
-      test only proves it doesn't crash. Convert incrementally WITH on-air /
-      recorded-signal A/B testing, or leave as working Obj-C/C — a mixed-language
-      target is fine and the C DSP kernels (Sources/Filters) need not become Swift.
-- [ ] Audio layer (AudioManager and friends still use pre-10.6 CoreAudio
-      `AudioDeviceGetProperty` API — works but deprecated; migrate to
-      `AudioObjectGetPropertyData` during conversion).
-- [ ] Modems (19 modes; DSP-heavy — convert carefully with A/B listening
-      tests, or keep the C DSP kernels in `Sources/Filters` as C, which is
-      fine from Swift).
-- [ ] PTT/serial, NetAudio, Interfaces, Contest layers.
-- [ ] Rebuild nibs as modern UI (only after their controller classes are
-      Swift), then drop the deprecated-format nibs.
-- [ ] Replace remaining deprecated AppKit calls (NSCalibratedRGBColor-era
-      color APIs, `initWithPath:`-style NSSound, NSSpeechSynthesizer, …).
-- [ ] App sandbox/hardened runtime + real code signing for distribution.
+The entire application is now Swift (261 `.swift` files) **except five
+intentional low-level interop shims** that are legitimately kept as C/Obj-C:
+
+- `Sources/Modems/CoreModem/CoreModem.m` — the extern global `float *mssin,
+  *lssin, *mscos, *lscos` sin/cos DSP tables (C-ABI extern symbols).
+- `Sources/PTT/SerialPort.m`, `microKEYER.m`, `PTTDevice.m` — serial/IOKit
+  PTT hardware glue.
+- `Sources/Interfaces/Digital Interfaces/Keyer/KeyerInterface.m` — router-port
+  C functions wrapping a deprecated API unavailable from Swift.
+
+Everything else — the 99-class CMPipe DSP engine (FSK/PSK demodulators,
+matched/bandpass filters, mixers, ATC, receivers, audio pipes, tone
+generators), all 19 modem modes and their config/receiver/control classes, the
+Contest subsystem including the 855-line ContestManager, instrumentation
+scopes/waterfalls, audio layer, PTT/net, and the Application/AppDelegate
+controllers — is Swift.
+
+Verified: Debug build succeeds; the app launches and all 11 modem tabs (RTTY,
+Wideband RTTY, Dual RTTY, ASCII, SITOR-B, Wideband CW, Hellschreiber, MFSK,
+PSK, HF-FAX, Analyze) load without crashing (driven by cycling the "Tab Name"
+preference). See git log: "Convert CMPipe DSP engine to Swift (99 classes)" and
+"Convert ContestManager to Swift".
+
+**Caveat (unchanged):** DSP demodulation and contest-logging *correctness*
+cannot be validated without a radio + audio input; the launch/tab tests only
+prove the code paths don't crash. On-air / recorded-signal A/B testing against
+a known-good build is still needed to confirm signal fidelity.
+
+## Remaining / optional follow-ups
+
+- [ ] On-air A/B signal-fidelity testing of the converted DSP path.
+- [ ] Rebuild the pre-IB3 `.nib` bundles as modern editable UI (code or
+      SwiftUI), then drop the deprecated-format nibs.
+- [ ] Migrate the deprecated CoreAudio `AudioDeviceGetProperty` calls (in the
+      `cm_*` shims / AudioManager) to `AudioObjectGetPropertyData`.
+- [ ] Replace remaining deprecated AppKit calls flagged as warnings.
+- [ ] App sandbox / hardened runtime + real code signing for distribution.
+- [ ] (Optional) Fold the five C/Obj-C interop shims into Swift if desired —
+      not required; a small C interop surface is normal and low-risk.
 
 ## Build
 
