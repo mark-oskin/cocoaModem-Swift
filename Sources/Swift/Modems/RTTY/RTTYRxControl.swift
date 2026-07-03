@@ -214,73 +214,73 @@ class RTTYRxControl: CMTappedPipe {
     }
 
     @objc func auralVolumeChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setGain((sender as? NSControl)?.floatValue ?? 0, source: AURALMASTER)
+        receiver?.rttyAuralMonitor?.setGain((sender as? NSControl)?.floatValue ?? 0, source: AURALMASTER)
     }
 
     @objc func auralMuteChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setState((sender as? NSButton)?.state != .on, source: AURALMASTER)
+        receiver?.rttyAuralMonitor?.setState((sender as? NSButton)?.state != .on, source: AURALMASTER)
     }
 
     @objc func rxMonitorChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setState((sender as? NSButton)?.state == .on, source: AURALRECEIVE)
+        receiver?.rttyAuralMonitor?.setState((sender as? NSButton)?.state == .on, source: AURALRECEIVE)
     }
 
     @objc func rxFrequencyChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setOutputFrequency((sender as? NSControl)?.floatValue ?? 0, source: AURALRECEIVE)
+        receiver?.rttyAuralMonitor?.setOutputFrequency((sender as? NSControl)?.floatValue ?? 0, source: AURALRECEIVE)
     }
 
     @objc func rxAttenuatorChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setAttenuation((sender as? NSControl)?.intValue ?? 0, source: AURALRECEIVE)
+        receiver?.rttyAuralMonitor?.setAttenuation((sender as? NSControl)?.intValue ?? 0, source: AURALRECEIVE)
     }
 
     @objc func rxFixedRadioButtonChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setFloatingTone((sender as? NSMatrix)?.selectedRow == 0, source: AURALRECEIVE)
+        receiver?.rttyAuralMonitor?.setFloatingTone((sender as? NSMatrix)?.selectedRow == 0, source: AURALRECEIVE)
     }
 
     //  v0.88c
     @objc func rxMonitorClickVolumeSliderChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setClickVolume((sender as? NSControl)?.floatValue ?? 0)
-        receiver?.rttyAuralMonitor.emitBeep()
+        receiver?.rttyAuralMonitor?.setClickVolume((sender as? NSControl)?.floatValue ?? 0)
+        receiver?.rttyAuralMonitor?.emitBeep()
     }
 
     //  v0.88c
     @objc func rxMonitorClickPitchSliderChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setClickPitch((sender as? NSControl)?.floatValue ?? 0)
-        receiver?.rttyAuralMonitor.emitBeep()
+        receiver?.rttyAuralMonitor?.setClickPitch((sender as? NSControl)?.floatValue ?? 0)
+        receiver?.rttyAuralMonitor?.emitBeep()
     }
 
     //  v0.88c
     @objc func rxMonitorSoftLimitCheckboxChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setSoftLimit((sender as? NSButton)?.state == .on)
+        receiver?.rttyAuralMonitor?.setSoftLimit((sender as? NSButton)?.state == .on)
     }
 
     @objc func txMonitorChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setState((sender as? NSButton)?.state == .on, source: AURALTRANSMIT)
+        receiver?.rttyAuralMonitor?.setState((sender as? NSButton)?.state == .on, source: AURALTRANSMIT)
     }
 
     @objc func txFrequencyChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setOutputFrequency((sender as? NSControl)?.floatValue ?? 0, source: AURALTRANSMIT)
+        receiver?.rttyAuralMonitor?.setOutputFrequency((sender as? NSControl)?.floatValue ?? 0, source: AURALTRANSMIT)
     }
 
     @objc func txAttenuatorChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setAttenuation((sender as? NSControl)?.intValue ?? 0, source: AURALTRANSMIT)
+        receiver?.rttyAuralMonitor?.setAttenuation((sender as? NSControl)?.intValue ?? 0, source: AURALTRANSMIT)
     }
 
     @objc func txFixedRadioButtonChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setFloatingTone((sender as? NSMatrix)?.selectedRow == 0, source: AURALTRANSMIT)
+        receiver?.rttyAuralMonitor?.setFloatingTone((sender as? NSMatrix)?.selectedRow == 0, source: AURALTRANSMIT)
     }
 
     @objc func rxWideMonitorChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setState((sender as? NSButton)?.state == .on, source: AURALBACKGROUND)
+        receiver?.rttyAuralMonitor?.setState((sender as? NSButton)?.state == .on, source: AURALBACKGROUND)
     }
 
     @objc func rxWideAttenuatorChanged(_ sender: Any?) {
-        receiver?.rttyAuralMonitor.setAttenuation((sender as? NSControl)?.intValue ?? 0, source: AURALBACKGROUND)
+        receiver?.rttyAuralMonitor?.setAttenuation((sender as? NSControl)?.intValue ?? 0, source: AURALBACKGROUND)
     }
 
     @objc(transmitterTonePairChangedTo:)
     func transmitterTonePairChanged(to pair: UnsafeMutablePointer<CMTonePair>) {
-        receiver?.rttyAuralMonitor.setTransmitTonePair(pair)
+        receiver?.rttyAuralMonitor?.setTransmitTonePair(pair)
     }
 
     @objc(setTransmitLock:)
@@ -1037,16 +1037,16 @@ class RTTYRxControl: CMTappedPipe {
         //  click buffer beep (v0.88c)
         if rxMonitorClickVolumeSlider != nil {
             rxMonitorClickVolumeSlider.floatValue = auralMonitorPlist.floatValueForKey(kRxClickVolume)
-            receiver?.rttyAuralMonitor.setClickVolume(rxMonitorClickVolumeSlider.floatValue)
+            receiver?.rttyAuralMonitor?.setClickVolume(rxMonitorClickVolumeSlider.floatValue)
         }
         if rxMonitorClickPitchSlider != nil {
             rxMonitorClickPitchSlider.floatValue = auralMonitorPlist.floatValueForKey(kRxClickPitch)
-            receiver?.rttyAuralMonitor.setClickPitch(rxMonitorClickPitchSlider.floatValue)
+            receiver?.rttyAuralMonitor?.setClickPitch(rxMonitorClickPitchSlider.floatValue)
         }
         if rxMonitorSoftLimitCheckbox != nil {
             let intval = auralMonitorPlist.intValueForKey(kRxSoftLimit)
             rxMonitorSoftLimitCheckbox.state = (intval == 0) ? .off : .on
-            receiver?.rttyAuralMonitor.setSoftLimit(intval != 0)
+            receiver?.rttyAuralMonitor?.setSoftLimit(intval != 0)
         }
 
         //  transmit

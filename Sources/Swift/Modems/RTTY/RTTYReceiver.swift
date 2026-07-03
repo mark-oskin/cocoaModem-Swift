@@ -260,7 +260,7 @@ class RTTYReceiver: CMTappedPipe {
         clickBufferConsumer = 0
         if clickBufferActive == true {
             clickBufferActive = false
-            rttyAuralMonitor.clickBufferCleared()
+            rttyAuralMonitor?.clickBufferCleared()
         }
         clickBufferLock?.unlock()
     }
@@ -282,14 +282,14 @@ class RTTYReceiver: CMTappedPipe {
                             //  mute auralMonitor while click buffer is active
                             if clickBufferActive == true {
                                 clickBufferActive = false
-                                rttyAuralMonitor.setClickBufferActive(false)
+                                rttyAuralMonitor?.setClickBufferActive(false)
                             }
                             break
                         }
                         //  push out unprocessed data
                         cmData.pointee.array = clickBuffer[Int(clickBufferConsumer)]
                         clickBufferConsumer = (clickBufferConsumer + 1) & 0x1ff  //  wrap around 512 buffer pointers
-                        rttyAuralMonitor.setClickBufferResampling(clickBufferActive && (i == 0))
+                        rttyAuralMonitor?.setClickBufferResampling(clickBufferActive && (i == 0))
 
                         demodulator.importData(self)
                     }
@@ -346,7 +346,7 @@ class RTTYReceiver: CMTappedPipe {
 
         //  v0.88 mute aural monitor
         clickBufferActive = true
-        rttyAuralMonitor.setClickBufferActive(true)
+        rttyAuralMonitor?.setClickBufferActive(true)
 
         clickBufferConsumer = clickBufferConsumer & 0x1ff   //  wrap around a 256K sample (512*512) float buffer
         clickBufferLock.unlock()
