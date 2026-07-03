@@ -80,14 +80,13 @@ class StdManager: ModemManager {
 
     @objc(useSmoothPattern:)
     override func useSmoothPattern(_ state: Bool) {
-        //  use gray window instead of brushed metal
+        //  "smooth" = a flat window fill instead of the (now-removed) brushed
+        //  metal texture.  Use the semantic windowBackgroundColor so the fill
+        //  follows the system Light/Dark appearance instead of the old fixed
+        //  deviceWhite 0.80 grey, which washed out under Dark mode.
         if isTextured {
             let window = tabview.window
-            if state {
-                window?.backgroundColor = NSColor(deviceWhite: 0.80, alpha: 1.0)
-            } else {
-                window?.backgroundColor = nil
-            }
+            window?.backgroundColor = state ? .windowBackgroundColor : nil
         }
     }
 
