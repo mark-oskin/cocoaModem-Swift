@@ -10,30 +10,30 @@
 
 	typedef struct {
 		int channel ;					// LEFTCHANNEL
-		NSString *inputDevice ;			// kRTTYInputDevice
-		NSString *outputDevice ;		// kRTTYOutputDevice
-		NSString *outputLevel ;			// kRTTYOutputLevel
-		NSString *outputAttenuator ;	// kRTTYOutputAttenuator
-		NSString *tone ;				// kRTTYTone
-		NSString *mark ;				// kRTTYMark
-		NSString *space ;				// kRTTYSpace
-		NSString *baud ;				// kRTTYBaud
-		NSString *controlWindow ;		// nil, or kDualRTTYMainControlWindow
-		NSString *squelch ;				// kRTTYSquelch
-		NSString *active ;				// kRTTYActive
-		NSString *stopBits ;			// kRTTYStopBits
-		NSString *sideband ;			// kRTTYMode
-		NSString *rxPolarity ;			// kRTTYRxPolarity
-		NSString *txPolarity ;			// kRTTYTxPolarity
-		NSString *prefs ;				// kRTTYPrefs
-		NSString *textColor ;			// kRTTYTextColor
-		NSString *sentColor ;			// kRTTYSentColor
-		NSString *backgroundColor ;		// kRTTYBackgroundColor		
-		NSString *plotColor ;			// kRTTYPlotColor	
-		NSString *vfoOffset ;			// nil, or kWFRTTYOffset
-		NSString *fskSelection ;		// nil, or kRTTYFSKSelection
+		__unsafe_unretained NSString *inputDevice ;			// kRTTYInputDevice
+		__unsafe_unretained NSString *outputDevice ;		// kRTTYOutputDevice
+		__unsafe_unretained NSString *outputLevel ;			// kRTTYOutputLevel
+		__unsafe_unretained NSString *outputAttenuator ;	// kRTTYOutputAttenuator
+		__unsafe_unretained NSString *tone ;				// kRTTYTone
+		__unsafe_unretained NSString *mark ;				// kRTTYMark
+		__unsafe_unretained NSString *space ;				// kRTTYSpace
+		__unsafe_unretained NSString *baud ;				// kRTTYBaud
+		__unsafe_unretained NSString *controlWindow ;		// nil, or kDualRTTYMainControlWindow
+		__unsafe_unretained NSString *squelch ;				// kRTTYSquelch
+		__unsafe_unretained NSString *active ;				// kRTTYActive
+		__unsafe_unretained NSString *stopBits ;			// kRTTYStopBits
+		__unsafe_unretained NSString *sideband ;			// kRTTYMode
+		__unsafe_unretained NSString *rxPolarity ;			// kRTTYRxPolarity
+		__unsafe_unretained NSString *txPolarity ;			// kRTTYTxPolarity
+		__unsafe_unretained NSString *prefs ;				// kRTTYPrefs
+		__unsafe_unretained NSString *textColor ;			// kRTTYTextColor
+		__unsafe_unretained NSString *sentColor ;			// kRTTYSentColor
+		__unsafe_unretained NSString *backgroundColor ;		// kRTTYBackgroundColor		
+		__unsafe_unretained NSString *plotColor ;			// kRTTYPlotColor	
+		__unsafe_unretained NSString *vfoOffset ;			// nil, or kWFRTTYOffset
+		__unsafe_unretained NSString *fskSelection ;		// nil, or kRTTYFSKSelection
 		Boolean  usesRTTYAuralMonitor ;
-		NSString *auralMonitor ;		// nil, or name of sub dictionary
+		__unsafe_unretained NSString *auralMonitor ;		// nil, or name of sub dictionary
 	} RTTYConfigSet ;
 	
 #endif

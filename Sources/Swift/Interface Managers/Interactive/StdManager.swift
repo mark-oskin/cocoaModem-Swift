@@ -257,7 +257,7 @@ class StdManager: ModemManager {
     @objc(enableModems:)
     override func enableModems(_ state: Bool) {
         for installed in installedModem {
-            installed.modem?.enable(state)
+            installed.modem?.enableModem(state)
         }
     }
 
@@ -472,7 +472,7 @@ class StdManager: ModemManager {
         contestManager?.retrieve(forPlist: pref)
 
         for installed in installedModem {
-            installed.modem?.retrieve(forPlist: pref)
+            installed.modem?.retrieveForPlist(pref)
         }
     }
 
@@ -494,7 +494,7 @@ class StdManager: ModemManager {
                     window?.hidesOnDeactivate = true
                 case 3:
                     //  hide aux windows on deactivation
-                    if rtty != nil { (rtty as? RTTY)?.hideScope(onDeactivation: true) }
+                    if rtty != nil { (rtty as? RTTY)?.hideScopeOnDeactivation(true) }
                 case 6:
                     //  slashed zeros
                     for installed in installedModem {
@@ -515,7 +515,7 @@ class StdManager: ModemManager {
                     window?.hidesOnDeactivate = false
                 case 3:
                     //  disable hide aux windows on deactivation
-                    if rtty != nil { (rtty as? RTTY)?.hideScope(onDeactivation: false) }
+                    if rtty != nil { (rtty as? RTTY)?.hideScopeOnDeactivation(false) }
                 case 4:
                     //  remove tooltips from modems
                     for installed in installedModem {

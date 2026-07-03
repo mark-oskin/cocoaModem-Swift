@@ -9,7 +9,7 @@
 #define	disableContest	1
 
 #import "ContestManager.h"
-#import "ContestInterface.h"  /* modem */
+//  ContestInterface (modem base) is now Swift -- provided by cocoaModem-Swift.h
 //  ContestMacroSheet now provided by cocoaModem-Swift.h
 #import "modemTypes.h"
 #import "ContestTypes.h"		//  ContestQSO struct (Contest is now Swift)

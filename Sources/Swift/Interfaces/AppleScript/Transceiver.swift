@@ -84,7 +84,7 @@ class Transceiver: NSObject {
 		//  check if we are already in the correct states
 		if code == Transceiver.ModemTransmit && transmitState { return }
 		if code != Transceiver.ModemTransmit && !transmitState { return }
-		theModem.select( self, andChangeTransmitStateTo: code == Transceiver.ModemTransmit )
+		theModem.selectTransceiver( self, andChangeTransmitStateTo: code == Transceiver.ModemTransmit )
 	}
 
 	//  get modulation (4 letter code)
@@ -96,6 +96,6 @@ class Transceiver: NSObject {
 	@objc(setModulation:)
 	func setModulation( _ code: Int32 )
 	{
-		theModem.setModulationCodeFor( self, to: code )
+		theModem.setModulationCode( for: self, to: code )
 	}
 }

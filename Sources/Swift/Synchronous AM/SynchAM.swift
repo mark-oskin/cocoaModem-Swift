@@ -123,7 +123,7 @@ class SynchAM: Modem {
     }
 
     //  v0.87
-    @objc(switchModemIn) override func switchIn() {
+    @objc override func switchModemIn() {
         //  do nothing in receive only interface
     }
 
@@ -304,8 +304,8 @@ class SynchAM: Modem {
 
     //  set up this Modem's setting from the Plist
     @objc(updateFromPlist:)
-    override func update(fromPlist pref: Preferences!) -> Bool {
-        _ = super.update(fromPlist: pref)
+    override func updateFromPlist(_ pref: Preferences!) -> Bool {
+        _ = super.updateFromPlist(pref)
 
         managerObject()?.showSplash("Updating Synchronous AM configurations")
         _ = amConfig?.updateFromPlist(pref)
@@ -337,7 +337,7 @@ class SynchAM: Modem {
 
     //  retrieve the preferences that are in use
     @objc(retrieveForPlist:)
-    override func retrieve(forPlist pref: Preferences!) {
+    override func retrieveForPlist(_ pref: Preferences!) {
         if plistUpdated == false { return }             //  v0.53d
 
         pref.setFloat(lockOffsetSlider.floatValue, forKey: kSynchAMLockCenter)
@@ -352,7 +352,7 @@ class SynchAM: Modem {
 
         pref.setInt((equalizerCheckbox.state == .off) ? 0 : 1, forKey: kSynchAMEqEnable)
 
-        super.retrieve(forPlist: pref)
+        super.retrieveForPlist(pref)
         amConfig?.retrieveForPlist(pref)
     }
 }

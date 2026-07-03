@@ -17,14 +17,6 @@ private let kContestLogPosition = "ContestLogPosition"
 private let kContestLogOrder = "ContestLogOrder"
 private let kContestLogSize = "ContestLogSize"
 
-//  informal access to the few ContestManager methods used here, resolved
-//  through dynamic dispatch (keeps ContestManager.h out of the bridging header).
-@objc private protocol ContestLogManager {
-    @objc(changeQSO:to:)
-    func changeQSO(_ oldqso: UnsafeMutablePointer<ContestQSO>, to callsign: UnsafeMutablePointer<CChar>)
-    func journalChanged()
-}
-
 @objc(ContestLog)
 class ContestLog: NSObject, NSTableViewDataSource, NSTableViewDelegate, NSTextFieldDelegate {
 
@@ -35,7 +27,7 @@ class ContestLog: NSObject, NSTableViewDataSource, NSTableViewDelegate, NSTextFi
     @objc var logLockButton: NSButton!
     @objc var infoField: NSTextField!
 
-    private var manager: ContestLogManager?
+    private var manager: ContestManager?
 
     private var qsoNumber: NSTableColumn?
     private var callsign: NSTableColumn?
@@ -56,7 +48,7 @@ class ContestLog: NSObject, NSTableViewDataSource, NSTableViewDelegate, NSTextFi
     @objc(initWithManager:)
     init(manager control: Any?) {
         super.init()
-        manager = control as? ContestLogManager
+        manager = control as? ContestManager
         //  this should call awakeFromNib
         _ = Bundle.main.loadNibNamed("ContestLog", owner: self, topLevelObjects: nil)
         callsignSearchField?.formatter = UpperFormatter()
@@ -439,7 +431,7 @@ class ContestLog: NSObject, NSTableViewDataSource, NSTableViewDelegate, NSTextFi
                 strncpy(dst, src, 63)
                 dst[63] = 0
                 convertToUpper(dst)
-                manager?.changeQSO(qso.ptr(), to: dst)
+                manager?.change(qso.ptr(), to: dst)
             }
             changed = true
         case 3:

@@ -23,7 +23,7 @@ class ContestBar: StripPhi {
     private var application: Application!
 
     //  repeating macros
-    private var manager: ContestManagerRef?
+    private var manager: ContestManager?
     private var modem: ContestInterface?
     private var index: Int32 = -1
     private var sheet: Int32 = -1
@@ -105,7 +105,7 @@ class ContestBar: StripPhi {
 
     @objc(setManager:)
     func setManager(_ inManager: Any?) {
-        manager = inManager as? ContestManagerRef
+        manager = inManager as? ContestManager
         repeatActive = false
     }
 
@@ -121,7 +121,7 @@ class ContestBar: StripPhi {
 
         index = inIndex
         sheet = inSheet
-        manager = inManager as? ContestManagerRef
+        manager = inManager as? ContestManager
         modem = inModem
         repeatActive = false
     }

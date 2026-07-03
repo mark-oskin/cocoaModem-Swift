@@ -147,7 +147,7 @@ class CWModulator: RTTYModulator {
     @objc(setOutputScale:)
     override func setOutputScale(_ value: Float) {
         //  v0.88 equalized to PSK peak level and allow 2 dB boost
-        let boost = modem?.outputBoost() ?? 0.0
+        let boost = modem?.outputBoost ?? 0.0
         let scaled = Float(Double(value) * (0.902 * Double(boost)))
         vco.setOutputScale(scaled)
         testTone.setOutputScale(scaled)

@@ -83,7 +83,7 @@ class PSKHub: NSObject {
 
         //  main demodulator
         mainDemodulator = PSKDemodulator()
-        mainDemodulator.setDelegate(self)
+        mainDemodulator.delegate = self
     }
 
     deinit {
@@ -142,7 +142,7 @@ class PSKHub: NSObject {
     @objc(enableReceiver:)
     func enableReceiver(_ state: Bool) {
         enabled = state
-        mainDemodulator?.enable(state)
+        mainDemodulator?.enableReceiver(state)
     }
 
     //  wait for demodulator to go completely quiescent before releasing it
@@ -155,7 +155,7 @@ class PSKHub: NSObject {
 
     @objc(setReceiveFrequency:)
     func setReceiveFrequency(_ tone: Float) {
-        mainDemodulator?.setReceiveFrequency(tone)
+        mainDemodulator?.receiveFrequency = tone
     }
 
     @objc(setPSKMode:)
@@ -170,13 +170,13 @@ class PSKHub: NSObject {
 
     @objc(receiveFrequency)
     func receiveFrequency() -> Float {
-        return mainDemodulator?.receiveFrequency() ?? 0
+        return mainDemodulator?.receiveFrequency ?? 0
     }
 
     @objc(setDelegate:)
     func setDelegate(_ delegate: PSKReceiver!) {
         receiver = delegate
-        mainDemodulator?.setDelegate(receiver)
+        mainDemodulator?.delegate = receiver
     }
 
     @objc(setPSKModem:index:)

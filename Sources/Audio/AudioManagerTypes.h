@@ -92,6 +92,20 @@ static inline OSStatus cm_AudioDeviceGetProperty( AudioDeviceID inDevice, UInt32
 	return AudioDeviceGetProperty( inDevice, inChannel, isInput, inPropertyID, ioPropertyDataSize, outPropertyData ) ;
 }
 
+//  v Swift port (ModemAudio/ModemDest/ModemSource): the original ModemAudio.m
+//  called AudioDeviceSetProperty/AudioStreamGetProperty directly.  Both are
+//  unavailable in Swift, so re-expose them here.  The original always passed a NULL
+//  AudioTimeStamp*, so that is baked in.  Behaviour is identical to the C calls.
+static inline OSStatus cm_AudioDeviceSetProperty( AudioDeviceID inDevice, UInt32 inChannel, Boolean isInput, AudioDevicePropertyID inPropertyID, UInt32 inPropertyDataSize, const void* inPropertyData )
+{
+	return AudioDeviceSetProperty( inDevice, NULL, inChannel, isInput, inPropertyID, inPropertyDataSize, inPropertyData ) ;
+}
+
+static inline OSStatus cm_AudioStreamGetProperty( AudioStreamID inStream, UInt32 inChannel, AudioDevicePropertyID inPropertyID, UInt32* ioPropertyDataSize, void* outPropertyData )
+{
+	return AudioStreamGetProperty( inStream, inChannel, inPropertyID, ioPropertyDataSize, outPropertyData ) ;
+}
+
 static inline OSStatus cm_AudioDeviceAddIOProc( AudioDeviceID inDevice, AudioDeviceIOProc inProc, void* inClientData )
 {
 	return AudioDeviceAddIOProc( inDevice, inProc, inClientData ) ;

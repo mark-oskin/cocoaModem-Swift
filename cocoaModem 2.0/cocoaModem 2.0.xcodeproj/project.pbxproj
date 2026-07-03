@@ -7,6 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3AA8EFAFDEA8A8CC471506 /* LiteASCII.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A0F4910B4AD94201B1188 /* LiteASCII.swift */; };
+		CC6F2E6193CB4BFB89A803A3 /* WBCW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7208E3F024FAD27A56498 /* WBCW.swift */; };
+		58E238C27906B3D990FCF7A4 /* SITOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76E8E5EA99AF20FBE2ADDD /* SITOR.swift */; };
+		22ADCD6C562C690B3CDEAC3D /* LiteRTTY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463F68E5D8B22A216757B374 /* LiteRTTY.swift */; };
+		0ED321CBEF777EABAD4BDB61 /* ASCII.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAFEAC94375BACB623B854DA /* ASCII.swift */; };
+		E14A27C93C8FF33E00D07D22 /* WFRTTY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93438D218BD392F3BA91275A /* WFRTTY.swift */; };
+		2B763FC17DE790D5FF862596 /* RTTY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F905E39072249919C7F17F /* RTTY.swift */; };
+		E7B34CDF20535EE674152E8E /* DualRTTY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66510CEA3032A1CFE9EE7A4A /* DualRTTY.swift */; };
+		E05703BCDCF83609D9A71F26 /* LitePSK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1A37C2494474DD58D4EE2E /* LitePSK.swift */; };
+		D1BFFCD96C6AA7022D884AFA /* RTTYInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AA5BF5929DA1937CB648D /* RTTYInterface.swift */; };
+		5A77DECA95D1B3D87648B55E /* PSK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D029B85CB45237699410267 /* PSK.swift */; };
+		469EEB4C4F865CF99E26A6E1 /* MFSK.swift in Sources */ = {isa = PBXBuildFile; fileRef = C037B289753AC5D9EC80EB37 /* MFSK.swift */; };
+		5489EF68933837691D7E9669 /* Hellschreiber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119C561B1C51862EBBDC0617 /* Hellschreiber.swift */; };
+		BFAB34217189F29B7F1EFB2B /* ContestInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A260CE38E4019C8401BC645C /* ContestInterface.swift */; };
+		ACC5C6B4B7B331E5C7DB39F3 /* MacroInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E095E44F8546AB0D3336C7 /* MacroInterface.swift */; };
+		0D31F02A4EA79329221B679B /* FAX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114F8BE79B6B97629C03F8A1 /* FAX.swift */; };
+		D7FC056C1C6980BC0E8CBAAA /* Analyze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81357D5C43AE6944D7C57C91 /* Analyze.swift */; };
+		E3A860BD67775AEF0BECDAB9 /* Modem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 670CE7C4A69938580D9C0191 /* Modem.swift */; };
+		CED49D5AF38660F5BA0F54AA /* PushedStereoDest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B40909B7E24C4E597B531217 /* PushedStereoDest.swift */; };
+		746253CBEFD0E774595C9DB9 /* ModemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C255E07D4742872895E9090C /* ModemSource.swift */; };
+		904DDB5A410E0BCC7BBFE46A /* ModemDest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389609B2E59B0CDFCD020B1 /* ModemDest.swift */; };
+		BE82C221C27448532DA66CE0 /* ModemAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E428E3205BC04FA127D4A6 /* ModemAudio.swift */; };
+		7622023050BC2D81EDC9B636 /* PSKReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668B63667CD32024AC24D511 /* PSKReceiver.swift */; };
+		D7F6FC66FBD21765BA9CFD81 /* SITORRxControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D860F1B3654E3E172E1FC5A /* SITORRxControl.swift */; };
+		C6744CCDF10BEFE989CD2D7C /* RTTYStereoRxControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC33619F5F2546B62C5CB73 /* RTTYStereoRxControl.swift */; };
+		60E4929D5AAC0A61E3D765B8 /* LiteRTTYControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9EEFBBCA2408C34D07AE31 /* LiteRTTYControl.swift */; };
+		E1F7DACA56EB19B338CBF248 /* LiteASCIIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321E7C5AC7535934A113DEEA /* LiteASCIIControl.swift */; };
+		86ACCC47AE55DB52BC6FC77C /* CWRxControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED151961BB8392BE5A3631F /* CWRxControl.swift */; };
+		8826A8E64CE7AB587696CEAA /* RTTYRxControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D338176FEA2F3EDBCBE45F /* RTTYRxControl.swift */; };
+		559467D7AA7608DBD838E1F9 /* DominoHalfRateReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415760D06336848177F403F0 /* DominoHalfRateReceiver.swift */; };
+		18F0D570C71211CF7FA43761 /* MFSK16Receiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B93CD990D276A0F0F2EE8A /* MFSK16Receiver.swift */; };
+		703928F2389662B5D4BC8687 /* DominoReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD7B633729AC7AEC3583F3 /* DominoReceiver.swift */; };
+		22CDCEC4A005479FB38E3B9F /* MFSKReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62005DB2E1758D3C4FDD620 /* MFSKReceiver.swift */; };
+		516B2774A360A8B3EF9FCF09 /* SITORReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E274C57121E5A90E7CE1C29C /* SITORReceiver.swift */; };
+		BE806633F0C98D61BBD1796B /* RTTYStereoReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555980FF5DEB7D6203C6D0E2 /* RTTYStereoReceiver.swift */; };
+		C442F0D395130591D3ACE6CB /* CWReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9532D00E1B893AB432EBEE /* CWReceiver.swift */; };
+		006E5CC041574DF2B6E28019 /* ASCIIReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3C0EE5D0634919AFB115C9 /* ASCIIReceiver.swift */; };
+		EF5B6D8BE7BE57C4C81F78B5 /* RTTYReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70A64495977DD72AAADEFBB /* RTTYReceiver.swift */; };
+		77B18159ED78133CD038CF63 /* SITORConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD75350A66BC8FD10FCE405C /* SITORConfig.swift */; };
+		ADDD068401D363270F4ACD32 /* CWConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2DFA39F06740226FB2EB66 /* CWConfig.swift */; };
+		0B129D2F554146C3F4A1A358 /* CWTxConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E567494CCD517B3DFEC8D15F /* CWTxConfig.swift */; };
+		A46ED230E578EFFA870E0975 /* ASCIITxConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0730294AAA82CAAB80349F /* ASCIITxConfig.swift */; };
+		E07C93DF99021A1389F94422 /* WFRTTYConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9208D837EE056E2CCB3A69F /* WFRTTYConfig.swift */; };
+		48BA1418FC3E73FEC56EE450 /* DualRTTYConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6998E2EFFD0C6DC92F09DDAF /* DualRTTYConfig.swift */; };
+		B8E8CEFB2974571380805591 /* AnalyzeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2965173F9B5FCC78A83687 /* AnalyzeConfig.swift */; };
+		D3CD286E96F9DD71DD52B80C /* RTTYTxConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A8409E88EB1F1104FAF7A /* RTTYTxConfig.swift */; };
+		4DD4B854850007E47E8E134D /* RTTYConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B77BBFD9878DD4B7ACE95A /* RTTYConfig.swift */; };
+		C9EDAC0F64D76345D82BC5F8 /* PSKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F17EFC53E7A7C3D9EE36F97 /* PSKConfig.swift */; };
+		025AE7E62CD718B46AF605FC /* MFSKConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879E03104159C9B194FF7E83 /* MFSKConfig.swift */; };
+		11DFBE853B32411A1E57AC16 /* HellConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8FFC8D0DBA0176B9F3D36 /* HellConfig.swift */; };
+		FD76D13E1F76C1100843B5E0 /* FAXConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEC66D291C7483C361E01EE /* FAXConfig.swift */; };
+		82ED72144ECA9C42D8F11917 /* RTTYAuralMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135543A2C6123136EE559C88 /* RTTYAuralMonitor.swift */; };
+		7FF710AE4D3E8C1C822C6B13 /* PSKAuralMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D2DF0B694CB0EEBE89EB7B /* PSKAuralMonitor.swift */; };
+		914F1D551F3CF8BFCDB72147 /* ModemConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8216F39F17FA193AD3158E9 /* ModemConfig.swift */; };
+		4AE15C0E631C871E0174BE5A /* ModemAuralMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AC0102DD4A8984DBFAE593 /* ModemAuralMonitor.swift */; };
+		F2866EE835C143DA2AC22B56 /* CWMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBDCB08793BD78BB3375B75 /* CWMonitor.swift */; };
+		5BAC68F2386A35D8981B5A70 /* AuralMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E206621C60679580694D1 /* AuralMonitor.swift */; };
+		4AC123D53DC43065DA586521 /* DestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756202695882BA7312946F9D /* DestClient.swift */; };
+		1CAE0C8BBC1DCCD495342BE3 /* RTTYATC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77811A790416626563AB4428 /* RTTYATC.swift */; };
+		064ED0C8ADEA513B47CC17C1 /* MultiStereoATC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F310E5C45E2D4CFC74025CA /* MultiStereoATC.swift */; };
+		8758FF6F4CBD9704F2730C30 /* ASCIIATC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D94A913F8A5F82CCA0AA01 /* ASCIIATC.swift */; };
+		4B1D46A79CFDBE0F43135BBE /* CMATC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD229FF23CEBD18DF5045E /* CMATC.swift */; };
+		8446F3DC0C6C80C49786105F /* PSKDemodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75ECD40E7B04FF7F0A0B0719 /* PSKDemodulator.swift */; };
+		DC3CA21E1CFC68192BC0C387 /* HellReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACA377A8A74499B22CB7CC /* HellReceiver.swift */; };
+		C5FCD89FA1F2B047273103D6 /* FAXReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB869082BE4BE741F9F543A /* FAXReceiver.swift */; };
+		435B79BE5979A55A0378382B /* CMPSKDemodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EDD2491FA83B0924A80171 /* CMPSKDemodulator.swift */; };
+		AE46E2B925B12F8A55409D6A /* CMToneReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA2B82B4E8493ED8B9EC64 /* CMToneReceiver.swift */; };
+		220258B376EF6448A270E5E2 /* ASCIIDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C4820D94DD170D82B29961 /* ASCIIDecoder.swift */; };
+		4E068B0503F6F8198A7022FD /* RTTYBaudotDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03924D37A3C36F730ADBB1E5 /* RTTYBaudotDecoder.swift */; };
+		278B1A854AC9AAE9297D8D35 /* MorseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2BBBD0639FF2CE28B099E2 /* MorseDecoder.swift */; };
+		B6B04D52DD27E31DEEF82038 /* CMBaudotDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A750A589E267A8A5BDD6618 /* CMBaudotDecoder.swift */; };
+		D7248E4ECC18762589F69343 /* LitePSKMatchedFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9028142038D39FC9E73E619 /* LitePSKMatchedFilter.swift */; };
+		01582205C1FD64F73E6C3FBC /* PSKMatchedFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB4E63A05506D0DC99E4D36 /* PSKMatchedFilter.swift */; };
+		7249C2CF37C57DA7ABD01505 /* CMPSKMatchedFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473720A36FBE2B6966F5FFAA /* CMPSKMatchedFilter.swift */; };
+		7AF6D2C3E7EC467B09A78021 /* RTTYSingleFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAC2EB3B37C6024B9E06F46 /* RTTYSingleFilter.swift */; };
+		110443B5046AA24D3B1C3012 /* RTTYMPFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61F41EBD800FBB7C5DFF637 /* RTTYMPFilter.swift */; };
+		31499DDD5AEF4744B83EB6C5 /* RTTYMatchedFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2774B93FEDE46C0BA9DC7067 /* RTTYMatchedFilter.swift */; };
+		AE77B54805ED2E1D0BA550B0 /* CWMatchedFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CB3C651F9E0D5BD6F7F36D /* CWMatchedFilter.swift */; };
+		54ABA56AF6C46AF3DFCC53CD /* CMFSKMatchedFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88089EBB73F339A08AE6D91 /* CMFSKMatchedFilter.swift */; };
+		5BD0250EAFB4B5FCB9EDBB1F /* ASCIIDemodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CA603BD303C19D76AE8BB9 /* ASCIIDemodulator.swift */; };
+		F8EFE109ACAFD17AE35A5EB2 /* CWAuralFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0548A7B08A8F56802BD7C47D /* CWAuralFilter.swift */; };
+		BF05D2BBF5A69B6A37BB9F78 /* RTTYDemodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D367E892AF530F2D3F481B36 /* RTTYDemodulator.swift */; };
+		07614329FDB04980F5CB7696 /* CWDemodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE138B655C2D338EDB45F6B5 /* CWDemodulator.swift */; };
+		F9E73D5537F16C9DCBC77ECB /* CMFSKDemodulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1845211A2A32B1E55D3F1B58 /* CMFSKDemodulator.swift */; };
+		ECEF82A90A37D439EA3DA523 /* StereoRefATCBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3E885BB385F80A812106B7 /* StereoRefATCBuffer.swift */; };
+		C42ED58EA651E2DA0E02ACB4 /* CMATCBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5313BCF40935619C71C02B4F /* CMATCBuffer.swift */; };
+		BB5D1D63AD61B7F818B32EF7 /* VUMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969EA65227027C6DD1CEDA48 /* VUMeter.swift */; };
+		B9FF7EDC8848D130AE2EAEEA /* ModemDistributionBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2234A56EE702536E311AB210 /* ModemDistributionBox.swift */; };
+		B267D699768B683B7D13EEF2 /* AIFFSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE93345636BDDA5308F3A84 /* AIFFSource.swift */; };
+		049BE195B577EC5CEEE48221 /* ChannelSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F54235B7C124F478E5DF0B /* ChannelSelector.swift */; };
+		0959ED0363D5A25CD9367635 /* CWMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B445D0DCB8F274B87FC9835 /* CWMixer.swift */; };
+		C715B73B681E9F83EFCBAAF0 /* RTTYMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492D4D4C9F5BED5507B4DD1C /* RTTYMixer.swift */; };
+		D5068D17E99BF0FBFBA873EC /* CMFSKMixer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E21212291443C77E8F4BC8 /* CMFSKMixer.swift */; };
+		8A8D07CF5AA317BD645CB731 /* CMFilterBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD83685AB88FB66DF07D13E4 /* CMFilterBank.swift */; };
+		7188B6C2C374238A3A3A25A3 /* CMLowpassFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33AFEE6FC1E4CB92BFDC64F /* CMLowpassFilter.swift */; };
+		786EBC8DBE098EC5AE976BDF /* CMBandpassFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3AC2BD5AF94C25BC50CAEA /* CMBandpassFilter.swift */; };
+		EC142D798C8066B9A34887D6 /* CMFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695E3E225B3A9DCF63ACFF77 /* CMFilter.swift */; };
+		B32D9C6AFB0D406FDCB3CB00 /* CMTappedPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E55DF7556F4B38E4A7B2CA /* CMTappedPipe.swift */; };
+		43DB85E4993AFDEB54046F33 /* CMPipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA019CE25E6D30DDA5FBE1F /* CMPipe.swift */; };
 		8898824959F6CF9C4017E5D3 /* MFSKVaricode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47403B4A944C624C20DE313F /* MFSKVaricode.swift */; };
 		CD8EB0C8601A4FCC7FD5DD7E /* CMVaricode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B24A7C2315518A443F95776 /* CMVaricode.swift */; };
 		BCE29DD1AC803E322E25CB23 /* StdManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6CD1ED3733DB953FBBCDA7 /* StdManager.swift */; };
@@ -184,111 +283,26 @@
 		8416C8D00A51B97A00526F21 /* routerCloseScript.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8416C8CF0A51B97A00526F21 /* routerCloseScript.scpt */; };
 		84261C370F22FDFA00E9E515 /* cocoaModem 2.0.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 84261C360F22FDFA00E9E515 /* cocoaModem 2.0.sdef */; };
 		842BF6E20D4F299600B4923A /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842BF6E10D4F299600B4923A /* AudioUnit.framework */; };
-		842DBF30109FAF1C0039D90E /* AuralMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DBF2F109FAF1C0039D90E /* AuralMonitor.m */; };
-		842DBF8610A002FA0039D90E /* PushedStereoDest.m in Sources */ = {isa = PBXBuildFile; fileRef = 842DBF8510A002FA0039D90E /* PushedStereoDest.m */; };
 		842E9F2A108C176B0016C292 /* AuralMonitor.nib in Resources */ = {isa = PBXBuildFile; fileRef = 842E9F28108C176B0016C292 /* AuralMonitor.nib */; };
-		842E9F89108D15990016C292 /* ModemAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 842E9F88108D15990016C292 /* ModemAudio.m */; };
 		84369152127D299400C12271 /* routerVersion.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 843690BC127D1C3B00C12271 /* routerVersion.scpt */; };
-		843769A310AD3C6B0000F62D /* ModemAuralMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 843769A210AD3C6B0000F62D /* ModemAuralMonitor.m */; };
 		8452B40D09DE1B4C0050F52E /* SP RTTY.xml in Resources */ = {isa = PBXBuildFile; fileRef = 8452B40C09DE1B4C0050F52E /* SP RTTY.xml */; };
 		845E718D0A2ADA96005F5DB7 /* routerLaunchScript.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 845E718C0A2ADA96005F5DB7 /* routerLaunchScript.scpt */; };
-		8464303D1116355100D686D2 /* LiteASCII.m in Sources */ = {isa = PBXBuildFile; fileRef = 8464303C1116355100D686D2 /* LiteASCII.m */; };
-		846430471116370200D686D2 /* LiteASCIIControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 846430461116370200D686D2 /* LiteASCIIControl.m */; };
 		84643061111637E700D686D2 /* LiteASCII.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8464305D111637E700D686D2 /* LiteASCII.nib */; };
 		84643062111637E700D686D2 /* LiteASCIIControl.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8464305F111637E700D686D2 /* LiteASCIIControl.nib */; };
 		8467342E09E37B1200F90063 /* mldxKey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8467342C09E37B1200F90063 /* mldxKey.scpt */; };
 		8467342F09E37B1200F90063 /* mldxUnkey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8467342D09E37B1200F90063 /* mldxUnkey.scpt */; };
 		846734A309E464A900F90063 /* cm bitmapdoublewide.font in Resources */ = {isa = PBXBuildFile; fileRef = 846734A209E464A900F90063 /* cm bitmapdoublewide.font */; };
-		8477C13411126109004AC82F /* ASCII.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477C13311126109004AC82F /* ASCII.m */; };
 		8477C14E111264EF004AC82F /* ASCII.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8477C14C111264EF004AC82F /* ASCII.nib */; };
-		8477C1C91112B101004AC82F /* ASCIIReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477C1C81112B101004AC82F /* ASCIIReceiver.m */; };
-		8477C1FD1112D567004AC82F /* ASCIIDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477C1FC1112D567004AC82F /* ASCIIDemodulator.m */; };
-		8477C2171112D8F0004AC82F /* ASCIIDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477C2161112D8F0004AC82F /* ASCIIDecoder.m */; };
-		8477C25E1112DCCE004AC82F /* ASCIIATC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8477C25D1112DCCE004AC82F /* ASCIIATC.m */; };
 		848765BA1074078700B83EDD /* memory.c in Sources */ = {isa = PBXBuildFile; fileRef = 848765B91074078700B83EDD /* memory.c */; };
 		848768221074104C00B83EDD /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848768211074104C00B83EDD /* IOKit.framework */; };
-		84876E4E107673C200B83EDD /* AIFFSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E2E107673C200B83EDD /* AIFFSource.m */; };
-		848770141076740500B83EDD /* DestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E721076740400B83EDD /* DestClient.m */; };
-		848770151076740500B83EDD /* ModemDest.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E741076740400B83EDD /* ModemDest.m */; };
-		848770161076740500B83EDD /* ModemSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E761076740400B83EDD /* ModemSource.m */; };
-		8487701A1076740500B83EDD /* Modem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E7F1076740400B83EDD /* Modem.m */; };
-		8487701B1076740500B83EDD /* ModemConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E811076740400B83EDD /* ModemConfig.m */; };
-		8487701C1076740500B83EDD /* ModemDistributionBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E831076740400B83EDD /* ModemDistributionBox.m */; };
-		848770221076740500B83EDD /* VUMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876E8E1076740400B83EDD /* VUMeter.m */; };
-		848770501076740500B83EDD /* DualRTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876EF81076740400B83EDD /* DualRTTY.m */; };
-		848770511076740500B83EDD /* DualRTTYConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876EFA1076740400B83EDD /* DualRTTYConfig.m */; };
-		848770531076740500B83EDD /* HellConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F001076740400B83EDD /* HellConfig.m */; };
-		848770571076740500B83EDD /* HellReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F081076740400B83EDD /* HellReceiver.m */; };
-		848770581076740500B83EDD /* Hellschreiber.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F0A1076740400B83EDD /* Hellschreiber.m */; };
 		848770591076740500B83EDD /* HellschreiberFont.c in Sources */ = {isa = PBXBuildFile; fileRef = 84876F0B1076740400B83EDD /* HellschreiberFont.c */; };
-		8487705B1076740500B83EDD /* FAX.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F111076740400B83EDD /* FAX.m */; };
-		8487705C1076740500B83EDD /* FAXConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F131076740400B83EDD /* FAXConfig.m */; };
-		8487705E1076740500B83EDD /* FAXReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F171076740400B83EDD /* FAXReceiver.m */; };
-		848770611076740500B83EDD /* LitePSK.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F1E1076740400B83EDD /* LitePSK.m */; };
-		848770621076740500B83EDD /* LiteRTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F211076740400B83EDD /* LiteRTTY.m */; };
-		848770631076740500B83EDD /* LiteRTTYControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F231076740400B83EDD /* LiteRTTYControl.m */; };
-		848770641076740500B83EDD /* MacroInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F261076740400B83EDD /* MacroInterface.m */; };
-		848770681076740500B83EDD /* DominoHalfRateReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F301076740400B83EDD /* DominoHalfRateReceiver.m */; };
-		8487706A1076740500B83EDD /* DominoReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F341076740400B83EDD /* DominoReceiver.m */; };
-		8487706F1076740500B83EDD /* MFSK.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F401076740400B83EDD /* MFSK.m */; };
-		848770721076740500B83EDD /* MFSK16Receiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F471076740400B83EDD /* MFSK16Receiver.m */; };
-		848770731076740500B83EDD /* MFSKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F491076740400B83EDD /* MFSKConfig.m */; };
-		848770771076740500B83EDD /* MFSKReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F531076740400B83EDD /* MFSKReceiver.m */; };
-		8487707B1076740500B83EDD /* PSK.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F5D1076740400B83EDD /* PSK.m */; };
-		8487707C1076740500B83EDD /* PSKConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F5F1076740400B83EDD /* PSKConfig.m */; };
-		848770811076740500B83EDD /* PSKReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F691076740500B83EDD /* PSKReceiver.m */; };
-		8487708E1076740500B83EDD /* LitePSKMatchedFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F861076740500B83EDD /* LitePSKMatchedFilter.m */; };
-		848770911076740500B83EDD /* PSKDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F8C1076740500B83EDD /* PSKDemodulator.m */; };
-		848770931076740500B83EDD /* PSKMatchedFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876F901076740500B83EDD /* PSKMatchedFilter.m */; };
-		848770991076740500B83EDD /* RTTYMPFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FA01076740500B83EDD /* RTTYMPFilter.m */; };
-		8487709A1076740500B83EDD /* RTTYSingleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FA21076740500B83EDD /* RTTYSingleFilter.m */; };
-		8487709D1076740500B83EDD /* RTTYATC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FAB1076740500B83EDD /* RTTYATC.m */; };
-		8487709E1076740500B83EDD /* RTTYBaudotDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FAD1076740500B83EDD /* RTTYBaudotDecoder.m */; };
-		8487709F1076740500B83EDD /* RTTYDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FAF1076740500B83EDD /* RTTYDemodulator.m */; };
-		848770A01076740500B83EDD /* RTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FB11076740500B83EDD /* RTTY.m */; };
-		848770A11076740500B83EDD /* RTTYConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FB31076740500B83EDD /* RTTYConfig.m */; };
-		848770A21076740500B83EDD /* RTTYInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FB51076740500B83EDD /* RTTYInterface.m */; };
-		848770A61076740500B83EDD /* RTTYReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FBD1076740500B83EDD /* RTTYReceiver.m */; };
-		848770A71076740500B83EDD /* RTTYRxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FBF1076740500B83EDD /* RTTYRxControl.m */; };
-		848770A81076740500B83EDD /* RTTYTxConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FC11076740500B83EDD /* RTTYTxConfig.m */; };
-		848770AA1076740500B83EDD /* SITOR.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FC81076740500B83EDD /* SITOR.m */; };
-		848770AC1076740500B83EDD /* SITORConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FCC1076740500B83EDD /* SITORConfig.m */; };
-		848770AE1076740500B83EDD /* SITORReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FD01076740500B83EDD /* SITORReceiver.m */; };
-		848770AF1076740500B83EDD /* SITORRxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FD21076740500B83EDD /* SITORRxControl.m */; };
-		848770B61076740500B83EDD /* CWAuralFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FE41076740500B83EDD /* CWAuralFilter.m */; };
-		848770B71076740500B83EDD /* CWConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FE61076740500B83EDD /* CWConfig.m */; };
-		848770B81076740500B83EDD /* CWDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FE81076740500B83EDD /* CWDemodulator.m */; };
-		848770BA1076740500B83EDD /* CWMatchedFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FEC1076740500B83EDD /* CWMatchedFilter.m */; };
-		848770BB1076740500B83EDD /* CWMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FEE1076740500B83EDD /* CWMixer.m */; };
-		848770BD1076740500B83EDD /* CWMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FF21076740500B83EDD /* CWMonitor.m */; };
-		848770BF1076740500B83EDD /* CWReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FF61076740500B83EDD /* CWReceiver.m */; };
-		848770C01076740500B83EDD /* CWRxControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FF81076740500B83EDD /* CWRxControl.m */; };
-		848770C31076740500B83EDD /* CWTxConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84876FFE1076740500B83EDD /* CWTxConfig.m */; };
-		848770C51076740500B83EDD /* MorseDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770021076740500B83EDD /* MorseDecoder.m */; };
-		848770C61076740500B83EDD /* WBCW.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770041076740500B83EDD /* WBCW.m */; };
-		848770C71076740500B83EDD /* WFRTTY.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770071076740500B83EDD /* WFRTTY.m */; };
-		848770C81076740500B83EDD /* WFRTTYConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770091076740500B83EDD /* WFRTTYConfig.m */; };
 		848770DD107674A900B83EDD /* ContestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 848770D3107674A900B83EDD /* ContestManager.m */; };
-		8487712D107674DA00B83EDD /* ContestInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 84877107107674DA00B83EDD /* ContestInterface.m */; };
 		848771681076789F00B83EDD /* CoreModem.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771421076789F00B83EDD /* CoreModem.m */; };
-		848771691076789F00B83EDD /* CMFilterBank.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771461076789F00B83EDD /* CMFilterBank.m */; };
-		8487716C1076789F00B83EDD /* CMToneReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487714C1076789F00B83EDD /* CMToneReceiver.m */; };
-		8487716D1076789F00B83EDD /* CMPSKDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487714F1076789F00B83EDD /* CMPSKDemodulator.m */; };
-		8487716E1076789F00B83EDD /* CMPSKMatchedFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771511076789F00B83EDD /* CMPSKMatchedFilter.m */; };
-		848771711076789F00B83EDD /* CMATC.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771591076789F00B83EDD /* CMATC.m */; };
-		848771721076789F00B83EDD /* CMATCBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487715B1076789F00B83EDD /* CMATCBuffer.m */; };
-		848771731076789F00B83EDD /* CMBaudotDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487715F1076789F00B83EDD /* CMBaudotDecoder.m */; };
-		848771741076789F00B83EDD /* CMFSKMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771611076789F00B83EDD /* CMFSKMixer.m */; };
-		848771F210767F4400B83EDD /* CMBandpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771D510767F4400B83EDD /* CMBandpassFilter.m */; };
 		848771F310767F4400B83EDD /* CMComplexFIR.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771D610767F4400B83EDD /* CMComplexFIR.c */; };
 		848771F410767F4400B83EDD /* CMDSPWindow.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771D810767F4400B83EDD /* CMDSPWindow.c */; };
 		848771F510767F4400B83EDD /* CMFFT.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771DA10767F4400B83EDD /* CMFFT.c */; };
-		848771F610767F4400B83EDD /* CMFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771DD10767F4400B83EDD /* CMFilter.m */; };
 		848771F710767F4400B83EDD /* CMFIR.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771DE10767F4400B83EDD /* CMFIR.c */; };
 		848771F810767F4400B83EDD /* CMIIR.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771E010767F4400B83EDD /* CMIIR.c */; };
-		848771F910767F4400B83EDD /* CMLowpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771E310767F4400B83EDD /* CMLowpassFilter.m */; };
-		848771FA10767F4400B83EDD /* CMPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771E610767F4400B83EDD /* CMPipe.m */; };
-		848771FB10767F4400B83EDD /* CMTappedPipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 848771E810767F4400B83EDD /* CMTappedPipe.m */; };
 		848771FC10767F4400B83EDD /* Boxcar.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771EA10767F4400B83EDD /* Boxcar.c */; };
 		848771FD10767F4400B83EDD /* Clears.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771EC10767F4400B83EDD /* Clears.c */; };
 		848771FE10767F4400B83EDD /* hadamard.c in Sources */ = {isa = PBXBuildFile; fileRef = 848771EE10767F4400B83EDD /* hadamard.c */; };
@@ -298,16 +312,9 @@
 		849C0A4810F93A7C00F342E7 /* mldx5Key.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4510F93A5B00F342E7 /* mldx5Key.scpt */; };
 		849C0A4910F93A7C00F342E7 /* mldx5Unkey.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4610F93A5B00F342E7 /* mldx5Unkey.scpt */; };
 		849C0A4A10F93A7C00F342E7 /* mldxVersion.scpt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 849C0A4710F93A6200F342E7 /* mldxVersion.scpt */; };
-		84AB92C010A7630700A26242 /* RTTYMatchedFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB92BF10A7630700A26242 /* RTTYMatchedFilter.m */; };
-		84AB93A510A793FF00A26242 /* RTTYMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AB93A410A793FF00A26242 /* RTTYMixer.m */; };
 		84B40494109A70FD0082E332 /* audioutils.c in Sources */ = {isa = PBXBuildFile; fileRef = 84B40492109A70FD0082E332 /* audioutils.c */; };
-		84C02E0D11142BAB00DB8AA4 /* ASCIITxConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C02E0C11142BAB00DB8AA4 /* ASCIITxConfig.m */; };
 		84CD579B09A05D6500E8011A /* BARTG Sprint.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84072FD609076F2D006DA88B /* BARTG Sprint.xml */; };
 		84CD57FB09A066AF00E8011A /* BARTG HF.xml in Resources */ = {isa = PBXBuildFile; fileRef = 84CD57FA09A066AF00E8011A /* BARTG HF.xml */; };
-		84CE741810AAF515003D0C99 /* CMFSKDemodulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE741710AAF515003D0C99 /* CMFSKDemodulator.m */; };
-		84CE741D10AAF6A3003D0C99 /* CMFSKMatchedFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE741C10AAF6A3003D0C99 /* CMFSKMatchedFilter.m */; };
-		84CE742710AAF891003D0C99 /* RTTYAuralMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE742610AAF891003D0C99 /* RTTYAuralMonitor.m */; };
-		84CE76C510ABB343003D0C99 /* PSKAuralMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE76C410ABB343003D0C99 /* PSKAuralMonitor.m */; };
 		84D087FC098EB19E00A9D784 /* cm bitmap.font in Resources */ = {isa = PBXBuildFile; fileRef = 84D087FA098EB17600A9D784 /* cm bitmap.font */; };
 		84D33EAA0FC652FB006EBC6C /* jisToUni.dat in Resources */ = {isa = PBXBuildFile; fileRef = 84D33EA80FC652FB006EBC6C /* jisToUni.dat */; };
 		84D33EAB0FC652FB006EBC6C /* uniToJis.dat in Resources */ = {isa = PBXBuildFile; fileRef = 84D33EA90FC652FB006EBC6C /* uniToJis.dat */; };
@@ -399,6 +406,105 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB6A0F4910B4AD94201B1188 /* LiteASCII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LiteASCII.swift"; path = "../Sources/Swift/Modems/Lite ASCII/LiteASCII.swift"; sourceTree = SOURCE_ROOT; };
+		1AF7208E3F024FAD27A56498 /* WBCW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WBCW.swift"; path = "../Sources/Swift/Modems/WB CW/WBCW.swift"; sourceTree = SOURCE_ROOT; };
+		9B76E8E5EA99AF20FBE2ADDD /* SITOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SITOR.swift"; path = "../Sources/Swift/Modems/SITOR-B/SITOR.swift"; sourceTree = SOURCE_ROOT; };
+		463F68E5D8B22A216757B374 /* LiteRTTY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LiteRTTY.swift"; path = "../Sources/Swift/Modems/Lite RTTY/LiteRTTY.swift"; sourceTree = SOURCE_ROOT; };
+		DAFEAC94375BACB623B854DA /* ASCII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASCII.swift"; path = "../Sources/Swift/Modems/ASCII/ASCII.swift"; sourceTree = SOURCE_ROOT; };
+		93438D218BD392F3BA91275A /* WFRTTY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WFRTTY.swift"; path = "../Sources/Swift/Modems/WF RTTY/WFRTTY.swift"; sourceTree = SOURCE_ROOT; };
+		66F905E39072249919C7F17F /* RTTY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTY.swift"; path = "../Sources/Swift/Modems/RTTY/RTTY.swift"; sourceTree = SOURCE_ROOT; };
+		66510CEA3032A1CFE9EE7A4A /* DualRTTY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DualRTTY.swift"; path = "../Sources/Swift/Modems/Dual RTTY/DualRTTY.swift"; sourceTree = SOURCE_ROOT; };
+		8C1A37C2494474DD58D4EE2E /* LitePSK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LitePSK.swift"; path = "../Sources/Swift/Modems/Lite PSK/LitePSK.swift"; sourceTree = SOURCE_ROOT; };
+		5C5AA5BF5929DA1937CB648D /* RTTYInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYInterface.swift"; path = "../Sources/Swift/Modems/RTTY/RTTYInterface.swift"; sourceTree = SOURCE_ROOT; };
+		6D029B85CB45237699410267 /* PSK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PSK.swift"; path = "../Sources/Swift/Modems/PSK/PSK.swift"; sourceTree = SOURCE_ROOT; };
+		C037B289753AC5D9EC80EB37 /* MFSK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MFSK.swift"; path = "../Sources/Swift/Modems/MFSK/MFSK.swift"; sourceTree = SOURCE_ROOT; };
+		119C561B1C51862EBBDC0617 /* Hellschreiber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Hellschreiber.swift"; path = "../Sources/Swift/Modems/Hellschreiber/Hellschreiber.swift"; sourceTree = SOURCE_ROOT; };
+		A260CE38E4019C8401BC645C /* ContestInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContestInterface.swift"; path = "../Sources/Swift/Interfaces/Contest/ContestInterface.swift"; sourceTree = SOURCE_ROOT; };
+		A3E095E44F8546AB0D3336C7 /* MacroInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MacroInterface.swift"; path = "../Sources/Swift/Modems/Macros/MacroInterface.swift"; sourceTree = SOURCE_ROOT; };
+		114F8BE79B6B97629C03F8A1 /* FAX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FAX.swift"; path = "../Sources/Swift/Modems/HF-FAX/FAX.swift"; sourceTree = SOURCE_ROOT; };
+		81357D5C43AE6944D7C57C91 /* Analyze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Analyze.swift"; path = "../Sources/Swift/Modems/Analyze/Analyze.swift"; sourceTree = SOURCE_ROOT; };
+		670CE7C4A69938580D9C0191 /* Modem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Modem.swift"; path = "../Sources/Swift/Modems/Base/Modem.swift"; sourceTree = SOURCE_ROOT; };
+		B40909B7E24C4E597B531217 /* PushedStereoDest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PushedStereoDest.swift"; path = "../Sources/Swift/Audio/AudioPipes/PushedStereoDest.swift"; sourceTree = SOURCE_ROOT; };
+		C255E07D4742872895E9090C /* ModemSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModemSource.swift"; path = "../Sources/Swift/Audio/AudioPipes/ModemSource.swift"; sourceTree = SOURCE_ROOT; };
+		4389609B2E59B0CDFCD020B1 /* ModemDest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModemDest.swift"; path = "../Sources/Swift/Audio/AudioPipes/ModemDest.swift"; sourceTree = SOURCE_ROOT; };
+		13E428E3205BC04FA127D4A6 /* ModemAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModemAudio.swift"; path = "../Sources/Swift/Audio/AudioPipes/ModemAudio.swift"; sourceTree = SOURCE_ROOT; };
+		668B63667CD32024AC24D511 /* PSKReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PSKReceiver.swift"; path = "../Sources/Swift/Modems/PSK/PSKReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		8D860F1B3654E3E172E1FC5A /* SITORRxControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SITORRxControl.swift"; path = "../Sources/Swift/Modems/SITOR-B/SITORRxControl.swift"; sourceTree = SOURCE_ROOT; };
+		1DC33619F5F2546B62C5CB73 /* RTTYStereoRxControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYStereoRxControl.swift"; path = "../Sources/Swift/Modems/Analyze/RTTYStereoRxControl.swift"; sourceTree = SOURCE_ROOT; };
+		BC9EEFBBCA2408C34D07AE31 /* LiteRTTYControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LiteRTTYControl.swift"; path = "../Sources/Swift/Modems/Lite RTTY/LiteRTTYControl.swift"; sourceTree = SOURCE_ROOT; };
+		321E7C5AC7535934A113DEEA /* LiteASCIIControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LiteASCIIControl.swift"; path = "../Sources/Swift/Modems/Lite ASCII/LiteASCIIControl.swift"; sourceTree = SOURCE_ROOT; };
+		EED151961BB8392BE5A3631F /* CWRxControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWRxControl.swift"; path = "../Sources/Swift/Modems/WB CW/CWRxControl.swift"; sourceTree = SOURCE_ROOT; };
+		19D338176FEA2F3EDBCBE45F /* RTTYRxControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYRxControl.swift"; path = "../Sources/Swift/Modems/RTTY/RTTYRxControl.swift"; sourceTree = SOURCE_ROOT; };
+		415760D06336848177F403F0 /* DominoHalfRateReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DominoHalfRateReceiver.swift"; path = "../Sources/Swift/Modems/MFSK/DominoEX/DominoHalfRateReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		23B93CD990D276A0F0F2EE8A /* MFSK16Receiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MFSK16Receiver.swift"; path = "../Sources/Swift/Modems/MFSK/MFSK16/MFSK16Receiver.swift"; sourceTree = SOURCE_ROOT; };
+		87BD7B633729AC7AEC3583F3 /* DominoReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DominoReceiver.swift"; path = "../Sources/Swift/Modems/MFSK/DominoEX/DominoReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		D62005DB2E1758D3C4FDD620 /* MFSKReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MFSKReceiver.swift"; path = "../Sources/Swift/Modems/MFSK/MFSKReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		E274C57121E5A90E7CE1C29C /* SITORReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SITORReceiver.swift"; path = "../Sources/Swift/Modems/SITOR-B/SITORReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		555980FF5DEB7D6203C6D0E2 /* RTTYStereoReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYStereoReceiver.swift"; path = "../Sources/Swift/Modems/Analyze/RTTYStereoReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		8E9532D00E1B893AB432EBEE /* CWReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWReceiver.swift"; path = "../Sources/Swift/Modems/WB CW/CWReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		CD3C0EE5D0634919AFB115C9 /* ASCIIReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASCIIReceiver.swift"; path = "../Sources/Swift/Modems/ASCII/ASCIIReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		B70A64495977DD72AAADEFBB /* RTTYReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYReceiver.swift"; path = "../Sources/Swift/Modems/RTTY/RTTYReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		DD75350A66BC8FD10FCE405C /* SITORConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SITORConfig.swift"; path = "../Sources/Swift/SITOR-B/SITORConfig.swift"; sourceTree = SOURCE_ROOT; };
+		7B2DFA39F06740226FB2EB66 /* CWConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWConfig.swift"; path = "../Sources/Swift/Modems/WB CW/CWConfig.swift"; sourceTree = SOURCE_ROOT; };
+		E567494CCD517B3DFEC8D15F /* CWTxConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWTxConfig.swift"; path = "../Sources/Swift/Modems/WB CW/CWTxConfig.swift"; sourceTree = SOURCE_ROOT; };
+		2F0730294AAA82CAAB80349F /* ASCIITxConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASCIITxConfig.swift"; path = "../Sources/Swift/Modems/ASCII/ASCIITxConfig.swift"; sourceTree = SOURCE_ROOT; };
+		F9208D837EE056E2CCB3A69F /* WFRTTYConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "WFRTTYConfig.swift"; path = "../Sources/Swift/Modems/WF RTTY/WFRTTYConfig.swift"; sourceTree = SOURCE_ROOT; };
+		6998E2EFFD0C6DC92F09DDAF /* DualRTTYConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DualRTTYConfig.swift"; path = "../Sources/Swift/Modems/Dual RTTY/DualRTTYConfig.swift"; sourceTree = SOURCE_ROOT; };
+		3D2965173F9B5FCC78A83687 /* AnalyzeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AnalyzeConfig.swift"; path = "../Sources/Swift/Modems/Analyze/AnalyzeConfig.swift"; sourceTree = SOURCE_ROOT; };
+		7D2A8409E88EB1F1104FAF7A /* RTTYTxConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYTxConfig.swift"; path = "../Sources/Swift/Modems/RTTY/RTTYTxConfig.swift"; sourceTree = SOURCE_ROOT; };
+		D5B77BBFD9878DD4B7ACE95A /* RTTYConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYConfig.swift"; path = "../Sources/Swift/Modems/RTTY/RTTYConfig.swift"; sourceTree = SOURCE_ROOT; };
+		1F17EFC53E7A7C3D9EE36F97 /* PSKConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PSKConfig.swift"; path = "../Sources/Swift/Modems/PSK/PSKConfig.swift"; sourceTree = SOURCE_ROOT; };
+		879E03104159C9B194FF7E83 /* MFSKConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MFSKConfig.swift"; path = "../Sources/Swift/Modems/MFSK/MFSKConfig.swift"; sourceTree = SOURCE_ROOT; };
+		2FF8FFC8D0DBA0176B9F3D36 /* HellConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HellConfig.swift"; path = "../Sources/Swift/Modems/Hellschreiber/HellConfig.swift"; sourceTree = SOURCE_ROOT; };
+		EDEC66D291C7483C361E01EE /* FAXConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FAXConfig.swift"; path = "../Sources/Swift/Modems/HF-FAX/FAXConfig.swift"; sourceTree = SOURCE_ROOT; };
+		135543A2C6123136EE559C88 /* RTTYAuralMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYAuralMonitor.swift"; path = "../Sources/Swift/Modems/RTTY/RTTYAuralMonitor.swift"; sourceTree = SOURCE_ROOT; };
+		36D2DF0B694CB0EEBE89EB7B /* PSKAuralMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PSKAuralMonitor.swift"; path = "../Sources/Swift/Modems/PSK/PSKAuralMonitor.swift"; sourceTree = SOURCE_ROOT; };
+		E8216F39F17FA193AD3158E9 /* ModemConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModemConfig.swift"; path = "../Sources/Swift/Modems/Base/ModemConfig.swift"; sourceTree = SOURCE_ROOT; };
+		97AC0102DD4A8984DBFAE593 /* ModemAuralMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModemAuralMonitor.swift"; path = "../Sources/Swift/Modems/Base/ModemAuralMonitor.swift"; sourceTree = SOURCE_ROOT; };
+		1BBDCB08793BD78BB3375B75 /* CWMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWMonitor.swift"; path = "../Sources/Swift/Modems/WB CW/CWMonitor.swift"; sourceTree = SOURCE_ROOT; };
+		BE1E206621C60679580694D1 /* AuralMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AuralMonitor.swift"; path = "../Sources/Swift/Audio/AuralMonitor.swift"; sourceTree = SOURCE_ROOT; };
+		756202695882BA7312946F9D /* DestClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DestClient.swift"; path = "../Sources/Swift/Audio/AudioPipes/DestClient.swift"; sourceTree = SOURCE_ROOT; };
+		77811A790416626563AB4428 /* RTTYATC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYATC.swift"; path = "../Sources/Swift/Modems/RTTY/New Demodulator/RTTYATC.swift"; sourceTree = SOURCE_ROOT; };
+		5F310E5C45E2D4CFC74025CA /* MultiStereoATC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MultiStereoATC.swift"; path = "../Sources/Swift/Modems/Analyze/AudioPipes/MultiStereoATC.swift"; sourceTree = SOURCE_ROOT; };
+		D3D94A913F8A5F82CCA0AA01 /* ASCIIATC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASCIIATC.swift"; path = "../Sources/Swift/Modems/ASCII/ASCIIATC.swift"; sourceTree = SOURCE_ROOT; };
+		E1AD229FF23CEBD18DF5045E /* CMATC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMATC.swift"; path = "../Sources/Swift/Modems/CoreModem/FSK/CMATC.swift"; sourceTree = SOURCE_ROOT; };
+		75ECD40E7B04FF7F0A0B0719 /* PSKDemodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PSKDemodulator.swift"; path = "../Sources/Swift/Modems/PSK/PSKVer4/PSKDemodulator.swift"; sourceTree = SOURCE_ROOT; };
+		86ACA377A8A74499B22CB7CC /* HellReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HellReceiver.swift"; path = "../Sources/Swift/Modems/Hellschreiber/HellReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		FAB869082BE4BE741F9F543A /* FAXReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "FAXReceiver.swift"; path = "../Sources/Swift/Modems/HF-FAX/FAXReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		E9EDD2491FA83B0924A80171 /* CMPSKDemodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMPSKDemodulator.swift"; path = "../Sources/Swift/Modems/CoreModem/PSK/CMPSKDemodulator.swift"; sourceTree = SOURCE_ROOT; };
+		FACA2B82B4E8493ED8B9EC64 /* CMToneReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMToneReceiver.swift"; path = "../Sources/Swift/Modems/CoreModem/Filters/CMToneReceiver.swift"; sourceTree = SOURCE_ROOT; };
+		E2C4820D94DD170D82B29961 /* ASCIIDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASCIIDecoder.swift"; path = "../Sources/Swift/Modems/ASCII/ASCIIDecoder.swift"; sourceTree = SOURCE_ROOT; };
+		03924D37A3C36F730ADBB1E5 /* RTTYBaudotDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYBaudotDecoder.swift"; path = "../Sources/Swift/Modems/RTTY/New Demodulator/RTTYBaudotDecoder.swift"; sourceTree = SOURCE_ROOT; };
+		AE2BBBD0639FF2CE28B099E2 /* MorseDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MorseDecoder.swift"; path = "../Sources/Swift/Modems/WB CW/MorseDecoder.swift"; sourceTree = SOURCE_ROOT; };
+		1A750A589E267A8A5BDD6618 /* CMBaudotDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMBaudotDecoder.swift"; path = "../Sources/Swift/Modems/CoreModem/FSK/CMBaudotDecoder.swift"; sourceTree = SOURCE_ROOT; };
+		A9028142038D39FC9E73E619 /* LitePSKMatchedFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "LitePSKMatchedFilter.swift"; path = "../Sources/Swift/Modems/PSK/PSKVer4/LitePSKMatchedFilter.swift"; sourceTree = SOURCE_ROOT; };
+		4FB4E63A05506D0DC99E4D36 /* PSKMatchedFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PSKMatchedFilter.swift"; path = "../Sources/Swift/Modems/PSK/PSKVer4/PSKMatchedFilter.swift"; sourceTree = SOURCE_ROOT; };
+		473720A36FBE2B6966F5FFAA /* CMPSKMatchedFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMPSKMatchedFilter.swift"; path = "../Sources/Swift/Modems/CoreModem/PSK/CMPSKMatchedFilter.swift"; sourceTree = SOURCE_ROOT; };
+		FDAC2EB3B37C6024B9E06F46 /* RTTYSingleFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYSingleFilter.swift"; path = "../Sources/Swift/Modems/RTTY/AudioPipes/RTTYSingleFilter.swift"; sourceTree = SOURCE_ROOT; };
+		E61F41EBD800FBB7C5DFF637 /* RTTYMPFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYMPFilter.swift"; path = "../Sources/Swift/Modems/RTTY/AudioPipes/RTTYMPFilter.swift"; sourceTree = SOURCE_ROOT; };
+		2774B93FEDE46C0BA9DC7067 /* RTTYMatchedFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYMatchedFilter.swift"; path = "../Sources/Swift/Modems/RTTY/AudioPipes/RTTYMatchedFilter.swift"; sourceTree = SOURCE_ROOT; };
+		C1CB3C651F9E0D5BD6F7F36D /* CWMatchedFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWMatchedFilter.swift"; path = "../Sources/Swift/Modems/WB CW/CWMatchedFilter.swift"; sourceTree = SOURCE_ROOT; };
+		E88089EBB73F339A08AE6D91 /* CMFSKMatchedFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMFSKMatchedFilter.swift"; path = "../Sources/Swift/Modems/CoreModem/FSK/CMFSKMatchedFilter.swift"; sourceTree = SOURCE_ROOT; };
+		26CA603BD303C19D76AE8BB9 /* ASCIIDemodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ASCIIDemodulator.swift"; path = "../Sources/Swift/Modems/ASCII/ASCIIDemodulator.swift"; sourceTree = SOURCE_ROOT; };
+		0548A7B08A8F56802BD7C47D /* CWAuralFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWAuralFilter.swift"; path = "../Sources/Swift/Modems/WB CW/CWAuralFilter.swift"; sourceTree = SOURCE_ROOT; };
+		D367E892AF530F2D3F481B36 /* RTTYDemodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYDemodulator.swift"; path = "../Sources/Swift/Modems/RTTY/New Demodulator/RTTYDemodulator.swift"; sourceTree = SOURCE_ROOT; };
+		EE138B655C2D338EDB45F6B5 /* CWDemodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWDemodulator.swift"; path = "../Sources/Swift/Modems/WB CW/CWDemodulator.swift"; sourceTree = SOURCE_ROOT; };
+		1845211A2A32B1E55D3F1B58 /* CMFSKDemodulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMFSKDemodulator.swift"; path = "../Sources/Swift/Modems/CoreModem/FSK/CMFSKDemodulator.swift"; sourceTree = SOURCE_ROOT; };
+		AE3E885BB385F80A812106B7 /* StereoRefATCBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StereoRefATCBuffer.swift"; path = "../Sources/Swift/Modems/Analyze/AudioPipes/StereoRefATCBuffer.swift"; sourceTree = SOURCE_ROOT; };
+		5313BCF40935619C71C02B4F /* CMATCBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMATCBuffer.swift"; path = "../Sources/Swift/Modems/CoreModem/FSK/CMATCBuffer.swift"; sourceTree = SOURCE_ROOT; };
+		969EA65227027C6DD1CEDA48 /* VUMeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "VUMeter.swift"; path = "../Sources/Swift/Modems/Base/VUMeter.swift"; sourceTree = SOURCE_ROOT; };
+		2234A56EE702536E311AB210 /* ModemDistributionBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ModemDistributionBox.swift"; path = "../Sources/Swift/Modems/Base/ModemDistributionBox.swift"; sourceTree = SOURCE_ROOT; };
+		4BE93345636BDDA5308F3A84 /* AIFFSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AIFFSource.swift"; path = "../Sources/Swift/Audio/AIFFSource.swift"; sourceTree = SOURCE_ROOT; };
+		B1F54235B7C124F478E5DF0B /* ChannelSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ChannelSelector.swift"; path = "../Sources/Swift/Modems/Analyze/AudioPipes/ChannelSelector.swift"; sourceTree = SOURCE_ROOT; };
+		7B445D0DCB8F274B87FC9835 /* CWMixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CWMixer.swift"; path = "../Sources/Swift/Modems/WB CW/CWMixer.swift"; sourceTree = SOURCE_ROOT; };
+		492D4D4C9F5BED5507B4DD1C /* RTTYMixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "RTTYMixer.swift"; path = "../Sources/Swift/Modems/RTTY/AudioPipes/RTTYMixer.swift"; sourceTree = SOURCE_ROOT; };
+		70E21212291443C77E8F4BC8 /* CMFSKMixer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMFSKMixer.swift"; path = "../Sources/Swift/Modems/CoreModem/FSK/CMFSKMixer.swift"; sourceTree = SOURCE_ROOT; };
+		FD83685AB88FB66DF07D13E4 /* CMFilterBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMFilterBank.swift"; path = "../Sources/Swift/Modems/CoreModem/Filters/CMFilterBank.swift"; sourceTree = SOURCE_ROOT; };
+		D33AFEE6FC1E4CB92BFDC64F /* CMLowpassFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMLowpassFilter.swift"; path = "../Sources/Swift/Filters/CoreFilter/Filters/CMLowpassFilter.swift"; sourceTree = SOURCE_ROOT; };
+		3A3AC2BD5AF94C25BC50CAEA /* CMBandpassFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMBandpassFilter.swift"; path = "../Sources/Swift/Filters/CoreFilter/Filters/CMBandpassFilter.swift"; sourceTree = SOURCE_ROOT; };
+		695E3E225B3A9DCF63ACFF77 /* CMFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMFilter.swift"; path = "../Sources/Swift/Filters/CoreFilter/Filters/CMFilter.swift"; sourceTree = SOURCE_ROOT; };
+		98E55DF7556F4B38E4A7B2CA /* CMTappedPipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMTappedPipe.swift"; path = "../Sources/Swift/Filters/CoreFilter/Pipes/CMTappedPipe.swift"; sourceTree = SOURCE_ROOT; };
+		1AA019CE25E6D30DDA5FBE1F /* CMPipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMPipe.swift"; path = "../Sources/Swift/Filters/CoreFilter/Pipes/CMPipe.swift"; sourceTree = SOURCE_ROOT; };
 		47403B4A944C624C20DE313F /* MFSKVaricode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MFSKVaricode.swift"; path = "../Sources/Swift/Modems/MFSK/MFSKVaricode.swift"; sourceTree = SOURCE_ROOT; };
 		8B24A7C2315518A443F95776 /* CMVaricode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CMVaricode.swift"; path = "../Sources/Swift/Modems/CoreModem/PSK/CMVaricode.swift"; sourceTree = SOURCE_ROOT; };
 		3B6CD1ED3733DB953FBBCDA7 /* StdManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StdManager.swift"; path = "../Sources/Swift/Interface Managers/Interactive/StdManager.swift"; sourceTree = SOURCE_ROOT; };
@@ -623,180 +729,36 @@
 		8422FF3009606D18007AFA0B /* UTC.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UTC.m; sourceTree = "<group>"; };
 		84261C360F22FDFA00E9E515 /* cocoaModem 2.0.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.sdef; path = "cocoaModem 2.0.sdef"; sourceTree = "<group>"; };
 		842BF6E10D4F299600B4923A /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = /System/Library/Frameworks/AudioUnit.framework; sourceTree = "<absolute>"; };
-		842DBF2E109FAF1C0039D90E /* AuralMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuralMonitor.h; sourceTree = "<group>"; };
-		842DBF2F109FAF1C0039D90E /* AuralMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuralMonitor.m; sourceTree = "<group>"; };
-		842DBF8410A002FA0039D90E /* PushedStereoDest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushedStereoDest.h; sourceTree = "<group>"; };
-		842DBF8510A002FA0039D90E /* PushedStereoDest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushedStereoDest.m; sourceTree = "<group>"; };
 		842E9F29108C176B0016C292 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Nibs/English.lproj/AuralMonitor.nib; sourceTree = "<group>"; };
-		842E9F87108D15990016C292 /* ModemAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemAudio.h; sourceTree = "<group>"; };
-		842E9F88108D15990016C292 /* ModemAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemAudio.m; sourceTree = "<group>"; };
 		842E9FB1108D58500016C292 /* Audio */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Audio; sourceTree = "<group>"; };
 		843690BC127D1C3B00C12271 /* routerVersion.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = routerVersion.scpt; sourceTree = "<group>"; };
-		843769A110AD3C6B0000F62D /* ModemAuralMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemAuralMonitor.h; sourceTree = "<group>"; };
-		843769A210AD3C6B0000F62D /* ModemAuralMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemAuralMonitor.m; sourceTree = "<group>"; };
 		843872C60AA3ED71007AD6BF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/SoftRock.nib; sourceTree = "<group>"; };
 		8439648409BD667D00866AE7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = "English.lproj/HF-FAX.nib"; sourceTree = "<group>"; };
 		8452B40C09DE1B4C0050F52E /* SP RTTY.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "SP RTTY.xml"; sourceTree = "<group>"; };
 		845E718C0A2ADA96005F5DB7 /* routerLaunchScript.scpt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.scpt; path = routerLaunchScript.scpt; sourceTree = "<group>"; };
-		8464303B1116355100D686D2 /* LiteASCII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiteASCII.h; sourceTree = "<group>"; };
-		8464303C1116355100D686D2 /* LiteASCII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiteASCII.m; sourceTree = "<group>"; };
-		846430451116370200D686D2 /* LiteASCIIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiteASCIIControl.h; sourceTree = "<group>"; };
-		846430461116370200D686D2 /* LiteASCIIControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiteASCIIControl.m; sourceTree = "<group>"; };
 		8464305E111637E700D686D2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/LiteASCII.nib; sourceTree = "<group>"; };
 		84643060111637E700D686D2 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/LiteASCIIControl.nib; sourceTree = "<group>"; };
 		8467342C09E37B1200F90063 /* mldxKey.scpt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.scpt; path = mldxKey.scpt; sourceTree = "<group>"; };
 		8467342D09E37B1200F90063 /* mldxUnkey.scpt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.scpt; path = mldxUnkey.scpt; sourceTree = "<group>"; };
 		846734A209E464A900F90063 /* cm bitmapdoublewide.font */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cm bitmapdoublewide.font"; sourceTree = "<group>"; };
 		846CE47E09A45AF800F5D214 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MFSK.nib; sourceTree = "<group>"; };
-		8477C13211126109004AC82F /* ASCII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCII.h; sourceTree = "<group>"; };
-		8477C13311126109004AC82F /* ASCII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCII.m; sourceTree = "<group>"; };
 		8477C14D111264EF004AC82F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ASCII.nib; sourceTree = "<group>"; };
-		8477C1C71112B101004AC82F /* ASCIIReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIIReceiver.h; sourceTree = "<group>"; };
-		8477C1C81112B101004AC82F /* ASCIIReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCIIReceiver.m; sourceTree = "<group>"; };
-		8477C1FB1112D567004AC82F /* ASCIIDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIIDemodulator.h; sourceTree = "<group>"; };
-		8477C1FC1112D567004AC82F /* ASCIIDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCIIDemodulator.m; sourceTree = "<group>"; };
-		8477C2151112D8F0004AC82F /* ASCIIDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIIDecoder.h; sourceTree = "<group>"; };
-		8477C2161112D8F0004AC82F /* ASCIIDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCIIDecoder.m; sourceTree = "<group>"; };
-		8477C25C1112DCCE004AC82F /* ASCIIATC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIIATC.h; sourceTree = "<group>"; };
-		8477C25D1112DCCE004AC82F /* ASCIIATC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCIIATC.m; sourceTree = "<group>"; };
 		8486AA160EC956D500840E69 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PSKReceiver.nib; sourceTree = "<group>"; };
 		8486AA1F0EC957FD00840E69 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PSKAlarms.nib; sourceTree = "<group>"; };
 		848765B81074078700B83EDD /* memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory.h; sourceTree = "<group>"; };
 		848765B91074078700B83EDD /* memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
 		848768211074104C00B83EDD /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		84876E2D107673C200B83EDD /* AIFFSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIFFSource.h; sourceTree = "<group>"; };
-		84876E2E107673C200B83EDD /* AIFFSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIFFSource.m; sourceTree = "<group>"; };
-		84876E711076740400B83EDD /* DestClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestClient.h; sourceTree = "<group>"; };
-		84876E721076740400B83EDD /* DestClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestClient.m; sourceTree = "<group>"; };
-		84876E731076740400B83EDD /* ModemDest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemDest.h; sourceTree = "<group>"; };
-		84876E741076740400B83EDD /* ModemDest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemDest.m; sourceTree = "<group>"; };
-		84876E751076740400B83EDD /* ModemSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemSource.h; sourceTree = "<group>"; };
-		84876E761076740400B83EDD /* ModemSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemSource.m; sourceTree = "<group>"; };
-		84876E7E1076740400B83EDD /* Modem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modem.h; sourceTree = "<group>"; };
-		84876E7F1076740400B83EDD /* Modem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modem.m; sourceTree = "<group>"; };
-		84876E801076740400B83EDD /* ModemConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemConfig.h; sourceTree = "<group>"; };
-		84876E811076740400B83EDD /* ModemConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemConfig.m; sourceTree = "<group>"; };
-		84876E821076740400B83EDD /* ModemDistributionBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModemDistributionBox.h; sourceTree = "<group>"; };
-		84876E831076740400B83EDD /* ModemDistributionBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModemDistributionBox.m; sourceTree = "<group>"; };
-		84876E8D1076740400B83EDD /* VUMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VUMeter.h; sourceTree = "<group>"; };
-		84876E8E1076740400B83EDD /* VUMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VUMeter.m; sourceTree = "<group>"; };
-		84876EF71076740400B83EDD /* DualRTTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DualRTTY.h; sourceTree = "<group>"; };
-		84876EF81076740400B83EDD /* DualRTTY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DualRTTY.m; sourceTree = "<group>"; };
-		84876EF91076740400B83EDD /* DualRTTYConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DualRTTYConfig.h; sourceTree = "<group>"; };
-		84876EFA1076740400B83EDD /* DualRTTYConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DualRTTYConfig.m; sourceTree = "<group>"; };
-		84876EFF1076740400B83EDD /* HellConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellConfig.h; sourceTree = "<group>"; };
-		84876F001076740400B83EDD /* HellConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellConfig.m; sourceTree = "<group>"; };
-		84876F071076740400B83EDD /* HellReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellReceiver.h; sourceTree = "<group>"; };
-		84876F081076740400B83EDD /* HellReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HellReceiver.m; sourceTree = "<group>"; };
-		84876F091076740400B83EDD /* Hellschreiber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hellschreiber.h; sourceTree = "<group>"; };
-		84876F0A1076740400B83EDD /* Hellschreiber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hellschreiber.m; sourceTree = "<group>"; };
 		84876F0B1076740400B83EDD /* HellschreiberFont.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = HellschreiberFont.c; sourceTree = "<group>"; };
 		84876F0C1076740400B83EDD /* HellschreiberFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HellschreiberFont.h; sourceTree = "<group>"; };
-		84876F101076740400B83EDD /* FAX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAX.h; sourceTree = "<group>"; };
-		84876F111076740400B83EDD /* FAX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAX.m; sourceTree = "<group>"; };
-		84876F121076740400B83EDD /* FAXConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAXConfig.h; sourceTree = "<group>"; };
-		84876F131076740400B83EDD /* FAXConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAXConfig.m; sourceTree = "<group>"; };
-		84876F161076740400B83EDD /* FAXReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAXReceiver.h; sourceTree = "<group>"; };
-		84876F171076740400B83EDD /* FAXReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAXReceiver.m; sourceTree = "<group>"; };
-		84876F1D1076740400B83EDD /* LitePSK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitePSK.h; sourceTree = "<group>"; };
-		84876F1E1076740400B83EDD /* LitePSK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitePSK.m; sourceTree = "<group>"; };
-		84876F201076740400B83EDD /* LiteRTTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiteRTTY.h; sourceTree = "<group>"; };
-		84876F211076740400B83EDD /* LiteRTTY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiteRTTY.m; sourceTree = "<group>"; };
-		84876F221076740400B83EDD /* LiteRTTYControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiteRTTYControl.h; sourceTree = "<group>"; };
-		84876F231076740400B83EDD /* LiteRTTYControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiteRTTYControl.m; sourceTree = "<group>"; };
-		84876F251076740400B83EDD /* MacroInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroInterface.h; sourceTree = "<group>"; };
-		84876F261076740400B83EDD /* MacroInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroInterface.m; sourceTree = "<group>"; };
-		84876F2F1076740400B83EDD /* DominoHalfRateReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DominoHalfRateReceiver.h; sourceTree = "<group>"; };
-		84876F301076740400B83EDD /* DominoHalfRateReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DominoHalfRateReceiver.m; sourceTree = "<group>"; };
-		84876F331076740400B83EDD /* DominoReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DominoReceiver.h; sourceTree = "<group>"; };
-		84876F341076740400B83EDD /* DominoReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DominoReceiver.m; sourceTree = "<group>"; };
 		84876F351076740400B83EDD /* DominoVaricode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DominoVaricode.h; sourceTree = "<group>"; };
-		84876F3F1076740400B83EDD /* MFSK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSK.h; sourceTree = "<group>"; };
-		84876F401076740400B83EDD /* MFSK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSK.m; sourceTree = "<group>"; };
-		84876F461076740400B83EDD /* MFSK16Receiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSK16Receiver.h; sourceTree = "<group>"; };
-		84876F471076740400B83EDD /* MFSK16Receiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSK16Receiver.m; sourceTree = "<group>"; };
-		84876F481076740400B83EDD /* MFSKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKConfig.h; sourceTree = "<group>"; };
-		84876F491076740400B83EDD /* MFSKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSKConfig.m; sourceTree = "<group>"; };
 		84876F4C1076740400B83EDD /* MFSKFEC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKFEC.h; sourceTree = "<group>"; };
 		84876F4F1076740400B83EDD /* MFSKModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKModes.h; sourceTree = "<group>"; };
-		84876F521076740400B83EDD /* MFSKReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSKReceiver.h; sourceTree = "<group>"; };
-		84876F531076740400B83EDD /* MFSKReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSKReceiver.m; sourceTree = "<group>"; };
-		84876F5C1076740400B83EDD /* PSK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSK.h; sourceTree = "<group>"; };
-		84876F5D1076740400B83EDD /* PSK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSK.m; sourceTree = "<group>"; };
-		84876F5E1076740400B83EDD /* PSKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSKConfig.h; sourceTree = "<group>"; };
-		84876F5F1076740400B83EDD /* PSKConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSKConfig.m; sourceTree = "<group>"; };
-		84876F681076740400B83EDD /* PSKReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSKReceiver.h; sourceTree = "<group>"; };
-		84876F691076740500B83EDD /* PSKReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSKReceiver.m; sourceTree = "<group>"; };
-		84876F851076740500B83EDD /* LitePSKMatchedFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LitePSKMatchedFilter.h; sourceTree = "<group>"; };
-		84876F861076740500B83EDD /* LitePSKMatchedFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LitePSKMatchedFilter.m; sourceTree = "<group>"; };
-		84876F8B1076740500B83EDD /* PSKDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSKDemodulator.h; sourceTree = "<group>"; };
-		84876F8C1076740500B83EDD /* PSKDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSKDemodulator.m; sourceTree = "<group>"; };
-		84876F8F1076740500B83EDD /* PSKMatchedFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSKMatchedFilter.h; sourceTree = "<group>"; };
-		84876F901076740500B83EDD /* PSKMatchedFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSKMatchedFilter.m; sourceTree = "<group>"; };
-		84876F9F1076740500B83EDD /* RTTYMPFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYMPFilter.h; sourceTree = "<group>"; };
-		84876FA01076740500B83EDD /* RTTYMPFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYMPFilter.m; sourceTree = "<group>"; };
-		84876FA11076740500B83EDD /* RTTYSingleFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYSingleFilter.h; sourceTree = "<group>"; };
-		84876FA21076740500B83EDD /* RTTYSingleFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYSingleFilter.m; sourceTree = "<group>"; };
 		84876FA91076740500B83EDD /* Baudot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baudot.h; sourceTree = "<group>"; };
-		84876FAA1076740500B83EDD /* RTTYATC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYATC.h; sourceTree = "<group>"; };
-		84876FAB1076740500B83EDD /* RTTYATC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYATC.m; sourceTree = "<group>"; };
-		84876FAC1076740500B83EDD /* RTTYBaudotDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYBaudotDecoder.h; sourceTree = "<group>"; };
-		84876FAD1076740500B83EDD /* RTTYBaudotDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYBaudotDecoder.m; sourceTree = "<group>"; };
-		84876FAE1076740500B83EDD /* RTTYDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYDemodulator.h; sourceTree = "<group>"; };
-		84876FAF1076740500B83EDD /* RTTYDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYDemodulator.m; sourceTree = "<group>"; };
-		84876FB01076740500B83EDD /* RTTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTY.h; sourceTree = "<group>"; };
-		84876FB11076740500B83EDD /* RTTY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTY.m; sourceTree = "<group>"; };
-		84876FB21076740500B83EDD /* RTTYConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYConfig.h; sourceTree = "<group>"; };
-		84876FB31076740500B83EDD /* RTTYConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYConfig.m; sourceTree = "<group>"; };
-		84876FB41076740500B83EDD /* RTTYInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYInterface.h; sourceTree = "<group>"; };
-		84876FB51076740500B83EDD /* RTTYInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYInterface.m; sourceTree = "<group>"; };
-		84876FBC1076740500B83EDD /* RTTYReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYReceiver.h; sourceTree = "<group>"; };
-		84876FBD1076740500B83EDD /* RTTYReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYReceiver.m; sourceTree = "<group>"; };
-		84876FBE1076740500B83EDD /* RTTYRxControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYRxControl.h; sourceTree = "<group>"; };
-		84876FBF1076740500B83EDD /* RTTYRxControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYRxControl.m; sourceTree = "<group>"; };
-		84876FC01076740500B83EDD /* RTTYTxConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYTxConfig.h; sourceTree = "<group>"; };
-		84876FC11076740500B83EDD /* RTTYTxConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYTxConfig.m; sourceTree = "<group>"; };
 		84876FC21076740500B83EDD /* RTTYTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYTypes.h; sourceTree = "<group>"; };
 		84876FC41076740500B83EDD /* Moore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Moore.h; sourceTree = "<group>"; };
-		84876FC71076740500B83EDD /* SITOR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITOR.h; sourceTree = "<group>"; };
-		84876FC81076740500B83EDD /* SITOR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SITOR.m; sourceTree = "<group>"; };
-		84876FCB1076740500B83EDD /* SITORConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITORConfig.h; sourceTree = "<group>"; };
-		84876FCC1076740500B83EDD /* SITORConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SITORConfig.m; sourceTree = "<group>"; };
-		84876FCF1076740500B83EDD /* SITORReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITORReceiver.h; sourceTree = "<group>"; };
-		84876FD01076740500B83EDD /* SITORReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SITORReceiver.m; sourceTree = "<group>"; };
-		84876FD11076740500B83EDD /* SITORRxControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SITORRxControl.h; sourceTree = "<group>"; };
-		84876FD21076740500B83EDD /* SITORRxControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SITORRxControl.m; sourceTree = "<group>"; };
-		84876FE31076740500B83EDD /* CWAuralFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWAuralFilter.h; sourceTree = "<group>"; };
-		84876FE41076740500B83EDD /* CWAuralFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWAuralFilter.m; sourceTree = "<group>"; };
-		84876FE51076740500B83EDD /* CWConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWConfig.h; sourceTree = "<group>"; };
-		84876FE61076740500B83EDD /* CWConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWConfig.m; sourceTree = "<group>"; };
-		84876FE71076740500B83EDD /* CWDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWDemodulator.h; sourceTree = "<group>"; };
-		84876FE81076740500B83EDD /* CWDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWDemodulator.m; sourceTree = "<group>"; };
-		84876FEB1076740500B83EDD /* CWMatchedFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMatchedFilter.h; sourceTree = "<group>"; };
-		84876FEC1076740500B83EDD /* CWMatchedFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMatchedFilter.m; sourceTree = "<group>"; };
-		84876FED1076740500B83EDD /* CWMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMixer.h; sourceTree = "<group>"; };
-		84876FEE1076740500B83EDD /* CWMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMixer.m; sourceTree = "<group>"; };
-		84876FF11076740500B83EDD /* CWMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWMonitor.h; sourceTree = "<group>"; };
-		84876FF21076740500B83EDD /* CWMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWMonitor.m; sourceTree = "<group>"; };
-		84876FF51076740500B83EDD /* CWReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWReceiver.h; sourceTree = "<group>"; };
-		84876FF61076740500B83EDD /* CWReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWReceiver.m; sourceTree = "<group>"; };
-		84876FF71076740500B83EDD /* CWRxControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWRxControl.h; sourceTree = "<group>"; };
-		84876FF81076740500B83EDD /* CWRxControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWRxControl.m; sourceTree = "<group>"; };
-		84876FFD1076740500B83EDD /* CWTxConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTxConfig.h; sourceTree = "<group>"; };
-		84876FFE1076740500B83EDD /* CWTxConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTxConfig.m; sourceTree = "<group>"; };
-		848770011076740500B83EDD /* MorseDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MorseDecoder.h; sourceTree = "<group>"; };
-		848770021076740500B83EDD /* MorseDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MorseDecoder.m; sourceTree = "<group>"; };
-		848770031076740500B83EDD /* WBCW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBCW.h; sourceTree = "<group>"; };
-		848770041076740500B83EDD /* WBCW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBCW.m; sourceTree = "<group>"; };
-		848770061076740500B83EDD /* WFRTTY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFRTTY.h; sourceTree = "<group>"; };
-		848770071076740500B83EDD /* WFRTTY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFRTTY.m; sourceTree = "<group>"; };
-		848770081076740500B83EDD /* WFRTTYConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFRTTYConfig.h; sourceTree = "<group>"; };
-		848770091076740500B83EDD /* WFRTTYConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFRTTYConfig.m; sourceTree = "<group>"; };
 		848770D2107674A900B83EDD /* ContestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestManager.h; sourceTree = "<group>"; };
 		848770D3107674A900B83EDD /* ContestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestManager.m; sourceTree = "<group>"; };
 		848770F1107674DA00B83EDD /* RoundupStatelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundupStatelist.h; sourceTree = "<group>"; };
-		84877106107674DA00B83EDD /* ContestInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContestInterface.h; sourceTree = "<group>"; };
-		84877107107674DA00B83EDD /* ContestInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContestInterface.m; sourceTree = "<group>"; };
 		8487713A1076754F00B83EDD /* Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module.h; sourceTree = "<group>"; };
 		8487713B1076754F00B83EDD /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module.m; sourceTree = "<group>"; };
 		8487713C1076754F00B83EDD /* Transceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transceiver.h; sourceTree = "<group>"; };
@@ -804,55 +766,29 @@
 		848771411076789F00B83EDD /* CoreModem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreModem.h; sourceTree = "<group>"; };
 		848771421076789F00B83EDD /* CoreModem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreModem.m; sourceTree = "<group>"; };
 		848771431076789F00B83EDD /* CoreModemTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreModemTypes.h; sourceTree = "<group>"; };
-		848771451076789F00B83EDD /* CMFilterBank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFilterBank.h; sourceTree = "<group>"; };
-		848771461076789F00B83EDD /* CMFilterBank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMFilterBank.m; sourceTree = "<group>"; };
-		8487714B1076789F00B83EDD /* CMToneReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMToneReceiver.h; sourceTree = "<group>"; };
-		8487714C1076789F00B83EDD /* CMToneReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMToneReceiver.m; sourceTree = "<group>"; };
-		8487714E1076789F00B83EDD /* CMPSKDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPSKDemodulator.h; sourceTree = "<group>"; };
-		8487714F1076789F00B83EDD /* CMPSKDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPSKDemodulator.m; sourceTree = "<group>"; };
-		848771501076789F00B83EDD /* CMPSKMatchedFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPSKMatchedFilter.h; sourceTree = "<group>"; };
-		848771511076789F00B83EDD /* CMPSKMatchedFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPSKMatchedFilter.m; sourceTree = "<group>"; };
 		848771521076789F00B83EDD /* CMPSKModes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPSKModes.h; sourceTree = "<group>"; };
-		848771591076789F00B83EDD /* CMATC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMATC.m; sourceTree = "<group>"; };
-		8487715A1076789F00B83EDD /* CMATCBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMATCBuffer.h; sourceTree = "<group>"; };
-		8487715B1076789F00B83EDD /* CMATCBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMATCBuffer.m; sourceTree = "<group>"; };
 		8487715C1076789F00B83EDD /* CMATCTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMATCTypes.h; sourceTree = "<group>"; };
 		8487715D1076789F00B83EDD /* CMBaudot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBaudot.h; sourceTree = "<group>"; };
-		8487715E1076789F00B83EDD /* CMBaudotDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBaudotDecoder.h; sourceTree = "<group>"; };
-		8487715F1076789F00B83EDD /* CMBaudotDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBaudotDecoder.m; sourceTree = "<group>"; };
-		848771601076789F00B83EDD /* CMFSKMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFSKMixer.h; sourceTree = "<group>"; };
-		848771611076789F00B83EDD /* CMFSKMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMFSKMixer.m; sourceTree = "<group>"; };
 		8487717D10767A1300B83EDD /* FSK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSK.h; sourceTree = "<group>"; };
 		8487717E10767A1300B83EDD /* FSK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSK.m; sourceTree = "<group>"; };
 		848771D010767F4400B83EDD /* CoreFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFilter.h; sourceTree = "<group>"; };
 		848771D110767F4400B83EDD /* CoreFilterTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFilterTypes.h; sourceTree = "<group>"; };
-		848771D410767F4400B83EDD /* CMBandpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBandpassFilter.h; sourceTree = "<group>"; };
-		848771D510767F4400B83EDD /* CMBandpassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBandpassFilter.m; sourceTree = "<group>"; };
 		848771D610767F4400B83EDD /* CMComplexFIR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMComplexFIR.c; sourceTree = "<group>"; };
 		848771D710767F4400B83EDD /* CMComplexFIR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMComplexFIR.h; sourceTree = "<group>"; };
 		848771D810767F4400B83EDD /* CMDSPWindow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMDSPWindow.c; sourceTree = "<group>"; };
 		848771D910767F4400B83EDD /* CMDSPWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDSPWindow.h; sourceTree = "<group>"; };
 		848771DA10767F4400B83EDD /* CMFFT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMFFT.c; sourceTree = "<group>"; };
 		848771DB10767F4400B83EDD /* CMFFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFFT.h; sourceTree = "<group>"; };
-		848771DC10767F4400B83EDD /* CMFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFilter.h; sourceTree = "<group>"; };
-		848771DD10767F4400B83EDD /* CMFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMFilter.m; sourceTree = "<group>"; };
 		848771DE10767F4400B83EDD /* CMFIR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMFIR.c; sourceTree = "<group>"; };
 		848771DF10767F4400B83EDD /* CMFIR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFIR.h; sourceTree = "<group>"; };
 		848771E010767F4400B83EDD /* CMIIR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CMIIR.c; sourceTree = "<group>"; };
 		848771E110767F4400B83EDD /* CMIIR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMIIR.h; sourceTree = "<group>"; };
-		848771E210767F4400B83EDD /* CMLowpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMLowpassFilter.h; sourceTree = "<group>"; };
-		848771E310767F4400B83EDD /* CMLowpassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMLowpassFilter.m; sourceTree = "<group>"; };
-		848771E510767F4400B83EDD /* CMPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPipe.h; sourceTree = "<group>"; };
-		848771E610767F4400B83EDD /* CMPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPipe.m; sourceTree = "<group>"; };
-		848771E710767F4400B83EDD /* CMTappedPipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTappedPipe.h; sourceTree = "<group>"; };
-		848771E810767F4400B83EDD /* CMTappedPipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMTappedPipe.m; sourceTree = "<group>"; };
 		848771EA10767F4400B83EDD /* Boxcar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Boxcar.c; sourceTree = "<group>"; };
 		848771EB10767F4400B83EDD /* Boxcar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boxcar.h; sourceTree = "<group>"; };
 		848771EC10767F4400B83EDD /* Clears.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Clears.c; sourceTree = "<group>"; };
 		848771ED10767F4400B83EDD /* Clears.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clears.h; sourceTree = "<group>"; };
 		848771EE10767F4400B83EDD /* hadamard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hadamard.c; sourceTree = "<group>"; };
 		848771EF10767F4400B83EDD /* hadamard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hadamard.h; sourceTree = "<group>"; };
-		84877587107859FD00B83EDD /* CMATC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMATC.h; sourceTree = "<group>"; };
 		8490ACEF0A2B60AA006E282F /* LogMacro.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = LogMacro.h; sourceTree = "<group>"; };
 		8492B5C611E125C300C5C598 /* PTT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTT.h; sourceTree = "<group>"; };
 		8492B5C711E125C300C5C598 /* PTT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTT.m; sourceTree = "<group>"; };
@@ -862,29 +798,15 @@
 		849C0A4610F93A5B00F342E7 /* mldx5Unkey.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = mldx5Unkey.scpt; sourceTree = "<group>"; };
 		849C0A4710F93A6200F342E7 /* mldxVersion.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; path = mldxVersion.scpt; sourceTree = "<group>"; };
 		84A851E50B1E1898003A69CF /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ModemEqualizer.nib; sourceTree = "<group>"; };
-		84AB92BE10A7630700A26242 /* RTTYMatchedFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYMatchedFilter.h; sourceTree = "<group>"; };
-		84AB92BF10A7630700A26242 /* RTTYMatchedFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYMatchedFilter.m; sourceTree = "<group>"; };
-		84AB93A310A793FF00A26242 /* RTTYMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYMixer.h; sourceTree = "<group>"; };
-		84AB93A410A793FF00A26242 /* RTTYMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYMixer.m; sourceTree = "<group>"; };
 		84B12B3D0FF3714000CF2B3D /* PrivateNSFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateNSFont.h; sourceTree = "<group>"; };
 		84B40485109A70640082E332 /* AudioDeviceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioDeviceTypes.h; sourceTree = "<group>"; };
 		84B4048F109A70BB0082E332 /* AudioInterfaceTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioInterfaceTypes.h; sourceTree = "<group>"; };
 		84B40492109A70FD0082E332 /* audioutils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = audioutils.c; sourceTree = "<group>"; };
 		84B40493109A70FD0082E332 /* audioutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = audioutils.h; sourceTree = "<group>"; };
 		84B43C090F39324000E399D7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/ContestLog.nib; sourceTree = "<group>"; };
-		84C02E0B11142BAB00DB8AA4 /* ASCIITxConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASCIITxConfig.h; sourceTree = "<group>"; };
-		84C02E0C11142BAB00DB8AA4 /* ASCIITxConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCIITxConfig.m; sourceTree = "<group>"; };
 		84CD57ED09A0603800E8011A /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/BARTG.nib; sourceTree = "<group>"; };
 		84CD57FA09A066AF00E8011A /* BARTG HF.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "BARTG HF.xml"; sourceTree = "<group>"; };
-		84CE741610AAF515003D0C99 /* CMFSKDemodulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFSKDemodulator.h; sourceTree = "<group>"; };
-		84CE741710AAF515003D0C99 /* CMFSKDemodulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMFSKDemodulator.m; sourceTree = "<group>"; };
-		84CE741B10AAF6A3003D0C99 /* CMFSKMatchedFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFSKMatchedFilter.h; sourceTree = "<group>"; };
-		84CE741C10AAF6A3003D0C99 /* CMFSKMatchedFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMFSKMatchedFilter.m; sourceTree = "<group>"; };
-		84CE742510AAF891003D0C99 /* RTTYAuralMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTTYAuralMonitor.h; sourceTree = "<group>"; };
-		84CE742610AAF891003D0C99 /* RTTYAuralMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTTYAuralMonitor.m; sourceTree = "<group>"; };
 		84CE747710AB4705003D0C99 /* CMFSKTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMFSKTypes.h; sourceTree = "<group>"; };
-		84CE76C310ABB343003D0C99 /* PSKAuralMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSKAuralMonitor.h; sourceTree = "<group>"; };
-		84CE76C410ABB343003D0C99 /* PSKAuralMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSKAuralMonitor.m; sourceTree = "<group>"; };
 		84D087FA098EB17600A9D784 /* cm bitmap.font */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cm bitmap.font"; sourceTree = "<group>"; };
 		84D08DE80990147000A9D784 /* cm bitmap aa.font */ = {isa = PBXFileReference; lastKnownFileType = file; path = "cm bitmap aa.font"; sourceTree = "<group>"; };
 		84D33EA80FC652FB006EBC6C /* jisToUni.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = jisToUni.dat; sourceTree = "<group>"; };
@@ -989,6 +911,105 @@
 		AAAA00000000000000000001 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
+				EB6A0F4910B4AD94201B1188 /* LiteASCII.swift */,
+				1AF7208E3F024FAD27A56498 /* WBCW.swift */,
+				9B76E8E5EA99AF20FBE2ADDD /* SITOR.swift */,
+				463F68E5D8B22A216757B374 /* LiteRTTY.swift */,
+				DAFEAC94375BACB623B854DA /* ASCII.swift */,
+				93438D218BD392F3BA91275A /* WFRTTY.swift */,
+				66F905E39072249919C7F17F /* RTTY.swift */,
+				66510CEA3032A1CFE9EE7A4A /* DualRTTY.swift */,
+				8C1A37C2494474DD58D4EE2E /* LitePSK.swift */,
+				5C5AA5BF5929DA1937CB648D /* RTTYInterface.swift */,
+				6D029B85CB45237699410267 /* PSK.swift */,
+				C037B289753AC5D9EC80EB37 /* MFSK.swift */,
+				119C561B1C51862EBBDC0617 /* Hellschreiber.swift */,
+				A260CE38E4019C8401BC645C /* ContestInterface.swift */,
+				A3E095E44F8546AB0D3336C7 /* MacroInterface.swift */,
+				114F8BE79B6B97629C03F8A1 /* FAX.swift */,
+				81357D5C43AE6944D7C57C91 /* Analyze.swift */,
+				670CE7C4A69938580D9C0191 /* Modem.swift */,
+				B40909B7E24C4E597B531217 /* PushedStereoDest.swift */,
+				C255E07D4742872895E9090C /* ModemSource.swift */,
+				4389609B2E59B0CDFCD020B1 /* ModemDest.swift */,
+				13E428E3205BC04FA127D4A6 /* ModemAudio.swift */,
+				668B63667CD32024AC24D511 /* PSKReceiver.swift */,
+				8D860F1B3654E3E172E1FC5A /* SITORRxControl.swift */,
+				1DC33619F5F2546B62C5CB73 /* RTTYStereoRxControl.swift */,
+				BC9EEFBBCA2408C34D07AE31 /* LiteRTTYControl.swift */,
+				321E7C5AC7535934A113DEEA /* LiteASCIIControl.swift */,
+				EED151961BB8392BE5A3631F /* CWRxControl.swift */,
+				19D338176FEA2F3EDBCBE45F /* RTTYRxControl.swift */,
+				415760D06336848177F403F0 /* DominoHalfRateReceiver.swift */,
+				23B93CD990D276A0F0F2EE8A /* MFSK16Receiver.swift */,
+				87BD7B633729AC7AEC3583F3 /* DominoReceiver.swift */,
+				D62005DB2E1758D3C4FDD620 /* MFSKReceiver.swift */,
+				E274C57121E5A90E7CE1C29C /* SITORReceiver.swift */,
+				555980FF5DEB7D6203C6D0E2 /* RTTYStereoReceiver.swift */,
+				8E9532D00E1B893AB432EBEE /* CWReceiver.swift */,
+				CD3C0EE5D0634919AFB115C9 /* ASCIIReceiver.swift */,
+				B70A64495977DD72AAADEFBB /* RTTYReceiver.swift */,
+				DD75350A66BC8FD10FCE405C /* SITORConfig.swift */,
+				7B2DFA39F06740226FB2EB66 /* CWConfig.swift */,
+				E567494CCD517B3DFEC8D15F /* CWTxConfig.swift */,
+				2F0730294AAA82CAAB80349F /* ASCIITxConfig.swift */,
+				F9208D837EE056E2CCB3A69F /* WFRTTYConfig.swift */,
+				6998E2EFFD0C6DC92F09DDAF /* DualRTTYConfig.swift */,
+				3D2965173F9B5FCC78A83687 /* AnalyzeConfig.swift */,
+				7D2A8409E88EB1F1104FAF7A /* RTTYTxConfig.swift */,
+				D5B77BBFD9878DD4B7ACE95A /* RTTYConfig.swift */,
+				1F17EFC53E7A7C3D9EE36F97 /* PSKConfig.swift */,
+				879E03104159C9B194FF7E83 /* MFSKConfig.swift */,
+				2FF8FFC8D0DBA0176B9F3D36 /* HellConfig.swift */,
+				EDEC66D291C7483C361E01EE /* FAXConfig.swift */,
+				135543A2C6123136EE559C88 /* RTTYAuralMonitor.swift */,
+				36D2DF0B694CB0EEBE89EB7B /* PSKAuralMonitor.swift */,
+				E8216F39F17FA193AD3158E9 /* ModemConfig.swift */,
+				97AC0102DD4A8984DBFAE593 /* ModemAuralMonitor.swift */,
+				1BBDCB08793BD78BB3375B75 /* CWMonitor.swift */,
+				BE1E206621C60679580694D1 /* AuralMonitor.swift */,
+				756202695882BA7312946F9D /* DestClient.swift */,
+				77811A790416626563AB4428 /* RTTYATC.swift */,
+				5F310E5C45E2D4CFC74025CA /* MultiStereoATC.swift */,
+				D3D94A913F8A5F82CCA0AA01 /* ASCIIATC.swift */,
+				E1AD229FF23CEBD18DF5045E /* CMATC.swift */,
+				75ECD40E7B04FF7F0A0B0719 /* PSKDemodulator.swift */,
+				86ACA377A8A74499B22CB7CC /* HellReceiver.swift */,
+				FAB869082BE4BE741F9F543A /* FAXReceiver.swift */,
+				E9EDD2491FA83B0924A80171 /* CMPSKDemodulator.swift */,
+				FACA2B82B4E8493ED8B9EC64 /* CMToneReceiver.swift */,
+				E2C4820D94DD170D82B29961 /* ASCIIDecoder.swift */,
+				03924D37A3C36F730ADBB1E5 /* RTTYBaudotDecoder.swift */,
+				AE2BBBD0639FF2CE28B099E2 /* MorseDecoder.swift */,
+				1A750A589E267A8A5BDD6618 /* CMBaudotDecoder.swift */,
+				A9028142038D39FC9E73E619 /* LitePSKMatchedFilter.swift */,
+				4FB4E63A05506D0DC99E4D36 /* PSKMatchedFilter.swift */,
+				473720A36FBE2B6966F5FFAA /* CMPSKMatchedFilter.swift */,
+				FDAC2EB3B37C6024B9E06F46 /* RTTYSingleFilter.swift */,
+				E61F41EBD800FBB7C5DFF637 /* RTTYMPFilter.swift */,
+				2774B93FEDE46C0BA9DC7067 /* RTTYMatchedFilter.swift */,
+				C1CB3C651F9E0D5BD6F7F36D /* CWMatchedFilter.swift */,
+				E88089EBB73F339A08AE6D91 /* CMFSKMatchedFilter.swift */,
+				26CA603BD303C19D76AE8BB9 /* ASCIIDemodulator.swift */,
+				0548A7B08A8F56802BD7C47D /* CWAuralFilter.swift */,
+				D367E892AF530F2D3F481B36 /* RTTYDemodulator.swift */,
+				EE138B655C2D338EDB45F6B5 /* CWDemodulator.swift */,
+				1845211A2A32B1E55D3F1B58 /* CMFSKDemodulator.swift */,
+				AE3E885BB385F80A812106B7 /* StereoRefATCBuffer.swift */,
+				5313BCF40935619C71C02B4F /* CMATCBuffer.swift */,
+				969EA65227027C6DD1CEDA48 /* VUMeter.swift */,
+				2234A56EE702536E311AB210 /* ModemDistributionBox.swift */,
+				4BE93345636BDDA5308F3A84 /* AIFFSource.swift */,
+				B1F54235B7C124F478E5DF0B /* ChannelSelector.swift */,
+				7B445D0DCB8F274B87FC9835 /* CWMixer.swift */,
+				492D4D4C9F5BED5507B4DD1C /* RTTYMixer.swift */,
+				70E21212291443C77E8F4BC8 /* CMFSKMixer.swift */,
+				FD83685AB88FB66DF07D13E4 /* CMFilterBank.swift */,
+				D33AFEE6FC1E4CB92BFDC64F /* CMLowpassFilter.swift */,
+				3A3AC2BD5AF94C25BC50CAEA /* CMBandpassFilter.swift */,
+				695E3E225B3A9DCF63ACFF77 /* CMFilter.swift */,
+				98E55DF7556F4B38E4A7B2CA /* CMTappedPipe.swift */,
+				1AA019CE25E6D30DDA5FBE1F /* CMPipe.swift */,
 				47403B4A944C624C20DE313F /* MFSKVaricode.swift */,
 				8B24A7C2315518A443F95776 /* CMVaricode.swift */,
 				3B6CD1ED3733DB953FBBCDA7 /* StdManager.swift */,
@@ -1425,10 +1446,6 @@
 		846430381116353700D686D2 /* Lite ASCII */ = {
 			isa = PBXGroup;
 			children = (
-				8464303B1116355100D686D2 /* LiteASCII.h */,
-				8464303C1116355100D686D2 /* LiteASCII.m */,
-				846430451116370200D686D2 /* LiteASCIIControl.h */,
-				846430461116370200D686D2 /* LiteASCIIControl.m */,
 			);
 			path = "Lite ASCII";
 			sourceTree = "<group>";
@@ -1436,18 +1453,6 @@
 		8477C12F111260F1004AC82F /* ASCII */ = {
 			isa = PBXGroup;
 			children = (
-				8477C13211126109004AC82F /* ASCII.h */,
-				8477C13311126109004AC82F /* ASCII.m */,
-				8477C25C1112DCCE004AC82F /* ASCIIATC.h */,
-				8477C25D1112DCCE004AC82F /* ASCIIATC.m */,
-				8477C1C71112B101004AC82F /* ASCIIReceiver.h */,
-				8477C1C81112B101004AC82F /* ASCIIReceiver.m */,
-				8477C1FB1112D567004AC82F /* ASCIIDemodulator.h */,
-				8477C1FC1112D567004AC82F /* ASCIIDemodulator.m */,
-				8477C2151112D8F0004AC82F /* ASCIIDecoder.h */,
-				8477C2161112D8F0004AC82F /* ASCIIDecoder.m */,
-				84C02E0B11142BAB00DB8AA4 /* ASCIITxConfig.h */,
-				84C02E0C11142BAB00DB8AA4 /* ASCIITxConfig.m */,
 			);
 			path = ASCII;
 			sourceTree = "<group>";
@@ -1513,10 +1518,6 @@
 				84876E701076740400B83EDD /* AudioPipes */,
 				84B40485109A70640082E332 /* AudioDeviceTypes.h */,
 				84B4048F109A70BB0082E332 /* AudioInterfaceTypes.h */,
-				842DBF2E109FAF1C0039D90E /* AuralMonitor.h */,
-				842DBF2F109FAF1C0039D90E /* AuralMonitor.m */,
-				84876E2D107673C200B83EDD /* AIFFSource.h */,
-				84876E2E107673C200B83EDD /* AIFFSource.m */,
 				84B40492109A70FD0082E332 /* audioutils.c */,
 				84B40493109A70FD0082E332 /* audioutils.h */,
 			);
@@ -1551,16 +1552,6 @@
 		84876E701076740400B83EDD /* AudioPipes */ = {
 			isa = PBXGroup;
 			children = (
-				842E9F87108D15990016C292 /* ModemAudio.h */,
-				842E9F88108D15990016C292 /* ModemAudio.m */,
-				84876E751076740400B83EDD /* ModemSource.h */,
-				84876E761076740400B83EDD /* ModemSource.m */,
-				84876E731076740400B83EDD /* ModemDest.h */,
-				84876E741076740400B83EDD /* ModemDest.m */,
-				842DBF8410A002FA0039D90E /* PushedStereoDest.h */,
-				842DBF8510A002FA0039D90E /* PushedStereoDest.m */,
-				84876E711076740400B83EDD /* DestClient.h */,
-				84876E721076740400B83EDD /* DestClient.m */,
 			);
 			path = AudioPipes;
 			sourceTree = "<group>";
@@ -1568,16 +1559,6 @@
 		84876E771076740400B83EDD /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				84876E7E1076740400B83EDD /* Modem.h */,
-				84876E7F1076740400B83EDD /* Modem.m */,
-				843769A110AD3C6B0000F62D /* ModemAuralMonitor.h */,
-				843769A210AD3C6B0000F62D /* ModemAuralMonitor.m */,
-				84876E801076740400B83EDD /* ModemConfig.h */,
-				84876E811076740400B83EDD /* ModemConfig.m */,
-				84876E821076740400B83EDD /* ModemDistributionBox.h */,
-				84876E831076740400B83EDD /* ModemDistributionBox.m */,
-				84876E8D1076740400B83EDD /* VUMeter.h */,
-				84876E8E1076740400B83EDD /* VUMeter.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1585,10 +1566,6 @@
 		84876EF61076740400B83EDD /* Dual RTTY */ = {
 			isa = PBXGroup;
 			children = (
-				84876EF71076740400B83EDD /* DualRTTY.h */,
-				84876EF81076740400B83EDD /* DualRTTY.m */,
-				84876EF91076740400B83EDD /* DualRTTYConfig.h */,
-				84876EFA1076740400B83EDD /* DualRTTYConfig.m */,
 			);
 			path = "Dual RTTY";
 			sourceTree = "<group>";
@@ -1603,12 +1580,6 @@
 		84876EFE1076740400B83EDD /* Hellschreiber */ = {
 			isa = PBXGroup;
 			children = (
-				84876EFF1076740400B83EDD /* HellConfig.h */,
-				84876F001076740400B83EDD /* HellConfig.m */,
-				84876F071076740400B83EDD /* HellReceiver.h */,
-				84876F081076740400B83EDD /* HellReceiver.m */,
-				84876F091076740400B83EDD /* Hellschreiber.h */,
-				84876F0A1076740400B83EDD /* Hellschreiber.m */,
 				84876F0B1076740400B83EDD /* HellschreiberFont.c */,
 				84876F0C1076740400B83EDD /* HellschreiberFont.h */,
 			);
@@ -1618,12 +1589,6 @@
 		84876F0F1076740400B83EDD /* HF-FAX */ = {
 			isa = PBXGroup;
 			children = (
-				84876F101076740400B83EDD /* FAX.h */,
-				84876F111076740400B83EDD /* FAX.m */,
-				84876F121076740400B83EDD /* FAXConfig.h */,
-				84876F131076740400B83EDD /* FAXConfig.m */,
-				84876F161076740400B83EDD /* FAXReceiver.h */,
-				84876F171076740400B83EDD /* FAXReceiver.m */,
 			);
 			path = "HF-FAX";
 			sourceTree = "<group>";
@@ -1631,8 +1596,6 @@
 		84876F1C1076740400B83EDD /* Lite PSK */ = {
 			isa = PBXGroup;
 			children = (
-				84876F1D1076740400B83EDD /* LitePSK.h */,
-				84876F1E1076740400B83EDD /* LitePSK.m */,
 			);
 			path = "Lite PSK";
 			sourceTree = "<group>";
@@ -1640,10 +1603,6 @@
 		84876F1F1076740400B83EDD /* Lite RTTY */ = {
 			isa = PBXGroup;
 			children = (
-				84876F201076740400B83EDD /* LiteRTTY.h */,
-				84876F211076740400B83EDD /* LiteRTTY.m */,
-				84876F221076740400B83EDD /* LiteRTTYControl.h */,
-				84876F231076740400B83EDD /* LiteRTTYControl.m */,
 			);
 			path = "Lite RTTY";
 			sourceTree = "<group>";
@@ -1651,8 +1610,6 @@
 		84876F241076740400B83EDD /* Macros */ = {
 			isa = PBXGroup;
 			children = (
-				84876F251076740400B83EDD /* MacroInterface.h */,
-				84876F261076740400B83EDD /* MacroInterface.m */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -1662,15 +1619,9 @@
 			children = (
 				84876F2A1076740400B83EDD /* DominoEX */,
 				84876F3A1076740400B83EDD /* Indicators */,
-				84876F3F1076740400B83EDD /* MFSK.h */,
-				84876F401076740400B83EDD /* MFSK.m */,
 				84876F411076740400B83EDD /* MFSK16 */,
-				84876F481076740400B83EDD /* MFSKConfig.h */,
-				84876F491076740400B83EDD /* MFSKConfig.m */,
 				84876F4C1076740400B83EDD /* MFSKFEC.h */,
 				84876F4F1076740400B83EDD /* MFSKModes.h */,
-				84876F521076740400B83EDD /* MFSKReceiver.h */,
-				84876F531076740400B83EDD /* MFSKReceiver.m */,
 			);
 			path = MFSK;
 			sourceTree = "<group>";
@@ -1678,10 +1629,6 @@
 		84876F2A1076740400B83EDD /* DominoEX */ = {
 			isa = PBXGroup;
 			children = (
-				84876F2F1076740400B83EDD /* DominoHalfRateReceiver.h */,
-				84876F301076740400B83EDD /* DominoHalfRateReceiver.m */,
-				84876F331076740400B83EDD /* DominoReceiver.h */,
-				84876F341076740400B83EDD /* DominoReceiver.m */,
 				84876F351076740400B83EDD /* DominoVaricode.h */,
 			);
 			path = DominoEX;
@@ -1697,8 +1644,6 @@
 		84876F411076740400B83EDD /* MFSK16 */ = {
 			isa = PBXGroup;
 			children = (
-				84876F461076740400B83EDD /* MFSK16Receiver.h */,
-				84876F471076740400B83EDD /* MFSK16Receiver.m */,
 			);
 			path = MFSK16;
 			sourceTree = "<group>";
@@ -1708,14 +1653,6 @@
 			children = (
 				84876F571076740400B83EDD /* Indicators */,
 				84876F801076740500B83EDD /* PSKVer4 */,
-				84876F5C1076740400B83EDD /* PSK.h */,
-				84876F5D1076740400B83EDD /* PSK.m */,
-				84876F5E1076740400B83EDD /* PSKConfig.h */,
-				84876F5F1076740400B83EDD /* PSKConfig.m */,
-				84876F681076740400B83EDD /* PSKReceiver.h */,
-				84876F691076740500B83EDD /* PSKReceiver.m */,
-				84CE76C310ABB343003D0C99 /* PSKAuralMonitor.h */,
-				84CE76C410ABB343003D0C99 /* PSKAuralMonitor.m */,
 			);
 			path = PSK;
 			sourceTree = "<group>";
@@ -1730,12 +1667,6 @@
 		84876F801076740500B83EDD /* PSKVer4 */ = {
 			isa = PBXGroup;
 			children = (
-				84876F851076740500B83EDD /* LitePSKMatchedFilter.h */,
-				84876F861076740500B83EDD /* LitePSKMatchedFilter.m */,
-				84876F8B1076740500B83EDD /* PSKDemodulator.h */,
-				84876F8C1076740500B83EDD /* PSKDemodulator.m */,
-				84876F8F1076740500B83EDD /* PSKMatchedFilter.h */,
-				84876F901076740500B83EDD /* PSKMatchedFilter.m */,
 			);
 			path = PSKVer4;
 			sourceTree = "<group>";
@@ -1746,21 +1677,7 @@
 				84876F9E1076740500B83EDD /* AudioPipes */,
 				84876FA31076740500B83EDD /* Crossed Ellipse */,
 				84876FA81076740500B83EDD /* New Demodulator */,
-				84876FB01076740500B83EDD /* RTTY.h */,
-				84876FB11076740500B83EDD /* RTTY.m */,
 				84876FC21076740500B83EDD /* RTTYTypes.h */,
-				84CE742510AAF891003D0C99 /* RTTYAuralMonitor.h */,
-				84CE742610AAF891003D0C99 /* RTTYAuralMonitor.m */,
-				84876FB21076740500B83EDD /* RTTYConfig.h */,
-				84876FB31076740500B83EDD /* RTTYConfig.m */,
-				84876FB41076740500B83EDD /* RTTYInterface.h */,
-				84876FB51076740500B83EDD /* RTTYInterface.m */,
-				84876FBC1076740500B83EDD /* RTTYReceiver.h */,
-				84876FBD1076740500B83EDD /* RTTYReceiver.m */,
-				84876FBE1076740500B83EDD /* RTTYRxControl.h */,
-				84876FBF1076740500B83EDD /* RTTYRxControl.m */,
-				84876FC01076740500B83EDD /* RTTYTxConfig.h */,
-				84876FC11076740500B83EDD /* RTTYTxConfig.m */,
 			);
 			path = RTTY;
 			sourceTree = "<group>";
@@ -1768,14 +1685,6 @@
 		84876F9E1076740500B83EDD /* AudioPipes */ = {
 			isa = PBXGroup;
 			children = (
-				84AB93A310A793FF00A26242 /* RTTYMixer.h */,
-				84AB93A410A793FF00A26242 /* RTTYMixer.m */,
-				84AB92BE10A7630700A26242 /* RTTYMatchedFilter.h */,
-				84AB92BF10A7630700A26242 /* RTTYMatchedFilter.m */,
-				84876F9F1076740500B83EDD /* RTTYMPFilter.h */,
-				84876FA01076740500B83EDD /* RTTYMPFilter.m */,
-				84876FA11076740500B83EDD /* RTTYSingleFilter.h */,
-				84876FA21076740500B83EDD /* RTTYSingleFilter.m */,
 			);
 			path = AudioPipes;
 			sourceTree = "<group>";
@@ -1791,12 +1700,6 @@
 			isa = PBXGroup;
 			children = (
 				84876FA91076740500B83EDD /* Baudot.h */,
-				84876FAA1076740500B83EDD /* RTTYATC.h */,
-				84876FAB1076740500B83EDD /* RTTYATC.m */,
-				84876FAC1076740500B83EDD /* RTTYBaudotDecoder.h */,
-				84876FAD1076740500B83EDD /* RTTYBaudotDecoder.m */,
-				84876FAE1076740500B83EDD /* RTTYDemodulator.h */,
-				84876FAF1076740500B83EDD /* RTTYDemodulator.m */,
 			);
 			path = "New Demodulator";
 			sourceTree = "<group>";
@@ -1805,14 +1708,6 @@
 			isa = PBXGroup;
 			children = (
 				84876FC41076740500B83EDD /* Moore.h */,
-				84876FC71076740500B83EDD /* SITOR.h */,
-				84876FC81076740500B83EDD /* SITOR.m */,
-				84876FCB1076740500B83EDD /* SITORConfig.h */,
-				84876FCC1076740500B83EDD /* SITORConfig.m */,
-				84876FCF1076740500B83EDD /* SITORReceiver.h */,
-				84876FD01076740500B83EDD /* SITORReceiver.m */,
-				84876FD11076740500B83EDD /* SITORRxControl.h */,
-				84876FD21076740500B83EDD /* SITORRxControl.m */,
 			);
 			path = "SITOR-B";
 			sourceTree = "<group>";
@@ -1827,28 +1722,6 @@
 		84876FE21076740500B83EDD /* WB CW */ = {
 			isa = PBXGroup;
 			children = (
-				84876FE31076740500B83EDD /* CWAuralFilter.h */,
-				84876FE41076740500B83EDD /* CWAuralFilter.m */,
-				84876FF11076740500B83EDD /* CWMonitor.h */,
-				84876FF21076740500B83EDD /* CWMonitor.m */,
-				84876FE51076740500B83EDD /* CWConfig.h */,
-				84876FE61076740500B83EDD /* CWConfig.m */,
-				84876FE71076740500B83EDD /* CWDemodulator.h */,
-				84876FE81076740500B83EDD /* CWDemodulator.m */,
-				84876FEB1076740500B83EDD /* CWMatchedFilter.h */,
-				84876FEC1076740500B83EDD /* CWMatchedFilter.m */,
-				84876FED1076740500B83EDD /* CWMixer.h */,
-				84876FEE1076740500B83EDD /* CWMixer.m */,
-				84876FF51076740500B83EDD /* CWReceiver.h */,
-				84876FF61076740500B83EDD /* CWReceiver.m */,
-				84876FF71076740500B83EDD /* CWRxControl.h */,
-				84876FF81076740500B83EDD /* CWRxControl.m */,
-				84876FFD1076740500B83EDD /* CWTxConfig.h */,
-				84876FFE1076740500B83EDD /* CWTxConfig.m */,
-				848770011076740500B83EDD /* MorseDecoder.h */,
-				848770021076740500B83EDD /* MorseDecoder.m */,
-				848770031076740500B83EDD /* WBCW.h */,
-				848770041076740500B83EDD /* WBCW.m */,
 			);
 			path = "WB CW";
 			sourceTree = "<group>";
@@ -1856,10 +1729,6 @@
 		848770051076740500B83EDD /* WF RTTY */ = {
 			isa = PBXGroup;
 			children = (
-				848770061076740500B83EDD /* WFRTTY.h */,
-				848770071076740500B83EDD /* WFRTTY.m */,
-				848770081076740500B83EDD /* WFRTTYConfig.h */,
-				848770091076740500B83EDD /* WFRTTYConfig.m */,
 			);
 			path = "WF RTTY";
 			sourceTree = "<group>";
@@ -1913,8 +1782,6 @@
 			isa = PBXGroup;
 			children = (
 				848770E6107674DA00B83EDD /* Contest Interfaces */,
-				84877106107674DA00B83EDD /* ContestInterface.h */,
-				84877107107674DA00B83EDD /* ContestInterface.m */,
 			);
 			path = Contest;
 			sourceTree = "<group>";
@@ -1962,10 +1829,6 @@
 		848771441076789F00B83EDD /* Filters */ = {
 			isa = PBXGroup;
 			children = (
-				848771451076789F00B83EDD /* CMFilterBank.h */,
-				848771461076789F00B83EDD /* CMFilterBank.m */,
-				8487714B1076789F00B83EDD /* CMToneReceiver.h */,
-				8487714C1076789F00B83EDD /* CMToneReceiver.m */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -1973,10 +1836,6 @@
 		8487714D1076789F00B83EDD /* PSK */ = {
 			isa = PBXGroup;
 			children = (
-				8487714E1076789F00B83EDD /* CMPSKDemodulator.h */,
-				8487714F1076789F00B83EDD /* CMPSKDemodulator.m */,
-				848771501076789F00B83EDD /* CMPSKMatchedFilter.h */,
-				848771511076789F00B83EDD /* CMPSKMatchedFilter.m */,
 				848771521076789F00B83EDD /* CMPSKModes.h */,
 			);
 			path = PSK;
@@ -1985,20 +1844,8 @@
 		848771571076789F00B83EDD /* FSK */ = {
 			isa = PBXGroup;
 			children = (
-				84877587107859FD00B83EDD /* CMATC.h */,
-				848771591076789F00B83EDD /* CMATC.m */,
-				8487715A1076789F00B83EDD /* CMATCBuffer.h */,
-				8487715B1076789F00B83EDD /* CMATCBuffer.m */,
 				8487715C1076789F00B83EDD /* CMATCTypes.h */,
 				8487715D1076789F00B83EDD /* CMBaudot.h */,
-				8487715E1076789F00B83EDD /* CMBaudotDecoder.h */,
-				8487715F1076789F00B83EDD /* CMBaudotDecoder.m */,
-				848771601076789F00B83EDD /* CMFSKMixer.h */,
-				848771611076789F00B83EDD /* CMFSKMixer.m */,
-				84CE741610AAF515003D0C99 /* CMFSKDemodulator.h */,
-				84CE741710AAF515003D0C99 /* CMFSKDemodulator.m */,
-				84CE741B10AAF6A3003D0C99 /* CMFSKMatchedFilter.h */,
-				84CE741C10AAF6A3003D0C99 /* CMFSKMatchedFilter.m */,
 				84CE747710AB4705003D0C99 /* CMFSKTypes.h */,
 			);
 			path = FSK;
@@ -2045,22 +1892,16 @@
 		848771D310767F4400B83EDD /* Filters */ = {
 			isa = PBXGroup;
 			children = (
-				848771D410767F4400B83EDD /* CMBandpassFilter.h */,
-				848771D510767F4400B83EDD /* CMBandpassFilter.m */,
 				848771D610767F4400B83EDD /* CMComplexFIR.c */,
 				848771D710767F4400B83EDD /* CMComplexFIR.h */,
 				848771D810767F4400B83EDD /* CMDSPWindow.c */,
 				848771D910767F4400B83EDD /* CMDSPWindow.h */,
 				848771DA10767F4400B83EDD /* CMFFT.c */,
 				848771DB10767F4400B83EDD /* CMFFT.h */,
-				848771DC10767F4400B83EDD /* CMFilter.h */,
-				848771DD10767F4400B83EDD /* CMFilter.m */,
 				848771DE10767F4400B83EDD /* CMFIR.c */,
 				848771DF10767F4400B83EDD /* CMFIR.h */,
 				848771E010767F4400B83EDD /* CMIIR.c */,
 				848771E110767F4400B83EDD /* CMIIR.h */,
-				848771E210767F4400B83EDD /* CMLowpassFilter.h */,
-				848771E310767F4400B83EDD /* CMLowpassFilter.m */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -2068,10 +1909,6 @@
 		848771E410767F4400B83EDD /* Pipes */ = {
 			isa = PBXGroup;
 			children = (
-				848771E510767F4400B83EDD /* CMPipe.h */,
-				848771E610767F4400B83EDD /* CMPipe.m */,
-				848771E710767F4400B83EDD /* CMTappedPipe.h */,
-				848771E810767F4400B83EDD /* CMTappedPipe.m */,
 			);
 			path = Pipes;
 			sourceTree = "<group>";
@@ -2291,6 +2128,105 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3AA8EFAFDEA8A8CC471506 /* LiteASCII.swift in Sources */,
+				CC6F2E6193CB4BFB89A803A3 /* WBCW.swift in Sources */,
+				58E238C27906B3D990FCF7A4 /* SITOR.swift in Sources */,
+				22ADCD6C562C690B3CDEAC3D /* LiteRTTY.swift in Sources */,
+				0ED321CBEF777EABAD4BDB61 /* ASCII.swift in Sources */,
+				E14A27C93C8FF33E00D07D22 /* WFRTTY.swift in Sources */,
+				2B763FC17DE790D5FF862596 /* RTTY.swift in Sources */,
+				E7B34CDF20535EE674152E8E /* DualRTTY.swift in Sources */,
+				E05703BCDCF83609D9A71F26 /* LitePSK.swift in Sources */,
+				D1BFFCD96C6AA7022D884AFA /* RTTYInterface.swift in Sources */,
+				5A77DECA95D1B3D87648B55E /* PSK.swift in Sources */,
+				469EEB4C4F865CF99E26A6E1 /* MFSK.swift in Sources */,
+				5489EF68933837691D7E9669 /* Hellschreiber.swift in Sources */,
+				BFAB34217189F29B7F1EFB2B /* ContestInterface.swift in Sources */,
+				ACC5C6B4B7B331E5C7DB39F3 /* MacroInterface.swift in Sources */,
+				0D31F02A4EA79329221B679B /* FAX.swift in Sources */,
+				D7FC056C1C6980BC0E8CBAAA /* Analyze.swift in Sources */,
+				E3A860BD67775AEF0BECDAB9 /* Modem.swift in Sources */,
+				CED49D5AF38660F5BA0F54AA /* PushedStereoDest.swift in Sources */,
+				746253CBEFD0E774595C9DB9 /* ModemSource.swift in Sources */,
+				904DDB5A410E0BCC7BBFE46A /* ModemDest.swift in Sources */,
+				BE82C221C27448532DA66CE0 /* ModemAudio.swift in Sources */,
+				7622023050BC2D81EDC9B636 /* PSKReceiver.swift in Sources */,
+				D7F6FC66FBD21765BA9CFD81 /* SITORRxControl.swift in Sources */,
+				C6744CCDF10BEFE989CD2D7C /* RTTYStereoRxControl.swift in Sources */,
+				60E4929D5AAC0A61E3D765B8 /* LiteRTTYControl.swift in Sources */,
+				E1F7DACA56EB19B338CBF248 /* LiteASCIIControl.swift in Sources */,
+				86ACCC47AE55DB52BC6FC77C /* CWRxControl.swift in Sources */,
+				8826A8E64CE7AB587696CEAA /* RTTYRxControl.swift in Sources */,
+				559467D7AA7608DBD838E1F9 /* DominoHalfRateReceiver.swift in Sources */,
+				18F0D570C71211CF7FA43761 /* MFSK16Receiver.swift in Sources */,
+				703928F2389662B5D4BC8687 /* DominoReceiver.swift in Sources */,
+				22CDCEC4A005479FB38E3B9F /* MFSKReceiver.swift in Sources */,
+				516B2774A360A8B3EF9FCF09 /* SITORReceiver.swift in Sources */,
+				BE806633F0C98D61BBD1796B /* RTTYStereoReceiver.swift in Sources */,
+				C442F0D395130591D3ACE6CB /* CWReceiver.swift in Sources */,
+				006E5CC041574DF2B6E28019 /* ASCIIReceiver.swift in Sources */,
+				EF5B6D8BE7BE57C4C81F78B5 /* RTTYReceiver.swift in Sources */,
+				77B18159ED78133CD038CF63 /* SITORConfig.swift in Sources */,
+				ADDD068401D363270F4ACD32 /* CWConfig.swift in Sources */,
+				0B129D2F554146C3F4A1A358 /* CWTxConfig.swift in Sources */,
+				A46ED230E578EFFA870E0975 /* ASCIITxConfig.swift in Sources */,
+				E07C93DF99021A1389F94422 /* WFRTTYConfig.swift in Sources */,
+				48BA1418FC3E73FEC56EE450 /* DualRTTYConfig.swift in Sources */,
+				B8E8CEFB2974571380805591 /* AnalyzeConfig.swift in Sources */,
+				D3CD286E96F9DD71DD52B80C /* RTTYTxConfig.swift in Sources */,
+				4DD4B854850007E47E8E134D /* RTTYConfig.swift in Sources */,
+				C9EDAC0F64D76345D82BC5F8 /* PSKConfig.swift in Sources */,
+				025AE7E62CD718B46AF605FC /* MFSKConfig.swift in Sources */,
+				11DFBE853B32411A1E57AC16 /* HellConfig.swift in Sources */,
+				FD76D13E1F76C1100843B5E0 /* FAXConfig.swift in Sources */,
+				82ED72144ECA9C42D8F11917 /* RTTYAuralMonitor.swift in Sources */,
+				7FF710AE4D3E8C1C822C6B13 /* PSKAuralMonitor.swift in Sources */,
+				914F1D551F3CF8BFCDB72147 /* ModemConfig.swift in Sources */,
+				4AE15C0E631C871E0174BE5A /* ModemAuralMonitor.swift in Sources */,
+				F2866EE835C143DA2AC22B56 /* CWMonitor.swift in Sources */,
+				5BAC68F2386A35D8981B5A70 /* AuralMonitor.swift in Sources */,
+				4AC123D53DC43065DA586521 /* DestClient.swift in Sources */,
+				1CAE0C8BBC1DCCD495342BE3 /* RTTYATC.swift in Sources */,
+				064ED0C8ADEA513B47CC17C1 /* MultiStereoATC.swift in Sources */,
+				8758FF6F4CBD9704F2730C30 /* ASCIIATC.swift in Sources */,
+				4B1D46A79CFDBE0F43135BBE /* CMATC.swift in Sources */,
+				8446F3DC0C6C80C49786105F /* PSKDemodulator.swift in Sources */,
+				DC3CA21E1CFC68192BC0C387 /* HellReceiver.swift in Sources */,
+				C5FCD89FA1F2B047273103D6 /* FAXReceiver.swift in Sources */,
+				435B79BE5979A55A0378382B /* CMPSKDemodulator.swift in Sources */,
+				AE46E2B925B12F8A55409D6A /* CMToneReceiver.swift in Sources */,
+				220258B376EF6448A270E5E2 /* ASCIIDecoder.swift in Sources */,
+				4E068B0503F6F8198A7022FD /* RTTYBaudotDecoder.swift in Sources */,
+				278B1A854AC9AAE9297D8D35 /* MorseDecoder.swift in Sources */,
+				B6B04D52DD27E31DEEF82038 /* CMBaudotDecoder.swift in Sources */,
+				D7248E4ECC18762589F69343 /* LitePSKMatchedFilter.swift in Sources */,
+				01582205C1FD64F73E6C3FBC /* PSKMatchedFilter.swift in Sources */,
+				7249C2CF37C57DA7ABD01505 /* CMPSKMatchedFilter.swift in Sources */,
+				7AF6D2C3E7EC467B09A78021 /* RTTYSingleFilter.swift in Sources */,
+				110443B5046AA24D3B1C3012 /* RTTYMPFilter.swift in Sources */,
+				31499DDD5AEF4744B83EB6C5 /* RTTYMatchedFilter.swift in Sources */,
+				AE77B54805ED2E1D0BA550B0 /* CWMatchedFilter.swift in Sources */,
+				54ABA56AF6C46AF3DFCC53CD /* CMFSKMatchedFilter.swift in Sources */,
+				5BD0250EAFB4B5FCB9EDBB1F /* ASCIIDemodulator.swift in Sources */,
+				F8EFE109ACAFD17AE35A5EB2 /* CWAuralFilter.swift in Sources */,
+				BF05D2BBF5A69B6A37BB9F78 /* RTTYDemodulator.swift in Sources */,
+				07614329FDB04980F5CB7696 /* CWDemodulator.swift in Sources */,
+				F9E73D5537F16C9DCBC77ECB /* CMFSKDemodulator.swift in Sources */,
+				ECEF82A90A37D439EA3DA523 /* StereoRefATCBuffer.swift in Sources */,
+				C42ED58EA651E2DA0E02ACB4 /* CMATCBuffer.swift in Sources */,
+				BB5D1D63AD61B7F818B32EF7 /* VUMeter.swift in Sources */,
+				B9FF7EDC8848D130AE2EAEEA /* ModemDistributionBox.swift in Sources */,
+				B267D699768B683B7D13EEF2 /* AIFFSource.swift in Sources */,
+				049BE195B577EC5CEEE48221 /* ChannelSelector.swift in Sources */,
+				0959ED0363D5A25CD9367635 /* CWMixer.swift in Sources */,
+				C715B73B681E9F83EFCBAAF0 /* RTTYMixer.swift in Sources */,
+				D5068D17E99BF0FBFBA873EC /* CMFSKMixer.swift in Sources */,
+				8A8D07CF5AA317BD645CB731 /* CMFilterBank.swift in Sources */,
+				7188B6C2C374238A3A3A25A3 /* CMLowpassFilter.swift in Sources */,
+				786EBC8DBE098EC5AE976BDF /* CMBandpassFilter.swift in Sources */,
+				EC142D798C8066B9A34887D6 /* CMFilter.swift in Sources */,
+				B32D9C6AFB0D406FDCB3CB00 /* CMTappedPipe.swift in Sources */,
+				43DB85E4993AFDEB54046F33 /* CMPipe.swift in Sources */,
 				8898824959F6CF9C4017E5D3 /* MFSKVaricode.swift in Sources */,
 				CD8EB0C8601A4FCC7FD5DD7E /* CMVaricode.swift in Sources */,
 				BCE29DD1AC803E322E25CB23 /* StdManager.swift in Sources */,
@@ -2454,110 +2390,18 @@
 				8407326E09077551006DA88B /* main.m in Sources */,
 				84D7F3800B7C219500CF3D0D /* NoiseUtils.c in Sources */,
 				848765BA1074078700B83EDD /* memory.c in Sources */,
-				84876E4E107673C200B83EDD /* AIFFSource.m in Sources */,
-				848770141076740500B83EDD /* DestClient.m in Sources */,
-				848770151076740500B83EDD /* ModemDest.m in Sources */,
-				848770161076740500B83EDD /* ModemSource.m in Sources */,
-				8487701A1076740500B83EDD /* Modem.m in Sources */,
-				8487701B1076740500B83EDD /* ModemConfig.m in Sources */,
-				8487701C1076740500B83EDD /* ModemDistributionBox.m in Sources */,
-				848770221076740500B83EDD /* VUMeter.m in Sources */,
-				848770501076740500B83EDD /* DualRTTY.m in Sources */,
-				848770511076740500B83EDD /* DualRTTYConfig.m in Sources */,
-				848770531076740500B83EDD /* HellConfig.m in Sources */,
-				848770571076740500B83EDD /* HellReceiver.m in Sources */,
-				848770581076740500B83EDD /* Hellschreiber.m in Sources */,
 				848770591076740500B83EDD /* HellschreiberFont.c in Sources */,
-				8487705B1076740500B83EDD /* FAX.m in Sources */,
-				8487705C1076740500B83EDD /* FAXConfig.m in Sources */,
-				8487705E1076740500B83EDD /* FAXReceiver.m in Sources */,
-				848770611076740500B83EDD /* LitePSK.m in Sources */,
-				848770621076740500B83EDD /* LiteRTTY.m in Sources */,
-				848770631076740500B83EDD /* LiteRTTYControl.m in Sources */,
-				848770641076740500B83EDD /* MacroInterface.m in Sources */,
-				848770681076740500B83EDD /* DominoHalfRateReceiver.m in Sources */,
-				8487706A1076740500B83EDD /* DominoReceiver.m in Sources */,
-				8487706F1076740500B83EDD /* MFSK.m in Sources */,
-				848770721076740500B83EDD /* MFSK16Receiver.m in Sources */,
-				848770731076740500B83EDD /* MFSKConfig.m in Sources */,
-				848770771076740500B83EDD /* MFSKReceiver.m in Sources */,
-				8487707B1076740500B83EDD /* PSK.m in Sources */,
-				8487707C1076740500B83EDD /* PSKConfig.m in Sources */,
-				848770811076740500B83EDD /* PSKReceiver.m in Sources */,
-				8487708E1076740500B83EDD /* LitePSKMatchedFilter.m in Sources */,
-				848770911076740500B83EDD /* PSKDemodulator.m in Sources */,
-				848770931076740500B83EDD /* PSKMatchedFilter.m in Sources */,
-				848770991076740500B83EDD /* RTTYMPFilter.m in Sources */,
-				8487709A1076740500B83EDD /* RTTYSingleFilter.m in Sources */,
-				8487709D1076740500B83EDD /* RTTYATC.m in Sources */,
-				8487709E1076740500B83EDD /* RTTYBaudotDecoder.m in Sources */,
-				8487709F1076740500B83EDD /* RTTYDemodulator.m in Sources */,
-				848770A01076740500B83EDD /* RTTY.m in Sources */,
-				848770A11076740500B83EDD /* RTTYConfig.m in Sources */,
-				848770A21076740500B83EDD /* RTTYInterface.m in Sources */,
-				848770A61076740500B83EDD /* RTTYReceiver.m in Sources */,
-				848770A71076740500B83EDD /* RTTYRxControl.m in Sources */,
-				848770A81076740500B83EDD /* RTTYTxConfig.m in Sources */,
-				848770AA1076740500B83EDD /* SITOR.m in Sources */,
-				848770AC1076740500B83EDD /* SITORConfig.m in Sources */,
-				848770AE1076740500B83EDD /* SITORReceiver.m in Sources */,
-				848770AF1076740500B83EDD /* SITORRxControl.m in Sources */,
-				848770B61076740500B83EDD /* CWAuralFilter.m in Sources */,
-				848770B71076740500B83EDD /* CWConfig.m in Sources */,
-				848770B81076740500B83EDD /* CWDemodulator.m in Sources */,
-				848770BA1076740500B83EDD /* CWMatchedFilter.m in Sources */,
-				848770BB1076740500B83EDD /* CWMixer.m in Sources */,
-				848770BD1076740500B83EDD /* CWMonitor.m in Sources */,
-				848770BF1076740500B83EDD /* CWReceiver.m in Sources */,
-				848770C01076740500B83EDD /* CWRxControl.m in Sources */,
-				848770C31076740500B83EDD /* CWTxConfig.m in Sources */,
-				848770C51076740500B83EDD /* MorseDecoder.m in Sources */,
-				848770C61076740500B83EDD /* WBCW.m in Sources */,
-				848770C71076740500B83EDD /* WFRTTY.m in Sources */,
-				848770C81076740500B83EDD /* WFRTTYConfig.m in Sources */,
 				848770DD107674A900B83EDD /* ContestManager.m in Sources */,
-				8487712D107674DA00B83EDD /* ContestInterface.m in Sources */,
 				848771681076789F00B83EDD /* CoreModem.m in Sources */,
-				848771691076789F00B83EDD /* CMFilterBank.m in Sources */,
-				8487716C1076789F00B83EDD /* CMToneReceiver.m in Sources */,
-				8487716D1076789F00B83EDD /* CMPSKDemodulator.m in Sources */,
-				8487716E1076789F00B83EDD /* CMPSKMatchedFilter.m in Sources */,
-				848771711076789F00B83EDD /* CMATC.m in Sources */,
-				848771721076789F00B83EDD /* CMATCBuffer.m in Sources */,
-				848771731076789F00B83EDD /* CMBaudotDecoder.m in Sources */,
-				848771741076789F00B83EDD /* CMFSKMixer.m in Sources */,
-				848771F210767F4400B83EDD /* CMBandpassFilter.m in Sources */,
 				848771F310767F4400B83EDD /* CMComplexFIR.c in Sources */,
 				848771F410767F4400B83EDD /* CMDSPWindow.c in Sources */,
 				848771F510767F4400B83EDD /* CMFFT.c in Sources */,
-				848771F610767F4400B83EDD /* CMFilter.m in Sources */,
 				848771F710767F4400B83EDD /* CMFIR.c in Sources */,
 				848771F810767F4400B83EDD /* CMIIR.c in Sources */,
-				848771F910767F4400B83EDD /* CMLowpassFilter.m in Sources */,
-				848771FA10767F4400B83EDD /* CMPipe.m in Sources */,
-				848771FB10767F4400B83EDD /* CMTappedPipe.m in Sources */,
 				848771FC10767F4400B83EDD /* Boxcar.c in Sources */,
 				848771FD10767F4400B83EDD /* Clears.c in Sources */,
 				848771FE10767F4400B83EDD /* hadamard.c in Sources */,
-				842E9F89108D15990016C292 /* ModemAudio.m in Sources */,
 				84B40494109A70FD0082E332 /* audioutils.c in Sources */,
-				842DBF30109FAF1C0039D90E /* AuralMonitor.m in Sources */,
-				842DBF8610A002FA0039D90E /* PushedStereoDest.m in Sources */,
-				84AB92C010A7630700A26242 /* RTTYMatchedFilter.m in Sources */,
-				84AB93A510A793FF00A26242 /* RTTYMixer.m in Sources */,
-				84CE741810AAF515003D0C99 /* CMFSKDemodulator.m in Sources */,
-				84CE741D10AAF6A3003D0C99 /* CMFSKMatchedFilter.m in Sources */,
-				84CE742710AAF891003D0C99 /* RTTYAuralMonitor.m in Sources */,
-				84CE76C510ABB343003D0C99 /* PSKAuralMonitor.m in Sources */,
-				843769A310AD3C6B0000F62D /* ModemAuralMonitor.m in Sources */,
-				8477C13411126109004AC82F /* ASCII.m in Sources */,
-				8477C1C91112B101004AC82F /* ASCIIReceiver.m in Sources */,
-				8477C1FD1112D567004AC82F /* ASCIIDemodulator.m in Sources */,
-				8477C2171112D8F0004AC82F /* ASCIIDecoder.m in Sources */,
-				8477C25E1112DCCE004AC82F /* ASCIIATC.m in Sources */,
-				84C02E0D11142BAB00DB8AA4 /* ASCIITxConfig.m in Sources */,
-				8464303D1116355100D686D2 /* LiteASCII.m in Sources */,
-				846430471116370200D686D2 /* LiteASCIIControl.m in Sources */,
 				84F77F1C12E4A3AB00852473 /* KeyerInterface.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

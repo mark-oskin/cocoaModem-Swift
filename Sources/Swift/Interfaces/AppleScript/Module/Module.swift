@@ -61,7 +61,7 @@ class Module: NSObject {
 
 	@objc func frequency() -> Float
 	{
-		return modem.frequency( for: self )
+		return modem.frequencyFor( self )
 	}
 
 	@objc(setFrequency:)
@@ -78,7 +78,7 @@ class Module: NSObject {
 
 	@objc func mark() -> Float
 	{
-		return modem.mark( for: self )
+		return modem.markFor( self )
 	}
 
 	@objc(setMark:)
@@ -89,7 +89,7 @@ class Module: NSObject {
 
 	@objc func space() -> Float
 	{
-		return modem.space( for: self )
+		return modem.spaceFor( self )
 	}
 
 	@objc(setSpace:)
@@ -100,7 +100,7 @@ class Module: NSObject {
 
 	@objc func baud() -> Float
 	{
-		return modem.baud( for: self )
+		return modem.baudFor( self )
 	}
 
 	@objc(setBaud:)
@@ -111,7 +111,7 @@ class Module: NSObject {
 
 	@objc func invert() -> Bool
 	{
-		return modem.invert( for: self )
+		return modem.invertFor( self )
 	}
 
 	@objc(setInvert:)
@@ -122,7 +122,7 @@ class Module: NSObject {
 
 	@objc func breakin() -> Bool
 	{
-		return modem.breakin( for: self )
+		return modem.breakinFor( self )
 	}
 
 	@objc(setBreakin:)

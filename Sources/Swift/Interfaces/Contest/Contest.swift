@@ -170,22 +170,6 @@ private func makeDateTime(_ dt: inout DateTime, _ timet: time_t) {
     dt.year = UInt8(truncatingIfNeeded: (Int(t.tm_year) + 1900) % 100)
 }
 
-//  Informal access to the ContestManager methods used by the Contest tree,
-//  resolved through dynamic dispatch.  This keeps ContestManager.h out of the
-//  bridging header (mirrors CabrilloManager in Cabrillo.swift).
-@objc protocol ContestManagerRef {
-    func selectedContestInterface() -> ContestInterface?
-    func allowDupe() -> Bool
-    @objc(displayInfo:) func displayInfo(_ info: UnsafeMutablePointer<CChar>?)
-    @objc(setDirty:) func setDirty(_ state: Bool)
-    @objc(newQSOCreated:) func newQSOCreated(_ q: UnsafeMutablePointer<ContestQSO>)
-    @objc(saveMacrosToXML:) func saveMacros(toXML file: UnsafeMutablePointer<FILE>?)
-    @objc(saveCabrilloToXML:) func saveCabrillo(toXML file: UnsafeMutablePointer<FILE>?)
-    func userInfoObject() -> UserInfo?
-    @objc(expandMacroInUserAndQSOInfo:) func expandMacroInUserAndQSOInfo(_ macro: UnsafePointer<CChar>?) -> String?
-    @objc(executeContestMacro:sheet:modem:) func executeContestMacro(_ n: Int32, sheet: Int32, modem: ContestInterface?) -> Bool
-}
-
 @objc(Contest)
 class Contest: StripPhi, XMLParserDelegate {
 
@@ -226,7 +210,7 @@ class Contest: StripPhi, XMLParserDelegate {
     var savedCallsign: String = ""
     var savedExchange: String = ""
 
-    var manager: ContestManagerRef!
+    var manager: ContestManager!
     var master: Contest?
     var activeSubordinate: Contest?
 
@@ -351,7 +335,7 @@ class Contest: StripPhi, XMLParserDelegate {
     convenience init?(intoBox box: NSBox?, contestName name: String, prototype: String, modem inClient: ContestInterface?, master inMaster: Contest?, manager mgr: Any?) {
         self.init()
         client = inClient
-        manager = mgr as? ContestManagerRef
+        manager = mgr as? ContestManager
         master = inMaster
         parser = nil
         subordinates = 0
@@ -392,7 +376,7 @@ class Contest: StripPhi, XMLParserDelegate {
         self.init(intoBox: nil, contestName: name, prototype: prototype, modem: nil, master: nil, manager: inManager)
 
         importedFrequency = 14.080
-        manager = inManager as? ContestManagerRef
+        manager = inManager as? ContestManager
         parser = inParser
         prepareForParsing()
         if let parser = inParser {

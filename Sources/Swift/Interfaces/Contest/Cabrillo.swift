@@ -25,14 +25,6 @@ private let kCabrilloAddr2 = "Cabrillo Addr2"
 private let kCabrilloAddr3 = "Cabrillo Addr3"
 private let kCabrilloMail = "Cabrillo Mail"
 
-//  informal access to the few ContestManager methods used here, resolved
-//  through dynamic dispatch (keeps ContestManager.h out of the bridging header).
-@objc private protocol CabrilloManager {
-    func journalChanged()
-    @objc(setAllowDupe:) func setAllowDupe(_ state: DarwinBoolean)
-    func contestObject() -> AnyObject?
-}
-
 @objc(Cabrillo)
 class Cabrillo: NSWindow, NSTextFieldDelegate {
 
@@ -63,14 +55,14 @@ class Cabrillo: NSWindow, NSTextFieldDelegate {
     @objc var logExtension: NSTextField!
 
     private var controllingWindow: NSWindow?
-    private var manager: CabrilloManager?
+    private var manager: ContestManager?
     private var journalFile: UnsafeMutablePointer<FILE>?
     private var journalName: String?
 
     @objc(initWithManager:)
     convenience init(manager inManager: Any?) {
         self.init(contentRect: .zero, styleMask: [], backing: .buffered, defer: false)
-        manager = inManager as? CabrilloManager
+        manager = inManager as? ContestManager
         journalFile = nil
         journalName = nil
         if Bundle.main.loadNibNamed("Cabrillo", owner: self, topLevelObjects: nil), let v = view {
@@ -155,7 +147,7 @@ class Cabrillo: NSWindow, NSTextFieldDelegate {
         NotificationCenter.default.post(name: NSNotification.Name("MyCall"), object: nil)
         if let manager = manager {
             manager.journalChanged()
-            manager.setAllowDupe(DarwinBoolean(allowDupe.state == .on))
+            manager.setAllowDupe(allowDupe.state == .on)
         }
     }
 
@@ -288,7 +280,7 @@ class Cabrillo: NSWindow, NSTextFieldDelegate {
 
         let dupeButton = pref.intValue(forKey: kContestAllowDupe)
         allowDupe.state = (dupeButton == 0) ? .off : .on
-        manager?.setAllowDupe(DarwinBoolean(dupeButton != 0))
+        manager?.setAllowDupe(dupeButton != 0)
 
         setField(fromPref: nameField, pref, kCabrilloName)
         setField(fromPref: addr1Field, pref, kCabrilloAddr1)

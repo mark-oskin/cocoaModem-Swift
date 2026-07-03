@@ -20,10 +20,8 @@ import Cocoa
 
 private let kCMPi: Double = 3.141592653589793
 
-//  modeMenu tags (were #defines in Hellschreiber.h)
-private let HELLFELD: Int32 = 0
-private let HELLFM245: Int32 = 1
-private let HELLFM105: Int32 = 2
+//  modeMenu tags HELLFELD/HELLFM245/HELLFM105 are module-scope constants
+//  declared in Hellschreiber.swift.
 
 //  offset of HellschreiberFontHeader.index within the struct
 //  (short version; short size; char name[32]; short index[128]; uchar* fontData)

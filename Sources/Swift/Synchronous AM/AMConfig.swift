@@ -45,7 +45,7 @@ private let LEFTCHANNEL: Int32 = 0
 }
 
 @objc(AMConfig)
-class AMConfig: ModemConfig, NSWindowDelegate {
+class AMConfig: ModemConfig {
 
     //  sound interface
     private var outputRunning = false
@@ -250,7 +250,8 @@ class AMConfig: ModemConfig, NSWindowDelegate {
 
     //  ------------------------ Delegates -----------------------
     //  delegate for Config panel
-    @objc func windowShouldClose(_ sender: NSWindow) -> Bool {
+    //  (override: base ModemConfig, now Swift, also implements NSWindowDelegate.windowShouldClose:)
+    @objc override func windowShouldClose(_ sender: NSWindow) -> Bool {
         configOpenFlag = false
         updateInputSamplingState()
 

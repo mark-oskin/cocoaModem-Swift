@@ -9,7 +9,7 @@
 //  header is in the bridging header).
 //
 //  Note on inherited state: Swift cannot read an Objective-C superclass's
-//  @protected instance variables (demodulator, encoding, cr, lf, usos, bell).
+//  @protected instance variables (demodulator, mooreEncoding, cr, lf, usos, bell).
 //  MooreDecoder fully manages its own copies of that state and overrides every
 //  base setter (initWithDemodulator:, setLTRS, setUSOS:, setBell:) plus
 //  importData: so the base copies are never consulted.  This mirrors the C
@@ -81,7 +81,7 @@ class MooreDecoder: CMBaudotDecoder {
 
     //  shadow of the base @protected state
     private weak var moore_demodulator: CMFSKDemodulator?
-    private var encoding: [Int8] = MooreDecoder.mooreLtrs
+    private var mooreEncoding: [Int8] = MooreDecoder.mooreLtrs
     private var moore_cr = false
     private var moore_lf = false
     private var moore_usos = false
@@ -104,11 +104,11 @@ class MooreDecoder: CMBaudotDecoder {
 
     @objc(initWithDemodulator:)
     override init(demodulator rx: CMFSKDemodulator!) {
-        super.init()
+        super.init(demodulator: rx)
         squelch = 0.0
         control = nil
         moore_demodulator = rx
-        encoding = MooreDecoder.mooreLtrs
+        mooreEncoding = MooreDecoder.mooreLtrs
         decodeState = kSITOROff
         for i in 0..<6 { bitRegister[i] = 0 }
         moore_cr = false; moore_lf = false; moore_usos = false; moore_bell = false
@@ -147,7 +147,7 @@ class MooreDecoder: CMBaudotDecoder {
     }
 
     override func setLTRS() {
-        encoding = MooreDecoder.mooreLtrs
+        mooreEncoding = MooreDecoder.mooreLtrs
     }
 
     //  USOS state passed in from CMFSKDemodulator
@@ -184,7 +184,7 @@ class MooreDecoder: CMBaudotDecoder {
     //  Moore decoder -- receives character data from the bit sync stage
     private func decodeMoore(_ byte: Int32) {
         let b = Int(byte)
-        var c: Int32 = (b < 0 || b >= encoding.count) ? cTilde : Int32(encoding[b])
+        var c: Int32 = (b < 0 || b >= mooreEncoding.count) ? cTilde : Int32(mooreEncoding[b])
 
         if c == cTilde {
             if errorPrint { moore_demodulator?.receivedCharacter(cUnderscore) }
@@ -197,10 +197,10 @@ class MooreDecoder: CMBaudotDecoder {
                 if moore_bell { NSSound.beep() }
                 return
             case kMooreFigsCode:
-                encoding = MooreDecoder.mooreFigs
+                mooreEncoding = MooreDecoder.mooreFigs
                 return
             case kMooreLtrsCode:
-                encoding = MooreDecoder.mooreLtrs
+                mooreEncoding = MooreDecoder.mooreLtrs
                 return
             default:
                 //  0x70 and all other control positions -> null
@@ -231,7 +231,7 @@ class MooreDecoder: CMBaudotDecoder {
         }
         moore_demodulator?.receivedCharacter(c)
         //  unshift on space
-        if c == cSpace && moore_usos { encoding = MooreDecoder.mooreLtrs }
+        if c == cSpace && moore_usos { mooreEncoding = MooreDecoder.mooreLtrs }
     }
 
     /* local */

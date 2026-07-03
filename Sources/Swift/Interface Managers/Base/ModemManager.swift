@@ -141,7 +141,7 @@ class ModemManager: NSObject, NSTabViewDelegate, NSWindowDelegate {
     //  v0.70
     @objc(setUseRawForPSK:)
     func setUseRawForPSK(_ state: Bool) {
-        (psk as? PSK)?.setUseRawFor(state)
+        (psk as? PSK)?.setUseRawForPSK(state)
     }
 
     //  v0.71
@@ -395,7 +395,7 @@ class ModemManager: NSObject, NSTabViewDelegate, NSWindowDelegate {
                 Thread.sleep(forTimeInterval: 0.1)
                 waitProgressBar?.startAnimation(self)
             }
-            _ = installed.modem?.update(fromPlist: preferences)
+            _ = installed.modem?.updateFromPlist(preferences)
 
             if installed.contest { updateContestBar(installed.modem as? ContestInterface) }
             //  turn on active if updateFromPlist has set the active button
@@ -443,7 +443,7 @@ class ModemManager: NSObject, NSTabViewDelegate, NSWindowDelegate {
             }
             setModemCanTransmit(canTransmit)
             //  v0.87
-            selectedModem.switchIn()
+            selectedModem.switchModemIn()
 
             //  v0.99 -- Gestalt(gestaltSystemVersionMinor) > 4 test removed; on every
             //  supported macOS this branch is always taken (see report)
@@ -604,13 +604,13 @@ class ModemManager: NSObject, NSTabViewDelegate, NSWindowDelegate {
 
     //  ---------- the following have been deprecated ----------
     @objc func pskModulation() -> Int32 {
-        if let psk = psk as? PSK { return psk.getModulation() }
+        if let psk = psk as? PSK { return psk.getPskModulation() }
         return 0
     }
 
     @objc(setPskModulation:)
     func setPskModulation(_ modulation: Int32) {
-        if let psk = psk as? PSK { psk.changeModulation(to: modulation) }
+        if let psk = psk as? PSK { psk.changePskModulationTo(modulation) }
     }
 
     @objc func modemMode() -> Int32 {

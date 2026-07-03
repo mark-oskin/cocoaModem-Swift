@@ -2,61 +2,32 @@
 //  cocoaModem-Bridging-Header.h
 //  Objective-C declarations exposed to Swift.
 //
+//  After the full Swift migration, almost every class is Swift; this exposes
+//  only the remaining C-type / C-function headers and the two classes that
+//  stay Objective-C (CoreModem's extern sin/cos tables, ContestManager).
+//
 
-#import "audioutils.h"		//  Application.swift initAudioUtils()
-#import "RoundupStatelist.h"	//  StateList (RTTYRoundupMults.swift)
-#import "ContestTypes.h"	//  ContestQSO/Callsign structs
-#import "CMTappedPipe.h"	//  base of PSKMonitor/RTTYMonitor.swift
-#import "CoreFilter.h"		//  CMFFT/CMFIR + FFT/FIR C funcs
-#import "CoreModemTypes.h"	//  CMTonePair
-#import "CoreModem.h"		//  extern mssin/lssin/mscos/lscos tables (CMNCO.swift)
-#import "Modem.h"		//  Waterfall/many call back into Modem
+#import "audioutils.h"		//  C audio helpers (initAudioUtils, ...)
+#import "CoreFilter.h"		//  CMFFT/CMFIR C structs + FFT/FIR C functions
+#import "CoreModemTypes.h"	//  CMTonePair / CMDataStream / CMDDA / ...
+#import "CoreModem.h"		//  extern mssin/lssin/mscos/lscos tables (still ObjC)
+#import "ContestManager.h"	//  still ObjC (two-phase alloc/init)
+#import "KeyerInterface.h"	//  obtainRouterPorts C functions (still ObjC)
+#import "Boxcar.h"		//  BoxcarFilter C functions
 
-//  --- still-ObjC base classes subclassed by converted Swift (remove each when it converts) ---
-#import "ModemConfig.h"
-#import "CMATC.h"
-#import "RTTYBaudotDecoder.h"
-#import "RTTYDemodulator.h"
-#import "RTTYReceiver.h"
-#import "RTTYTxConfig.h"
-#import "CMToneReceiver.h"
-#import "ContestInterface.h"
-#import "WFRTTY.h"
-#import "WFRTTYConfig.h"
-#import "CMBaudotDecoder.h"
-#import "CMFSKDemodulator.h"
-#import "CWMatchedFilter.h"	//  CWPipeline.swift client type + CWPipelineTypes
-#import "PSKDemodulator.h"	//  PSKHub.swift mainDemodulator
-
-//  --- C-types / shared struct headers ---
-#import "MFSKModes.h"
-#import "PrivateNSFont.h"
-#import "CMATCTypes.h"
-#import "FAXFrame.h"
-#import "AudioManagerTypes.h"
-#import "PSKBrowserTypes.h"
-#import "CMVaricodeTypes.h"	//  Encoding struct (CMVaricode.swift)
-#import "CWPipelineTypes.h"	//  ElementType/MorseTiming (CWMatchedFilter.h)
-#import "Plist.h"
-#import "Boxcar.h"		//  BoxcarFilter C funcs (CWPipeline.swift)
-#import "HellschreiberFont.h"	//  HellschreiberFontHeader (HellModulator.swift)
-
-//  --- ObjC classes referenced by converted Swift ---
-#import "ModemAudio.h"		//  AudioManager.swift
-#import "PSK.h"			//  PSKControl/PSKHub/PSKTransmitControl.swift
-#import "PSKReceiver.h"		//  PSKControl.swift
-#import "PSKAuralMonitor.h"	//  PSKTransmitControl.swift
-#import "LitePSKMatchedFilter.h"	//  LitePSKDemodulator.swift
-#import "KeyerInterface.h"	//  obtainRouterPorts C funcs (Router/MicroKeyer.swift)
-#import "ContestManager.h"	//  StdManager.swift
-//  concrete modems StdManager.swift instantiates (all still ObjC in the CMPipe tree)
-#import "RTTY.h"
-#import "DualRTTY.h"
-#import "MFSK.h"
-#import "Hellschreiber.h"
-#import "SITOR.h"
-#import "ASCII.h"
-#import "FAX.h"
-#import "WBCW.h"
-#import "LiteRTTY.h"
-#import "LitePSK.h"
+//  --- C-type / shared-struct headers ---
+#import "RoundupStatelist.h"	//  StateList
+#import "ContestTypes.h"	//  ContestQSO / Callsign
+#import "MFSKModes.h"		//  DOMINOEX*/MFSK16 tags
+#import "PrivateNSFont.h"	//  NSFont _defaultGlyphForChar:
+#import "CMATCTypes.h"		//  CMATCPair / RTTYByte
+#import "TextAttribute.h"	//  TextAttribute (Modem.swift)
+#import "FAXFrame.h"		//  BackingFrame struct
+#import "AudioManagerTypes.h"	//  RegisteredAudioDevice + CoreAudio shims
+#import "AudioDeviceTypes.h"	//  AudioSoundFile (AIFFSource.swift)
+#import "PSKBrowserTypes.h"	//  Slot / Row
+#import "CMVaricodeTypes.h"	//  Encoding
+#import "CWPipelineTypes.h"	//  ElementType / MorseTiming
+#import "RTTYTypes.h"		//  RTTYConfigSet struct (RTTY config Swift classes)
+#import "HellschreiberFont.h"	//  HellschreiberFontHeader
+#import "Plist.h"		//  plist key macros

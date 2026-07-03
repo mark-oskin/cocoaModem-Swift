@@ -9,11 +9,12 @@
 #ifndef _COREMODEM_H_
 	#define _COREMODEM_H_
 	
-	#import "CMFSKDemodulator.h"
-	#import "CMFSKMatchedFilter.h"
+	@class CMFSKDemodulator ;
+	@class CMFSKMatchedFilter ;
 	
-	#import "CMFilterBank.h"
-	#import "CMBandpassFilter.h"
+	//  CMFilterBank / CMBandpassFilter are now Swift (cocoaModem-Swift.h).  Swift port batch A.
+	@class CMFilterBank ;
+	@class CMBandpassFilter ;
 
 	@interface CoreModem : NSObject {
 	}
