@@ -196,7 +196,7 @@ class RTTYWaterfall: Waterfall {
             if wideWaterfall {
                 var fstart: Int32 = 400
                 for i in 0..<22 {
-                    let label = waterfallLabel.cell(atRow: 0, column: i)
+                    let label = waterfallLabel?.cell(atRow: 0, column: i)
                     let actual = fstart - Int32(nearest)
                     if actual % 600 == 0 && i != 0 { label?.intValue = actual } else { label?.stringValue = "" }
                     fstart += 200
@@ -204,7 +204,7 @@ class RTTYWaterfall: Waterfall {
             } else {
                 var fstart: Int32 = 400
                 for i in 0..<23 {
-                    let label = waterfallLabel.cell(atRow: 0, column: i)
+                    let label = waterfallLabel?.cell(atRow: 0, column: i)
                     let actual = fstart - Int32(nearest)
                     if actual % 500 == 0 && i != 0 { label?.intValue = actual } else { label?.stringValue = "" }
                     fstart += 100
@@ -216,7 +216,7 @@ class RTTYWaterfall: Waterfall {
             if wideWaterfall {
                 var fstart: Int32 = 4800
                 for i in 0..<22 {
-                    let label = waterfallLabel.cell(atRow: 0, column: i)
+                    let label = waterfallLabel?.cell(atRow: 0, column: i)
                     let actual = fstart - Int32(nearest)
                     if actual % 600 == 0 && i != 0 { label?.intValue = -actual } else { label?.stringValue = "" }
                     fstart -= 200
@@ -224,23 +224,29 @@ class RTTYWaterfall: Waterfall {
             } else {
                 var fstart: Int32 = 2600
                 for i in 0..<23 {
-                    let label = waterfallLabel.cell(atRow: 0, column: i)
+                    let label = waterfallLabel?.cell(atRow: 0, column: i)
                     let actual = fstart - Int32(nearest)
                     if actual % 500 == 0 && i != 0 { label?.intValue = -actual } else { label?.stringValue = "" }
                     fstart -= 100
                 }
             }
         }
-        var frame = waterfallLabel.frame
-        frame.origin.x = CGFloat(pixelOffset - 15)
-        waterfallLabel.frame = frame
-        waterfallLabel.display()
+        //  the label/ticks IBOutlets are not connected on every waterfall (e.g. a
+        //  re-selected Dual RTTY channel); ObjC would no-op on the nil, so guard here.
+        if let waterfallLabel = waterfallLabel {
+            var frame = waterfallLabel.frame
+            frame.origin.x = CGFloat(pixelOffset - 15)
+            waterfallLabel.frame = frame
+            waterfallLabel.display()
+        }
 
-        frame = waterfallTicks.frame
-        frame.origin.x = CGFloat(pixelOffset + 1 - 37.1 + 0.5)
-        frame.origin.x += (sideband == 0) ? -1.0 : 1.0
-        waterfallTicks.frame = frame
-        waterfallTicks.display()
+        if let waterfallTicks = waterfallTicks {
+            var frame = waterfallTicks.frame
+            frame.origin.x = CGFloat(pixelOffset + 1 - 37.1 + 0.5)
+            frame.origin.x += (sideband == 0) ? -1.0 : 1.0
+            waterfallTicks.frame = frame
+            waterfallTicks.display()
+        }
 
         //  update memory offsets after sidebands is set
         for i in 0..<4 {

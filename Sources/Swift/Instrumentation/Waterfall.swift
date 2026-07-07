@@ -839,7 +839,7 @@ class Waterfall: NSImageView {
             if wideWaterfall {
                 var fstart: Int32 = 400
                 for i in 0..<22 {
-                    let label = waterfallLabel.cell(atRow: 0, column: i)
+                    let label = waterfallLabel?.cell(atRow: 0, column: i)
                     let actual = fstart - Int32(nearest)
                     if actual % 600 == 0 { label?.intValue = actual } else { label?.stringValue = "" }
                     fstart += 200
@@ -847,7 +847,7 @@ class Waterfall: NSImageView {
             } else {
                 var fstart: Int32 = 400
                 for i in 0..<21 {
-                    let label = waterfallLabel.cell(atRow: 0, column: i)
+                    let label = waterfallLabel?.cell(atRow: 0, column: i)
                     let actual = fstart - Int32(nearest)
                     if actual % 500 == 0 { label?.intValue = actual } else { label?.stringValue = "" }
                     fstart += 100
@@ -860,7 +860,7 @@ class Waterfall: NSImageView {
             if wideWaterfall {
                 var fstart: Int32 = 4400
                 for i in 0..<21 {
-                    let label = waterfallLabel.cell(atRow: 0, column: i)
+                    let label = waterfallLabel?.cell(atRow: 0, column: i)
                     let actual = fstart - Int32(nearest)
                     if actual % 600 == 0 { label?.intValue = -actual } else { label?.stringValue = "" }
                     fstart -= 200
@@ -868,28 +868,33 @@ class Waterfall: NSImageView {
             } else {
                 var fstart: Int32 = 2400
                 for i in 0..<21 {
-                    let label = waterfallLabel.cell(atRow: 0, column: i)
+                    let label = waterfallLabel?.cell(atRow: 0, column: i)
                     let actual = fstart - Int32(nearest)
                     if actual % 500 == 0 { label?.intValue = -actual } else { label?.stringValue = "" }
                     fstart -= 100
                 }
             }
         }
-        var frame = waterfallLabel.frame
-        frame.origin.x = CGFloat(pixelOffset - 15)
-        waterfallLabel.frame = frame
-        waterfallLabel.display()
-
-        //  fine tune tick marks
-        frame = waterfallTicks.frame
-        frame.origin.x = CGFloat(pixelOffset - 37)
-        if wideWaterfall {
-            if sideband == 0 { frame.origin.x -= 1.0 } else { frame.origin.x += 3.0 }
-        } else {
-            if sideband == 1 { frame.origin.x += 2.5 }
+        //  label/ticks IBOutlets may be unconnected; ObjC would no-op on nil, so guard.
+        if let waterfallLabel = waterfallLabel {
+            var frame = waterfallLabel.frame
+            frame.origin.x = CGFloat(pixelOffset - 15)
+            waterfallLabel.frame = frame
+            waterfallLabel.display()
         }
 
-        waterfallTicks.frame = frame
-        waterfallTicks.display()
+        //  fine tune tick marks
+        if let waterfallTicks = waterfallTicks {
+            var frame = waterfallTicks.frame
+            frame.origin.x = CGFloat(pixelOffset - 37)
+            if wideWaterfall {
+                if sideband == 0 { frame.origin.x -= 1.0 } else { frame.origin.x += 3.0 }
+            } else {
+                if sideband == 1 { frame.origin.x += 2.5 }
+            }
+
+            waterfallTicks.frame = frame
+            waterfallTicks.display()
+        }
     }
 }

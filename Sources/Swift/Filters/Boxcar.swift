@@ -49,6 +49,7 @@ func adjustBlackmanWindow(_ filter: UnsafeMutablePointer<CMFIR>!, _ length: Int3
 		let x = Float(CMBlackmanWindow(i, length))
 		k.pointee = x
 		gain += x
+		k += 1          //  advance the kernel pointer (the C original was *k++ = x)
 		i += 1
 	}
 	gain = Float(1.0 / Double(gain))
