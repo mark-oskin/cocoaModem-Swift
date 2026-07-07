@@ -1,0 +1,73 @@
+name: CocoaModemNext
+options:
+  bundleIdPrefix: com.w7ay.cocoamodemnext
+  deploymentTarget:
+    macOS: "14.0"
+    iOS: "17.0"
+
+packages:
+  CoreDSP:
+    path: Packages/CoreDSP
+  ModemKit:
+    path: Packages/ModemKit
+
+settings:
+  base:
+    SWIFT_VERSION: 5.10
+    GENERATE_INFOPLIST_FILE: YES
+    MARKETING_VERSION: "0.1"
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_PREVIEWS: YES
+
+targets:
+  CocoaModemNext-macOS:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: App/Shared
+      - path: App/macOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.w7ay.cocoamodemnext.mac
+        PRODUCT_NAME: CocoaModemNext
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: "cocoaModem decodes and generates audio for amateur radio digital modes from the microphone/line input."
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - package: CoreDSP
+      - package: ModemKit
+
+  CocoaModemNext-iOS:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: App/Shared
+      - path: App/iOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.w7ay.cocoamodemnext.ios
+        PRODUCT_NAME: CocoaModemNext
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: "cocoaModem decodes and generates audio for amateur radio digital modes from the microphone/line input."
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait
+        TARGETED_DEVICE_FAMILY: "1,2"
+        CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - package: CoreDSP
+      - package: ModemKit
+
+schemes:
+  CocoaModemNext-macOS:
+    build:
+      targets:
+        CocoaModemNext-macOS: all
+    run:
+      config: Debug
+  CocoaModemNext-iOS:
+    build:
+      targets:
+        CocoaModemNext-iOS: all
+    run:
+      config: Debug
