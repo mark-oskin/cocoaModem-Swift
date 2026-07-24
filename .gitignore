@@ -2,5 +2,5 @@
 build/
 *.mode1*
 *.pbxuser
-*.xcodeproj/
+/cocoaModem-Swift.xcodeproj/
 DerivedData/
