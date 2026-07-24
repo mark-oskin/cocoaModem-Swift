@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
 <!-- @version(10.4) -->
-<dictionary title="cocoaModem Terminology">
-	<suite name="cocoaModem" code="ryry" description="Commands and classes for cocoaModem Scripting.">
+<dictionary title="cocoaModem - Swift - 1.0 Terminology">
+	<suite name="cocoaModem" code="ryry" description="Commands and classes for cocoaModem - Swift - 1.0 Scripting.">
 		<enumeration name="modulationMode" code="MdLN" description="PSK modulation mode.">
 			<enumerator name="bpsk31" code="bP31" description="Binary PSK31"/>
 			<enumerator name="qpsk31" code="qP31" description="Quadrature PSK31"/>
@@ -37,7 +37,7 @@
 		<value-type name="color" code="qRGB" description="RGB color triplet">
 			<cocoa name="NSColor" class="NSColor"/>
 		</value-type>
-		<class name="application" code="capp" description="cocoaModem scripts">
+		<class name="application" code="capp" description="cocoaModem - Swift - 1.0 scripts">
 			<cocoa class="NSApplication"/>
 			<property name="qso" code="qsoD" description="QSO Info" type="QSO Info">
 				<cocoa key="qso"/>

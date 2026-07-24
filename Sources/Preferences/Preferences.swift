@@ -51,7 +51,7 @@ class Preferences: NSObject {
             str += ".plist"
         } else {
             //  use default name if plist path is not in bundle
-            str += kDefaultPlist                         //  "w7ay.cocoaModem 2.0.plist"
+            str += kDefaultPlist                         //  "w7ay.cocoaModem-swift.plist"
         }
         //  v0.76 - Bundle name has changed to use a dash instead of spaces; place the
         //  space back to keep using the old plist (replace '-' with ' ' in first 120 chars)

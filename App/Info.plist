@@ -5,11 +5,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>cocoaModem 2.0</string>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleName</key>
+	<string>cocoaModem - Swift - 1.0</string>
 	<key>CFBundleIconFile</key>
 	<string>cocoaModem.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>w7ay.cocoaModem-2.0</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -17,7 +19,9 @@
 	<key>CFBundleSignature</key>
 	<string>ryry</string>
 	<key>CFBundleVersion</key>
-	<string>1.03</string>
+	<string>1.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
 	<key>NSAppleScriptEnabled</key>
 	<string>YES</string>
 	<key>NSMainNibFile</key>
@@ -27,6 +31,6 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>OSAScriptingDefinition</key>
-	<string>cocoaModem 2.0.sdef</string>
+	<string>cocoaModem-Swift.sdef</string>
 </dict>
 </plist>

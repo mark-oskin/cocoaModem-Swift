@@ -1,0 +1,64 @@
+name: cocoaModem-Swift
+options:
+  bundleIdPrefix: w7ay
+  deploymentTarget:
+    macOS: "14.0"
+
+settings:
+  base:
+    SWIFT_VERSION: 5.0
+    PRODUCT_MODULE_NAME: cocoaModem
+    CODE_SIGN_IDENTITY: "-"
+    SWIFT_OBJC_BRIDGING_HEADER: App/cocoaModem-Bridging-Header.h
+    GCC_PRECOMPILE_PREFIX_HEADER: YES
+    GCC_PREFIX_HEADER: App/cocoaModem.pch
+    # The bridging header and every Swift file that still talks to C use bare
+    # #import "Foo.h" with no path prefix -- these headers are scattered
+    # across many Sources/ subdirectories (colocated with the Swift files
+    # that use them), so resolution relies on Xcode's header map (default
+    # behavior for project-member headers) plus this recursive search path
+    # as a robust fallback.
+    HEADER_SEARCH_PATHS: "$(SRCROOT)/Sources/**"
+
+targets:
+  "cocoaModem - Swift - 1.0":
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Sources
+      - path: App/icon
+        buildPhase: resources
+      - path: "App/Resources/File Resources"
+        buildPhase: resources
+      - path: "App/Resources/Tables"
+        buildPhase: resources
+      - path: App/Resources/English.lproj
+        buildPhase: resources
+      - path: App/Resources/Japanese.lproj
+        buildPhase: resources
+      - path: App/AppleScripts
+        buildPhase: resources
+    settings:
+      base:
+        INFOPLIST_FILE: App/Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: w7ay.cocoaModem-swift
+        PRODUCT_NAME: "cocoaModem - Swift - 1.0"
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - sdk: Accelerate.framework
+      - sdk: ApplicationServices.framework
+      - sdk: AudioToolbox.framework
+      - sdk: AudioUnit.framework
+      - sdk: Cocoa.framework
+      - sdk: CoreAudio.framework
+      - sdk: IOKit.framework
+
+schemes:
+  "cocoaModem - Swift - 1.0":
+    build:
+      targets:
+        "cocoaModem - Swift - 1.0": all
+    run:
+      config: Debug

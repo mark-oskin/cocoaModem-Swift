@@ -2,3 +2,5 @@
 build/
 *.mode1*
 *.pbxuser
+*.xcodeproj/
+DerivedData/

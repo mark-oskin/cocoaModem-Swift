@@ -668,6 +668,6 @@
 
 	// defaults
 	#define kPlistDirectory "~/Library/Preferences/"
-	#define kDefaultPlist   "w7ay.cocoaModem 2.0.plist"
+	#define kDefaultPlist   "w7ay.cocoaModem-swift.plist"
 
 #endif
