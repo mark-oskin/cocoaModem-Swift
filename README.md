@@ -5,8 +5,15 @@ macOS, originally written 2004–2011 in manual-retain-release Objective-C
 (~88k lines, ~270 source files, 19 modem modes: RTTY, Wideband RTTY, Dual
 RTTY, PSK, MFSK, Hellschreiber, Wideband CW, SITOR-B, HF-FAX, Synch-AM, and
 more). This repo is a full port of that application — "cocoaModem - Swift -
-1.0" — to Swift and modern macOS, published with the original author's
-permission.
+1.0" — to Swift and modern macOS, published with the kind permission of Kok
+Chen's widow.
+
+## Download
+
+**[Download cocoaModem - Swift - 1.0 →](https://github.com/mark-oskin/cocoaModem-Swift/releases/latest)**
+
+Signed with a Developer ID certificate and notarized by Apple — download the
+`.dmg`, drag the app into Applications, and launch it. No build tools needed.
 
 ## Status: conversion complete
 
@@ -145,8 +152,9 @@ Other lessons banked along the way:
 - [ ] Migrate remaining deprecated CoreAudio calls (`AudioDeviceGetProperty`
       in the AudioManager) to `AudioObjectGetPropertyData`.
 - [ ] Replace remaining deprecated AppKit calls flagged as build warnings.
-- [ ] App sandbox / hardened runtime + real code signing for distribution
-      (currently ad-hoc signed for local development).
+- [ ] App sandbox (the release build is already Developer ID signed,
+      notarized, and hardened-runtime enabled — see Download above; local
+      dev builds via `xcodebuild build` remain ad-hoc signed).
 - [ ] Fold the 45 remaining C headers' type definitions into Swift where
       practical — not required; a small C interop surface for
       AppleScript/DSP struct types is normal and low-risk.
