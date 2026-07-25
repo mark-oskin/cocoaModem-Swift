@@ -1,12 +1,12 @@
 # cocoaModem — Swift port — Modernization Status
 
-cocoaModem (Kok Chen, W7AY) is an amateur-radio digital-mode modem app for
-macOS, originally written 2004–2011 in manual-retain-release Objective-C
-(~88k lines, ~270 source files, 19 modem modes: RTTY, Wideband RTTY, Dual
-RTTY, PSK, MFSK, Hellschreiber, Wideband CW, SITOR-B, HF-FAX, Synch-AM, and
-more). This repo is a full port of that application — "cocoaModem - Swift -
-1.0" — to Swift and modern macOS, published with the kind permission of Kok
-Chen's widow.
+[cocoaModem](https://www.w7ay.net/site/Applications/cocoaModem/) (Kok Chen,
+W7AY) is an amateur-radio digital-mode modem app for macOS, originally
+written 2004–2011 in manual-retain-release Objective-C (~88k lines, ~270
+source files, 19 modem modes: RTTY, Wideband RTTY, Dual RTTY, PSK, MFSK,
+Hellschreiber, Wideband CW, SITOR-B, HF-FAX, Synch-AM, and more). This repo
+is a full port of that application — "cocoaModem - Swift - 1.0" — to Swift
+and modern macOS, published with the kind permission of Kok Chen's widow.
 
 ## Download
 
