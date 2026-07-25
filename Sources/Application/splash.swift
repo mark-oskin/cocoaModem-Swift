@@ -42,7 +42,11 @@ class splash: NSObject {
 
     @objc func remove() {
         if active {
-            splashScreen.orderBack(self)
+            //  the original orderBack: was called while the window was still at
+            //  .floating level, so it only reordered among other floating-level
+            //  windows and never actually dropped behind the (.normal-level) main
+            //  window; orderOut: hides it outright regardless of level.
+            splashScreen.orderOut(self)
             splashScreen.level = .normal
             //  the MRC code released the window here; drop our strong references instead
             splashScreen = nil
