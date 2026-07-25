@@ -23,7 +23,7 @@ on modern macOS (14+). Every mode tab loads and launches without crashing.
 **Caveat:** DSP demodulation and contest-logging *correctness* cannot be
 validated without a radio + audio input; build/launch tests only prove the
 code paths don't crash. On-air / recorded-signal A/B testing against the
-original Objective-C build is still open (see Follow-ups below).
+original Objective-C build is still open.
 
 ## Repo layout
 
@@ -70,19 +70,3 @@ tooling) and are not part of this build.
 Curious how the Objective-C → Swift port was actually done (nib/KVC
 compatibility, the DSP class-hierarchy conversion order, gotchas hit along
 the way)? See [docs/CONVERSION-NOTES.md](docs/CONVERSION-NOTES.md).
-
-## Follow-ups (optional)
-
-- [ ] On-air / recorded-signal A/B testing of the converted DSP path against
-      the original Objective-C build.
-- [ ] Rebuild the pre-IB3 `.nib` bundles as modern, editable UI (code or
-      SwiftUI), then drop the deprecated-format nibs.
-- [ ] Migrate remaining deprecated CoreAudio calls (`AudioDeviceGetProperty`
-      in the AudioManager) to `AudioObjectGetPropertyData`.
-- [ ] Replace remaining deprecated AppKit calls flagged as build warnings.
-- [ ] App sandbox (the release build is already Developer ID signed,
-      notarized, and hardened-runtime enabled — see Download above; local
-      dev builds via `xcodebuild build` remain ad-hoc signed).
-- [ ] Fold the 45 remaining C headers' type definitions into Swift where
-      practical — not required; a small C interop surface for
-      AppleScript/DSP struct types is normal and low-risk.
