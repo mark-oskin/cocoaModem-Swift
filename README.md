@@ -8,6 +8,18 @@ Hellschreiber, Wideband CW, SITOR-B, HF-FAX, Synch-AM, and more). This repo
 is a full port of that application — "cocoaModem - Swift - 1.0" — to Swift
 and modern macOS, published with the kind permission of Kok Chen's widow.
 
+This version of cocoaModem was converted by Claude from Objective-C to
+Swift.  All Objective-C and C linkages have been replaced.  If you find
+a bug in this version please either send in a patch or file a bug report
+with github.  Periodically I'll send Claude to fetch the bug reports and
+fix any bugs you find.
+
+Note this version of the code is being made public on the permission of
+Agnes, Kok Chen's partner.  Sadly, Kok passed away.  Many thanks to him
+for producing such a fabulous piece of software.
+
+73's -Mark Oskin (KE7SCH)
+
 ## Download
 
 **[Download cocoaModem - Swift - 1.0 →](https://github.com/mark-oskin/cocoaModem-Swift/releases/latest)**
